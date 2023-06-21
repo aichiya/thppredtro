@@ -1,31 +1,30 @@
 db DEX_PRIMEAPE ; pokedex id
-db 65 ; base hp
-db 105 ; base attack
-db 60 ; base defense
-db 95 ; base speed
-db 60 ; base special
-db FIGHTING ; species type 1
-db FIGHTING ; species type 2
-db 75 ; catch rate
-db 149 ; base exp yield
-INCBIN PRIMEAPE_FR,0,1 ; 77, sprite dimensions
+db 120 ; base hp
+db 60 ; base attack
+db 100 ; base defense
+db 60 ; base speed
+db 100 ; base special
+db NORMAL ; species type 1
+db NORMAL ; species type 2
+db 45 ; catch rate
+db 190 ; base exp yield
+INCBIN PRIMEAPE_FR,0,1 ; 55, sprite dimensions
 dw PrimeapePicFront
 dw PrimeapePicBack
 ; attacks known at lvl 0
-db SCRATCH
-db LEER
-db KARATE_CHOP
-db FURY_SWIPES
-db 0 ; growth rate
+db TACKLE
+db GUST
+db SWIFT
+db WING_ATTACK
+db 3 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
-	tmlearn 9,10,15,16
-	tmlearn 17,18,19,20,24
-	tmlearn 25,28,31,32
-	tmlearn 34,35,39,40
-	tmlearn 44,48
-	tmlearn 50,54
+	tmlearn 1,2,3,4,5,6,7,8
+	tmlearn 9,10,11,12,13,14,15,16
+	tmlearn 17,18,19,20,21,22,23,24
+	tmlearn 25,26,27,28,29,30,31,32
+	tmlearn 33,34,35,36,37,38,39,40
+	tmlearn 41,42,43,44,45,46,47,48
+	tmlearn 49,50,51,52,53,54,55,56
 ;	db 0 ; padding
 	db BANK(PrimeapePicFront)
 	assert BANK(PrimeapePicFront) == BANK(PrimeapePicBack)
-

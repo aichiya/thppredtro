@@ -1,31 +1,30 @@
 db DEX_PONYTA ; pokedex id
-db 50 ; base hp
-db 85 ; base attack
-db 55 ; base defense
-db 90 ; base speed
-db 65 ; base special
-db FIRE ; species type 1
-db FIRE ; species type 2
-db 190 ; catch rate
-db 152 ; base exp yield
-INCBIN PONYTA_FR,0,1 ; 66, sprite dimensions
+db 65 ; base hp
+db 75 ; base attack
+db 60 ; base defense
+db 80 ; base speed
+db 80 ; base special
+db GROUND ; species type 1
+db PSYCHIC ; species type 2
+db 145 ; catch rate
+db 145 ; base exp yield
+INCBIN PONYTA_FR,0,1 ; 55, sprite dimensions
 dw PonytaPicFront
 dw PonytaPicBack
 ; attacks known at lvl 0
-db EMBER
-db 0
-db 0
-db 0
-db 0 ; growth rate
+db CONFUSE_RAY
+db QUICK_ATTACK
+db BODY_SLAM
+db SLASH
+db 3 ; growth rate
 ; learnset
-	tmlearn 6,7,8
-	tmlearn 9,10
-	tmlearn 20
-	tmlearn 31,32
-	tmlearn 33,34,38,39,40
-	tmlearn 44
-	tmlearn 50
+	tmlearn 1,2,3,4,5,6,7,8
+	tmlearn 9,10,11,12,13,14,15,16
+	tmlearn 17,18,19,20,21,22,23,24
+	tmlearn 25,26,27,28,29,30,31,32
+	tmlearn 33,34,35,36,37,38,39,40
+	tmlearn 41,42,43,44,45,46,47,48
+	tmlearn 49,50,51,52,53,54,55,56
 ;	db 0 ; padding
 	db BANK(PonytaPicFront)
 	assert BANK(PonytaPicFront) == BANK(PonytaPicBack)
-

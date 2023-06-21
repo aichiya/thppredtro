@@ -1,31 +1,30 @@
 db DEX_RHYDON ; pokedex id
-db 105 ; base hp
-db 130 ; base attack
-db 120 ; base defense
+db 50 ; base hp
+db 30 ; base attack
+db 65 ; base defense
 db 40 ; base speed
-db 45 ; base special
-db GROUND ; species type 1
-db ROCK ; species type 2
-db 60 ; catch rate
-db 204 ; base exp yield
-INCBIN RHYDON_FR,0,1 ; 77, sprite dimensions
+db 65 ; base special
+db GRASS ; species type 1
+db POISON ; species type 2
+db 245 ; catch rate
+db 60 ; base exp yield
+INCBIN RHYDON_FR,0,1 ; 55, sprite dimensions
 dw RhydonPicFront
 dw RhydonPicBack
 ; attacks known at lvl 0
-db HORN_ATTACK
-db STOMP
-db TAIL_WHIP
-db FURY_ATTACK
-db 5 ; growth rate
+db POISON_STING
+db GROWL
+db 0
+db 0
+db 0 ; growth rate
 ; learnset
-	tmlearn 1,5,6,7,8
+	tmlearn 1,2,3,4,5,6,7,8
 	tmlearn 9,10,11,12,13,14,15,16
-	tmlearn 17,18,19,20,24
-	tmlearn 25,26,27,28,31,32
-	tmlearn 34,38,40
-	tmlearn 44,48
-	tmlearn 50,53,54
+	tmlearn 17,18,19,20,21,22,23,24
+	tmlearn 25,26,27,28,29,30,31,32
+	tmlearn 33,34,35,36,37,38,39,40
+	tmlearn 41,42,43,44,45,46,47,48
+	tmlearn 49,50,51,52,53,54,55,56
 ;	db 0 ; padding
 	db BANK(RhydonPicFront)
 	assert BANK(RhydonPicFront) == BANK(RhydonPicBack)
-

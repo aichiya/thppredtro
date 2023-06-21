@@ -1,35 +1,30 @@
 db DEX_POLIWRATH ; pokedex id
-db 90 ; base hp
-db 85 ; base attack
-db 95 ; base defense
+db 75 ; base hp
+db 75 ; base attack
+db 105 ; base defense
 db 70 ; base speed
-db 70 ; base special
-db WATER ; species type 1
-db FIGHTING ; species type 2
+db 105 ; base special
+db GHOST ; species type 1
+db GHOST ; species type 2
 db 45 ; catch rate
 db 185 ; base exp yield
-INCBIN POLIWRATH_FR,0,1 ; 77, sprite dimensions
+INCBIN POLIWRATH_FR,0,1 ; 55, sprite dimensions
 dw PoliwrathPicFront
 dw PoliwrathPicBack
 ; attacks known at lvl 0
-;db HYPNOSIS
-;db WATER_GUN
-;db DOUBLESLAP
-;db BODY_SLAM
-db BUBBLE
+db POUND
+db NIGHT_SHADE
+db BARRIER
 db 0
-db 0
-db 0
-db 3 ; growth rate
+db 0 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
-	tmlearn 9,10,11,12,13,14,15
-	tmlearn 17,18,19,20
-	tmlearn 26,27,29,31,32
-	tmlearn 34,35,40
-	tmlearn 44,46
-	tmlearn 50,53,54
+	tmlearn 1,2,3,4,5,6,7,8
+	tmlearn 9,10,11,12,13,14,15,16
+	tmlearn 17,18,19,20,21,22,23,24
+	tmlearn 25,26,27,28,29,30,31,32
+	tmlearn 33,34,35,36,37,38,39,40
+	tmlearn 41,42,43,44,45,46,47,48
+	tmlearn 49,50,51,52,53,54,55,56
 ;	db 0 ; padding
 	db BANK(PoliwrathPicFront)
 	assert BANK(PoliwrathPicFront) == BANK(PoliwrathPicBack)
-

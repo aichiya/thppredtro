@@ -1,31 +1,30 @@
 db DEX_SNORLAX ; pokedex id
-db 160 ; base hp
-db 110 ; base attack
-db 65 ; base defense
-db 30 ; base speed
-db 65 ; base special
-db NORMAL ; species type 1
-db NORMAL ; species type 2
-db 25 ; catch rate
-db 154 ; base exp yield
-INCBIN SNORLAX_FR,0,1 ; 77, sprite dimensions
+db 65 ; base hp
+db 55 ; base attack
+db 70 ; base defense
+db 60 ; base speed
+db 75 ; base special
+db GRASS ; species type 1
+db WATER ; species type 2
+db 145 ; catch rate
+db 135 ; base exp yield
+INCBIN SNORLAX_FR,0,1 ; 55, sprite dimensions
 dw SnorlaxPicFront
 dw SnorlaxPicBack
 ; attacks known at lvl 0
-db HEADBUTT
-db AMNESIA
-db REST
-db 0
-db 5 ; growth rate
+db WATER_GUN
+db GUST
+db RAZOR_LEAF
+db SWIFT
+db 3 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
+	tmlearn 1,2,3,4,5,6,7,8
 	tmlearn 9,10,11,12,13,14,15,16
-	tmlearn 17,18,19,20,22,24
-	tmlearn 25,26,27,29,31,32
-	tmlearn 33,34,35,36,38,40
-	tmlearn 44,46,48
-	tmlearn 50,53,54
+	tmlearn 17,18,19,20,21,22,23,24
+	tmlearn 25,26,27,28,29,30,31,32
+	tmlearn 33,34,35,36,37,38,39,40
+	tmlearn 41,42,43,44,45,46,47,48
+	tmlearn 49,50,51,52,53,54,55,56
 ;	db 0 ; padding
 	db BANK(SnorlaxPicFront)
 	assert BANK(SnorlaxPicFront) == BANK(SnorlaxPicBack)
-

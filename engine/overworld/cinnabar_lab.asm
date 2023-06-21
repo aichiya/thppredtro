@@ -36,17 +36,17 @@ GiveFossilToCinnabarLab:
 	add hl, de
 	ld a, [hl]
 	ld [$ffdb], a
-	cp DOME_FOSSIL
+	cp DOME_FOSSIL ; Rod Fossil
 	jr z, .choseDomeFossil
-	cp HELIX_FOSSIL
+	cp HELIX_FOSSIL ; Broom Fossil
 	jr z, .choseHelixFossil
-	ld b, AERODACTYL
+	ld b, VENUSAUR ; Genji
 	jr .fossilSelected
 .choseHelixFossil
-	ld b, OMANYTE
+	ld b, BULBASAUR ; Hakurei
 	jr .fossilSelected
 .choseDomeFossil
-	ld b, KABUTO
+	ld b, IVYSAUR ; Kirisame
 .fossilSelected
 	ld [wFossilItem], a
 	ld a, b

@@ -1,31 +1,30 @@
 db DEX_GOLEM ; pokedex id
-db 80 ; base hp
-db 110 ; base attack
-db 130 ; base defense
-db 45 ; base speed
-db 55 ; base special
-db ROCK ; species type 1
+db 50 ; base hp
+db 60 ; base attack
+db 45 ; base defense
+db 50 ; base speed
+db 60 ; base special
+db GROUND ; species type 1
 db GROUND ; species type 2
-db 45 ; catch rate
-db 177 ; base exp yield
-INCBIN GOLEM_FR,0,1 ; 66, sprite dimensions
+db 245 ; catch rate
+db 75 ; base exp yield
+INCBIN GOLEM_FR,0,1 ; 55, sprite dimensions
 dw GolemPicFront
 dw GolemPicBack
 ; attacks known at lvl 0
-db TACKLE
-db DEFENSE_CURL
+db SCRATCH
+db TAIL_WHIP
 db 0
 db 0
 db 3 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
-	tmlearn 9,10,15
-	tmlearn 17,18,19,20
-	tmlearn 26,27,28,31,32
-	tmlearn 34,35,36,38
-	tmlearn 44,47,48
-	tmlearn 50,54
+	tmlearn 1,2,3,4,5,6,7,8
+	tmlearn 9,10,11,12,13,14,15,16
+	tmlearn 17,18,19,20,21,22,23,24
+	tmlearn 25,26,27,28,29,30,31,32
+	tmlearn 33,34,35,36,37,38,39,40
+	tmlearn 41,42,43,44,45,46,47,48
+	tmlearn 49,50,51,52,53,54,55,56
 ;	db 0 ; padding
 	db BANK(GolemPicFront)
 	assert BANK(GolemPicFront) == BANK(GolemPicBack)
-

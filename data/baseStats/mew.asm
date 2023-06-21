@@ -2,22 +2,22 @@
 db DEX_MEW ; pokedex id
 db 100 ; base hp
 db 100 ; base attack
-db 100 ; base defense
-db 100 ; base speed
-db 100 ; base special
-db PSYCHIC ; species type 1
-db PSYCHIC ; species type 2
-db 45 ; catch rate
-db 64 ; base exp yield
+db 95 ; base defense
+db 110 ; base speed
+db 180 ; base special
+db FIRE ; species type 1
+db DRAGON ; species type 2
+db 3 ; catch rate
+db 250 ; base exp yield
 INCBIN MEW_FR,0,1 ; 55, sprite dimensions
 dw MewPicFront
 dw MewPicBack
 ; attacks known at lvl 0
-db POUND
-db 0
-db 0
-db 0
-db 3 ; growth rate
+db PSYCHIC_M
+db FLAMETHROWER
+db HYPER_BEAM
+db RECOVER
+db 5 ; growth rate
 ; learnset
 	tmlearn 1,2,3,4,5,6,7,8
 	tmlearn 9,10,11,12,13,14,15,16

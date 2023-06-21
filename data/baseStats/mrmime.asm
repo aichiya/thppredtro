@@ -1,31 +1,30 @@
 db DEX_MR_MIME ; pokedex id
-db 40 ; base hp
-db 45 ; base attack
-db 65 ; base defense
-db 90 ; base speed
-db 100 ; base special
-db PSYCHIC ; species type 1
-db PSYCHIC ; species type 2
-db 45 ; catch rate
-db 136 ; base exp yield
-INCBIN MR_MIME_FR,0,1 ; 66, sprite dimensions
+db 80 ; base hp
+db 90 ; base attack
+db 60 ; base defense
+db 60 ; base speed
+db 60 ; base special
+db WATER ; species type 1
+db GHOST ; species type 2
+db 145 ; catch rate
+db 135 ; base exp yield
+INCBIN MR_MIME_FR,0,1 ; 55, sprite dimensions
 dw MrMimePicFront
 dw MrMimePicBack
 ; attacks known at lvl 0
-db CONFUSION
-db BARRIER
-db 0
-db 0
+db NIGHT_SHADE
+db CONFUSE_RAY
+db MEGA_PUNCH
+db WATER_GUN
 db 0 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
-	tmlearn 9,10,15
-	tmlearn 17,18,19,20,22,24
-	tmlearn 25,29,30,31,32
-	tmlearn 33,34,35,40
-	tmlearn 44,45,46
-	tmlearn 50,55
+	tmlearn 1,2,3,4,5,6,7,8
+	tmlearn 9,10,11,12,13,14,15,16
+	tmlearn 17,18,19,20,21,22,23,24
+	tmlearn 25,26,27,28,29,30,31,32
+	tmlearn 33,34,35,36,37,38,39,40
+	tmlearn 41,42,43,44,45,46,47,48
+	tmlearn 49,50,51,52,53,54,55,56
 ;	db 0 ; padding
 	db BANK(MrMimePicFront)
 	assert BANK(MrMimePicFront) == BANK(MrMimePicBack)
-

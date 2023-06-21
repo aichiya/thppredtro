@@ -79,13 +79,13 @@ _SlowbroDexEntry::
 	dex
 
 _IvysaurDexEntry::
-	text "When the bulb on"
-	next "its back grows"
-	next "large, it appears"
+	text "Marisa before own-"
+	next "ing the Hakkero."
+	next "Her magic is wild"
 
-	page "to lose the"
-	next "ability to stand"
-	next "on its hind legs"
+	page "and unrefined, but"
+	next "just as destruc-"
+	next "tive as ever"
 	dex
 
 _ExeggutorDexEntry::
@@ -199,13 +199,13 @@ _ArcanineDexEntry::
 	dex
 
 _MewDexEntry::
-	text "So rare that it"
-	next "is still said to"
-	next "be a mirage by"
+	text "Powered by"
+	next "Saboten energy."
+	next "Once, she saved"
 
-	page "many experts. Only"
-	next "a few people have"
-	next "seen it worldwide"
+	page "her creator's"
+	next "daughter from"
+	next "another dimension"
 	dex
 
 _GyaradosDexEntry::
@@ -1253,23 +1253,23 @@ _StarmieDexEntry::
 	dex
 
 _BulbasaurDexEntry::
-	text "A strange seed was"
-	next "planted on its"
-	next "back at birth."
+	text "Reimu before her"
+	next "powers matured."
+	next "She dislikes"
 
-	page "The plant sprouts"
-	next "and grows with"
-	next "this #MON"
+	page "training, so she"
+	next "tries to get by on"
+	next "natural talents"
 	dex
 
 _VenusaurDexEntry::
-	text "The plant blooms"
-	next "when it is"
-	next "absorbing solar"
+	text "A long lived"
+	next "flying turtle."
+	next "He is currently"
 
-	page "energy. It stays"
-	next "on the move to"
-	next "seek sunlight"
+	page "living in the pond"
+	next "behind the"
+	next "Hakurei Shrine"
 	dex
 
 _TentacruelDexEntry::

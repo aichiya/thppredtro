@@ -525,7 +525,7 @@ ShowPokedexDataInternal:
 IF DEF (_METRIC)
 	ld a, "."
 ELSE
-	ld a, $60 ; feet symbol tile (one tick)
+	ld a, "." ; $60 feet symbol tile (one tick)
 ENDC
 	ld [hl], a
 	inc de
@@ -536,7 +536,7 @@ ENDC
 IF DEF(_METRIC)
 	ld a, "m"
 ELSE
-	ld a, $61 ; inches symbol tile (two ticks)
+	ld a, "m" ; $61 inches symbol tile (two ticks)
 ENDC
 	ld [hl], a
 ; now print the weight (note that weight is stored in tenths of pounds internally)
@@ -606,8 +606,8 @@ IF DEF (_METRIC)
 	db   "HT  ?",".","??","m"
 	next "WT   ???kg@"
 ELSE
-	db   "HT  ?",$60,"??",$61
-	next "WT   ???lb@"
+	db   "HT  ?",".","??","m"	; db   "HT  ?",$60,"??",$61
+	next "CT   ???pt@"	; next "WT   ???lb@"
 ENDC
 ; XXX does anything point to this?
 PokeText:

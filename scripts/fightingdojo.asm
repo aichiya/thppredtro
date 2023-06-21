@@ -270,7 +270,7 @@ FightingDojoText6:
 	call PrintText
 	jr .done
 .GetMon
-	ld a, HITMONLEE
+	ld a, DRAGONAIR ; CSuwako
 	call DisplayPokedex
 	ld hl, WantHitmonleeText
 	call PrintText
@@ -305,7 +305,7 @@ FightingDojoText7:
 	call PrintText
 	jr .done
 .GetMon
-	ld a, HITMONCHAN
+	ld a, ZAPDOS ; CKanako
 	call DisplayPokedex
 	ld hl, WantHitmonchanText
 	call PrintText

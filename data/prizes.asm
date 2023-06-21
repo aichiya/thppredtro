@@ -14,9 +14,9 @@ NoThanksText:
 
 PrizeMenuMon1Entries:
 IF DEF(_ENCRED)
-	db ABRA
-	db CLEFAIRY
-	db NIDORINA
+	db CHARMANDER ; CReimu
+	db SQUIRTLE ; CMarisa
+	db VULPIX ; CSakuya
 ELIF DEF(_ENCBLUEJP)
 	db ABRA
 	db PIKACHU
@@ -30,9 +30,9 @@ ENDC
 
 PrizeMenuMon1Cost:
 IF DEF(_ENCRED)
-	coins 180
-	coins 500
-	coins 1200
+	coins 2000
+	coins 2000
+	coins 2000
 ELIF DEF(_ENCBLUEJP)
 	coins 150
 	coins 620
@@ -46,9 +46,9 @@ ENDC
 
 PrizeMenuMon2Entries:
 IF DEF(_ENCRED)
-	db SCYTHER
-	db DRATINI
-	db PORYGON
+	db MAGNETON ; CSuika
+	db SLOWPOKE ; CYukari
+	db PARAS ; Satsuki
 ELIF DEF(_ENCBLUEJP)
 	db CLEFABLE
 	db DRAGONAIR
@@ -62,9 +62,9 @@ ENDC
 
 PrizeMenuMon2Cost:
 IF DEF(_ENCRED)
-	coins 2500
-	coins 5200
-	coins 9999
+	coins 1313
+	coins 3636
+	coins 6969
 ELIF DEF(_ENCBLUEJP)
 	coins 2500
 	coins 4600

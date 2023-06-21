@@ -1,31 +1,30 @@
 db DEX_GENGAR ; pokedex id
-db 60 ; base hp
-db 65 ; base attack
-db 60 ; base defense
-db 110 ; base speed
-db 130 ; base special
-db GHOST ; species type 1
-db POISON ; species type 2
+db 70 ; base hp
+db 110 ; base attack
+db 100 ; base defense
+db 85 ; base speed
+db 85 ; base special
+db FIGHTING ; species type 1
+db FIGHTING ; species type 2
 db 45 ; catch rate
-db 190 ; base exp yield
-INCBIN GENGAR_FR,0,1 ; 66, sprite dimensions
+db 195 ; base exp yield
+INCBIN GENGAR_FR,0,1 ; 55, sprite dimensions
 dw GengarPicFront
 dw GengarPicBack
 ; attacks known at lvl 0
-db LICK
-db CONFUSE_RAY
-db NIGHT_SHADE
-db 0
-db 3 ; growth rate
+db SHARPEN
+db DOUBLESLAP
+db HARDEN
+db HEADBUTT
+db 0 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
-	tmlearn 9,10,15
-	tmlearn 17,18,19,20,21,24
-	tmlearn 25,29,31,32
-	tmlearn 34,35,36,40
-	tmlearn 42,44,46,47
-	tmlearn 50,54
+	tmlearn 1,2,3,4,5,6,7,8
+	tmlearn 9,10,11,12,13,14,15,16
+	tmlearn 17,18,19,20,21,22,23,24
+	tmlearn 25,26,27,28,29,30,31,32
+	tmlearn 33,34,35,36,37,38,39,40
+	tmlearn 41,42,43,44,45,46,47,48
+	tmlearn 49,50,51,52,53,54,55,56
 ;	db 0 ; padding
 	db BANK(GengarPicFront)
 	assert BANK(GengarPicFront) == BANK(GengarPicBack)
-
