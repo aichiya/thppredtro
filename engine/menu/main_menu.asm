@@ -559,7 +559,7 @@ PrintPlayTime_local:
 SaveScreenInfoText:
 	db   "PLAYER"
 	next "BADGES    "
-	next "#DEX    "
+	next "TOUHOUDEX  "
 	next "TIME@"
 
 DisplayOptionMenu:
