@@ -1,81 +1,81 @@
 _RhydonDexEntry::
-	text "Protected by an"
-	next "armor-like hide,"
-	next "it is capable of"
+	text "A doll residing in"
+	next "the Suzuran field."
+	next "A young, danger-"
 
-	page "living in molten"
-	next "lava of 3,600"
-	next "degrees"
+	page "ous youkai. She"
+	next "holds grudges on"
+	next "humans"
 	dex
 
 _KangaskhanDexEntry::
-	text "The infant rarely"
-	next "ventures out of"
-	next "its mother's"
+	text "A tengu reporter"
+	next "who runs the"
+	next "Bunbunmaru News-"
 
-	page "protective pouch"
-	next "until it is 3"
-	next "years old"
+	page "paper. The fastest"
+	next "known resident in"
+	next "all of Gensokyo"
 	dex
 
 _NidoranMDexEntry::
-	text "Stiffens its ears"
-	next "to sense danger."
-	next "The larger its"
+	text "A demon who is"
+	next "rather plain, but"
+	next "is loyal to"
 
-	page "horns, the more"
-	next "powerful its"
-	next "secreted venom"
+	page "her master none-"
+	next "theless. She is"
+	next "mischievous"
 	dex
 
 _ClefairyDexEntry::
-	text "Its magical and"
-	next "cute appeal has"
-	next "many admirers."
+	text "The librarian of"
+	next "the Scarlet"
+	next "Devil Mansion. She"
 
-	page "It is rare and"
-	next "found only in"
-	next "certain areas"
+	page "doesn't go out"
+	next "often due to her"
+	next "asthma"
 	dex
 
 _SpearowDexEntry::
-	text "Eats bugs in"
-	next "grassy areas. It"
-	next "has to flap its"
+	text "Tries to stay"
+	next "out of fights. If"
+	next "she knows trouble"
 
-	page "short wings at"
-	next "high speed to"
-	next "stay airborne"
+	page "is coming, she"
+	next "leaves Sunny and"
+	next "Luna to get caught"
 	dex
 
 _VoltorbDexEntry::
-	text "Usually found in"
-	next "power plants."
-	next "Easily mistaken"
+	text "Simply looking"
+	next "into her red eyes"
+	next "can induce insani-"
 
-	page "for a # BALL,"
-	next "they have zapped"
-	next "many people"
+	page "ty. Despite this"
+	next "power, her perso-"
+	next "nality is stable"
 	dex
 
 _NidokingDexEntry::
-	text "It uses its"
-	next "powerful tail in"
-	next "battle to smash,"
+	text "A girl that"
+	next "practices magic"
+	next "of all elements."
 
-	page "constrict, then"
-	next "break the prey's"
-	next "bones"
+	page "Her very frail"
+	next "body due to shut-"
+	next "in for long time"
 	dex
 
 _SlowbroDexEntry::
-	text "The SHELLDER that"
-	next "is latched onto"
-	next "SLOWPOKE's tail"
+	text "Manipulates boun-"
+	next "daries. Can use"
+	next "them to travel"
 
-	page "is said to feed"
-	next "on the host's left"
-	next "over scraps"
+	page "instantly, adjust"
+	next "one's lifespan,"
+	next "grab a cup of tea"
 	dex
 
 _IvysaurDexEntry::
@@ -89,113 +89,113 @@ _IvysaurDexEntry::
 	dex
 
 _ExeggutorDexEntry::
-	text "Legend has it that"
-	next "on rare occasions,"
-	next "one of its heads"
+	text "She can't stand"
+	next "fools. She has no"
+	next "issues with kill-"
 
-	page "will drop off and"
-	next "continue on as an"
-	next "EXEGGCUTE"
+	page "ing others if it"
+	next "will make her"
+	next "plans easier"
 	dex
 
 _LickitungDexEntry::
-	text "Its tongue can be"
-	next "extended like a"
-	next "chameleon's. It"
+	text "Lives in the"
+	next "Bamboo Forest of"
+	next "the Lost. Helps"
 
-	page "leaves a tingling"
-	next "sensation when it"
-	next "licks enemies"
+	page "humans from the"
+	next "village safely"
+	next "reach Eientei"
 	dex
 
 _ExeggcuteDexEntry::
-	text "Often mistaken"
-	next "for eggs."
-	next "When disturbed,"
+	text "A natural genius"
+	next "and skilled phar-"
+	next "macist. She crea-"
 
-	page "they quickly"
-	next "gather and attack"
-	next "in swarms"
+	page "ted the Hourai"
+	next "Elixir with help"
+	next "from Kaguya"
 	dex
 
 _GrimerDexEntry::
-	text "Appears in filthy"
-	next "areas. Thrives by"
-	next "sucking up"
+	text "A night sparrow."
+	next "Enjoys singing and"
+	next "causing night-"
 
-	page "polluted sludge"
-	next "that is pumped"
-	next "out of factories"
+	page "blindness. Has an"
+	next "outgoing egocen-"
+	next "tric personality"
 	dex
 
 _GengarDexEntry::
-	text "Under a full moon,"
-	next "this #MON"
-	next "likes to mimic"
+	text "The form Keine"
+	next "takes when the"
+	next "full moon shines"
 
-	page "the shadows of"
-	next "people and laugh"
-	next "at their fright"
+	page "brightly. Has the"
+	next "ability to create"
+	next "history"
 	dex
 
 _NidoranFDexEntry::
-	text "Although small,"
-	next "its venomous"
-	next "barbs render this"
+	text "While unskilled"
+	next "with danmaku, she"
+	next "can stand her own"
 
-	page "#MON dangerous."
-	next "The female has"
-	next "smaller horns"
+	page "in battles thanks"
+	next "to her mastery"
+	next "of martial arts"
 	dex
 
 _NidoqueenDexEntry::
-	text "Its hard scales"
-	next "provide strong"
-	next "protection. It"
+	text "She is Patchouli's"
+	next "familiar. Helps"
+	next "with sorting"
 
-	page "uses its hefty"
-	next "bulk to execute"
-	next "powerful moves"
+	page "books in the"
+	next "library. She has a"
+	next "capricious side"
 	dex
 
 _CuboneDexEntry::
-	text "Because it never"
-	next "removes its skull"
-	next "helmet, no one"
+	text "A Lunarian prin-"
+	next "cess banished for"
+	next "drinking the"
 
-	page "has ever seen"
-	next "this #MON's"
-	next "real face"
+	page "Hourai Elixir. She"
+	next "prefers staying"
+	next "inside her house"
 	dex
 
 _RhyhornDexEntry::
-	text "Its massive bones"
-	next "are 1000 times"
-	next "harder than human"
+	text "The sword she"
+	next "wields is capable"
+	next "of channeling "
 
-	page "bones. It can"
-	next "easily knock a"
-	next "trailer flying"
+	page "the power of gods"
+	next "as long as it is"
+	next "clean"
 	dex
 
 _LaprasDexEntry::
-	text "A #MON that"
-	next "has been over-"
-	next "hunted almost to"
+	text "Symbolizes and"
+	next "manipulates har-"
+	next "vests. Liked by"
 
-	page "extinction. It"
-	next "can ferry people"
-	next "across the water"
+	page "humans, but not"
+	next "enough shrines"
+	next "dedicated for her"
 	dex
 
 _ArcanineDexEntry::
-	text "A #MON that"
-	next "has been admired"
-	next "since the past"
+	text "Secretly enjoys"
+	next "pretending to be"
+	next "a superhero. When"
 
-	page "for its beauty."
-	next "It runs agilely"
-	next "as if on wings"
+	page "zooming about, she"
+	next "makes 'qowhoosh'"
+	next "noises"
 	dex
 
 _MewDexEntry::
@@ -209,1047 +209,1043 @@ _MewDexEntry::
 	dex
 
 _GyaradosDexEntry::
-	text "Rarely seen in"
-	next "the wild. Huge"
-	next "and vicious, it"
+	text "The younger of the"
+	next "two Aki sisters."
+	next "Governs autumn's"
 
-	page "is capable of"
-	next "destroying entire"
-	next "cities in a rage"
+	page "harvests. She is"
+	next "close and intimate"
+	next "to humans"
 	dex
 
 _ShellderDexEntry::
-	text "Its hard shell"
-	next "repels any kind"
-	next "of attack."
+	text "Greatly enjoys"
+	next "singing, regard-"
+	next "less of any ill"
 
-	page "It is vulnerable"
-	next "only when its"
-	next "shell is open"
+	page "effects it may"
+	next "have on others"
+	next "around her"
 	dex
 
 _TentacoolDexEntry::
-	text "Drifts in shallow"
-	next "seas. Anglers who"
-	next "hook them by"
+	text "Acts as Yuyuko's"
+	next "bodyguard. Takes"
+	next "the job seriously,"
 
-	page "accident are"
-	next "often punished by"
-	next "its stinging acid"
+	page "but doesn't always"
+	next "understand what"
+	next "Yuyuko tells her"
 	dex
 
 _GastlyDexEntry::
-	text "Almost invisible,"
-	next "this gaseous"
-	next "#MON cloaks"
+	text "Spends her days"
+	next "serving as a tea-"
+	next "cher at the Human"
 
-	page "the target and"
-	next "puts it to sleep"
-	next "without notice"
+	page "Village. Has the"
+	next "ability to conceal"
+	next "history"
 	dex
 
 _ScytherDexEntry::
-	text "With ninja-like"
-	next "agility and speed,"
-	next "it can create the"
+	text "Can manipulate"
+	next "distances. Depen-"
+	next "ding on the toll"
 
-	page "illusion that"
-	next "there is more"
-	next "than one"
+	page "paid, a soul can"
+	next "arrive quickly or"
+	next "never arrive"
 	dex
 
 _StaryuDexEntry::
-	text "An enigmatic"
-	next "#MON that can"
-	next "effortlessly"
+	text "She isn't inte-"
+	next "rested in weak"
+	next "opponents. Shows"
 
-	page "regenerate any"
-	next "appendage it"
-	next "loses in battle"
+	page "no fear in battle"
+	next "and loves to taunt"
+	next "her foes"
 	dex
 
 _BlastoiseDexEntry::
-	text "A brutal #MON"
-	next "with pressurized"
-	next "water jets on its"
+	text "When not studying"
+	next "magic, she's a"
+	next "common thief."
 
-	page "shell. They are"
-	next "used for high"
-	next "speed tackles"
+	page "She mostly steals"
+	next "books claiming"
+	next "she's borrowing"
 	dex
 
 _PinsirDexEntry::
-	text "If it fails to"
-	next "crush the victim"
-	next "in its pincers,"
+	text "Older one of the"
+	next "Aki sisters. She"
+	next "enjoys watching"
 
-	page "it will swing it"
-	next "around and toss"
-	next "it hard"
+	page "falling leaves."
+	next "She punishes who"
+	next "disturbs autumn"
 	dex
 
 _TangelaDexEntry::
-	text "The whole body is"
-	next "swathed with wide"
-	next "vines that are"
+	text "Actively attacks"
+	next "anything that"
+	next "enters the Suzuran"
 
-	page "similar to sea-"
-	next "weed. Its vines"
-	next "shake as it walks"
+	page "fields with no"
+	next "regards for their"
+	next "lives"
 	dex
 
 _GrowlitheDexEntry::
-	text "Very protective"
-	next "of its territory."
-	next "It will bark and"
+	text "She supposedly"
+	next "dislikes the job"
+	next "of heralding"
 
-	page "bite to repel"
-	next "intruders from"
-	next "its space"
+	page "spring so much,"
+	next "does it quickly"
+	next "to get it over"
 	dex
 
 _OnixDexEntry::
-	text "As it grows, the"
-	next "stone portions of"
-	next "its body harden"
+	text "A long-lived"
+	next "youkai rabbit that"
+	next "gives orders to"
 
-	page "to become similar"
-	next "to a diamond, but"
-	next "colored black"
+	page "the Eientei"
+	next "rabbits. She is"
+	next "aged 3,000 years"
 	dex
 
 _FearowDexEntry::
-	text "With its huge and"
-	next "magnificent wings,"
-	next "it can keep aloft"
+	text "One of the"
+	next "three Light"
+	next "Fairies. She is"
 
-	page "without ever"
-	next "having to land"
-	next "for rest"
+	page "capable of"
+	next "muffling sound."
+	next "Likes to prank"
 	dex
 
 _PidgeyDexEntry::
-	text "A common sight in"
-	next "forests and woods."
-	next "It flaps its"
+	text "An ice fairy. Just"
+	next "touching her can"
+	next "cause frostbite."
 
-	page "wings at ground"
-	next "level to kick up"
-	next "blinding sand"
+	page "She claims herself"
+	next "as the strongest"
+	next "in all of Gensokyo"
 	dex
 
 _SlowpokeDexEntry::
-	text "Incredibly slow"
-	next "and dopey. It"
-	next "takes 5 seconds"
+	text "An aloof youkai"
+	next "that spends most"
+	next "of her time"
 
-	page "for it to feel"
-	next "pain when under"
-	next "attack"
+	page "sleeping. She is"
+	next "the master of Ran"
+	next "the kitsune youkai"
 	dex
 
 _KadabraDexEntry::
-	text "It emits special"
-	next "alpha waves from"
-	next "its body that"
+	text "The middle"
+	next "Prismriver sister."
+	next "She has a very"
 
-	page "induce headaches"
-	next "just by being"
-	next "close by"
+	page "cheery personality"
+	next "which gets border-"
+	next "line 'valley girl'"
 	dex
 
 _GravelerDexEntry::
-	text "Rolls down slopes"
-	next "to move. It rolls"
-	next "over any obstacle"
+	text "She acts like an"
+	next "airhead, but is"
+	next "cunning. She is"
 
-	page "without slowing"
-	next "or changing its"
-	next "direction"
+	page "often among the"
+	next "first to grasp an"
+	next "incident's nature"
 	dex
 
 _ChanseyDexEntry::
-	text "A rare and elusive"
-	next "#MON that is"
-	next "said to bring"
+	text "Her poisons range"
+	next "in utility from"
+	next "merely paralyzing"
 
-	page "happiness to those"
-	next "who manage to get"
-	next "it"
+	page "the victim to"
+	next "lethal toxins that"
+	next "quickly kill"
 	dex
 
 _MachokeDexEntry::
-	text "Its muscular body"
-	next "is so powerful, it"
-	next "must wear a power"
+	text "The youngest"
+	next "Prismriver. She's"
+	next "easier to commu-"
 
-	page "save belt to be"
-	next "able to regulate"
-	next "its motions"
+	page "nicate with than"
+	next "Merlin or Lunasa."
+	next "She is a prankster"
 	dex
 
 _MrMimeDexEntry::
-	text "If interrupted"
-	next "while it is"
-	next "miming, it will"
+	text "Works at her own"
+	next "pace, and slacks"
+	next "off a lot. Eiki"
 
-	page "slap around the"
-	next "offender with its"
-	next "broad hands"
+	page "frequently scolds"
+	next "her due to her"
+	next "overall slow speed"
 	dex
 
 _HitmonleeDexEntry::
-	text "When in a hurry,"
-	next "its legs lengthen"
-	next "progressively."
+	text "An immortal resi-"
+	next "ding in Eientei."
+	next "Enjoys sharing"
 
-	page "It runs smoothly"
-	next "with extra long,"
-	next "loping strides"
+	page "stories with those"
+	next "who wish to hear"
+	next "them"
 	dex
 
 _HitmonchanDexEntry::
-	text "While apparently"
-	next "doing nothing, it"
-	next "fires punches in"
+	text "A human who"
+	next "gained immortality"
+	next "through the Hourai"
 
-	page "lightning fast"
-	next "volleys that are"
-	next "impossible to see"
+	page " Elixir. The eter-"
+	next "nal rival of a"
+	next "certain princess"
 	dex
 
 _ArbokDexEntry::
-	text "It is rumored that"
-	next "the ferocious"
-	next "warning markings"
+	text "Gets weaker when"
+	next "the moon isn't"
+	next "in the sky. She's"
 
-	page "on its belly"
-	next "differ from area"
-	next "to area"
+	page "nearly harmless"
+	next "if you catch her"
+	next "during the day"
 	dex
 
 _ParasectDexEntry::
-	text "A host-parasite"
-	next "pair in which the"
-	next "parasite mushroom"
+	text "A girl only seen"
+	next "during winter."
+	next "Enjoys watching"
 
-	page "has taken over the"
-	next "host bug. Prefers"
-	next "damp places"
+	page "snow fall, and she"
+	next "is Cirno's best"
+	next "friend"
 	dex
 
 _PsyduckDexEntry::
-	text "While lulling its"
-	next "enemies with its"
-	next "vacant look, this"
+	text "The dollmaster"
+	next "of Gensokyo. When"
+	next "she commands her"
 
-	page "wily #MON will"
-	next "use psychokinetic"
-	next "powers"
+	page "dolls, they appear"
+	next "to have lives of"
+	next "their own"
 	dex
 
 _DrowzeeDexEntry::
-	text "Puts enemies to"
-	next "sleep then eats"
-	next "their dreams."
+	text "She brings good"
+	next "fortune to humans"
+	next "that catch sight"
 
-	page "Occasionally gets"
-	next "sick from eating"
-	next "bad dreams"
+	page "of her, but she"
+	next "has an elusive "
+	next "nature"
 	dex
 
 _GolemDexEntry::
-	text "Its boulder-like"
-	next "body is extremely"
-	next "hard. It can"
+	text "A nine-tailed"
+	next "kitsune serving"
+	next "as Yukari's"
 
-	page "easily withstand"
-	next "dynamite blasts"
-	next "without damage"
+	page "shikigami. She"
+	next "won't start fights"
+	next "unless provoked"
 	dex
 
 _MagmarDexEntry::
-	text "Its body always"
-	next "burns with an"
-	next "orange glow that"
+	text "Her judgements are"
+	next "fair and without"
+	next "earthly bias,"
 
-	page "enables it to"
-	next "hide perfectly"
-	next "among flames"
+	page "regardless of"
+	next "being a human or"
+	next "a youkai"
 	dex
 
 _ElectabuzzDexEntry::
-	text "Normally found"
-	next "near power plants,"
-	next "they can wander"
+	text "Preachy by nature."
+	next "Her lectures are"
+	next "long-winded, but"
 
-	page "away and cause"
-	next "major blackouts"
-	next "in cities"
+	page "they're intended"
+	next "to help oneself"
+	next "improve"
 	dex
 
 _MagnetonDexEntry::
-	text "Formed by several"
-	next "MAGNEMITEs linked"
-	next "together. They"
+	text "A cheerful oni"
+	next "girl. She is never"
+	next "seen without her"
 
-	page "frequently appear"
-	next "when sunspots"
-	next "flare up"
+	page "gourd nor is she"
+	next "seen sober. She"
+	next "two horns"
 	dex
 
 _KoffingDexEntry::
-	text "Because it stores"
-	next "several kinds of"
-	next "toxic gases in"
+	text "Her long life has"
+	next "somewhat helped"
+	next "her mellow out a"
 
-	page "its body, it is"
-	next "prone to exploding"
-	next "without warning"
+	page "little, resulting"
+	next "in her being more"
+	next "of a listener"
 	dex
 
 _MankeyDexEntry::
-	text "Extremely quick to"
-	next "anger. It could"
-	next "be docile one"
+	text "Announces the"
+	next "coming of spring"
+	next "with curtains of"
 
-	page "moment then"
-	next "thrashing away"
-	next "the next instant"
+	page "danmaku. Often"
+	next "mistaken as"
+	next "a hostile target"
 	dex
 
 _SeelDexEntry::
-	text "The protruding"
-	next "horn on its head"
-	next "is very hard."
+	text "Always seen sur-"
+	next "rounded by bugs."
+	next "While not especi-"
 
-	page "It is used for"
-	next "bashing through"
-	next "thick ice"
+	page "ally powerful, she"
+	next "has strength in"
+	next "numbers"
 	dex
 
 _DiglettDexEntry::
-	text "Lives about one"
-	next "yard underground"
-	next "where it feeds on"
+	text "An enthusiastic"
+	next "cat girl. Very"
+	next "quick on her feet."
 
-	page "plant roots. It"
-	next "sometimes appears"
-	next "above ground"
+	page "She is often found"
+	next "when someone is"
+	next "lost in Mayohiga"
 	dex
 
 _TaurosDexEntry::
-	text "When it targets"
-	next "an enemy, it"
-	next "charges furiously"
+	text "Believes the best"
+	next "part of autumn is"
+	next "the colorful"
 
-	page "while whipping its"
-	next "body with its"
-	next "long tails"
+	page "falling leaves."
+	next "She runs a sweet"
+	next "potato stand"
 	dex
 
 _FarfetchdDexEntry::
-	text "The sprig of"
-	next "green onions it"
-	next "holds is its"
+	text "Despite her small"
+	next "size, she possess-"
+	next "es considerable"
 
-	page "weapon. It is"
-	next "used much like a"
-	next "metal sword"
+	page "physical strength."
+	next "Could easily toss"
+	next "huge boulders."
 	dex
 
 _VenonatDexEntry::
-	text "Lives in the"
-	next "shadows of tall"
-	next "trees where it"
+	text "A youkai that"
+	next "manipulates cold"
+	next "air. Simply being"
 
-	page "eats insects. It"
-	next "is attracted by"
-	next "light at night"
+	page "near her is enough"
+	next "to subdue most"
+	next "humans"
 	dex
 
 _DragoniteDexEntry::
-	text "An extremely"
-	next "rarely seen"
-	next "marine #MON."
+	text "She likes frogs,"
+	next "and sometimes "
+	next "acts like one."
 
-	page "Its intelligence"
-	next "is said to match"
-	next "that of humans"
+	page "However, she isn't"
+	next "related to frogs"
+	next "at all"
 	dex
 
 _DoduoDexEntry::
-	text "A bird that makes"
-	next "up for its poor"
-	next "flying with its"
+	text "Has the ability"
+	next "to manipulate den-"
+	next "sity. She once"
 
-	page "fast foot speed."
-	next "Leaves giant"
-	next "footprints"
+	page "tried to summon"
+	next "onis back to"
+	next "Gensokyo"
 	dex
 
 _PoliwagDexEntry::
-	text "Its newly grown"
-	next "legs prevent it"
-	next "from running. It"
+	text "A poltergeist"
+	next "musician who"
+	next "plays the violin."
 
-	page "appears to prefer"
-	next "swimming than"
-	next "trying to stand"
+	page "The music she"
+	next "plays is somber"
+	next "music"
 	dex
 
 _JynxDexEntry::
-	text "It seductively"
-	next "wiggles its hips"
-	next "as it walks. It"
+	text "The Yama in charge"
+	next "of Gensokyo's"
+	next "dead. She can"
 
-	page "can cause people"
-	next "to dance in"
-	next "unison with it"
+	page "distinctly judge"
+	next "whether they are"
+	next "good and evil"
 	dex
 
 _MoltresDexEntry::
-	text "Known as the"
-	next "legendary bird of"
-	next "fire. Every flap"
+	text "A rather untradi-"
+	next "tional goddess"
+	next "that loves tech-"
 
-	page "of its wings"
-	next "creates a dazzling"
-	next "flash of flames"
+	page "nology. Seeking"
+	next "faith through"
+	next "various means"
 	dex
 
 _ArticunoDexEntry::
-	text "A legendary bird"
-	next "#MON that is"
-	next "said to appear to"
+	text "As a miko, she's"
+	next "capable of chan-"
+	next "neling the powers"
 
-	page "doomed people who"
-	next "are lost in icy"
-	next "mountains"
+	page "of gods, although"
+	next "she's limited to"
+	next "Kanako and Suwako"
 	dex
 
 _ZapdosDexEntry::
-	text "A legendary bird"
-	next "#MON that is"
-	next "said to appear"
+	text "A god from the"
+	next "outside world and"
+	next "the current god-"
 
-	page "from clouds while"
-	next "dropping enormous"
-	next "lightning bolts"
+	page "dess of the Moriya"
+	next "Shrine. She wants"
+	next "to collect faith"
 	dex
 
 _DittoDexEntry::
-	text "Capable of copying"
-	next "an enemy's genetic"
-	next "code to instantly"
+	text "Normally harmless,"
+	next "but no good comes"
+	next "from disrespecting"
 
-	page "transform itself"
-	next "into a duplicate"
-	next "of the enemy"
+	page "her as she can"
+	next "effortlessly"
+	next "destroy crops"
 	dex
 
 _MeowthDexEntry::
-	text "Adores circular"
-	next "objects. Wanders"
-	next "the streets on a"
+	text "While she grows"
+	next "stronger when near"
+	next "Ran, her attacks"
 
-	page "nightly basis to"
-	next "look for dropped"
-	next "loose change"
+	page "rely on her high"
+	next "speed to confuse"
+	next "foes"
 	dex
 
 _KrabbyDexEntry::
-	text "Its pincers are"
-	next "not only powerful"
-	next "weapons, they are"
+	text "A moon rabbit."
+	next "Once an inhabitant"
+	next "of the Lunar Capi-"
 
-	page "used for balance"
-	next "when walking"
-	next "sideways"
+	page "tal, she abandoned"
+	next "her allies and"
+	next "fled to the Earth"
 	dex
 
 _VulpixDexEntry::
-	text "At the time of"
-	next "birth, it has"
-	next "just one tail."
+	text "The Scarlet"
+	next "Devil Mansion's"
+	next "head maid. Her"
 
-	page "The tail splits"
-	next "from its tip as"
-	next "it grows older"
+	page "past is a mystery."
+	next "She owns the Luna"
+	next "Dial"
 	dex
 
 _NinetalesDexEntry::
-	text "Very smart and"
-	next "very vengeful."
-	next "Grabbing one of"
+	text "The numerous fairy"
+	next "maids in employ-"
+	next "ment are all"
 
-	page "its many tails"
-	next "could result in a"
-	next "1000-year curse"
+	page "useless at their"
+	next "jobs so she hand-"
+	next "les every chore"
 	dex
 
 _PikachuDexEntry::
-	text "When several of"
-	next "these #MON"
-	next "gather, their"
+	text "One of the"
+	next "three Light"
+	next "Fairies. She is"
 
-	page "electricity could"
-	next "build and cause"
-	next "lightning storms"
+	page "capable of"
+	next "refracting light."
+	next "Likes to prank"
 	dex
 
 _RaichuDexEntry::
-	text "Its long tail"
-	next "serves as a"
-	next "ground to protect"
+	text "The leader of"
+	next "the Light Fairies."
+	next "If it's raining"
 
-	page "itself from its"
-	next "own high voltage"
-	next "power"
+	page "it's easy to see"
+	next "where she's"
+	next "bending light"
 	dex
 
 _DratiniDexEntry::
-	text "Long considered a"
-	next "mythical #MON"
-	next "until recently"
+	text "Her appearance is"
+	next "for intimidating"
+	next "others. However,"
 
-	page "when a small"
-	next "colony was found"
-	next "living underwater"
+	page "she's very lax and"
+	next "cares little about"
+	next "worship formality"
 	dex
 
 _DragonairDexEntry::
-	text "A mystical #MON"
-	next "that exudes a"
-	next "gentle aura."
+	text "The native and"
+	next "former goddess of"
+	next "the Moriya Shrine."
 
-	page "Has the ability"
-	next "to change climate"
-	next "conditions"
+	page "She doesn't"
+	next "appear in public"
+	next "often"
 	dex
 
 _KabutoDexEntry::
-	text "A #MON that"
-	next "was resurrected"
-	next "from a fossil"
+	text "She has a very"
+	next "cooperative per-"
+	next "sonality and exe-"
 
-	page "found in what was"
-	next "once the ocean"
-	next "floor eons ago"
+	page "cutes her duties"
+	next "faithfully by"
+	next "guarding mountain"
 	dex
 
 _KabutopsDexEntry::
-	text "Its sleek shape is"
-	next "perfect for swim-"
-	next "ming. It slashes"
+	text "If anybody tra-"
+	next "veling Youkai"
+	next "Mountain isn't"
 
-	page "prey with its"
-	next "claws and drains"
-	next "the body fluids"
+	page "driven off by her"
+	next "attacks, she re-"
+	next "ports right away"
 	dex
 
 _HorseaDexEntry::
-	text "Known to shoot"
-	next "down flying bugs"
-	next "with precision"
+	text "Goes everywhere"
+	next "with her camera."
+	next "If she sees some-"
 
-	page "blasts of ink"
-	next "from the surface"
-	next "of the water"
+	page "thing interesting,"
+	next "she takes photos"
+	next "and writes it"
 	dex
 
 _SeadraDexEntry::
-	text "Capable of swim-"
-	next "ming backwards by"
-	next "rapidly flapping"
+	text "Constantly darts"
+	next "around Gensokyo on"
+	next "the prowl for sto-"
 
-	page "its wing-like"
-	next "pectoral fins and"
-	next "stout tail"
+	page "ries. There are"
+	next "few fans of her"
+	next "reporting style"
 	dex
 
 _SandshrewDexEntry::
-	text "Burrows deep"
-	next "underground in"
-	next "arid locations"
+	text "Gets weaker when"
+	next "the sun isn't in"
+	next "the sky. She's"
 
-	page "far from water."
-	next "It only emerges"
-	next "to hunt for food"
+	page "nearly harmless"
+	next "if you catch her"
+	next "during the night"
 	dex
 
 _SandslashDexEntry::
-	text "Curls up into a"
-	next "spiny ball when"
-	next "threatened. It"
+	text "The Scarlet Devil"
+	next "Mansion's gate-"
+	next "keeper. It's easy"
 
-	page "can roll while"
-	next "curled up to"
-	next "attack or escape"
+	page "to forget she"
+	next "isn't human. She"
+	next "snoozes a lot"
 	dex
 
 _OmanyteDexEntry::
-	text "Although long"
-	next "extinct, in rare"
-	next "cases, it can be"
+	text "As kappas are"
+	next "engineers, they"
+	next "have the best"
 
-	page "genetically"
-	next "resurrected from"
-	next "fossils"
+	page "technology in"
+	next "Gensokyo. Sells"
+	next "things for profits"
 	dex
 
 _OmastarDexEntry::
-	text "A prehistoric"
-	next "#MON that died"
-	next "out when its"
+	text "Her superior"
+	next "senses of sight"
+	next "and smell can"
 
-	page "heavy shell made"
-	next "it impossible to"
-	next "catch prey"
+	page "detect any"
+	next "intruder in an"
+	next "instant"
 	dex
 
 _JigglypuffDexEntry::
-	text "When its huge eyes"
-	next "light up, it sings"
-	next "a mysteriously"
+	text "Is able to mani-"
+	next "pulate time and,"
+	next "to an extent,"
 
-	page "soothing melody"
-	next "that lulls its"
-	next "enemies to sleep"
+	page "space. She can"
+	next "stop and slow"
+	next "time's flow"
 	dex
 
 _WigglytuffDexEntry::
-	text "The body is soft"
-	next "and rubbery. When"
-	next "angered, it will"
+	text "A powerful"
+	next "vampire. A light"
+	next "but messy eater."
 
-	page "suck in air and"
-	next "inflate itself to"
-	next "an enormous size"
+	page "The good thing is"
+	next "that she rarely"
+	next "kills her victims"
 	dex
 
 _EeveeDexEntry::
-	text "Its genetic code"
-	next "is irregular."
-	next "It may mutate if"
+	text "A curse goddess"
+	next "that gathers the"
+	next "misfortune of"
 
-	page "it is exposed to"
-	next "radiation from"
-	next "element STONEs"
+	page "others instead of"
+	next "faith. She is"
+	next "friendly"
 	dex
 
 _FlareonDexEntry::
-	text "When storing"
-	next "thermal energy in"
-	next "its body, its"
+	text "A very shy girl"
+	next "that lives on the"
+	next "Youkai Mountain."
 
-	page "temperature could"
-	next "soar to over 1600"
-	next "degrees"
+	page "Able to manipu-"
+	next "late water. Good"
+	next "with engineering"
 	dex
 
 _JolteonDexEntry::
-	text "It accumulates"
-	next "negative ions in"
-	next "the atmosphere to"
+	text "Misfortune is her"
+	next "power source. She"
+	next "is widely feared"
 
-	page "blast out 10000-"
-	next "volt lightning"
-	next "bolts"
+	page "as there is no"
+	next "true way to coun-"
+	next "teract bad luck"
 	dex
 
 _VaporeonDexEntry::
-	text "Lives close to"
-	next "water. Its long"
-	next "tail is ridged"
+	text "Gathers misfortune"
+	next "so it won't spread"
+	next "to humans. Those"
 
-	page "with a fin which"
-	next "is often mistaken"
-	next "for a mermaid's"
+	page "that meet her say"
+	next "she has a cheerful"
+	next "personality"
 	dex
 
 _MachopDexEntry::
-	text "Loves to build"
-	next "its muscles."
-	next "It trains in all"
+	text "A poltergeist"
+	next "musician who"
+	next "prefers keyboards."
 
-	page "styles of martial"
-	next "arts to become"
-	next "even stronger"
+	page "Music she plays"
+	next "is quite"
+	next "indescribable"
 	dex
 
 _ZubatDexEntry::
-	text "Forms colonies in"
-	next "perpetually dark"
-	next "places. Uses"
+	text "Despite her best"
+	next "efforts to appear"
+	next "like a terrifying"
 
-	page "ultrasonic waves"
-	next "to identify and"
-	next "approach targets"
+	page "master of the"
+	next "night, her actions"
+	next "are often childish"
 	dex
 
 _EkansDexEntry::
-	text "Moves silently"
-	next "and stealthily."
-	next "Eats the eggs of"
+	text "Is the most"
+	next "active at night."
+	next "Usually attempts"
 
-	page "birds, such as"
-	next "PIDGEY and"
-	next "SPEAROW, whole"
+	page "to steal coffee"
+	next "beans with her"
+	next "powers"
 	dex
 
 _ParasDexEntry::
-	text "Burrows to suck"
-	next "tree roots. The"
-	next "mushrooms on its"
+	text "Although reports"
+	next "of a girl matching"
+	next "her description"
 
-	page "back grow by draw-"
-	next "ing nutrients from"
-	next "the bug host"
+	page "have been made,"
+	next "she in reality"
+	next "doesn't exist"
 	dex
 
 _PoliwhirlDexEntry::
-	text "Capable of living"
-	next "in or out of"
-	next "water. When out"
+	text "The oldest of"
+	next "the three"
+	next "Prismrivers."
 
-	page "of water, it"
-	next "sweats to keep"
-	next "its body slimy"
+	page "Calm and"
+	next "collected, but"
+	next "very gloomy"
 	dex
 
 _PoliwrathDexEntry::
-	text "An adept swimmer"
-	next "at both the front"
-	next "crawl and breast"
+	text "Puts a lot of"
+	next "effort into any-"
+	next "thing she does."
 
-	page "stroke. Easily"
-	next "overtakes the best"
-	next "human swimmers"
+	page "She cannot stand"
+	next "the thought of"
+	next "cheating"
 	dex
 
 _WeedleDexEntry::
-	text "Often found in"
-	next "forests, eating"
-	next "leaves."
+	text "A fairy that is"
+	next "commonly found"
+	next "when you wander"
 
-	page "It has a sharp"
-	next "venomous stinger"
-	next "on its head"
+	page "around near a"
+	next "forest. She has"
+	next "potentials"
 	dex
 
 _KakunaDexEntry::
-	text "Almost incapable"
-	next "of moving, this"
-	next "#MON can only"
+	text "A fairy stronger"
+	next "than most other"
+	next "fairies, but still"
 
-	page "harden its shell"
-	next "to protect itself"
-	next "from predators"
+	page "weaker than the"
+	next "average human. She"
+	next "has a caring side"
 	dex
 
 _BeedrillDexEntry::
-	text "Flies at high"
-	next "speed and attacks"
-	next "using its large"
+	text "Sometimes takes"
+	next "a leadership role"
+	next "among other"
 
-	page "venomous stingers"
-	next "on its forelegs"
-	next "and tail"
+	page "fairies  due to"
+	next "her above-average"
+	next "power for a fairy"
 	dex
 
 _DodrioDexEntry::
-	text "Uses its three"
-	next "brains to execute"
-	next "complex plans."
+	text "A firefly youkai."
+	next "She can command"
+	next "insects to do her"
 
-	page "While two heads"
-	next "sleep, one head"
-	next "stays awake"
+	page "bidding. Thinks"
+	next "about the decrease"
+	next "of incests"
 	dex
 
 _PrimeapeDexEntry::
-	text "Always furious"
-	next "and tenacious to"
-	next "boot. It will not"
+	text "She is at her"
+	next "strongest when an-"
+	next "nouncing spring's"
 
-	page "abandon chasing"
-	next "its quarry until"
-	next "it is caught"
+	page "arrival, but she"
+	next "isn't particular-"
+	next "ly aggressive"
 	dex
 
 _DugtrioDexEntry::
-	text "A team of DIGLETT"
-	next "triplets."
-	next "It triggers huge"
+	text "The shikigami of"
+	next "a shikigami."
+	next "Usually more of"
 
-	page "earthquakes by"
-IF DEF(_METRIC)
-	next "burrowing 60 miles"
-ELSE
-	next "burrowing 100 km"
-ENDC
-	next "underground"
+	page "a hassle than a"
+	next "help. Yukari con-"
+	next "siders her a pet"
 	dex
 
 _VenomothDexEntry::
-	text "The dust-like"
-	next "scales covering"
-	next "its wings are"
+	text "Disappears when"
+	next "winter ends. It's"
+	next "claimed that she"
 
-	page "color coded to"
-	next "indicate the kinds"
-	next "of poison it has"
+	page "hides deep within"
+	next "caves that don't"
+	next "see sunlight"
 	dex
 
 _DewgongDexEntry::
-	text "Stores thermal"
-	next "energy in its"
-	next "body. Swims at a"
+	text "She usually moves"
+	next "quickly, but slows"
+	next "down in winter"
 
-	page "steady 8 knots"
-	next "even in intensely"
-	next "cold waters"
+	page "when most bugs"
+	next "hide underground"
+	next "from the cold"
 	dex
 
 _CaterpieDexEntry::
-	text "Its short feet"
-	next "are tipped with"
-	next "suction pads that"
+	text "Wanders about in"
+	next "an orb of darkness"
+	next "that she can't"
 
-	page "enable it to"
-	next "tirelessly climb"
-	next "slopes and walls"
+	page "actually see"
+	next "beyond. One of"
+	next "dangerous youkais"
 	dex
 
 _MetapodDexEntry::
-	text "This #MON is"
-	next "vulnerable to"
-	next "attack while its"
+	text "Despite her"
+	next "childish looks,"
+	next "she eats humans."
 
-	page "shell is soft,"
-	next "exposing its weak"
-	next "and tender body"
+	page "She waits for"
+	next "anyone who becomes"
+	next "lost"
 	dex
 
 _ButterfreeDexEntry::
-	text "In battle, it"
-	next "flaps its wings"
-	next "at high speed to"
+	text "She doesn't make"
+	next "a darkness aura"
+	next "on nights of the"
 
-	page "release highly"
-	next "toxic dust into"
-	next "the air"
+	page "new moon, choosing"
+	next "to directly attack"
+	next "instead"
 	dex
 
 _MachampDexEntry::
-	text "Using its heavy"
-	next "muscles, it throws"
-	next "powerful punches"
+	text "She struggles to"
+	next "stand out during"
+	next "live shows due to"
 
-	page "that can send the"
-	next "victim clear over"
-	next "the horizon"
+	page "her small size,"
+	next "so she thrashes"
+	next "about"
 	dex
 
 _GolduckDexEntry::
-	text "Often seen swim-"
-	next "ming elegantly by"
-	next "lake shores. It"
+	text "Enjoys battling"
+	next "others and will"
+	next "rarely turn down"
 
-	page "is often mistaken"
-	next "for the Japanese"
-	next "monster, Kappa"
+	page "a challenge, but"
+	next "never uses her"
+	next "full power"
 	dex
 
 _HypnoDexEntry::
-	text "When it locks eyes"
-	next "with an enemy, it"
-	next "will use a mix of"
+	text "She constantly"
+	next "pulls pranks, with"
+	next "Reisen being her"
 
-	page "PSI moves such as"
-	next "HYPNOSIS and"
-	next "CONFUSION"
+	page "primary victim."
+	next "Quick to run be-"
+	next "fore being caught"
 	dex
 
 _GolbatDexEntry::
-	text "Once it strikes,"
-	next "it will not stop"
-	next "draining energy"
+	text "The master of"
+	next "the Scarlet Devil"
+	next "Mansion. She has"
 
-	page "from the victim"
-	next "even if it gets"
-	next "too heavy to fly"
+	page "the ability"
+	next "to manipulate"
+	next "fate"
 	dex
 
 _MewtwoDexEntry::
-	text "It was created by"
-	next "a scientist after"
-	next "years of horrific"
+	text "Difficult to read"
+	next "since she doesn't"
+	next "leave the shrine"
 
-	page "gene splicing and"
-	next "DNA engineering"
-	next "experiments"
+	page "much. She feigns"
+	next "ignorance, but is"
+	next "very cunning"
 	dex
 
 _SnorlaxDexEntry::
-	text "Very lazy. Just"
-	next "eats and sleeps."
-	next "As its rotund"
+	text "A maiden to a"
+	next "shrine with two"
+	next "goddesses. She"
 
-	page "bulk builds, it"
-	next "becomes steadily"
-	next "more slothful"
+	page "controls winds"
+	next "and can cause"
+	next "miracles"
 	dex
 
 _MagikarpDexEntry::
-	text "In the distant"
-	next "past, it was"
-	next "somewhat stronger"
+	text "Greatly enjoys"
+	next "quiet autumn days."
+	next "She often spends"
 
-	page "than the horribly"
-	next "weak descendants"
-	next "that exist today"
+	page "hours at a time"
+	next "simply watching"
+	next "the leaves fall"
 	dex
 
 _MukDexEntry::
-	text "Thickly covered"
-	next "with a filthy,"
-	next "vile sludge. It"
+	text "While dangerous,"
+	next "her singing is re-"
+	next "garded by some to"
 
-	page "is so toxic, even"
-	next "its footprints"
-	next "contain poison"
+	page "be wonderful. Most"
+	next "view it as just"
+	next "noise, though"
 	dex
 
 _KinglerDexEntry::
-	text "The large pincer"
-	next "has 10000 hp of"
-	next "crushing power."
+	text "Her control of"
+	next "wavelengths can"
+	next "influence her"
 
-	page "However, its huge"
-	next "size makes it"
-	next "unwieldy to use"
+	page "voice, making it"
+	next "hard to hold a di-"
+	next "rect conversation"
 	dex
 
 _CloysterDexEntry::
-	text "When attacked, it"
-	next "launches its"
-	next "horns in quick"
+	text "Keine lives inside"
+	next "the Bamboo Forest."
+	next "She protects the"
 
-	page "volleys. Its"
-	next "innards have"
-	next "never been seen"
+	page "Human Village from"
+	next "youkai by manipu-"
+	next "lating histories"
 	dex
 
 _ElectrodeDexEntry::
-	text "It stores electric"
-	next "energy under very"
-	next "high pressure."
+	text "A Lunarian living"
+	next "on Earth in exile"
+	next "with Kaguya in"
 
-	page "It often explodes"
-	next "with little or no"
-	next "provocation"
+	page "Eientei. She is"
+	next "the teacher of 3"
+	next "lunar princesses"
 	dex
 
 _ClefableDexEntry::
-	text "A timid fairy"
-	next "#MON that is"
-	next "rarely seen. It"
+	text "A powerful magi-"
+	next "cian speciali-"
+	next "zing in"
 
-	page "will run and hide"
-	next "the moment it"
-	next "senses people"
+	page "elemental magic."
+	next "She cast multiple-"
+	next "element magic"
 	dex
 
 _WeezingDexEntry::
-	text "Where two kinds"
-	next "of poison gases"
-	next "meet, 2 KOFFINGs"
+	text "The fan she car-"
+	next "ries is a danger-"
+	next "ous weapon with"
 
-	page "can fuse into a"
-	next "WEEZING over many"
-	next "years"
+	page "power compar-"
+	next "able tonuclear"
+	next "weaponry"
 	dex
 
 _PersianDexEntry::
-	text "Although its fur"
-	next "has many admirers,"
-	next "it is tough to"
+	text "A girl talented"
+	next "in puppetry. She"
+	next "dreams of making"
 
-	page "raise as a pet"
-	next "because of its"
-	next "fickle meanness"
+	page "an autonomous"
+	next "doll. She owns"
+	next "several dolls"
 	dex
 
 _MarowakDexEntry::
-	text "The bone it holds"
-	next "is its key weapon."
-	next "It throws the"
+	text "Mokou's eternal"
+	next "rival. They used"
+	next "to kill each other"
 
-	page "bone skillfully"
-	next "like a boomerang"
-	next "to KO targets"
+	page "daily, fully aware"
+	next "that it wouldn't"
+	next "change anything"
 	dex
 
 _HaunterDexEntry::
-	text "Because of its"
-	next "ability to slip"
-	next "through block"
+	text "While an excel-"
+	next "lent teacher, she"
+	next "is not good at"
 
-	page "walls, it is said"
-	next "to be from an-"
-	next "other dimension"
+	page "entertaining."
+	next "Her lessons are"
+	next "tedious"
 	dex
 
 _AbraDexEntry::
-	text "Using its ability"
-	next "to read minds, it"
-	next "will identify"
+	text "A poltergeist"
+	next "musician who"
+	next "excels with"
 
-	page "impending danger"
-	next "and TELEPORT to"
-	next "safety"
+	page "trumpets. She"
+	next "plays uplifting"
+	next "music"
 	dex
 
 _AlakazamDexEntry::
-	text "Its brain can out-"
-	next "perform a super-"
-	next "computer."
+	text "As she's the"
+	next "tallest and has"
+	next "the brightest"
 
-	page "Its intelligence"
-	next "quotient is said"
-	next "to be 5,000"
+	page "hair of the three,"
+	next "she usually takes"
+	next "the center stage"
 	dex
 
 _PidgeottoDexEntry::
-	text "Very protective"
-	next "of its sprawling"
-	next "territorial area,"
+	text "Considers herself"
+	next "the strongest"
+	next "since she's more"
 
-	page "this #MON will"
-	next "fiercely peck at"
-	next "any intruder"
+	page "powerful than"
+	next "other fairies. She"
+	next "is quite smart"
 	dex
 
 _PidgeotDexEntry::
-	text "When hunting, it"
-	next "skims the surface"
-	next "of water at high"
+	text "She's somewhat"
+	next "smart for a"
+	next "fairy. She can"
 
-	page "speed to pick off"
-	next "unwary prey such"
-	next "as MAGIKARP"
+	page "count and read,"
+	next "and also knows "
+	next "when in a trouble"
 	dex
 
 _StarmieDexEntry::
-	text "Its central core"
-	next "glows with the"
-	next "seven colors of"
+	text "Gensokyo's resi-"
+	next "dent shinigami,"
+	next "charged with"
 
-	page "the rainbow. Some"
-	next "people value the"
-	next "core as a gem"
+	page "guiding souls"
+	next "to their awaiting"
+	next "judgement"
 	dex
 
 _BulbasaurDexEntry::
@@ -1264,251 +1260,250 @@ _BulbasaurDexEntry::
 
 _VenusaurDexEntry::
 	text "A long lived"
-	next "flying turtle."
-	next "He is currently"
+	next "flying turtle. "
+	next "He is currently "
 
 	page "living in the pond"
-	next "behind the"
+	next "behind the "
 	next "Hakurei Shrine"
 	dex
 
 _TentacruelDexEntry::
-	text "The tentacles are"
-	next "normally kept"
-	next "short. On hunts,"
+	text "The mistress of"
+	next "the Netherworld."
+	next "She is capable of"
 
-	page "they are extended"
-	next "to ensnare and"
-	next "immobilize prey"
+	page "manipulating"
+	next "death. She loves"
+	next "eating"
 	dex
 
 _GoldeenDexEntry::
-	text "Its tail fin"
-	next "billows like an"
-	next "elegant ballroom"
+	text "A youkai girl that"
+	next "spends most of her"
+	next "time sleeping in"
 
-	page "dress, giving it"
-	next "the nickname of"
-	next "the Water Queen"
+	page "her mansion which"
+	next "located in the"
+	next "Fantasy World"
 	dex
 
 _SeakingDexEntry::
-	text "In the autumn"
-	next "spawning season,"
-	next "they can be seen"
+	text "Capable of mani-"
+	next "pulating flowers."
+	next "She likes to"
 
-	page "swimming power-"
-	next "fully up rivers"
-	next "and creeks"
+	page "travel to see"
+	next "flowers bloom. She"
+	next "is troublesome"
 	dex
 
 _PonytaDexEntry::
-	text "Its hooves are 10"
-	next "times harder than"
-	next "diamonds. It can"
+	text "An extremely "
+	next "intelligent youkai"
+	next "proficient in"
 
-	page "trample anything"
-	next "completely flat"
-	next "in little time"
+	page "mathematics."
+	next "Calculated the"
+	next "Sanzu's width"
 	dex
 
 _RapidashDexEntry::
-	text "Very competitive,"
-	next "this #MON will"
-	next "chase anything"
+	text "Her power increa-"
+	next "ses when she"
+	next "follows Yukari's"
 
-	page "that moves fast"
-	next "in the hopes of"
-	next "racing it"
+	page "orders, while"
+	next "fighting on her"
+	next "own skill limits"
 	dex
 
 _RattataDexEntry::
-	text "Bites anything"
-	next "when it attacks."
-	next "Small and very"
+	text "One of the"
+	next "three Light"
+	next "Fairies. She has"
 
-	page "quick, it is a"
-	next "common sight in"
-	next "many places"
+	page "incredibly good"
+	next "eyesight. Likes"
+	next "to make a prank"
 	dex
 
 _RaticateDexEntry::
-	text "It uses its whis-"
-	next "kers to maintain"
-	next "its balance."
+	text "Scouts for the"
+	next "Light Fairies."
+	next "It's easy for her"
 
-	page "It apparently"
-	next "slows down if"
-	next "they are cut off"
+	page "to see moving"
+	next "objects, but not"
+	next "unmoving ones"
 	dex
 
 _NidorinoDexEntry::
-	text "An aggressive"
-	next "#MON that is"
-	next "quick to attack."
+	text "Nobody believes"
+	next "it due to her"
+	next "quiet nature,"
 
-	page "The horn on its"
-	next "head secretes a"
-	next "powerful venom"
+	page "but she has a"
+	next "bit of a mean"
+	next "streak"
 	dex
 
 _NidorinaDexEntry::
-	text "The female's horn"
-	next "develops slowly."
-	next "Prefers physical"
+	text "Not especially"
+	next "powerful, but not"
+	next "weak either. Spars"
 
-	page "attacks such as"
-	next "clawing and"
-	next "biting"
+	page "with people on"
+	next "request and enjoys"
+	next "friendly duels"
 	dex
 
 _GeodudeDexEntry::
-	text "Found in fields"
-	next "and mountains."
-	next "Mistaking them"
+	text "An extraordinarily"
+	next "carefree spirit."
+	next "Her personality"
 
-	page "for boulders,"
-	next "people often step"
-	next "or trip on them"
+	page "and behavior is"
+	next "disarming to those"
+	next "first meeting her"
 	dex
 
 _PorygonDexEntry::
-	text "A #MON that"
-	next "consists entirely"
-	next "of programming"
+	text "Likes humans, and"
+	next "considers them"
+	next "friends. Despite"
 
-	page "code. Capable of"
-	next "moving freely in"
-	next "cyberspace"
+	page "this, she runs"
+	next "away if she sees"
+	next "one in person"
 	dex
 
 _AerodactylDexEntry::
-	text "A ferocious, pre-"
-	next "historic #MON"
-	next "that goes for the"
+	text "The shrine maiden"
+	next "of Moriya Shrine."
+	next "Originally from"
 
-	page "enemy's throat"
-	next "with its serrated"
-	next "saw-like fangs"
+	page "the outside world,"
+	next "and is also ob-"
+	next "sessed with robots"
 	dex
 
 _MagnemiteDexEntry::
-	text "Uses anti-gravity"
-	next "to stay suspended."
-	next "Appears without"
+	text "Instead of direct-"
+	next "ly involving her-"
+	next "self in affairs,"
 
-	page "warning and uses"
-	next "THUNDER WAVE and"
-	next "similar moves"
+	page "she prefers to"
+	next "manipulate others"
+	next "to do her bidding"
 	dex
 
 _CharmanderDexEntry::
-	text "Obviously prefers"
-	next "hot places. When"
-	next "it rains, steam"
+	text "The maiden of the"
+	next "Hakurei Shrine and"
+	next "main resolver of"
 
-	page "is said to spout"
-	next "from the tip of"
-	next "its tail"
+	page "Gensokyo's"
+	next "incidents that"
+	next "happen frequently"
 	dex
 
 _SquirtleDexEntry::
-	text "After birth, its"
-	next "back swells and"
-	next "hardens into a"
+	text "A human magician"
+	next "that lives in the"
+	next "Forest of Magic."
 
-	page "shell. Powerfully"
-	next "sprays foam from"
-	next "its mouth"
+	page "Apparently, she"
+	next "likes to take"
+	next "things from others"
 	dex
 
 _CharmeleonDexEntry::
-	text "When it swings"
-	next "its burning tail,"
-	next "it elevates the"
+	text "She's carefree"
+	next "and treats"
+	next "everybody with"
 
-	page "temperature to"
-	next "unbearably high"
-	next "levels"
+	page "equal disinterest."
+	next "The eternal"
+	next "shrine maiden"
 	dex
 
 _WartortleDexEntry::
-	text "Often hides in"
-	next "water to stalk"
-	next "unwary prey. For"
+	text "Flies with a broom"
+	next "influenced by"
+	next "magic. In combat"
 
-	page "swimming fast, it"
-	next "moves its ears to"
-	next "maintain balance"
+	page "she crashes into"
+	next "foes while flying"
+	next "at high speeds"
 	dex
 
 _CharizardDexEntry::
-	text "Spits fire that"
-	next "is hot enough to"
-	next "melt boulders."
+	text "Believes youkai"
+	next "extermination is"
+	next "her job. Her"
 
-	page "Known to cause"
-	next "forest fires"
-	next "unintentionally"
+	page "natural abilities "
+	next "and her luck"
+	next "ensure victory"
 	dex
 
 _OddishDexEntry::
-	text "During the day,"
-	next "it keeps its face"
-	next "buried in the"
+	text "Remilia's younger"
+	next "sister. All of her"
+	next "toys end up"
 
-	page "ground. At night,"
-	next "it wanders around"
-	next "sowing its seeds"
+	page "breaking. Her"
+	next "wings are"
+	next "questionable"
 	dex
 
 _GloomDexEntry::
-	text "The fluid that"
-	next "oozes from its"
-	next "mouth isn't drool."
+	text "A vampire locked"
+	next "in the Mansion's"
+	next "basement due to"
 
-	page "It is a nectar"
-	next "that is used to"
-	next "attract prey"
+	page "mental instabi-"
+	next "lity. Can destroy"
+	next "anything on a whim"
 	dex
 
 _VileplumeDexEntry::
-	text "The larger its"
-	next "petals, the more"
-	next "toxic pollen it"
+	text "Her ability to"
+	next "destroy things"
+	next "works by moving"
 
-	page "contains. Its big"
-	next "head is heavy and"
-	next "hard to hold up"
+	page "an object's press-"
+	next "ure point into her"
+	next "hands and crush it"
 	dex
 
 _BellsproutDexEntry::
-	text "A carnivorous"
-	next "#MON that traps"
-	next "and eats bugs."
+	text "Layla Prismriver"
+	next "didn't want to"
+	next "leave her home,"
 
-	page "It uses its root"
-	next "feet to soak up"
-	next "needed moisture"
+	page "so she conjured up"
+	next "poltergeists of"
+	next "her sisters"
 	dex
 
 _WeepinbellDexEntry::
-	text "It spits out"
-	next "POISONPOWDER to"
-	next "immobilize the"
+	text "A girl that's"
+	next "half-human and"
+	next "half-ghost."
 
-	page "enemy and then"
-	next "finishes it with"
-	next "a spray of ACID"
+	page "Serves as"
+	next "the Netherworld's"
+	next "gardener"
 	dex
 
 _VictreebelDexEntry::
-	text "Said to live in"
-	next "huge colonies"
-	next "deep in jungles,"
+	text "Skilled swordsman"
+	next "that uses two"
+	next "swords. She boldly"
 
-	page "although no one"
-	next "has ever returned"
-	next "from there"
+	page "claims there are"
+	next "few things that"
+	next "she cannot cut"
 	dex
-
