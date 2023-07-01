@@ -129,8 +129,8 @@ ENDC
 
 	; PAL_MEWMON	;reworked to match red/blue tones 
 	RGB 31, 31, 31
-	RGB 30, 17,  11
-	RGB 11,  5,  14
+	RGB 28, 18,  9 ;	RGB 30, 17,  11
+	RGB 27, 23,  5 ;	RGB 11,  5,  14
 	RGB  3,  3,  3
 
 	; PAL_BLUEMON
