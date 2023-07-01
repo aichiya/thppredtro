@@ -63,7 +63,7 @@ StartMenuPokedexText:
 	db "TH-DEX@"
 
 StartMenuPokemonText:
-	db "FRAGS@"
+	db "TH-<pkmn>@"
 
 StartMenuItemText:
 	db "ITEM@"

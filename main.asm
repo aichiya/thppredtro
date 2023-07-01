@@ -638,9 +638,6 @@ INCLUDE "engine/battle/draw_hud_pokeball_gfx.asm"
 ;TradingAnimationGraphics2End:
 
 INCLUDE "engine/evos_moves.asm"
-INCLUDE "engine/battle/moveEffects/heal_effect.asm"
-INCLUDE "engine/battle/moveEffects/transform_effect.asm"
-INCLUDE "engine/battle/moveEffects/reflect_light_screen_effect.asm"
 
 
 SECTION "bankF",ROMX,BANK[$F]
@@ -1873,6 +1870,11 @@ INCLUDE "engine/battle/exp_bar_print.asm"
 ENDC
 INCLUDE "custom_functions/fisher_yates.asm"
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; heal effect, transform, light screen effect moved from Bank E
+INCLUDE "engine/battle/moveEffects/heal_effect.asm"
+INCLUDE "engine/battle/moveEffects/transform_effect.asm"
+INCLUDE "engine/battle/moveEffects/reflect_light_screen_effect.asm"
 
 TradingAnimationGraphics:
 INCBIN "gfx/game_boy.2bpp"
