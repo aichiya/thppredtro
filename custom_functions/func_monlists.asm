@@ -1,332 +1,358 @@
 ListRealPkmn:
-	db MEW          ; $15
+	db MEW     ; VIVIT $15
 ListNonMythPkmn:
-	db MEWTWO       ; $83
+	db PARAS     ; Satsuki $6D
 ListNonMewPkmn:
-	db MOLTRES      ; $49
-	db ARTICUNO     ; $4A
-	db ZAPDOS       ; $4B
+	db BELLSPROUT     ; Layla $BC
+	db WEEZING     ; Toyohime $8F
+	db RHYHORN     ; Yorihime $12
 ListNonLegendPkmn:
-	db ABRA         ; $94
-	db BELLSPROUT   ; $BC
-	db BULBASAUR    ; $99
-	db CATERPIE     ; $7B
-	db CHARMANDER   ; $B0
-	db CLEFAIRY     ; $04
-	db CUBONE       ; $11
-	db DIGLETT      ; $3B
-	db DODUO        ; $46
-	db DRATINI      ; $58
-	db DROWZEE      ; $30
-	db EEVEE        ; $66
-	db EKANS        ; $6C
-	db EXEGGCUTE    ; $0C
-	db GASTLY       ; $19
-	db GEODUDE      ; $A9
-	db GOLDEEN      ; $9D
-	db GRIMER       ; $0D
-	db GROWLITHE    ; $21
-	db HORSEA       ; $5C
-	db JIGGLYPUFF   ; $64
-	db KABUTO       ; $5A
-	db KOFFING      ; $37
-	db KRABBY       ; $4E
-	db MACHOP       ; $6A
-	db MAGIKARP     ; $85
-	db MAGNEMITE    ; $AD
-	db MANKEY       ; $39
-	db MEOWTH       ; $4D
-	db NIDORAN_F    ; $0F
-	db NIDORAN_M    ; $03
-	db ODDISH       ; $B9
-	db OMANYTE      ; $62
-	db PARAS        ; $6D
-	db PIDGEY       ; $24
-	db PIKACHU      ; $54
-	db POLIWAG      ; $47
-	db PONYTA       ; $A3
-	db PSYDUCK      ; $2F
-	db RATTATA      ; $A5
-	db RHYHORN      ; $12
-	db SANDSHREW    ; $60
-	db SEEL         ; $3A
-	db SHELLDER     ; $17
-	db SLOWPOKE     ; $25
-	db SPEAROW      ; $05
-	db SQUIRTLE     ; $B1
-	db STARYU       ; $1B
-	db TENTACOOL    ; $18
-	db VENONAT      ; $41
-	db VOLTORB      ; $06
-	db VULPIX       ; $52
-	db WEEDLE       ; $70
-	db ZUBAT        ; $6B
+	db CHARMANDER     ; CReimu $B0
+	db SQUIRTLE     ; CMarisa $B1
+	db CATERPIE     ; CRumia $7B
+	db WEEDLE     ; Fairy $70
+	db PIDGEY     ; CCirno $24
+	db RATTATA     ; CStar $A5
+	db FEAROW     ; CLuna $23
+	db PIKACHU     ; CSunny $54
+	db SANDSLASH     ; CMeiling $61
+	db NIDOQUEEN     ; CKoakuma $10
+	db NIDOKING     ; CPatchouli $07
+	db VULPIX     ; CSakuya $52
+	db WIGGLYTUFF     ; CRemilia $65
+	db ODDISH     ; CFlandre $B9
+	db PARASECT     ; CLetty $2E
+	db DIGLETT     ; CChen $3B
+	db PERSIAN     ; CAlice $90
+	db POLIWAG     ; CLunasa $47
+	db ABRA     ; CMerlin $94
+	db MACHOP     ; CLyrica $6A
+	db WEEPINBELL     ; CYoumu $BD
+	db TENTACRUEL     ; CYuyuko $9B
+	db GOLEM     ; CRan $31
+	db SLOWPOKE     ; CYukari $25
+	db MAGNETON     ; CSuika $36
+	db DODRIO     ; CWriggle $74
+	db GRIMER     ; CMystia $0D
+	db CLOYSTER     ; CKeine $8B
+	db ONIX     ; CTewi $22
+	db KRABBY     ; CReisen $4E
+	db ELECTRODE     ; CEirin $8D
+	db CUBONE     ; CKaguya $11
+	db HITMONCHAN     ; CMokou $2C
+	db RHYDON     ; CMedicine $01
+	db KANGASKHAN     ; CAya $02
+	db GOLDEEN     ; CYuuka $9D
+	db STARMIE     ; CKomachi $98
+	db JYNX     ; CEiki $48
+	db PINSIR     ; CShizuha $1D
+	db GYARADOS     ; CMinoriko $16
+	db EEVEE     ; CHina $66
+	db FLAREON     ; CNitori $67
+	db OMASTAR     ; CMomiji $63
+	db AERODACTYL     ; CSanae $AB
+	db ZAPDOS     ; CKanako $4B
+	db DRAGONAIR     ; CSuwako $59
 ListMidEvolvedPkmn:
-	db CHARMELEON   ; $B2
-	db DRAGONAIR    ; $59
-	db GLOOM        ; $BA
-	db GRAVELER     ; $27
-	db HAUNTER      ; $93
-	db IVYSAUR      ; $09
-	db KADABRA      ; $26
-	db KAKUNA       ; $71
-	db MACHOKE      ; $29
-	db METAPOD      ; $7C
-	db NIDORINA     ; $A8
-	db NIDORINO     ; $A7
-	db PIDGEOTTO    ; $96
-	db POLIWHIRL    ; $6E
-	db WARTORTLE    ; $B3
-	db WEEPINBELL   ; $BD
+	db CHARMELEON     ; Reimu $B2
+	db WARTORTLE     ; Marisa $B3
+	db METAPOD     ; Rumia $7C
+	db KAKUNA     ; Daiyousei $71
+	db PIDGEOTTO     ; Cirno $96
+	db RATICATE     ; Star $A6
+	db EKANS     ; Luna $6C
+	db RAICHU     ; Sunny $55
+	db NIDORAN_F     ; Meiling $0F
+	db NIDORAN_M     ; Koakuma $03
+	db CLEFAIRY     ; Patchouli $04
+	db NINETALES     ; Sakuya $53
+	db ZUBAT     ; Remilia $6B
+	db GLOOM     ; Flandre $BA
+	db VENONAT     ; Letty $41
+	db DUGTRIO     ; Chen $76
+	db PSYDUCK     ; Alice $2F
+	db MANKEY     ; LilyWhite $39
+	db GROWLITHE     ; LilyBlack $21
+	db POLIWHIRL     ; Lunasa $6E
+	db KADABRA     ; Merlin $26
+	db MACHOKE     ; Lyrica $29
+	db VICTREEBEL     ; Youmu $BE
+	db GEODUDE     ; Yuyuko $A9
+	db PONYTA     ; Ran $A3
+	db SLOWBRO     ; Yukari $08
+	db FARFETCHD     ; Suika $40
+	db SEEL     ; Wriggle $3A
+	db MUK     ; Mystia $88
+	db GASTLY     ; Keine $19
+	db DROWZEE     ; Tewi $30
+	db KINGLER     ; Reisen $8A
+	db EXEGGCUTE     ; Eirin $0C
+	db MAROWAK     ; Kaguya $91
+	db LICKITUNG     ; Mokou $0B
+	db CHANSEY     ; Medicine $28
+	db HORSEA     ; Aya $5C
+	db SEAKING     ; Yuuka $9E
+	db MR_MIME     ; Komachi $2A
+	db ELECTABUZZ     ; Eiki $35
+	db TAUROS     ; Shizuha $3C
+	db LAPRAS     ; Minoriko $13
+	db VAPOREON     ; Hina $69
+	db PORYGON     ; Nitori $AA
+	db KABUTO     ; Momiji $5A
+	db SNORLAX     ; Sanae $84
+	db MOLTRES     ; Kanako $49
+	db DRAGONITE     ; Suwako $42
 ListNonEvolvingPkmn:
-	db AERODACTYL   ; $AB
-	db CHANSEY      ; $28
-	db DITTO        ; $4C
-	db ELECTABUZZ   ; $35
-	db FARFETCHD    ; $40
-	db HITMONCHAN   ; $2C
-	db HITMONLEE    ; $2B
-	db JYNX         ; $48
-	db KANGASKHAN   ; $02
-	db LAPRAS       ; $13
-	db LICKITUNG    ; $0B
-	db MAGMAR       ; $33
-	db MR_MIME      ; $2A
-	db ONIX         ; $22
-	db PINSIR       ; $1D
-	db PORYGON      ; $AA
-	db SCYTHER      ; $1A
-	db SNORLAX      ; $84
-	db TANGELA      ; $1E
-	db TAUROS       ; $3C
+	db BULBASAUR     ; Hakurei $99
+	db IVYSAUR     ; Kirisame $09
+	db VENUSAUR     ; Genji $9A
 ListMostEvolvedPkmn:
-	db ALAKAZAM     ; $95
-	db ARBOK        ; $2D
-	db ARCANINE     ; $14
-	db BEEDRILL     ; $72
-	db BLASTOISE    ; $1C
-	db BUTTERFREE   ; $7D
-	db CHARIZARD    ; $B4
-	db CLEFABLE     ; $8E
-	db CLOYSTER     ; $8B
-	db DEWGONG      ; $78
-	db DODRIO       ; $74
-	db DRAGONITE    ; $42
-	db DUGTRIO      ; $76
-	db ELECTRODE    ; $8D
-	db EXEGGUTOR    ; $0A
-	db FEAROW       ; $23
-	db FLAREON      ; $67
-	db GENGAR       ; $0E
-	db GOLBAT       ; $82
-	db GOLDUCK      ; $80
-	db GOLEM        ; $31
-	db GYARADOS     ; $16
-	db HYPNO        ; $81
-	db JOLTEON      ; $68
-	db KABUTOPS     ; $5B
-	db KINGLER      ; $8A
-	db MACHAMP      ; $7E
-	db MAGNETON     ; $36
-	db MAROWAK      ; $91
-	db MUK          ; $88
-	db NIDOKING     ; $07
-	db NIDOQUEEN    ; $10
-	db NINETALES    ; $53
-	db OMASTAR      ; $63
-	db PARASECT     ; $2E
-	db PERSIAN      ; $90
-	db PIDGEOT      ; $97
-	db POLIWRATH    ; $6F
-	db PRIMEAPE     ; $75
-	db RAICHU       ; $55
-	db RAPIDASH     ; $A4
-	db RATICATE     ; $A6
-	db RHYDON       ; $01
-	db SANDSLASH    ; $61
-	db SEADRA       ; $5D
-	db SEAKING      ; $9E
-	db SLOWBRO      ; $08
-	db STARMIE      ; $98
-	db TENTACRUEL   ; $9B
-	db VAPOREON     ; $69
-	db VENOMOTH     ; $77
-	db VENUSAUR     ; $9A
-	db VICTREEBEL   ; $BE
-	db VILEPLUME    ; $BB
-	db WEEZING      ; $8F
-	db WIGGLYTUFF   ; $65
+	db CHARIZARD     ; EReimu $B4
+	db BLASTOISE     ; EMarisa $1C
+	db BUTTERFREE     ; ERumia $7D
+	db BEEDRILL     ; EDaiyousei $72
+	db PIDGEOT     ; ECirno $97
+	db SPEAROW     ; EStar $05
+	db ARBOK     ; ELuna $2D
+	db SANDSHREW     ; ESunny $60
+	db NIDORINA     ; EMeiling $A8
+	db NIDORINO     ; EKoakuma $A7
+	db CLEFABLE     ; EPatchouli $8E
+	db JIGGLYPUFF     ; ESakuya $64
+	db GOLBAT     ; ERemilia $82
+	db VILEPLUME     ; EFlandre $BB
+	db VENOMOTH     ; ELetty $77
+	db MEOWTH     ; EChen $4D
+	db GOLDUCK     ; EAlice $80
+	db PRIMEAPE     ; ELilyWhite $75
+	db ARCANINE     ; ELilyBlack $14
+	db POLIWRATH     ; ELunasa $6F
+	db ALAKAZAM     ; EMerlin $95
+	db MACHAMP     ; ELyrica $7E
+	db TENTACOOL     ; EYoumu $18
+	db GRAVELER     ; EYuyuko $27
+	db RAPIDASH     ; ERan $A4
+	db MAGNEMITE     ; EYukari $AD
+	db DODUO     ; ESuika $46
+	db DEWGONG     ; EWriggle $78
+	db SHELLDER     ; EMystia $17
+	db HAUNTER     ; EKeine $93
+	db GENGAR     ; HKeine $0E
+	db HYPNO     ; ETewi $81
+	db VOLTORB     ; EReisen $06
+	db EXEGGUTOR     ; EEirin $0A
+	db HITMONLEE     ; EKaguya $2B
+	db KOFFING     ; EMokou $37
+	db TANGELA     ; EMedicine $1E
+	db SEADRA     ; EAya $5D
+	db STARYU     ; EYuuka $1B
+	db SCYTHER     ; EKomachi $1A
+	db MAGMAR     ; EEiki $33
+	db MAGIKARP     ; EShizuha $85
+	db DITTO     ; EMinoriko $4C
+	db JOLTEON     ; EHina $68
+	db OMANYTE     ; ENitori $62
+	db KABUTOPS     ; EMomiji $5B
+	db ARTICUNO     ; ESanae $4A
+	db DRATINI     ; EKanako $58
+	db MEWTWO     ; ESuwako $83
 	db $00
 
 	
 ;list pokemon separated out by gener ratio
 ;leave out pokemon with a set gender or are genderless
 ListByGenderRatio:
-;0 to 5 are male only --> atk dv >= 0 is male
-	db NIDORAN_M
-	db NIDORINO
-	db NIDOKING
-	db HITMONCHAN
-	db HITMONLEE
-	db TAUROS
-;6 to 24 are 1-7 ratio --> atk dv >= 2 is male
-	db AERODACTYL   ; $AB
-	db BLASTOISE    ; $1C
-	db BULBASAUR    ; $99
-	db CHARIZARD    ; $B4
-	db CHARMANDER   ; $B0
-	db CHARMELEON   ; $B2
-	db EEVEE        ; $66
-	db FLAREON      ; $67
-	db IVYSAUR      ; $09
-	db JOLTEON      ; $68
-	db KABUTO       ; $5A
-	db KABUTOPS     ; $5B
-	db OMANYTE      ; $62
-	db OMASTAR      ; $63
-	db SNORLAX      ; $84
-	db SQUIRTLE     ; $B1
-	db VAPOREON     ; $69
-	db VENUSAUR     ; $9A
-	db WARTORTLE    ; $B3
-;25 to 34 are 1-3 ratio  --> atk dv >= 4 is male
-	db ABRA         ; $94
-	db ALAKAZAM     ; $95
-	db ARCANINE     ; $14
-	db ELECTABUZZ   ; $35
-	db GROWLITHE    ; $21
-	db KADABRA      ; $26
-	db MACHAMP      ; $7E
-	db MACHOKE      ; $29
-	db MACHOP       ; $6A
-	db MAGMAR       ; $33
-;35 to 125 are 1-1 ratio --> atk dv >= 8 is male
-	db ARBOK        ; $2D
-	db BEEDRILL     ; $72
-	db BELLSPROUT   ; $BC
-	db BUTTERFREE   ; $7D
-	db CATERPIE     ; $7B
-	db CLOYSTER     ; $8B
-	db CUBONE       ; $11
-	db DEWGONG      ; $78
-	db DIGLETT      ; $3B
-	db DODRIO       ; $74
-	db DODUO        ; $46
-	db DRAGONAIR    ; $59
-	db DRAGONITE    ; $42
-	db DRATINI      ; $58
-	db DROWZEE      ; $30
-	db DUGTRIO      ; $76
-	db EKANS        ; $6C
-	db EXEGGCUTE    ; $0C
-	db EXEGGUTOR    ; $0A
-	db FARFETCHD    ; $40
-	db FEAROW       ; $23
-	db GASTLY       ; $19
-	db GENGAR       ; $0E
-	db GEODUDE      ; $A9
-	db GLOOM        ; $BA
-	db GOLBAT       ; $82
-	db GOLDEEN      ; $9D
-	db GOLDUCK      ; $80
-	db GOLEM        ; $31
-	db GRAVELER     ; $27
-	db GRIMER       ; $0D
-	db GYARADOS     ; $16
-	db HAUNTER      ; $93
-	db HORSEA       ; $5C
-	db HYPNO        ; $81
-	db KAKUNA       ; $71
-	db KINGLER      ; $8A
-	db KOFFING      ; $37
-	db KRABBY       ; $4E
-	db LAPRAS       ; $13
-	db LICKITUNG    ; $0B
-	db MAGIKARP     ; $85
-	db MANKEY       ; $39
-	db MAROWAK      ; $91
-	db MEOWTH       ; $4D
-	db METAPOD      ; $7C
-	db MR_MIME      ; $2A
-	db MUK          ; $88
-	db ODDISH       ; $B9
-	db ONIX         ; $22
-	db PARAS        ; $6D
-	db PARASECT     ; $2E
-	db PERSIAN      ; $90
-	db PIDGEOT      ; $97
-	db PIDGEOTTO    ; $96
-	db PIDGEY       ; $24
-	db PIKACHU      ; $54
-	db PINSIR       ; $1D
-	db POLIWAG      ; $47
-	db POLIWHIRL    ; $6E
-	db POLIWRATH    ; $6F
-	db PONYTA       ; $A3
-	db PRIMEAPE     ; $75
-	db PSYDUCK      ; $2F
-	db RAICHU       ; $55
-	db RAPIDASH     ; $A4
-	db RATICATE     ; $A6
-	db RATTATA      ; $A5
-	db RHYDON       ; $01
-	db RHYHORN      ; $12
-	db SANDSHREW    ; $60
-	db SANDSLASH    ; $61
-	db SCYTHER      ; $1A
-	db SEADRA       ; $5D
-	db SEAKING      ; $9E
-	db SEEL         ; $3A
-	db SHELLDER     ; $17
-	db SLOWBRO      ; $08
-	db SLOWPOKE     ; $25
-	db SPEAROW      ; $05
-	db TANGELA      ; $1E
-	db TENTACOOL    ; $18
-	db TENTACRUEL   ; $9B
-	db VENOMOTH     ; $77
-	db VENONAT      ; $41
-	db VICTREEBEL   ; $BE
-	db VILEPLUME    ; $BB
-	db WEEDLE       ; $70
-	db WEEPINBELL   ; $BD
-	db WEEZING      ; $8F
-	db ZUBAT        ; $6B
-;126 to 131 are 3-1 ratio --> atk dv >= 12 is male
-	db CLEFABLE     ; $8E
-	db CLEFAIRY     ; $04
-	db JIGGLYPUFF   ; $64
-	db NINETALES    ; $53
-	db VULPIX       ; $52
-	db WIGGLYTUFF   ; $65
-;132 to 137 are female only --> atk dv >= 16 (not possible) is male
-	db NIDORAN_F
-	db NIDORINA
-	db NIDOQUEEN
-	db JYNX
-	db CHANSEY
-	db KANGASKHAN
+;0 to 150 are 1-1 ratio --> atk dv >= 8 is male
+	db BULBASAUR     ; Hakurei $99
+	db IVYSAUR     ; Kirisame $09
+	db VENUSAUR     ; Genji $9A
+	db CHARMANDER     ; CReimu $B0
+	db CHARMELEON     ; Reimu $B2
+	db CHARIZARD     ; EReimu $B4
+	db SQUIRTLE     ; CMarisa $B1
+	db WARTORTLE     ; Marisa $B3
+	db BLASTOISE     ; EMarisa $1C
+	db CATERPIE     ; CRumia $7B
+	db METAPOD     ; Rumia $7C
+	db BUTTERFREE     ; ERumia $7D
+	db WEEDLE     ; Fairy $70
+	db KAKUNA     ; Daiyousei $71
+	db BEEDRILL     ; EDaiyousei $72
+	db PIDGEY     ; CCirno $24
+	db PIDGEOTTO     ; Cirno $96
+	db PIDGEOT     ; ECirno $97
+	db RATTATA     ; CStar $A5
+	db RATICATE     ; Star $A6
+	db SPEAROW     ; EStar $05
+	db FEAROW     ; CLuna $23
+	db EKANS     ; Luna $6C
+	db ARBOK     ; ELuna $2D
+	db PIKACHU     ; CSunny $54
+	db RAICHU     ; Sunny $55
+	db SANDSHREW     ; ESunny $60
+	db SANDSLASH     ; CMeiling $61
+	db NIDORAN_F     ; Meiling $0F
+	db NIDORINA     ; EMeiling $A8
+	db NIDOQUEEN     ; CKoakuma $10
+	db NIDORAN_M     ; Koakuma $03
+	db NIDORINO     ; EKoakuma $A7
+	db NIDOKING     ; CPatchouli $07
+	db CLEFAIRY     ; Patchouli $04
+	db CLEFABLE     ; EPatchouli $8E
+	db VULPIX     ; CSakuya $52
+	db NINETALES     ; Sakuya $53
+	db JIGGLYPUFF     ; ESakuya $64
+	db WIGGLYTUFF     ; CRemilia $65
+	db ZUBAT     ; Remilia $6B
+	db GOLBAT     ; ERemilia $82
+	db ODDISH     ; CFlandre $B9
+	db GLOOM     ; Flandre $BA
+	db VILEPLUME     ; EFlandre $BB
+	db PARAS     ; Satsuki $6D
+	db PARASECT     ; CLetty $2E
+	db VENONAT     ; Letty $41
+	db VENOMOTH     ; ELetty $77
+	db DIGLETT     ; CChen $3B
+	db DUGTRIO     ; Chen $76
+	db MEOWTH     ; EChen $4D
+	db PERSIAN     ; CAlice $90
+	db PSYDUCK     ; Alice $2F
+	db GOLDUCK     ; EAlice $80
+	db MANKEY     ; LilyWhite $39
+	db PRIMEAPE     ; ELilyWhite $75
+	db GROWLITHE     ; LilyBlack $21
+	db ARCANINE     ; ELilyBlack $14
+	db POLIWAG     ; CLunasa $47
+	db POLIWHIRL     ; Lunasa $6E
+	db POLIWRATH     ; ELunasa $6F
+	db ABRA     ; CMerlin $94
+	db KADABRA     ; Merlin $26
+	db ALAKAZAM     ; EMerlin $95
+	db MACHOP     ; CLyrica $6A
+	db MACHOKE     ; Lyrica $29
+	db MACHAMP     ; ELyrica $7E
+	db BELLSPROUT     ; Layla $BC
+	db WEEPINBELL     ; CYoumu $BD
+	db VICTREEBEL     ; Youmu $BE
+	db TENTACOOL     ; EYoumu $18
+	db TENTACRUEL     ; CYuyuko $9B
+	db GEODUDE     ; Yuyuko $A9
+	db GRAVELER     ; EYuyuko $27
+	db GOLEM     ; CRan $31
+	db PONYTA     ; Ran $A3
+	db RAPIDASH     ; ERan $A4
+	db SLOWPOKE     ; CYukari $25
+	db SLOWBRO     ; Yukari $08
+	db MAGNEMITE     ; EYukari $AD
+	db MAGNETON     ; CSuika $36
+	db FARFETCHD     ; Suika $40
+	db DODUO     ; ESuika $46
+	db DODRIO     ; CWriggle $74
+	db SEEL     ; Wriggle $3A
+	db DEWGONG     ; EWriggle $78
+	db GRIMER     ; CMystia $0D
+	db MUK     ; Mystia $88
+	db SHELLDER     ; EMystia $17
+	db CLOYSTER     ; CKeine $8B
+	db GASTLY     ; Keine $19
+	db HAUNTER     ; EKeine $93
+	db GENGAR     ; HKeine $0E
+	db ONIX     ; CTewi $22
+	db DROWZEE     ; Tewi $30
+	db HYPNO     ; ETewi $81
+	db KRABBY     ; CReisen $4E
+	db KINGLER     ; Reisen $8A
+	db VOLTORB     ; EReisen $06
+	db ELECTRODE     ; CEirin $8D
+	db EXEGGCUTE     ; Eirin $0C
+	db EXEGGUTOR     ; EEirin $0A
+	db CUBONE     ; CKaguya $11
+	db MAROWAK     ; Kaguya $91
+	db HITMONLEE     ; EKaguya $2B
+	db HITMONCHAN     ; CMokou $2C
+	db LICKITUNG     ; Mokou $0B
+	db KOFFING     ; EMokou $37
+	db WEEZING     ; Toyohime $8F
+	db RHYHORN     ; Yorihime $12
+	db RHYDON     ; CMedicine $01
+	db CHANSEY     ; Medicine $28
+	db TANGELA     ; EMedicine $1E
+	db KANGASKHAN     ; CAya $02
+	db HORSEA     ; Aya $5C
+	db SEADRA     ; EAya $5D
+	db GOLDEEN     ; CYuuka $9D
+	db SEAKING     ; Yuuka $9E
+	db STARYU     ; EYuuka $1B
+	db STARMIE     ; CKomachi $98
+	db MR_MIME     ; Komachi $2A
+	db SCYTHER     ; EKomachi $1A
+	db JYNX     ; CEiki $48
+	db ELECTABUZZ     ; Eiki $35
+	db MAGMAR     ; EEiki $33
+	db PINSIR     ; CShizuha $1D
+	db TAUROS     ; Shizuha $3C
+	db MAGIKARP     ; EShizuha $85
+	db GYARADOS     ; CMinoriko $16
+	db LAPRAS     ; Minoriko $13
+	db DITTO     ; EMinoriko $4C
+	db EEVEE     ; CHina $66
+	db VAPOREON     ; Hina $69
+	db JOLTEON     ; EHina $68
+	db FLAREON     ; CNitori $67
+	db PORYGON     ; Nitori $AA
+	db OMANYTE     ; ENitori $62
+	db OMASTAR     ; CMomiji $63
+	db KABUTO     ; Momiji $5A
+	db KABUTOPS     ; EMomiji $5B
+	db AERODACTYL     ; CSanae $AB
+	db SNORLAX     ; Sanae $84
+	db ARTICUNO     ; ESanae $4A
+	db ZAPDOS     ; CKanako $4B
+	db MOLTRES     ; Kanako $49
+	db DRATINI     ; EKanako $58
+	db DRAGONAIR     ; CSuwako $59
+	db DRAGONITE     ; Suwako $42
+	db MEWTWO     ; ESuwako $83
+	db MEW     ; VIVIT $15
 ;otherwise a pokemon not on this list is unsexed
 	db $00
 
 GetGenderRatioTarget:
-	cp 6
-	ld b, 0
-	ret c
-	cp 25
-	ld b, 2
-	ret c
-	cp 35
-	ld b, 4
-	ret c
-	cp 126
+;	cp 6
+;	ld b, 0
+;	ret c
+;	cp 25
+;	ld b, 2
+;	ret c
+;	cp 35
+;	ld b, 4
+;	ret c
+	cp 150
 	ld b, 8
 	ret c
-	cp 132
-	ld b, 12
-	ret c
+;	cp 132
+;	ld b, 12
+;	ret c
 	ld b, 16
 	ret
+
+;	cp 6
+;	ld b, 0
+;	ret c
+;	cp 25
+;	ld b, 2
+;	ret c
+;	cp 35
+;	ld b, 4
+;	ret c
+;	cp 126
+;	ld b, 8
+;	ret c
+;	cp 132
+;	ld b, 12
+;	ret c
+;	ld b, 16
+;	ret
 
 
 ListGameItems:
@@ -434,80 +460,103 @@ ListGameItems:
 
 
 ListNonLegendUnEvoPkmn:			;lvl 30+
-	db LAPRAS
-	db TAUROS
-	db AERODACTYL
-	db PINSIR
-	db SNORLAX
-	db SCYTHER
-	db CHANSEY
-	db KANGASKHAN
-	db ELECTABUZZ
-	db MAGMAR
-	db TANGELA
-	db HITMONCHAN
-	db HITMONLEE
-	db JYNX
-	db MR_MIME
-	db RHYHORN
-	db LICKITUNG
+	db BULBASAUR     ; Hakurei $99
+	db IVYSAUR     ; Kirisame $09
+	db VENUSAUR     ; Genji $9A
+	db CHARMANDER     ; CReimu $B0
+	db CHARMELEON     ; Reimu $B2
+	db SQUIRTLE     ; CMarisa $B1
+	db WARTORTLE     ; Marisa $B3
+	db METAPOD     ; Rumia $7C
+	db PIDGEOTTO     ; Cirno $96
+	db RATICATE     ; Star $A6
+	db EKANS     ; Luna $6C
+	db RAICHU     ; Sunny $55
+	db NIDORAN_F     ; Meiling $0F
+	db NIDORAN_M     ; Koakuma $03
+	db CLEFAIRY     ; Patchouli $04
+	db VULPIX     ; CSakuya $52
+	db NINETALES     ; Sakuya $53
+	db WIGGLYTUFF     ; CRemilia $65
+	db ZUBAT     ; Remilia $6B
+	db ODDISH     ; CFlandre $B9
+	db GLOOM     ; Flandre $BA
+	db VENONAT     ; Letty $41
+	db DUGTRIO     ; Chen $76
+	db PSYDUCK     ; Alice $2F
+	db POLIWHIRL     ; Lunasa $6E
+	db KADABRA     ; Merlin $26
+	db MACHOKE     ; Lyrica $29
+	db VICTREEBEL     ; Youmu $BE
+	db TENTACRUEL     ; CYuyuko $9B
+	db GEODUDE     ; Yuyuko $A9
+	db PONYTA     ; Ran $A3
+	db SLOWPOKE     ; CYukari $25
+	db SLOWBRO     ; Yukari $08
+	db FARFETCHD     ; Suika $40
+	db SEEL     ; Wriggle $3A
+	db MUK     ; Mystia $88
+	db GASTLY     ; Keine $19
+	db DROWZEE     ; Tewi $30
+	db KINGLER     ; Reisen $8A
+	db EXEGGCUTE     ; Eirin $0C
+	db MAROWAK     ; Kaguya $91
+	db HITMONCHAN     ; CMokou $2C
+	db LICKITUNG     ; Mokou $0B
+	db CHANSEY     ; Medicine $28
+	db HORSEA     ; Aya $5C
+	db SEAKING     ; Yuuka $9E
+	db MR_MIME     ; Komachi $2A
+	db JYNX     ; CEiki $48
+	db ELECTABUZZ     ; Eiki $35
+	db TAUROS     ; Shizuha $3C
+	db LAPRAS     ; Minoriko $13
+	db VAPOREON     ; Hina $69
+	db PORYGON     ; Nitori $AA
+	db KABUTO     ; Momiji $5A
+	db SNORLAX     ; Sanae $84
+	db ZAPDOS     ; CKanako $4B
+	db MOLTRES     ; Kanako $49
+	db DRAGONAIR     ; CSuwako $59
+	db DRAGONITE     ; Suwako $42
 ListNonLegendUnEvoPkmn_mid:		;lvl 15+
-	db ONIX
-	db GASTLY
-	db SLOWPOKE
-	db CUBONE
-	db MACHOP
+	db KAKUNA     ; Daiyousei $71
+	db NIDOKING     ; CPatchouli $07
+	db PERSIAN     ; CAlice $90
+	db MANKEY     ; LilyWhite $39
+	db GROWLITHE     ; LilyBlack $21
+	db POLIWAG     ; CLunasa $47
+	db WEEPINBELL     ; CYoumu $BD
+	db GOLEM     ; CRan $31
+	db MAGNETON     ; CSuika $36
+	db KRABBY     ; CReisen $4E
+	db ELECTRODE     ; CEirin $8D
+	db CUBONE     ; CKaguya $11
+	db GOLDEEN     ; CYuuka $9D
+	db AERODACTYL     ; CSanae $AB
 ListNonLegendUnEvoPkmn_early:	;any time
-	db PONYTA
-	db PORYGON
-	db KABUTO
-	db KRABBY
-	db OMANYTE
-	db KOFFING
-	db FARFETCHD
-	db DROWZEE
-	db GOLDEEN
-	db STARYU
-	db TENTACOOL
-	db EEVEE
-	db EXEGGCUTE
-	db GROWLITHE
-	db SANDSHREW
-	db SEEL
-	db SHELLDER
-	db DODUO
-	db GRIMER
-	db VOLTORB
-	db BELLSPROUT
-	db GEODUDE
-	db HORSEA
-	db MAGNEMITE
-	db MANKEY
-	db PIKACHU
-	db POLIWAG
-	db CLEFAIRY
-	db ABRA
-	db ODDISH
-	db PSYDUCK
-	db BULBASAUR
-	db DRATINI
-	db MEOWTH
-	db SQUIRTLE
-	db VENONAT
-	db CHARMANDER
-	db VULPIX
-	db DITTO
-	db PARAS
-	db NIDORAN_F
-	db EKANS
-	db NIDORAN_M
-	db SPEAROW
-	db DIGLETT
-	db JIGGLYPUFF
-	db RATTATA
-	db PIDGEY
-	db ZUBAT
-	db MAGIKARP
-	db CATERPIE
-	db WEEDLE
+	db CATERPIE     ; CRumia $7B
+	db WEEDLE     ; Fairy $70
+	db PIDGEY     ; CCirno $24
+	db RATTATA     ; CStar $A5
+	db FEAROW     ; CLuna $23
+	db PIKACHU     ; CSunny $54
+	db SANDSLASH     ; CMeiling $61
+	db NIDOQUEEN     ; CKoakuma $10
+	db PARASECT     ; CLetty $2E
+	db DIGLETT     ; CChen $3B
+	db ABRA     ; CMerlin $94
+	db MACHOP     ; CLyrica $6A
+	db DODRIO     ; CWriggle $74
+	db GRIMER     ; CMystia $0D
+	db CLOYSTER     ; CKeine $8B
+	db ONIX     ; CTewi $22
+	db RHYDON     ; CMedicine $01
+	db KANGASKHAN     ; CAya $02
+	db STARMIE     ; CKomachi $98
+	db PINSIR     ; CShizuha $1D
+	db GYARADOS     ; CMinoriko $16
+	db EEVEE     ; CHina $66
+	db FLAREON     ; CNitori $67
+	db OMASTAR     ; CMomiji $63
 	db $00
