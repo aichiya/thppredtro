@@ -40,10 +40,10 @@ _Mansion4AfterBattleText2::
 ;joenote - edited text to be closer to original japanese context
 _Mansion4Text7::
 	text "Diary; Sept. 1"
-	line "MEWTWO is far too"
-	cont "powerful."
+	line "It is questionable"
+	cont "though."
 
-	para "It's no use..."
-	line "I can no longer"
-	cont "control it!"
+	para "Whether Layla"
+	line "is still here"
+	cont "or not!"
 	done

@@ -15,36 +15,36 @@ _OaksLabText40::
 
 _OaksLabText41::
 	text "<RIVAL>: My"
-	line "#MON looks a"
+	line "<pkmn> looks a"
 	cont "lot stronger."
 	done
 
 _OaksLabText39::
-	text "Those are #"
-	line "BALLs. They"
-	cont "contain #MON!"
+	text "Those are"
+	line "Orbs. They"
+	cont "contain <pkmn>!"
 	done
 
-_OaksLabCharmanderText::
+_OaksLabCharmanderText:: ; Left orb
 	text "So! You want the"
-	line "fire #MON,"
-	cont "CHARMANDER?"
+	line "Magician <pkmn>,"
+	cont "Chibi Marisa?"
 	done
 
-_OaksLabSquirtleText::
+_OaksLabSquirtleText:: ; Middle orb
 	text "So! You want the"
-	line "water #MON,"
-	cont "SQUIRTLE?"
+	line "Miko <pkmn>,"
+	cont "Chibi Reimu?"
 	done
 
-_OaksLabBulbasaurText::
+_OaksLabBulbasaurText:: ; Right orb
 	text "So! You want the"
-	line "plant #MON,"
-	cont "BULBASAUR?"
+	line "maid <pkmn>,"
+	cont "Chibi Sakuya?"
 	done
 
 _OaksLabMonEnergeticText::
-	text "This #MON is"
+	text "This <pkmn> is"
 	line "really energetic!"
 	prompt
 
@@ -55,108 +55,108 @@ _OaksLabReceivedMonText::
 	text "!@@"
 
 _OaksLabLastMonText::
-	text "That's PROF.OAK's"
-	line "last #MON!"
+	text "That's Prof.Oak's"
+	line "last <pkmn>!"
 	done
 
 _OaksLabText_1d2f0::
-	text "OAK: Now, <PLAYER>,"
-	line "which #MON do"
+	text "Oak: Now, <PLAYER>,"
+	line "which <pkmn> do"
 	cont "you want?"
 	done
 
 _OaksLabText_1d2f5::
-	text "OAK: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
+	text "Oak: If a wild"
+	line "<pkmn> appears,"
+	cont "your <pkmn> can"
 	cont "fight against it!"
 	done
 
 _OaksLabText_1d2fa::
-	text "OAK: <PLAYER>,"
+	text "Oak: <PLAYER>,"
 	line "raise your young"
-	cont "#MON by making"
+	cont "<pkmn> by making"
 	cont "it fight!"
 	done
 
 _OaksLabDeliverParcelText1::
-	text "OAK: Oh, <PLAYER>!"
+	text "Oak: Oh, <PLAYER>!"
 
 	para "How is my old"
-	line "#MON?"
+	line "<pkmn>?"
 
 	para "Well, it seems to"
 	line "like you a lot."
 
 	para "You must be"
 	line "talented as a"
-	cont "#MON trainer!"
+	cont "<pkmn> trainer!"
 
 	para "What? You have"
 	line "something for me?"
 
 	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@@"
+	line "Oak's Parcel.@@"
 
 _OaksLabDeliverParcelText2::
 	text ""
 	para "Ah! This is the"
-	line "custom # BALL"
+	line "custom orb"
 	cont "I ordered!"
 	cont "Thank you!"
 	done
 
 _OaksLabAroundWorldText::
-	text "#MON around the"
+	text "<pkmn> around the"
 	line "world wait for"
 	cont "you, <PLAYER>!"
 	done
 
 _OaksLabGivePokeballsText1::
-	text "OAK: You can't get"
+	text "Oak: You can't get"
 	line "detailed data on"
-	cont "#MON by just"
+	cont "<pkmn> by just"
 	cont "seeing them."
 
 	para "You must catch"
 	line "them! Use these"
 	cont "to capture wild"
-	cont "#MON."
+	cont "<pkmn>."
 
 	para "<PLAYER> got 5"
-	line "# BALLs!@@"
+	line "Easy Orbs!@@"
 
 _OaksLabGivePokeballsText2::
 	text ""
 	para "When a wild"
-	line "#MON appears,"
+	line "<pkmn> appears,"
 	cont "it's fair game."
 
-	para "Just throw a #"
-	line "BALL at it and"
+	para "Just throw an"
+	line "orb at it and"
 	cont "try to catch it!"
 
 	para "This won't always"
 	line "work, though."
 
-	para "A healthy #MON"
+	para "A healthy <pkmn>"
 	line "could escape. You"
 	cont "have to be lucky!"
 	done
 
 _OaksLabPleaseVisitText::
-	text "OAK: Come see me"
+	text "Oak: Come see me"
 	line "sometime."
 
 	para "I want to know how"
-	line "your #DEX is"
+	line "your TH-Dex is"
 	cont "coming along."
 	done
 
 _OaksLabText_1d31d::
-	text "OAK: Good to see "
+	text "Oak: Good to see "
 	line "you! How is your "
-	cont "#DEX coming? "
+	cont "TH-Dex coming? "
 	cont "Here, let me take"
 	cont "a look!"
 	prompt
@@ -172,11 +172,11 @@ _OaksLabText8::
 	done
 
 _OaksLabText_1d340::
-	text "PROF.OAK is the"
+	text "Prof.Oak is the"
 	line "authority on"
-	cont "#MON!"
+	cont "<pkmn>!"
 
-	para "Many #MON"
+	para "Many <pkmn>"
 	line "trainers hold him"
 	cont "in high regard!"
 	;done
@@ -189,7 +189,7 @@ _OaksLabRivalWaitingText::
 	done
 
 _OaksLabChooseMonText::
-	text "OAK: <RIVAL>?"
+	text "Oak: <RIVAL>?"
 	line "Let me think..."
 
 	para "Oh, that's right,"
@@ -199,16 +199,16 @@ _OaksLabChooseMonText::
 	para "Here, <PLAYER>!"
 
 	para "There are 3"
-	line "#MON here!"
+	line "<pkmn> here!"
 
 	para "Haha!"
 
 	para "They are inside"
-	line "the # BALLs."
+	line "the orbs."
 
 	para "When I was young,"
 	line "I was a serious"
-	cont "#MON trainer!"
+	cont "<pkmn> trainer!"
 
 	para "In my old age, I"
 	line "have only 3 left,"
@@ -223,13 +223,13 @@ _OaksLabRivalInterjectionText::
 	done
 
 _OaksLabBePatientText::
-	text "OAK: Be patient!"
+	text "Oak: Be patient!"
 	line "<RIVAL>, you can"
 	cont "have one too!"
 	done
 
 _OaksLabLeavingText::
-	text "OAK: Hey! Don't go"
+	text "Oak: Hey! Don't go"
 	line "away yet!"
 	done
 
@@ -248,7 +248,7 @@ _OaksLabRivalChallengeText::
 	text "<RIVAL>: Wait"
 	line "<PLAYER>!"
 	cont "Let's check out"
-	cont "our #MON!"
+	cont "our <pkmn>!"
 
 	para "Come on, I'll take"
 	line "you on!"
@@ -258,7 +258,7 @@ _OaksLabText_1d3be::
 	text "WHAT?"
 	line "Unbelievable!"
 	cont "I picked the"
-	cont "wrong #MON!"
+	cont "wrong <pkmn>!"
 	prompt
 
 _OaksLabText_1d3c3::
@@ -270,7 +270,7 @@ _OaksLabText_1d3c3::
 _OaksLabRivalToughenUpText::
 	text "<RIVAL>: Okay!"
 	line "I'll make my"
-	cont "#MON fight to"
+	cont "<pkmn> fight to"
 	cont "toughen it up!"
 
 	para "<PLAYER>! Gramps!"
@@ -287,7 +287,7 @@ _OaksLabText22::
 	done
 
 _OaksLabText23::
-	text "OAK: Oh right! I"
+	text "Oak: Oh right! I"
 	line "have a request"
 	cont "of you two."
 	done
@@ -295,11 +295,11 @@ _OaksLabText23::
 _OaksLabText24::
 	text "On the desk there"
 	line "is my invention,"
-	cont "#DEX!"
+	cont "<pkmn>!"
 
 	para "It automatically"
 	line "records data on"
-	cont "#MON you've"
+	cont "<pkmn> you've"
 	cont "seen or caught!"
 
 	para "It's a hi-tech"
@@ -312,12 +312,12 @@ _OaksLabText25::
 	cont "these with you!"
 
 	para "<PLAYER> got"
-	line "#DEX from OAK!@@"
+	line "TH-Dex from Oak!@@"
 
 _OaksLabText26::
 	text "To make a complete"
 	line "guide on all the"
-	cont "#MON in the"
+	cont "<pkmn> in the"
 	cont "world..."
 
 	para "That was my dream!"
@@ -334,7 +334,7 @@ _OaksLabText26::
 
 	para "This is a great"
 	line "undertaking in"
-	cont "#MON history!"
+	cont "<pkmn> history!"
 	done
 
 _OaksLabText27::
@@ -347,7 +347,7 @@ _OaksLabText27::
 	cont "don't need you!"
 
 	para "I know! I'll"
-	line "borrow a TOWN MAP"
+	line "borrow a Town Map"
 	cont "from my sis!"
 
 	para "I'll tell her not"
@@ -356,47 +356,47 @@ _OaksLabText27::
 	done
 
 _OaksLabText_1d405::
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	text "I study <pkmn> as"
+	line "Prof.Oak's aide."
 ;joenote - extra text
 	para "Please come by"
 	line "and see me when"
 	cont "you have gained"
-	cont "a #DEX."
+	cont "a TH-Dex."
 	done
 
 _OaksLabText_441cc::
-	text "#DEX comp-"
+	text "TH-Dex comp-"
 	line "letion is:"
 
 	para "@"
 	TX_NUM hDexRatingNumMonsSeen, 1, 3
-	text " #MON seen"
+	text " <pkmn> seen"
 	line "@"
 	TX_NUM hDexRatingNumMonsOwned, 1, 3
-	text " #MON owned"
+	text " <pkmn> owned"
 
-	para "PROF.OAK's"
+	para "Prof.Oak's"
 	line "Rating:"
 	prompt
 
 _OaksLabText_44201::
 	text "You still have"
 	line "lots to do."
-	cont "Look for #MON"
+	cont "Look for <pkmn>"
 	cont "in grassy areas!"
 	done
 
 _OaksLabText_44206::
 	text "You're on the"
 	line "right track! "
-	cont "Get a FLASH HM"
-	cont "from my AIDE!"
+	cont "Get a Flash HM"
+	cont "from my aide!"
 	done
 
 _OaksLabText_4420b::
 	text "You still need"
-	line "more #MON!"
+	line "more <pkmn>!"
 	cont "Try to catch"
 	cont "other species!"
 	done
@@ -404,13 +404,13 @@ _OaksLabText_4420b::
 _OaksLabText_44210::
 	text "Good, you're"
 	line "trying hard!"
-	cont "Get an ITEMFINDER"
-	cont "from my AIDE!"
+	cont "Get an Itemfinder"
+	cont "from my aide!"
 	done
 
 _OaksLabText_44215::
 	text "Looking good!"
-	line "Go find my AIDE"
+	line "Go find my aide"
 	cont "when you get 50!"
 	done
 
@@ -418,8 +418,8 @@ _OaksLabText_4421a::
 	text "You finally got at"
 	line "least 50 species!"
 	cont "Be sure to get"
-	cont "EXP.ALL from my"
-	cont "AIDE!"
+	cont "Exp.All from my"
+	cont "aide!"
 	done
 
 _OaksLabText_4421f::
@@ -430,7 +430,7 @@ _OaksLabText_4421f::
 _OaksLabText_44224::
 	text "Very good!"
 	line "Go fish for some"
-	cont "marine #MON!"
+	cont "marine <pkmn>!"
 	done
 
 _OaksLabText_44229::
@@ -455,7 +455,7 @@ _OaksLabText_44233::
 _OaksLabText_44238::
 	text "You even have the"
 	line "evolved forms of"
-	cont "#MON! Super!"
+	cont "<pkmn>! Super!"
 	done
 
 _OaksLabText_4423d::
@@ -478,7 +478,7 @@ _OaksLabText_44247::
 	done
 
 _OaksLabText_4424c::
-	text "Your #DEX is"
+	text "Your TH-Dex is"
 	line "entirely complete!"
 	cont "Congratulations!"
 	done
@@ -486,14 +486,14 @@ _OaksLabText_4424c::
 ;;;;;;;;;;;;;;;;;;;;;;joenote - adding text for oak battle
 _OaksLabText_challenge::
 	text "Do you challenge"
-	line "PROF.OAK to a"
-	cont "#MON battle?"
+	line "Prof.Oak to a"
+	cont "<pkmn> battle?"
 	done
 
 _OaksLabText_prebattle::
 	text "It's been a long"
 	line "time since I've"
-	cont "trained #MON."
+	cont "trained <pkmn>."
 	
 	para "But I suppose I"
 	line "can battle again"
@@ -508,13 +508,13 @@ _OakVictorySpeech::
 	line "fun battling is."
 	cont "A splendid match!"
 
-	para "You know MR.FUJI?"
+	para "You know Mr.Fuji?"
 	line "He used to study"
-	cont "powerful #MON."
+	cont "powerful <pkmn>."
 
 	para "You should visit"
 	line "him. He retired"
-	cont "to LAVENDER TOWN."
+	cont "to Lavender Town."
 	prompt
 	
 ;;;;;;;;;;;;;;;;;;;;;;joenote - adding text for lvl scaling
@@ -535,7 +535,7 @@ _OaksLabText_scalingOFF::
 _OaksLabText_randwildON::
 	text "Under the correct"
 	line "conditions, many"
-	cont "#MON appear in"
+	cont "<pkmn> appear in"
 	cont "totally different"
 	cont "locations!"
 	
@@ -546,22 +546,22 @@ _OaksLabText_randwildON::
 	
 _OaksLabText_randwildOFF::
 	text "Prefer the normal"
-	line "#MON areas?"
+	line "<pkmn> areas?"
 	cont "Want me to change"
 	cont "it back?"
 	done
 
 _OaksLabText_symbolsON::
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	text "I study <pkmn> as"
+	line "Prof.Oak's aide."
 	
 	para "Did you know"
-	line "many #MON can"
-	cont "be either male"
-	cont "or female?"
+	line "many <pkmn> can"
+	cont "be either yin- or"
+	cont "yang-affected?"
 	
 	para "I can modify the"
-	line "#DEX to show a"
+	line "TH-Dex to show a"
 	cont "marker for hard-"
 	cont "to-tell species"
 	cont "in wild battles."
@@ -570,7 +570,7 @@ _OaksLabText_symbolsON::
 	line "a mark in wild"
 	cont "battles if you"
 	cont "registered it in"
-	cont "your #DEX."
+	cont "your TH-Dex."
 	done
 	
 _OaksLabText_symbolsOFF::

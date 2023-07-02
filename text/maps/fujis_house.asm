@@ -1,45 +1,45 @@
 _LavenderHouse1Text_1d8d1::
-	text "That's odd, MR.FUJI"
+	text "That's odd, Mr.Fuji"
 	line "isn't here."
 	cont "Where'd he go?"
 	done
 
 _LavenderHouse1Text_1d8d6::
-	text "MR.FUJI had been"
+	text "Mr.Fuji had been"
 	line "praying alone for"
-	cont "CUBONE's mother."
+	cont "Layla."
 	done
 
 _LavenderHouse1Text_1d8f4::
 	text "This is really"
-	line "MR.FUJI's house."
+	line "Mr.Fuji's house."
 
 	para "He's really kind!"
 
 	para "He looks after"
 	line "abandoned and"
-	cont "orphaned #MON!"
+	cont "orphaned <pkmn>!"
 	done
 
 _LavenderHouse1Text_1d8f9::
 	text "It's so warm!"
-	line "#MON are so"
+	line "<pkmn> are so"
 	cont "nice to hug!"
 	done
 
 _LavenderHouse1Text3::
-	text "PSYDUCK: Gwappa!@@"
+	text "Nitori: Gwappa!@@"
 
 _LavenderHouse1Text4::
-	text "NIDORINO: Gaoo!@@"
+	text "Wriggle: Gaoo!@@"
 
 _LavenderHouse1Text_1d94c::
-	text "MR.FUJI: <PLAYER>."
+	text "Mr.Fuji: <PLAYER>."
 
-	para "Your #DEX quest"
+	para "Your TH-Dex quest"
 	line "may fail without"
 	cont "love for your"
-	cont "#MON."
+	cont "<pkmn>."
 
 	para "I think this may"
 	line "help your quest."
@@ -53,13 +53,13 @@ _ReceivedFluteText::
 
 _FluteExplanationText::
 	db $0
-	para "Upon hearing #"
-	line "FLUTE, sleeping"
-	cont "#MON will"
+	para "Upon hearing <pkmn>"
+	line "Flute, sleeping"
+	cont "<pkmn> will"
 	cont "spring awake."
 
 	para "It works on all"
-	line "sleeping #MON."
+	line "sleeping <pkmn>."
 	done
 
 _FluteNoRoomText::
@@ -68,12 +68,12 @@ _FluteNoRoomText::
 	done
 
 _MrFujiAfterFluteText::
-	text "MR.FUJI: Has my"
-	line "FLUTE helped you?"
+	text "Mr.Fuji: Has my"
+	line "flute helped you?"
 	done
 
 _LavenderHouse1Text6::
-	text "#MON Monthly"
+	text "<pkmn> Monthly"
 	line "Grand Prize"
 	cont "Drawing!"
 
@@ -87,8 +87,8 @@ _LavenderHouse1Text6::
 ;;;;;;;;;;;;;;;;;;;;;;joenote - adding text for fuji battle
 _FujiText_challenge::
 	text "Do you challenge"
-	line "MR.FUJI to a"
-	cont "#MON battle?"
+	line "Mr.Fuji to a"
+	cont "<pkmn> battle?"
 	done
 
 _FujiText_prebattle::
@@ -105,7 +105,7 @@ _FujiText_prebattle::
 	
 	para "All was cast into"
 	line "the waters of an"
-	cont "UNKNOWN DUNGEON"
+	cont "Unknown Dungeon"
 	
 	para "I'd advise you to"
 	line "stay away from"
@@ -117,12 +117,12 @@ _FujiTextVictorySpeech::
 	text "Hmm..."
 	line "I'm a bit worried."
 	
-	para "The test DITTOS"
+	para "The test subjects"
 	line "might still be"
-	cont "replicating."
+	cont "there."
 	
 	para "Who knows what"
-	line "kind of #MON"
+	line "kind of <pkmn>"
 	cont "they might have"
 	cont "cloned themselves"
 	cont "into?"
@@ -132,23 +132,23 @@ _FujiTextVictorySpeech::
 	cont "who can help fix"
 	cont "past mistakes."
 
-	para "SILPH's CHIEF is"
+	para "Silph's Chief is"
 	line "an old friend, so"
 	cont "battle him too."
 	prompt
 	
 _FujiTextMewtwo::
-	text "That MEWTWO you"
+	text "That Satsuki you"
 	line "have with you..."
 	
-	para "...Such an angry"
-	line "disposition. Yet"
-	cont "you have soothed"
-	cont "its wrath."
+;	para "...Such an angry"
+;	line "disposition. Yet"
+;	cont "you have soothed"
+;	cont "its wrath."
 	
 	para "You must possess"
 	line "a great love for"
-	cont "your #MON."
+	cont "your <pkmn>."
 	
 	para "Take this. I have"
 	line "no reason to keep"

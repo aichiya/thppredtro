@@ -1,6 +1,6 @@
 _KogaExplainToxicText::
 	text "When afflicted by"
-	line "TOXIC, #MON"
+	line "Toxic, <pkmn>"
 	cont "suffer more and"
 	cont "more as battle"
 	cont "progresses!"
@@ -11,9 +11,9 @@ _KogaExplainToxicText::
 
 _FuchsiaGymText9::
 	text "Now that you have"
-	line "the SOULBADGE,"
-	cont "the SPEED of"	;joenote - changed DEFENSE to SPEED in order to fix a typo
-	cont "your #MON"
+	line "the Soul Badge,"
+	cont "the Speed of"	;joenote - changed DEFENSE to SPEED in order to fix a typo
+	cont "your <pkmn>"
 	cont "increases!"
 
 	para "It also lets you"
@@ -33,7 +33,7 @@ _ReceivedTM06Text::
 _TM06ExplanationText::
 	db $0
 	para "TM06 contains"
-	line "TOXIC!"
+	line "Toxic!"
 
 	para "It is a secret"
 	line "technique over"
@@ -48,7 +48,7 @@ _TM06NoRoomText::
 _FuchsiaGymBattleText1::
 	text "Strength isn't"
 	line "the key for"
-	cont "#MON!"
+	cont "<pkmn>!"
 
 	para "It's strategy!"
 
@@ -71,7 +71,7 @@ _FuchsiaGymAfterBattleText1::
 _FuchsiaGymBattleText2::
 	text "I wanted to become"
 	line "a ninja, so I"
-	cont "joined this GYM!"
+	cont "joined this Gym!"
 	done
 
 _FuchsiaGymEndBattleText2::
@@ -129,7 +129,7 @@ _FuchsiaGymAfterBattleText4::
 _FuchsiaGymBattleText5::
 	text "I also study the"
 	line "way of the ninja"
-	cont "with master KOGA!"
+	cont "with master Koga!"
 
 	para "Ninja have a long"
 	line "history of using"
@@ -147,12 +147,12 @@ _FuchsiaGymAfterBattleText5::
 
 ;joenote - added text for Janine in fuschia gym
 _FuchsiaGymBattleText6::
-	text "My name is JANINE,"
+	text "My name is Janine,"
 	line "and my dad is the";
-	cont "GYM LEADER here."
+	cont "Gym Leader here."
 
 	para "He's training me"
-	line "in poison #MON!"
+	line "in poison <pkmn>!"
 	done
 
 _FuchsiaGymEndBattleText6::
@@ -167,7 +167,7 @@ _FuchsiaGymAfterBattleText6::
 
 	para "Fufufufu..."
 	line "Soon I'll be"
-	cont "the GYM LEADER!"
+	cont "the Gym Leader!"
 	done
 	
 
@@ -200,11 +200,11 @@ _FuchsiaGymText_7564e::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "FUCHSIA GYM is"
+	para "Fuchsia Gym is"
 	line "riddled with"
 	cont "invisible walls!"
 
-	para "KOGA might appear"
+	para "Koga might appear"
 	line "close, but he's"
 	cont "blocked off!"
 

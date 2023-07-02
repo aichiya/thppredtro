@@ -4,12 +4,12 @@ _MoveDeleterGreetingText::
 	cont "is contagious."
 	
 	para "Want me to make a"
-	line "#mon forget a"
+	line "<pkmn> forget a"
 	cont "move?"
 	done
 
 _MoveDeleterSaidYesText::
-	text "Which #mon"
+	text "Which <pkmn>"
 	line "should forget a"
 	cont "move?"
 	prompt
@@ -39,7 +39,7 @@ _MoveDeleterByeText::
 	done
 
 _MoveDeleterOneMoveText::
-	text "That #mon"
+	text "That <pkmn>"
 	line "has one move."
 	cont "Pick another?"
 	done

@@ -25,10 +25,10 @@ _SSAnne6Text4::
 
 _SSAnne6Text5::
 	text "Did you hear about"
-	line "SNORLAX?"
+	line "Layla Prismriver?"
 
-	para "All it does is"
-	line "eat and sleep!"
+	para "She is the origin"
+	line "of her sisters!"
 	done
 
 _SSAnne6Text6::

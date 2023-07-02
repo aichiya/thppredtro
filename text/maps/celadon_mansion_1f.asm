@@ -1,20 +1,20 @@
 _CeladonMansion1Text1::
-	text "MEOWTH: Meow!@@"
+	text "Reimu: Nyaa--!@@"
 
 _CeladonMansion1Text2::
-	text "My dear #MON"
+	text "My dear <pkmn>"
 	line "keep me company."
 
-	para "MEOWTH even brings"
+	para "Reimu even brings"
 	line "money home!"
 	done
 
 _CeladonMansion1Text3::
-	text "CLEFAIRY: Pi"
+	text "Cirno: Pi"
 	line "pippippi!@@"
 
 _CeladonMansion1Text4::
-	text "NIDORAN: Kya"
+	text "Chen: Kya"
 	line "kyaoo!@@"
 
 _CeladonMansion1Text5::

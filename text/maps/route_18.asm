@@ -1,7 +1,7 @@
 _Route18BattleText1::
 	text "I always check"
 	line "every grassy area"
-	cont "for new #MON."
+	cont "for new <pkmn>."
 	done
 
 _Route18EndBattleText1::
@@ -10,13 +10,13 @@ _Route18EndBattleText1::
 
 _Route18AfterBattleText1::
 	text "I wish I had a"
-	line "BIKE!"
+	line "bike!"
 	done
 
 _Route18BattleText2::
 	text "Kurukkoo!"
 	line "How do you like"
-	cont "my bird call?"
+	cont "my <pkmn> call?"
 	done
 
 _Route18EndBattleText2::
@@ -26,7 +26,7 @@ _Route18EndBattleText2::
 
 _Route18AfterBattleText2::
 	text "I also collect sea"
-	line "#MON on"
+	line "<pkmn> on"
 	cont "weekends!"
 	done
 
@@ -41,14 +41,14 @@ _Route18EndBattleText3::
 
 _Route18AfterBattleText3::
 	text "This is my fave"
-	line "#MON hunting"
+	line "<pkmn> hunting"
 	cont "area!"
 	done
 
 _Route18Text4::
 	text "ROUTE 18"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	line "Celadon City -"
+	cont "Fuchsia City"
 	done
 
 _Route18Text5::

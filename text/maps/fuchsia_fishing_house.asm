@@ -1,6 +1,6 @@
 _FuchsiaHouse3Text_561bd::
-	text "I'm the FISHING"
-	line "GURU's older"
+	text "I'm the Fishing"
+	line "Guru's older"
 	cont "brother!"
 
 	para "I simply Looove"
@@ -35,11 +35,11 @@ _FuchsiaHouse3Text_56217::
 ;	para "How are the fish"
 ;	line "biting?"
 ;	done
-	para "Use the SUPER ROD"
+	para "Use the Super Rod"
 	line "in any water!"
 	cont "You can catch"
 	cont "different kinds"
-	cont "of #MON."
+	cont "of <pkmn>."
 
 	para "Try fishing"
 	line "wherever you can!"

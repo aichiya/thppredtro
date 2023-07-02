@@ -10,21 +10,21 @@ _ViridianHouseText1::
 
 _ViridianHouseText2::
 	text "My Daddy loves"
-	line "#MON too."
+	line "<pkmn> too."
 	done
 
 _ViridianHouseText_1d5b1::
-	text "SPEARY: Tetweet!"
+	text "Ayaya: Tetweet!"
 	done
 
 _ViridianHouseText4::
-	text "SPEAROW"
-	line "Name: SPEARY"
+	text "Aya"
+	line "Name: Ayaya"
 	done
 
 ;joenote - adding clause brothers
 _ClauseBrother_ItemIntro::
-	text "ITEM CLAUSE BRO"
+	text "Item Clause Bro"
 	line "at your service."
 	prompt
 _ClauseBrother_ItemDesc::
@@ -35,37 +35,37 @@ _ClauseBrother_ItemDesc::
 	done
 
 _ClauseBrother_SleepIntro::
-	text "SLEEP CLAUSE BRO"
+	text "Sleep Clause Bro"
 	line "at your service."
 	prompt
 _ClauseBrother_SleepDesc::
 	text "With my stamp,"
-	line "only one #MON"
+	line "only one <pkmn>"
 	cont "SLP per team is"
 	cont "allowed during"
 	cont "trainer matches."
 	done
 	
 _ClauseBrother_FreezeIntro::
-	text "FREEZE CLAUSE BRO"
+	text "Freeze Clause Bro"
 	line "at your service."
 	prompt
 _ClauseBrother_FreezeDesc::
 	text "With my stamp,"
-	line "only one #MON"
+	line "only one <pkmn>"
 	cont "FRZ per team is"
 	cont "allowed during"
 	cont "trainer matches."
 	done
 	
 _ClauseBrother_TrapIntro::
-	text "TRAP CLAUSE BRO"
+	text "Trap Clause Bro"
 	line "at your service."
 	prompt
 _ClauseBrother_TrapDesc::
 	text "With my stamp,"
 	line "trapping moves"
-	cont "like WRAP will"
+	cont "like Wrap will"
 	cont "start going 2nd"
 	cont "if trying to use"
 	cont "them more than 2x"

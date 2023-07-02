@@ -26,13 +26,13 @@ _CardKeySuccessText1::
 
 _CardKeySuccessText2::
 	text ""
-	line "The CARD KEY"
+	line "The Card Key"
 	cont "opened the door!"
 	done
 
 _CardKeyFailText::
 	text "Darn! It needs a"
-	line "CARD KEY!"
+	line "Card Key!"
 	done
 
 _TrainerNameText::
@@ -70,12 +70,12 @@ _BoulderText::
 _MartSignText::
 	text "All your item"
 	line "needs fulfilled!"
-	cont "#MON MART"
+	cont "<pkmn> Mart"
 	done
 
 _PokeCenterSignText::
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "Heal Your <pkmn>!"
+	line "<pkmn> Center"
 	done
 
 _FoundItemText::
@@ -91,13 +91,13 @@ _NoMoreRoomForItemText::
 
 _OaksAideHiText::
 	text "Hi! Remember me?"
-	line "I'm PROF.OAK's"
-	cont "AIDE!"
+	line "I'm Prof.Oak's"
+	cont "aide!"
 
 	para "If you caught @"
 	TX_NUM hOaksAideRequirement, 1, 3
 	text ""
-	line "kinds of #MON,"
+	line "kinds of <pkmn>,"
 	cont "I'm supposed to"
 	cont "give you an"
 	cont "@"
@@ -109,7 +109,7 @@ _OaksAideHiText::
 	cont "least @"
 	TX_NUM hOaksAideRequirement, 1, 3
 	text " kinds of"
-	cont "#MON?"
+	cont "<pkmn>?"
 	done
 
 _OaksAideUhOhText::
@@ -118,7 +118,7 @@ _OaksAideUhOhText::
 	cont "caught only @"
 	TX_NUM hOaksAideNumMonsOwned, 1, 3
 	text ""
-	cont "kinds of #MON!"
+	cont "kinds of <pkmn>!"
 
 	para "You need @"
 	TX_NUM hOaksAideRequirement, 1, 3
@@ -146,7 +146,7 @@ _OaksAideHereYouGoText::
 	line "caught @"
 	TX_NUM hOaksAideNumMonsOwned, 1, 3
 	text " kinds "
-	cont "of #MON!"
+	cont "of <pkmn>!"
 	cont "Congratulations!"
 
 	para "Here you go!"
@@ -355,7 +355,7 @@ _YeahText::
 	text "Yeah!@@"
 
 _DexSeenOwnedText::
-	text "#DEX   Seen:@"
+	text "TH-Dex    Seen:@"
 	TX_NUM wDexRatingNumMonsSeen, 1, 3
 	text ""
 	line "         Owned:@"
@@ -363,46 +363,46 @@ _DexSeenOwnedText::
 	db "@"
 
 _DexRatingText::
-	text "#DEX Rating", $6d
+	text "TH-Dex Rating", $6d
 	done
 
 _GymStatueText1::
 	TX_RAM wGymCityName
 	text ""
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "<pkmn> Gym"
+	cont "Leader: @"
 	TX_RAM wGymLeaderName
 	text ""
 
-	para "WINNING TRAINERS:"
+	para "Winning Trainers:"
 	line "<RIVAL>"
 	done
 
 _GymStatueText2::
 	TX_RAM wGymCityName
 	text ""
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "<pkmn> Gym"
+	cont "Leader: @"
 	TX_RAM wGymLeaderName
 	text ""
 
-	para "WINNING TRAINERS:"
+	para "Winning Trainers:"
 	line "<RIVAL>"
 	cont "<PLAYER>"
 	done
 
 _ViridianCityPokecenterGuyText::
-	text "#MON CENTERs"
+	text "<pkmn> Centers"
 	line "heal your tired,"
 	cont "hurt or fainted"
-	cont "#MON!"
+	cont "<pkmn>!"
 	done
 
 _PewterCityPokecenterGuyText::
 	text "Yawn!"
 
-	para "When JIGGLYPUFF"
-	line "sings, #MON"
+	para "When Mystia"
+	line "sings, <pkmn>"
 	cont "get drowsy..."
 
 	para "...Me too..."
@@ -410,16 +410,16 @@ _PewterCityPokecenterGuyText::
 	done
 
 _CeruleanPokecenterGuyText::
-	text "BILL has lots of"
-	line "#MON!"
+	text "Bill has lots of"
+	line "<pkmn>!"
 
 	para "He collects rare"
 	line "ones too!"
 	done
 
 _LavenderPokecenterGuyText::
-	text "CUBONEs wear"
-	line "skulls, right?"
+	text "Komachi uses"
+	line "schythe, right?"
 
 	para "People will pay a"
 	line "lot for one!"
@@ -427,20 +427,20 @@ _LavenderPokecenterGuyText::
 
 _MtMoonPokecenterBenchGuyText::
 	text "If you have too"
-	line "many #MON, you"
+	line "many <pkmn>, you"
 	cont "should store them"
 	cont "via PC!"
 	done
 
 _RockTunnelPokecenterGuyText::
 	text "I heard that"
-	line "GHOSTs haunt"
-	cont "LAVENDER TOWN!"
+	line "ghosts haunt"
+	cont "Lavender Town!"
 	done
 
 _UnusedBenchGuyText1::
 	text "I wish I could"
-	line "catch #MON."
+	line "catch <pkmn>."
 	done
 
 _UnusedBenchGuyText2::
@@ -449,44 +449,44 @@ _UnusedBenchGuyText2::
 	done
 
 _UnusedBenchGuyText3::
-	text "SILPH's manager"
+	text "Silph's manager"
 	line "is hiding in the"
-	cont "SAFARI ZONE."
+	cont "Safari Zone."
 	done
 
 _VermilionPokecenterGuyText::
 	text "It is true that a"
 	line "higher level"
-	cont "#MON will be"
+	cont "<pkmn> will be"
 	cont "more powerful..."
 
-	para "But, all #MON"
+	para "But, all <pkmn>"
 	line "will have weak"
 	cont "points against"
 	cont "specific types."
 
 	para "So, there is no"
 	line "universally"
-	cont "strong #MON."
+	cont "strong <pkmn>."
 	done
 
 _CeladonCityPokecenterGuyText::
-	text "If I had a BIKE,"
+	text "If I had a bike,"
 	line "I would go to"
-	cont "CYCLING ROAD!"
+	cont "Cycling Road!"
 	done
 
 _FuchsiaCityPokecenterGuyText::
 	text "If you're studying "
-	line "#MON, visit"
-	cont "the SAFARI ZONE."
+	line "<pkmn>, visit"
+	cont "the Safari Zone."
 
 	para "It has all sorts"
-	line "of rare #MON."
+	line "of rare <pkmn>."
 	done
 
 _CinnabarPokecenterGuyText::
-	text "#MON can still"
+	text "<pkmn> can still"
 	line "learn techniques"
 	cont "after canceling"
 	cont "evolution."
@@ -498,13 +498,13 @@ _CinnabarPokecenterGuyText::
 
 _SaffronCityPokecenterGuyText1::
 	text "It would be great"
-	line "if the ELITE FOUR"
+	line "if the Elite Four"
 	cont "came and stomped"
-	cont "TEAM ROCKET!"
+	cont "Team Rocket!"
 	done
 
 _SaffronCityPokecenterGuyText2::
-	text "TEAM ROCKET took"
+	text "Team Rocket took"
 	line "off! We can go"
 	cont "out safely again!"
 	cont "That's great!"
@@ -517,27 +517,27 @@ _CeladonCityHotelText::
 
 _BookcaseText::
 	text "Crammed full of"
-	line "#MON books!"
+	line "<pkmn> books!"
 	done
 
 _NewBicycleText::
 	text "A shiny new"
-	line "BICYCLE!"
+	line "Bicycle!"
 	done
 
 _PushStartText::
-	text "Push START to"
-	line "open the MENU!"
+	text "Push Start to"
+	line "open the Menu!"
 	done
 
 _SaveOptionText::
-	text "The SAVE option is"
-	line "on the MENU"
+	text "The Save option is"
+	line "on the Menu"
 	cont "screen."
 	done
 
 _StrengthsAndWeaknessesText::
-	text "All #MON types"
+	text "All <pkmn> types"
 	line "have strong and"
 	cont "weak points"
 	cont "against others."
@@ -550,12 +550,12 @@ _TimesUpText::
 	prompt
 
 _GameOverText::
-	text "PA: Your SAFARI"
-	line "GAME is over!"
+	text "PA: Your Safari"
+	line "Game is over!"
 	done
 
 _CinnabarGymQuizIntroText::
-	text "#MON Quiz!"
+	text "Touhou Quiz!"
 
 	para "Get it right and"
 	line "the door opens to"
@@ -566,8 +566,8 @@ _CinnabarGymQuizIntroText::
 
 	para "If you want to"
 	line "conserve your"
-	cont "#MON for the"
-	cont "GYM LEADER..."
+	cont "<pkmn> for the"
+	cont "Gym Leader..."
 
 	para "Then get it right!"
 	line "Here we go!"
@@ -575,18 +575,18 @@ _CinnabarGymQuizIntroText::
 
 _CinnabarQuizQuestionsText1::
 ;	text "CATERPIE evolves"	;joenote - this is supposed to be METAPOD
-	text "METAPOD evolves"	
-	line "into BUTTERFREE?"
+	text "Fairy evolves"
+	line "into Lily White?"
 	done
 
 _CinnabarQuizQuestionsText2::
 	text "There are 9"
-	line "certified #MON"
-	cont "LEAGUE BADGEs?"
+	line "certified Touhou"
+	cont "League Badges?"
 	done
 
 _CinnabarQuizQuestionsText3::
-	text "POLIWAG evolves 3"
+	text "Fairy evolves 3"
 	line "times?"
 	done
 
@@ -598,11 +598,11 @@ _CinnabarQuizQuestionsText4::	;joenote - re-worded to be less contrived
 	text "Are electric-type"
 	line "moves effective"
 	cont "against ground-"
-	cont "type #MON?"
+	cont "type <pkmn>?"
 	done
 
 _CinnabarQuizQuestionsText5::
-	text "#MON of the"
+	text "<pkmn> of the"
 	line "same kind and"
 ;	cont "level are not"	;joenote - re-worded 
 	cont "level are rarely"
@@ -611,7 +611,7 @@ _CinnabarQuizQuestionsText5::
 
 _CinnabarQuizQuestionsText6::
 	text "TM28 contains"
-	line "TOMBSTONER?"
+	line "Rock Tomb?"
 	done
 
 _CinnabarGymQuizCorrectText::
@@ -625,31 +625,31 @@ _CinnabarGymQuizIncorrectText::
 	prompt
 
 _MagazinesText::
-	text "#MON magazines!"
+	text "<pkmn> magazines!"
 
-	para "#MON notebooks!"
+	para "<pkmn> notebooks!"
 
-	para "#MON graphs!"
+	para "<pkmn> graphs!"
 	done
 
 _BillsHouseMonitorText::
-	text "TELEPORTER is"
+	text "Teleporter is"
 	line "displayed on the"
 	cont "PC monitor."
 	done
 
 _BillsHouseInitiatedText::
 	text "<PLAYER> initiated"
-	line "TELEPORTER's Cell"
+	line "Teleporter's Cell"
 	cont "Separator!@@"
 
 _BillsHousePokemonListText1::
-	text "BILL's favorite"
+	text "Bill's favorite"
 	line "#MON list!"
 	prompt
 
 _BillsHousePokemonListText2::
-	text "Which #MON do"
+	text "Which <pkmn> do"
 	line "you want to see?"
 	done
 
@@ -660,28 +660,28 @@ _OakLabEmailText::
 	para "..."
 
 	para "Calling all"
-	line "#MON trainers!"
+	line "<pkmn> trainers!"
 
 	para "The elite trainers"
-	line "of #MON LEAGUE"
+	line "of Touhou League"
 	cont "are ready to take"
 	cont "on all comers!"
 
 	para "Bring your best"
-	line "#MON and see"
+	line "<pkmn> and see"
 	cont "how you rate as a"
 	cont "trainer!"
 
-	para "#MON LEAGUE HQ"
+	para "TOUHOU LEAGUE HQ"
 	line "INDIGO PLATEAU"
 
-	para "PS: PROF.OAK,"
+	para "PS: Prof.Oak,"
 	line "please visit us!"
 	cont "..."
 	done
 
 _GameCornerCoinCaseText::
-	text "A COIN CASE is"
+	text "A Coin Case is"
 	line "required!"
 	done
 
@@ -722,14 +722,14 @@ TMNotebookText::
 	line "HMs that can be"
 	cont "used repeatedly."
 
-	para "SILPH CO.@@"
+	para "Silph Co.@@"
 
 _TurnPageText::
 	text "Turn the page?"
 	done
 
 _ViridianSchoolNotebookText5::
-	text "GIRL: Hey! Don't"
+	text "Girl: Hey! Don't"
 	line "look at my notes!@@"
 
 _ViridianSchoolNotebookText1::
@@ -738,23 +738,23 @@ _ViridianSchoolNotebookText1::
 
 	para "First page..."
 
-	para "# BALLs are"
+	para "Orbs are"
 	line "used to catch"
-	cont "#MON."
+	cont "<pkmn>."
 
-	para "Up to 6 #MON"
+	para "Up to 6 <pkmn>"
 	line "can be carried."
 
 	para "People who raise"
-	line "and make #MON"
+	line "and make <pkmn>"
 	cont "fight are called"
-	cont "#MON trainers."
+	cont "<pkmn> trainers."
 	prompt
 
 _ViridianSchoolNotebookText2::
 	text "Second page..."
 
-	para "A healthy #MON"
+	para "A healthy <pkmn>"
 	line "may be hard to"
 	cont "catch, so weaken"
 	cont "it first!"
@@ -769,28 +769,28 @@ _ViridianSchoolNotebookText3::
 
 	para "#MON trainers"
 	line "seek others to"
-	cont "engage in #MON"
+	cont "engage in <pkmn>"
 	cont "fights."
 
 	para "Battles are"
 	line "constantly fought"
-	cont "at #MON GYMs."
+	cont "at <pkmn> Gyms."
 	prompt
 
 _ViridianSchoolNotebookText4::
 	text "Fourth page..."
 
 	para "The goal for"
-	line "#MON trainers"
+	line "<pkmn> trainers"
 	cont "is to beat the "
-	cont "top 8 #MON"
-	cont "GYM LEADERs."
+	cont "top 8 <pkmn>"
+	cont "Gym Leaders."
 
 	para "Do so to earn the"
 	line "right to face..."
 
-	para "The ELITE FOUR of"
-	line "#MON LEAGUE!"
+	para "The Elite Four of"
+	line "Touhou League!"
 	prompt
 
 _EnemiesOnEverySideText::
@@ -804,12 +804,12 @@ _WhatGoesAroundComesAroundText::
 	done
 
 _FightingDojoText::
-	text "FIGHTING DOJO"
+	text "Fighting Dojo"
 	done
 
 _IndigoPlateauHQText::
 	text "INDIGO PLATEAU"
-	line "#MON LEAGUE HQ"
+	line "TOUHOU LEAGUE HQ"
 	done
 
 _RedBedroomSNESText::
@@ -833,19 +833,19 @@ _Route15UpstairsBinocularsText::
 	done
 
 _AerodactylFossilText::
-	text "AERODACTYL Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "Miko Statue"
+	line "A <pkmn> from"
+	cont "the past."
 	done
 
 _KabutopsFossilText::
-	text "KABUTOPS Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "Witch Statue"
+	line "A <pkmn> from"
+	cont "the past."
 	done
 
 _LinkCableHelpText1::
-	text "TRAINER TIPS"
+	text "Trainer Tips"
 
 	para "Using a Game Link"
 	line "Cable"
@@ -858,30 +858,30 @@ _LinkCableHelpText2::
 
 _LinkCableInfoText1::
 	text "When you have"
-	line "linked your GAME"
-	cont "BOY with another"
-	cont "GAME BOY, talk to"
+	line "linked your Game"
+	cont "Boy with another"
+	cont "Game Boy, talk to"
 	cont "the attendant on"
 	cont "the right in any"
-	cont "#MON CENTER."
+	cont "<pkmn> Center."
 	prompt
 
 _LinkCableInfoText2::
-	text "COLOSSEUM lets"
+	text "Colosseum lets"
 	line "you play against"
 	cont "a friend."
 	prompt
 
 _LinkCableInfoText3::
-	text "TRADE CENTER is"
+	text "Trade Center is"
 	line "used for trading"
-	cont "#MON."
+	cont "<pkmn>."
 	prompt
 
 _ViridianSchoolBlackboardText1::
 	text "The blackboard"
-	line "describes #MON"
-	cont "STATUS changes"
+	line "describes <pkmn>"
+	cont "status changes"
 	cont "during battles."
 	prompt
 
@@ -891,69 +891,69 @@ _ViridianSchoolBlackboardText2::
 	done
 
 _ViridianBlackboardSleepText::
-	text "A #MON can't"
+	text "A <pkmn> can't"
 	line "attack if it's"
 	cont "asleep!"
 
-	para "#MON will stay"
+	para "<pkmn> will stay"
 	line "asleep even after"
 	cont "battles."
 
-	para "Use AWAKENING to"
+	para "Use Awakening to"
 	line "wake them up!"
 	prompt
 
 _ViridianBlackboardPoisonText::
 	text "When poisoned, a"
-	line "#MON's health"
+	line "<pkmn>'s health"
 	cont "steadily drops."
 
 	para "Poison lingers"
 	line "after battles."
 
-	para "Use an ANTIDOTE"
+	para "Use an Antidote"
 	line "to cure poison!"
 	prompt
 
 _ViridianBlackboardPrlzText::
 	text "Paralysis can"
-	line "make #MON"
+	line "make <pkmn>"
 	cont "moves misfire!"
 	
-	para "It cuts SPEED"
+	para "It cuts Speed"
 	line "by 75 percent."
 
 	para "Paralysis remains"
 	line "after battles."
 
-	para "Use PARLYZ HEAL"
+	para "Use Parlyz Heal"
 	line "for treatment!"
 	prompt
 
 _ViridianBlackboardBurnText::
 	text "A burn reduces"
-	line "ATTACK by half."
+	line "Attack by half."
 	cont "It also causes"
 	cont "ongoing damage."
 
 	para "Burns remain"
 	line "after battles."
 
-	para "Use BURN HEAL to"
+	para "Use Burn Heal to"
 	line "cure a burn!"
 	prompt
 
 _ViridianBlackboardFrozenText::
 	text "If frozen, a"
-	line "#MON becomes"
+	line "<pkmn> becomes"
 	cont "totally immobile!"
 
 	para "It stays frozen"
 	line "even after the"
 	cont "battle ends."
 
-	para "Use ICE HEAL to"
-	line "thaw out #MON!"
+	para "Use Ice Heal to"
+	line "thaw out <pkmn>!"
 	prompt
 
 _VermilionGymTrashText::
@@ -1027,18 +1027,18 @@ _IndigoPlateauStatuesText1::
 _IndigoPlateauStatuesText2::
 	text "The ultimate goal"
 	line "of trainers!"
-	cont "#MON LEAGUE HQ"
+	cont "TOUHOU LEAGUE HQ"
 	done
 
 _IndigoPlateauStatuesText3::
 	text "The highest"
-	line "#MON authority"
-	cont "#MON LEAGUE HQ"
+	line "<pkmn> authority"
+	cont "TOUHOU LEAGUE HQ"
 	done
 
 _PokemonBooksText::
 	text "Crammed full of"
-	line "#MON books!"
+	line "<pkmn> books!"
 	done
 
 IF DEF(_JPTXT)
@@ -1048,8 +1048,8 @@ _DiglettSculptureText::
 	done
 ELSE
 _DiglettSculptureText::
-	text "It's a sculpture"
-	line "of DIGLETT."
+	text "It's a Yin-Yang"
+	line "Orb replica."
 	done
 ENDC
 
@@ -1059,18 +1059,18 @@ _ElevatorText::
 	done
 
 _TownMapText::
-	text "A TOWN MAP.@@"
+	text "A Town Map.@@"
 
 _PokemonStuffText::
 	text "Wow! Tons of"
-	line "#MON stuff!"
+	line "<pkmn> stuff!"
 	done
 
 _OutOfSafariBallsText::
 	text "PA: Ding-dong!"
 
 	para "You are out of"
-	line "SAFARI BALLs!"
+	line "Extra Orbs!"
 	prompt
 
 _WildRanText::
@@ -1098,7 +1098,7 @@ _HurtByBurnText::
 	prompt
 
 _HurtByLeechSeedText::
-	text "LEECH SEED saps"
+	text "Leech Seed saps"
 	line "<USER>!"
 	prompt
 
@@ -1130,7 +1130,7 @@ _PlayerMonFaintedText::
 	prompt
 
 _UseNextMonText::
-	text "Use next #MON?"
+	text "Use next <pkmn>?"
 	done
 
 ;_Sony1WinText::	;joenote - made redundant
@@ -1140,7 +1140,7 @@ _UseNextMonText::
 
 _PlayerBlackedOutText2::
 	text "<PLAYER> is out of"
-	line "useable #MON!"
+	line "useable <pkmn>!"
 
 	para "<PLAYER> blacked"
 	line "out!"
@@ -1162,7 +1162,7 @@ _TrainerAboutToUseText::
 	text "!"
 
 	para "Will <PLAYER>"
-	line "change #MON?"
+	line "change <pkmn>?"
 	done
 
 _TrainerSentOutText::
@@ -1233,7 +1233,7 @@ _ScaredText::
 	prompt
 
 _GetOutText::
-	text "GHOST: Get out..."
+	text "Ghost: Get out..."
 	line "Get out..."
 	prompt
 
@@ -1420,23 +1420,23 @@ _IgnoredOrdersText::
 	prompt
 
 _SubstituteTookDamageText::
-	text "The SUBSTITUTE"
+	text "The substitute"
 	line "took damage for"
 	cont "<TARGET>!"
 	prompt
 
 _SubstituteBrokeText::
 	text "<TARGET>'s"
-	line "SUBSTITUTE broke!"
+	line "substitute broke!"
 	prompt
 
 _BuildingRageText::
 	text "<USER>'s"
-	line "RAGE is building!"
+	line "Rage is building!"
 	prompt
 
 _MirrorMoveFailedText::
-	text "The MIRROR MOVE"
+	text "The Mirror Move"
 	next "failed!"
 	prompt
 
@@ -1456,7 +1456,7 @@ _GainedText::
 ;	cont "@@"
 ;joenote - making this less annoying
 _WithExpAllText::
-	text "EXP.ALL gives the"
+	text "Exp.All gives the"
 	line "team relatively"
 	cont "@@"
 
@@ -1466,7 +1466,7 @@ _BoostedText::
 
 _ExpPointsText::
 	TX_NUM wExpAmountGained, 2, 5	;joenote - increased to 5 digits
-	text " EXP. Points!"
+	text " Exp. Points!"
 	prompt
 
 _GrewLevelText::
@@ -1504,13 +1504,13 @@ _TrainerWantsToFightText::
 	prompt
 
 _UnveiledGhostText::
-	text "SILPH SCOPE"
+	text "Silph Scope"
 	line "unveiled the"
-	cont "GHOST's identity!"
+	cont "Ghost's identity!"
 	prompt
 
 _GhostCantBeIDdText::
-	text "Darn! The GHOST"
+	text "Darn! The Ghost"
 	line "can't be ID'd!"
 	prompt
 
@@ -1593,26 +1593,26 @@ _WhichFloorText::
 	done
 
 _PartyMenuNormalText::
-	text "Choose a #MON."
+	text "Choose a <pkmn>."
 	done
 
 _PartyMenuItemUseText::
 	text "Use item on which"
-	line "#MON?"
+	line "<pkmn>?"
 	done
 
 _PartyMenuBattleText::
 	text "Bring out which"
-	line "#MON?"
+	line "<pkmn>?"
 	done
 
 _PartyMenuUseTMText::
 	text "Use machine on"	;joenote - HMs use this, so made it generic
-	line "which #MON?"
+	line "which <pkmn>?"
 	done
 
 _PartyMenuSwapMonText::
-	text "Move #MON"
+	text "Move <pkmn>"
 	line "where?"
 	done
 
@@ -1679,10 +1679,10 @@ _TurnedOnPC1Text::
 	prompt
 
 _AccessedBillsPCText::
-	text "Accessed BILL's"
+	text "Accessed Bill's"
 	line "PC."
 
-	para "Accessed #MON"
+	para "Accessed <pkmn>"
 	line "Storage System."
 	prompt
 
@@ -1690,7 +1690,7 @@ _AccessedSomeonesPCText::
 	text "Accessed someone's"
 	line "PC."
 
-	para "Accessed #MON"
+	para "Accessed <pkmn>"
 	line "Storage System."
 	prompt
 
@@ -1802,12 +1802,12 @@ _MonWasStoredText::
 
 _CantDepositLastMonText::
 	text "You can't deposit"
-	line "the last #MON!"
+	line "the last <pkmn>!"
 	prompt
 
 _BoxFullText::
 	text "Oops! This Box is"
-	line "full of #MON."
+	line "full of <pkmn>."
 	prompt
 
 _MonIsTakenOutText::
@@ -1821,14 +1821,14 @@ _MonIsTakenOutText::
 
 _NoMonText::
 	text "What? There are"
-	line "no #MON here!"
+	line "no <pkmn> here!"
 	prompt
 
 _CantTakeMonText::
 	text "You can't take"
-	line "any more #MON."
+	line "any more <pkmn>."
 
-	para "Deposit #MON"
+	para "Deposit <pkmn>"
 	line "first."
 	prompt
 
@@ -1857,7 +1857,7 @@ _CF4BExclamationText::
 	prompt
 
 _RequireCoinCaseText::
-	text "A COIN CASE is"
+	text "A Coin Case is"
 	line "required!@@"
 
 _ExchangeCoinsForPrizesText::
@@ -1893,18 +1893,18 @@ _OhFineThenText::
 
 _GetDexRatedText::
 	text "Want to get your"
-	line "#DEX rated?"
+	line "TH-Dex rated?"
 	done
 
 _ClosedOaksPCText::
 	text "Closed link to"
-	line "PROF.OAK's PC.@@"
+	line "Prof.Oak's PC.@@"
 
 _AccessedOaksPCText::
-	text "Accessed PROF."
-	line "OAK's PC."
+	text "Accessed Prof."
+	line "Oak's PC."
 
-	para "Accessed #DEX"
+	para "Accessed TH-Dex"
 	line "Rating System."
 	prompt
 
@@ -2041,7 +2041,7 @@ _FileDataDestroyedText::
 
 _WouldYouLikeToSaveText::
 	text "Would you like to"
-	line "SAVE the game?"
+	line "save the game?"
 	done
 
 _GameSavedText::
@@ -2057,7 +2057,7 @@ _OlderFileWillBeErasedText::
 
 _WhenYouChangeBoxText::
 	text "When you change a"
-	line "#MON BOX, data"
+	line "<pkmn> Box, data"
 	cont "will be saved."
 
 	para "Is that okay?"
@@ -2065,7 +2065,7 @@ _WhenYouChangeBoxText::
 
 _ChooseABoxText::
 	text "Choose a"
-	line "<pkmn> BOX.@@"
+	line "<pkmn> Box.@@"
 
 _EvolvedText::
 	TX_RAM wcf4b
@@ -2253,17 +2253,17 @@ _ParalyzedMayNotAttackText::
 
 _SubstituteText::
 	text "It created a"
-	line "SUBSTITUTE!"
+	line "substitute!"
 	prompt
 
 _HasSubstituteText::
 	text "<USER>"
-	line "has a SUBSTITUTE!"
+	line "has a substitute!"
 	prompt
 
 _TooWeakSubstituteText::
 	text "Too weak to make"
-	line "a SUBSTITUTE!"
+	line "a substitute!"
 	prompt
 
 _CoinsScatteredText::
@@ -2473,7 +2473,7 @@ _PokemonFaintedText::
 
 _PlayerBlackedOutText::
 	text "<PLAYER> is out of"
-	line "useable #MON!"
+	line "useable <pkmn>!"
 
 	para "<PLAYER> blacked"
 	line "out!"
@@ -2617,26 +2617,26 @@ _HMCantDeleteText::
 
 _PokemonCenterWelcomeText::
 	text "Welcome to our"
-	line "#MON CENTER!"
+	line "<pkmn> Center!"
 
 	para "We heal your"
-	line "#MON back to"
+	line "<pkmn> back to"
 	cont "perfect health!"
 	prompt
 
 _ShallWeHealYourPokemonText::
 	text "Shall we heal your"
-	line "#MON?"
+	line "<pkmn>?"
 	done
 
 _NeedYourPokemonText::
 	text "OK. We'll need"
-	line "your #MON."
+	line "your <pkmn>."
 	done
 
 _PokemonFightingFitText::
 	text "Thank you!"
-	line "Your #MON are"
+	line "Your <pkmn> are"
 	cont "fighting fit!"
 	prompt
 
@@ -2694,7 +2694,7 @@ _CableClubNPCMakingPreparationsText::
 _UsedStrengthText::
 	TX_RAM wcd6d
 	text " used"
-	line "STRENGTH.@@"
+	line "Strength.@@"
 
 _CanMoveBouldersText::
 	TX_RAM wcd6d
@@ -2709,29 +2709,29 @@ _CurrentTooFastText::
 
 _CyclingIsFunText::
 	text "Cycling is fun!"
-	line "Forget SURFing!"
+	line "Forget surfing!"
 	prompt
 
 _FlashLightsAreaText::
-	text "A blinding FLASH"
+	text "A blinding flash"
 	line "lights the area!"
 	prompt
 
 _WarpToLastPokemonCenterText::
 	text "Warp to the last"
-	line "#MON CENTER."
+	line "<pkmn> Center."
 	done
 
 _CannotUseTeleportNowText::
 	TX_RAM wcd6d
 	text " can't"
-	line "use TELEPORT now."
+	line "use Teleport now."
 	prompt
 
 _CannotFlyHereText::
 	TX_RAM wcd6d
 	text " can't"
-	line "FLY here."
+	line "fly here."
 	prompt
 
 _NotHealthyEnoughText::
@@ -2740,7 +2740,7 @@ _NotHealthyEnoughText::
 	prompt
 
 _NewBadgeRequiredText::
-	text "No! A new BADGE"
+	text "No! A new badge"
 	line "is required."
 	prompt
 
@@ -2762,36 +2762,36 @@ _GotMonText::
 
 _SetToBoxText::
 	text "There's no more"
-	line "room for #MON!"
+	line "room for <pkmn>!"
 	cont "@"
 	TX_RAM wBoxMonNicks
 	text " was"
-	cont "sent to #MON"
-	cont "BOX @"
+	cont "sent to <pkmn>"
+	cont "Box @"
 	TX_RAM wcf4b
 	text " on PC!"
 	done
 
 _BoxIsFullText::
 	text "There's no more"
-	line "room for #MON!"
+	line "room for <pkmn>!"
 
-	para "The #MON BOX"
+	para "The <pkmn> Box"
 	line "is full and can't"
 	cont "accept any more!"
 
-	para "Change the BOX at"
-	line "a #MON CENTER!"
+	para "Change the Box at"
+	line "a <pkmn> Center!"
 	done
 
 _BoxIsFullReminderText::
-	text "The #MON BOX"
+	text "The <pkmn> Box"
 	line "is now full."
 	cont "It won't hold"
-	cont "more #MON."
+	cont "more <pkmn>."
 	
-	para "Change the BOX at"
-	line "a #MON CENTER!"
+	para "Change the Box at"
+	line "a <pkmn> Center!"
 	prompt
 
 INCLUDE "text/maps/pallet_town.asm"
@@ -2807,19 +2807,19 @@ INCLUDE "text/maps/saffron_city.asm"
 
 _ItemUseBallText00::
 	text "It dodged the"
-	line "thrown BALL!"
+	line "thrown orb!"
 
-	para "This #MON"
+	para "This <pkmn>"
 	line "can't be caught!"
 	prompt
 
 _ItemUseBallText01::
 	text "You missed the"
-	line "#MON!"
+	line "<pkmn>!"
 	prompt
 
 _ItemUseBallText02::
-	text "Darn! The #MON"
+	text "Darn! The <pkmn>"
 	line "broke free!"
 	prompt
 
@@ -2844,7 +2844,7 @@ _ItemUseBallText07::
 	TX_RAM wBoxMonNicks
 	text " was"
 	line "transferred to"
-	cont "BILL's PC!"
+	cont "Bill's PC!"
 	prompt
 
 _ItemUseBallText08::
@@ -2855,7 +2855,7 @@ _ItemUseBallText08::
 	prompt
 
 _ItemUseBallText06::
-	text "New #DEX data"
+	text "New TH-Dex data"
 	line "will be added for"
 	cont "@"
 	TX_RAM wEnemyMonNick
@@ -2888,17 +2888,17 @@ _VitaminNoEffectText::
 
 _ThrewBaitText::
 	text "<PLAYER> threw"
-	line "some BAIT."
+	line "some bait."
 	done
 
 _ThrewRockText::
 	text "<PLAYER> threw a"
-	line "ROCK."
+	line "rock."
 	done
 
 _PlayedFluteNoEffectText::
-	text "Played the #"
-	line "FLUTE."
+	text "Played the"
+	line "<pkmn> Flute."
 
 	para "Now, that's a"
 	line "catchy tune!"
@@ -2906,12 +2906,12 @@ _PlayedFluteNoEffectText::
 
 _FluteWokeUpText::
 	text "All sleeping"
-	line "#MON woke up."
+	line "<pkmn> woke up."
 	prompt
 
 _PlayedFluteHadEffectText::
 	text "<PLAYER> played the"
-	line "# FLUTE.@@"
+	line "<pkmn> Flute.@@"
 
 _CoinCaseNumCoinsText::
 	text "Coins"
@@ -2921,13 +2921,13 @@ _CoinCaseNumCoinsText::
 	prompt
 
 _ItemfinderFoundItemText::
-	text "Yes! ITEMFINDER"
+	text "Yes! Itemfinder"
 	line "indicates there's"
 	cont "an item nearby."
 	prompt
 
 _ItemfinderFoundNothingText::
-	text "Nope! ITEMFINDER"
+	text "Nope! Itemfinder"
 	line "isn't responding."
 	prompt
 
@@ -2974,7 +2974,7 @@ _TeachMachineMoveText::
 	para "Teach @"
 	TX_RAM wcf4b
 	text ""
-	line "to a #MON?"
+	line "to a <pkmn>?"
 	done
 
 _MonCannotLearnMachineMoveText::
@@ -2992,7 +2992,7 @@ _MonCannotLearnMachineMoveText::
 	prompt
 
 _ItemUseNotTimeText::
-	text "OAK: <PLAYER>!"
+	text "Oak: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that! "
 	prompt
@@ -3009,7 +3009,7 @@ _ItemUseNoEffectText::
 
 _ThrowBallAtTrainerMonText1::
 	text "The trainer"
-	line "blocked the BALL!"
+	line "blocked the orb!"
 	prompt
 
 _ThrowBallAtTrainerMonText2::
@@ -3029,7 +3029,7 @@ _NoSurfingHereText::
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
+	text "The <pkmn> Box"
 	line "is full! Can't"
 	cont "use that item!"
 	prompt
@@ -3229,38 +3229,38 @@ _AfterTrade3Text::
 
 _NothingToCutText::
 	text "There isn't"
-	line "anything to CUT!"
+	line "anything to cut!"
 	prompt
 
 _UsedCutText::
 	TX_RAM wcd6d
 	text " hacked"
-	line "away with CUT!"
+	line "away with Cut!"
 	prompt
 
 ;joenote - for field move slot
 _LearnTempFieldMoveText::
 	text "Learn this as a"
-	line "temporary FIELD"
-	cont "MOVE?"
+	line "temporary Field"
+	cont "Move?"
 	done
 _LearnTempFieldMoveTextDenied::
-	text "A temporary FIELD"
-	line "MOVE is already"
+	text "A temporary Field"
+	line "Move is already"
 	cont "known!"
 	
-	para "Put this #MON"
-	line "in a PC BOX to"
+	para "Put this <pkmn>"
+	line "in a PC Box to"
 	cont "erase it."
 	prompt
 
 _RomHackVersionText::
-	text "This SAVE is from"
+	text "This save is from"
 	line "a different rev"
 	cont "of this game."
 	
-	para "Warp to PALLET"
-	line "TOWN for safety?"
+	para "Warp to Pallet"
+	line "Town for safety?"
 	done
 
 SECTION "Pokedex Text", ROMX, BANK[POKEDEX_TEXT]

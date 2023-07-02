@@ -1,30 +1,30 @@
 _FuchsiaCityText1::
 	text "Did you try the"
-	line "SAFARI GAME? Some"
-	cont "#MON can only"
+	line "Safari Game? Some"
+	cont "<pkmn> can only"
 	cont "be caught there."
 	done
 
 _FuchsiaCityText2::
-	text "SAFARI ZONE has a"
+	text "Safari Zone has a"
 	line "zoo in front of"
 	cont "the entrance."
 
 	para "Out back is the"
-	line "SAFARI GAME for"
-	cont "catching #MON."
+	line "Safari Game for"
+	cont "catching <pkmn>."
 	done
 
 _FuchsiaCityText3::
-	text "ERIK: Where's"
-	line "SARA? I said I'd"
+	text "Erik: Where's"
+	line "Sara? I said I'd"
 	cont "meet her here."
 	done
 
 _FuchsiaCityText4::
 	text "That item ball in"
 	line "there is really a"
-	cont "#MON."
+	cont "<pkmn>."
 	done
 
 _FuchsiaCityText5::
@@ -38,80 +38,78 @@ _FuchsiaCityText11::
 	done
 
 _FuchsiaCityText13::
-	text "SAFARI GAME"
-	line "#MON-U-CATCH!"
+	text "Safari Game"
+	line "<pkmn>-U-CATCH!"
 	done
 
 _FuchsiaCityText16::
-	text "SAFARI ZONE"
-	line "WARDEN's HOME"
+	text "Safari Zone"
+	line "Warden's Home"
 	done
 
 _FuchsiaCityText17::
-	text "#MON PARADISE"
+	text "<pkmn> Paradise"
 	line "SAFARI ZONE"
 	done
 
 _FuchsiaCityText18::
 	text "FUCHSIA CITY"
-	line "#MON GYM"
-	cont "LEADER: KOGA"
+	line "<pkmn> GYM"
+	cont "Leader: Koga"
 
 	para "The Poisonous"
 	line "Ninja Master"
 	done
 
 _FuchsiaCityChanseyText::
-	text "Name: CHANSEY"
+	text "Name: Tewi"
 
 	para "Catching one is"
 	line "all up to chance."
 	prompt
 
 _FuchsiaCityVoltorbText::
-	text "Name: VOLTORB"
+	text "Name: Suwako"
 
 	para "The very image of"
-	line "a # BALL."
+	line "a frog."
 	prompt
 
 _FuchsiaCityKangaskhanText::
-	text "Name: KANGASKHAN"
+	text "Name: Rumia"
 
-	para "A maternal #MON"
-	line "that raises its"
-	cont "young in a pouch"
-	cont "on its belly."
+	para "A man-eating"
+	line "youkai."
 	prompt
 
 _FuchsiaCitySlowpokeText::
-	text "Name: SLOWPOKE"
+	text "Name: Komachi"
 
 	para "Friendly and very"
 	line "slow moving."
 	prompt
 
 _FuchsiaCityLaprasText::
-	text "Name: LAPRAS"
+	text "Name: Nitori"
 
-	para "A.K.A. the king"
-	line "of the seas."
+	para "A.K.A. Kappa"
+	line "of the river."
 	prompt
 
 _FuchsiaCityOmanyteText::
-	text "Name: OMANYTE"
+	text "Name: Hakurei"
 
-	para "A #MON that"
+	para "A <pkmn> that"
 	line "was resurrected"
-	cont "from a fossil."
+	cont "from an artifact."
 	prompt
 
 _FuchsiaCityKabutoText::
-	text "Name: KABUTO"
+	text "Name: Kirisame"
 
-	para "A #MON that"
+	para "A <pkmn> that"
 	line "was resurrected"
-	cont "from a fossil."
+	cont "from an artifact."
 	prompt
 
 _FuchsiaCityText_19b2a::

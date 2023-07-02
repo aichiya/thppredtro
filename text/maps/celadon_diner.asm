@@ -6,16 +6,16 @@ _CeladonDinerText1::
 	done
 
 _CeladonDinerText2::
-	text "My #MON are"
+	text "My <pkmn> are"
 	line "weak, so I often"
 	cont "have to go to the"
-	cont "DRUG STORE."
+	cont "Drug Store."
 	done
 
 _CeladonDinerText3::
 	text "Psst! There's a"
 	line "basement under"
-	cont "the GAME CORNER."
+	cont "the Game Corner."
 	done
 
 _CeladonDinerText4::
@@ -60,13 +60,13 @@ _CeladonDinerText_491b7::
 
 ;joenote - add text for catch-up exp boost
 _CeladonDiner_EXPCatchUpON::
-	text "This spicy KETCHUP"
-	line "helps me CATCH-UP"
+	text "This spicy ketchup"
+	line "helps me catch-up"
 	cont "with my studies."
 	
 	para "It can also make"
-	line "weaker #MON"
-	cont "gain more EXP."
+	line "weaker <pkmn>"
+	cont "gain more Exp."
 	cont "Want to try it?"
 	done
 	
@@ -76,7 +76,7 @@ _CeladonDiner_EXPCatchUpOFF::
 	
 	para "I can undo the"
 	line "effect with some"
-	cont "MILK. Sound good?"
+	cont "milk. Sound good?"
 	done
 	
 _CeladonDiner_AideQ_done::

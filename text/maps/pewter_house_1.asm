@@ -1,17 +1,17 @@
 _PewterHouse1Text1::
-	text "NIDORAN: Bowbow!@@"
+	text "Momiji: Bowbow!@@"
 
 _PewterHouse1Text2::
-	text "NIDORAN sit!"
+	text "Momiji sit!"
 	done
 
 _PewterHouse1Text3::
-	text "Our #MON's an"
+	text "Our <pkmn>'s an"
 	line "outsider, so it's"
 	cont "hard to handle."
 
 	para "An outsider is a"
-	line "#MON that you"
+	line "<pkmn> that you"
 	cont "get in a trade."
 
 	para "It grows fast, but"
@@ -20,5 +20,5 @@ _PewterHouse1Text3::
 	cont "in battle!"
 
 	para "If only we had"
-	line "some BADGEs..."
+	line "some badges..."
 	done

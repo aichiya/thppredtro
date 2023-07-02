@@ -1,7 +1,7 @@
 _Route14BattleText1::
 	text "You need to use"
 	line "TMs to teach good"
-	cont "moves to #MON!"
+	cont "moves to <pkmn>!"
 	done
 
 _Route14EndBattleText1::
@@ -11,14 +11,14 @@ _Route14EndBattleText1::
 
 _Route14AfterBattleText1::
 	text "You have some HMs"
-	line "right? #MON"
+	line "right? <pkmn>"
 	cont "normally can't"
 	cont "ever forget those"
 	cont "moves."
 	done
 
 _Route14BattleText2::
-	text "My bird #MON"
+	text "My flying <pkmn>"
 	line "should be ready"
 	cont "for battle."
 	done
@@ -35,7 +35,7 @@ _Route14AfterBattleText2::
 
 _Route14BattleText3::
 	text "TMs are on sale"
-	line "in CELADON!"
+	line "in Celadon!"
 	cont "But, only a few"
 	cont "people have HMs!"
 	done
@@ -46,7 +46,7 @@ _Route14EndBattleText3::
 	prompt
 
 _Route14AfterBattleText3::
-	text "Teach #MON"
+	text "Teach <pkmn>"
 	line "moves of the same"
 	cont "element type for"
 	cont "more power."
@@ -54,8 +54,8 @@ _Route14AfterBattleText3::
 
 _Route14BattleText4::
 	text "Have you taught"
-	line "your bird #MON"
-	cont "how to FLY?"
+	line "your bird <pkmn>"
+	cont "how to Fly?"
 	done
 
 _Route14EndBattleText4::
@@ -64,14 +64,14 @@ _Route14EndBattleText4::
 	prompt
 
 _Route14AfterBattleText4::
-	text "Bird #MON are"
+	text "Bird <pkmn> are"
 	line "my true love!"
 	done
 
 _Route14BattleText5::
 	text "Have you heard of"
 	line "the legendary"
-	cont "#MON?"
+	cont "<pkmn>?"
 	done
 
 _Route14EndBattleText5::
@@ -80,11 +80,11 @@ _Route14EndBattleText5::
 	prompt
 
 _Route14AfterBattleText5::
-	text "The 3 legendary"
+	text "There are three"
 ;	line "#MON are all"			;joenote - slight correction to this translation
 ;	cont "birds of prey."
-	line "#MON are said"	
-	cont "to be birds."
+	line "<pkmn> said"
+	cont "to be super rare."
 	
 	done
 
@@ -131,7 +131,7 @@ _Route14EndBattleText8::
 	prompt
 
 _Route14AfterBattleText8::
-	text "Raising #MON"
+	text "Raising <pkmn>"
 	line "is a drag, man."
 	done
 
@@ -147,7 +147,7 @@ _Route14EndBattleText9::
 
 _Route14AfterBattleText9::
 	text "It's cool you"
-	line "made your #MON"
+	line "made your <pkmn>"
 	cont "so strong!"
 
 	para "Might is right!"
@@ -155,7 +155,7 @@ _Route14AfterBattleText9::
 	done
 
 _Route14BattleText10::
-	text "#MON fight?"
+	text "<pkmn> fight?"
 	line "Cool! Rumble!"
 	done
 
@@ -172,6 +172,6 @@ _Route14AfterBattleText10::
 
 _Route14Text11::
 	text "ROUTE 14"
-	line "West to FUCHSIA"
-	cont "CITY"
+	line "West to Fuchsia"
+	cont "City"
 	done

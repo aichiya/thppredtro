@@ -1,6 +1,6 @@
 _Route10BattleText1::
 	text "Wow, are you a"
-	line "#MANIAC too?"
+	line "<pkmn> Maniac too?"
 	cont "Want to see my"
 	cont "collection?"
 	done
@@ -12,7 +12,7 @@ _Route10EndBattleText1::
 
 _Route10AfterBattleText1::
 	text "I have more rare"
-	line "#MON at home!"
+	line "<pkmn> at home!"
 	done
 
 _Route10BattleText2::
@@ -50,12 +50,12 @@ ENDC
 
 _Route10BattleText3::
 	text "Hi kid, want to"
-	line "see my #MON?"
+	line "see my <pkmn>?"
 	done
 
 _Route10EndBattleText3::
 	text "Oh no!"
-	line "My #MON!"
+	line "My <pkmn>!"
 	prompt
 
 _Route10AfterBattleText3::
@@ -65,7 +65,7 @@ _Route10AfterBattleText3::
 
 _Route10BattleText4::
 	text "I've been to a"
-	line "#MON GYM a few"
+	line "<pkmn> Gym a few"
 	cont "times. But, I"
 	cont "lost each time."
 	done
@@ -77,7 +77,7 @@ _Route10EndBattleText4::
 
 _Route10AfterBattleText4::
 	text "I noticed some"
-	line "#MANIACs"
+	line "<pkmn> Maniacs"
 	cont "prowling around."
 	done
 
@@ -108,7 +108,7 @@ _Route10EndBattleText6::
 	prompt
 
 _Route10AfterBattleText6::
-	text "The #MON here"
+	text "The <pkmn> here"
 	line "are so chunky!"
 	cont "There should be a"
 	cont "pink one with a"

@@ -1,6 +1,6 @@
 _Route8BattleText1::
 	text "You look good at"
-	line "#MON, but"
+	line "<pkmn>, but"
 	cont "how's your grade"
 	cont "in chemistry?"	;joenote - cleaned up translation
 	done
@@ -41,13 +41,13 @@ _Route8EndBattleText3::
 	prompt
 
 _Route8AfterBattleText3::
-	text "Go with GRIMER"
+	text "Go with Medicine"
 	line "first...and..."
 	cont "...and...then..."
 	done
 
 _Route8BattleText4::
-	text "I like NIDORAN, so"
+	text "I like Momiji, so"
 	line "I collect them!"
 	done
 
@@ -56,7 +56,7 @@ _Route8EndBattleText4::
 	prompt
 
 _Route8AfterBattleText4::
-	text "When #MON grow"
+	text "When <pkmn> grow"
 	line "up they get ugly!"
 	cont "They shouldn't"
 	cont "evolve!"
@@ -64,7 +64,7 @@ _Route8AfterBattleText4::
 
 _Route8BattleText5::
 	text "School is fun, but"
-	line "so are #MON."
+	line "so are <pkmn>."
 	done
 
 _Route8EndBattleText5::
@@ -75,11 +75,11 @@ _Route8EndBattleText5::
 _Route8AfterBattleText5::
 	text "We're stuck here"
 	line "because of the"
-	cont "gates at SAFFRON."
+	cont "gates at Saffron."
 	done
 
 _Route8BattleText6::
-	text "MEOWTH is so cute,"
+	text "Chen is so cute,"
 	line "meow, meow, meow!"
 	done
 
@@ -88,8 +88,8 @@ _Route8EndBattleText6::
 	prompt
 
 _Route8AfterBattleText6::
-	text "I think PIDGEY"
-	line "and RATTATA"
+	text "I think Shizuha"
+	line "and Minoriko"
 	cont "are cute too!"
 	done
 
@@ -105,7 +105,7 @@ _Route8EndBattleText7::
 	prompt
 
 _Route8AfterBattleText7::
-	text "SAFFRON's gate"
+	text "Saffron's gate"
 	line "keeper won't let"
 	cont "us through."
 	cont "He's so mean!"
@@ -123,7 +123,7 @@ _Route8EndBattleText8::
 
 _Route8AfterBattleText8::
 	text "Gambling and"
-	line "#MON are like"
+	line "<pkmn> are like"
 	cont "eating peanuts!"
 	cont "Just can't stop!"
 	done
@@ -131,25 +131,25 @@ _Route8AfterBattleText8::
 _Route8BattleText9::
 	text "What's a cute,"
 	line "round and fluffy"
-	cont "#MON?"
+	cont "<pkmn>?"
 	done
 
 _Route8EndBattleText9::
 	text "Stop!"
 
 	para "Don't be so mean"
-	line "to my CLEFAIRY!"
+	line "to my Reisen!"
 	prompt
 
 _Route8AfterBattleText9::
 	text "I heard that"
-	line "CLEFAIRY evolves"
+	line "Reisen evolves"
 	cont "when it's exposed"
-	cont "to a MOON STONE."
+	cont "to a Moon Stone."
 	done
 
 _Route8Text10::
 	text "UNDERGROUND PATH"
-	line "CELADON CITY -"
-	cont "LAVENDER TOWN"
+	line "Celadon City -"
+	cont "Lavender Town"
 	done

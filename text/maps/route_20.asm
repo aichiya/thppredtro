@@ -9,11 +9,11 @@ _Route20EndBattleText1::
 
 _Route20AfterBattleText1::
 	text "I wish I could"
-	line "ride my #MON."
+	line "ride my <pkmn>."
 	done
 
 _Route20BattleText2::
-	text "SEAFOAM is a"
+	text "Seafoam is a"
 	line "quiet getaway!"
 	done
 
@@ -52,7 +52,7 @@ _Route20EndBattleText4::
 	prompt
 
 _Route20AfterBattleText4::
-	text "SEAFOAM used to"
+	text "Seafoam used to"
 	line "be one island!"
 	done
 
@@ -68,12 +68,12 @@ _Route20EndBattleText5::
 _Route20AfterBattleText5::
 	text "I should've been"
 	line "buffing up my"
-	cont "#MON, not me!"
+	cont "<pkmn>, not me!"
 	done
 
 _Route20BattleText6::
 	text "Why are you"
-	line "riding a #MON?"
+	line "riding a <pkmn>?"
 	cont "Can't you swim?"
 	done
 
@@ -83,13 +83,13 @@ _Route20EndBattleText6::
 	prompt
 
 _Route20AfterBattleText6::
-	text "Riding a #MON"
+	text "Riding a <pkmn>"
 	line "sure looks fun!"
 	done
 
 _Route20BattleText7::
 	text "I rode my bird"
-	line "#MON here!"
+	line "<pkmn> here!"
 	done
 
 _Route20EndBattleText7::
@@ -98,8 +98,8 @@ _Route20EndBattleText7::
 	prompt
 
 _Route20AfterBattleText7::
-	text "My birds can't"
-	line "FLY me back!"
+	text "My <pkmn> can't"
+	line "fly me back!"
 	done
 
 _Route20BattleText8::
@@ -113,14 +113,14 @@ _Route20EndBattleText8::
 	prompt
 
 _Route20AfterBattleText8::
-	text "Will my pearls"
-	line "grow bigger"
-	cont "inside CLOYSTER?"
+	text "Will the fire"
+	line "grows hotter"
+	cont "inside Mokou?"
 	done
 
 _Route20BattleText9::
 	text "I swam here from"
-	line "CINNABAR ISLAND!"
+	line "Cinnabar Island!"
 	done
 
 _Route20EndBattleText9::
@@ -129,16 +129,16 @@ _Route20EndBattleText9::
 	prompt
 
 _Route20AfterBattleText9::
-	text "#MON have"
+	text "<pkmn> have"
 	line "taken over an"
 	cont "abandoned mansion"
-	cont "on CINNABAR!"
+	cont "on Cinnabar!"
 	done
 
 _Route20BattleText10::
-	text "CINNABAR, in the"
-	line "west, has a LAB"
-	cont "for #MON."
+	text "Cinnabar, in the"
+	line "west, has a lab"
+	cont "for <pkmn>."
 	done
 
 _Route20EndBattleText10::
@@ -146,7 +146,7 @@ _Route20EndBattleText10::
 	prompt
 
 _Route20AfterBattleText10::
-	text "CINNABAR is a "
+	text "Cinnabar is a "
 	line "volcanic island!"
 	done
 

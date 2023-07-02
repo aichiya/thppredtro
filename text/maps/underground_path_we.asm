@@ -2,10 +2,10 @@
 ;joenote - text for random trainer
 _RandTrainerNotReady::
 	text "I'm gonna sneak"
-	line "into the CERULEAN"
-	cont "CAVE while every-"
+	line "into the Cerulean"
+	cont "Cave while every-"
 	cont "one is occupied"
-	cont "with the #MON"
+	cont "with the <pkmn>"
 	cont "League finals."
 	
 	para "There has to be"
@@ -15,11 +15,8 @@ _RandTrainerNotReady::
 
 _RandTrainerIntro::
 	text "I barely made it"
-	line "out of CERULEAN"
-	cont "CAVE alive, but"
-	cont "I swiped these"
-	cont "weird DITTO that"
-	cont "mimic anything."
+	line "out of Cerulean"
+	cont "Cave alive."
 	done
 	
 _RandTrainerChallenge::

@@ -461,15 +461,15 @@ SpecialEnterMap:
 	jp EnterMap
 
 ContinueText:
-	db "CONTINUE", $4e
+	db "Continue", $4e
 
 NewGameText:
-	db   "NEW GAME"
-	next "OPTION@"
+	db   "New Game"
+	next "Option@"
 
 CableClubOptionsText:
-	db   "TRADE CENTER"
-	next "COLOSSEUM"
+	db   "Trade Center"
+	next "Colosseum"
 	next "CANCEL@"
 
 DisplayContinueGameInfo:
@@ -557,10 +557,10 @@ PrintPlayTime_local:
 ;	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "PLAYER"
-	next "BADGES    "
-	next "TOUHOUDEX  "
-	next "TIME@"
+	db   "Player"
+	next "Badges    "
+	next "TouhouDex  "
+	next "Time@"
 
 DisplayOptionMenu:
 	coord hl, 0, 0
@@ -767,15 +767,15 @@ DisplayOptionMenu:
 
 TextSpeedOptionText:
 	db   "TEXT SPEED"
-	next " FAST  MEDIUM SLOW@"
+	next " Fast  Medium Slow@"
 
 BattleAnimationOptionText:
 	db   "BATTLE ANIMATION"
-	next " ON       OFF@"
+	next " On       Off@"
 
 BattleStyleOptionText:
 	db   "BATTLE STYLE"
-	next " SHIFT    SET@"
+	next " Shift    Set@"
 
 OptionMenuCancelText:
 	db "CANCEL@"
@@ -787,13 +787,13 @@ OptionMenuSoundText:
 	dw OptionMenuEar2
 	dw OptionMenuEar3
 OptionMenuMono:
-	db "MONO     @"
+	db "Mono     @"
 OptionMenuEar1:
-	db "EARPHONE1@"
+	db "Earphone1@"
 OptionMenuEar2:
-	db "EARPHONE2@"
+	db "Earphone2@"
 OptionMenuEar3:
-	db "EARPHONE3@"
+	db "Earphone3@"
 PlaceSoundSetting:
 	ld hl, OptionMenuSoundText
 	ld a, [wOptions]

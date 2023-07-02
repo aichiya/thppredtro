@@ -11,13 +11,13 @@ ELSE
 	cont "call me GREEN."
 ENDC
 	
-	para "I'm CHAMP of the"
+	para "I'm champ of the"
 	line "Orange Islands"
-	cont "#MON LEAGUE."
+	cont "Touhou League."
 
 	para "I'm currently on a"
 	line "victory vacation"
-	cont "on the S.S.ANNE."
+	cont "on the S.S.Anne."
 	
 	para "Oh...This truck?"
 	line "I think it's just"
@@ -31,7 +31,7 @@ _VermilionDockSeigaChallenge::
 	
 	para "How about a"
 	line "friendly battle"
-	cont "between CHAMPS?"
+	cont "between champs?"
 	
 	para "If you win, I'll"
 	line "tell you a secret"
@@ -55,14 +55,14 @@ _VermilionDockSeigaDefeat::
 	prompt
 
 _VermilionDockSeigaVictory::
-	text "A"
-	line "#MON was well-"
+	text "I think a"
+	line "<pkmn> was well-"
 	cont "hidden under the"
 	cont "truck."
 	
-	para "It cried MEW!"
-	line "and flew towards"
-	cont "Cerulean City."
+	para "It looks like a!"
+	line "maid and flew"
+	cont "towards Cerulean."
 	
 	para "My locator traced"
 	line "it to some cave,"
@@ -71,11 +71,11 @@ _VermilionDockSeigaVictory::
 	cont "went to a lower"
 	cont "level."
 	
-	para "Your 'DEX is much"
+	para "Your TH-Dex is"
 	line "more advanced"
 	cont "than my locator."
 	
-	para "Maybe the #MON"
+	para "Maybe the <pkmn>"
 	line "will appear when"
 	cont "it's upgraded"
 	cont "with a diploma."

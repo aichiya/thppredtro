@@ -1,17 +1,17 @@
 _MeetLaprasGuyText::
 	text "Oh! Hi! You're"
-	line "not a ROCKET! You"
+	line "not a Rocket! You"
 	cont "came to save us?"
 	cont "Why, thank you!"
 
 	para "I want you to"
-	line "have this #MON"
+	line "have this <pkmn>"
 	cont "for saving us."
 	prompt
 
 _HeresYourLaprasText::
-	text "It's LAPRAS. It's"
-	line "very intelligent."
+	text "It's CWriggle."
+	line "she is very rare."
 
 	para "We kept it in our"
 	line "lab, but it will"
@@ -20,18 +20,18 @@ _HeresYourLaprasText::
 
 	para "I think you will"
 	line "be a good trainer"
-	cont "for LAPRAS!"
+	cont "for CWriggle!"
 
-	para "It's a good"
-	line "swimmer. It'll"
-	cont "give you a lift!"
+	para "She is the only"
+	line "bug <pkmn> found"
+	cont "in Kanto!"
 	done
 
 _LaprasGuyText::
-	text "TEAM ROCKET's"
-	line "BOSS went to the"
+	text "Team Rocket's"
+	line "Boss went to the"
 	cont "boardroom! Is our"
-	cont "PRESIDENT OK?"
+	cont "president OK?"
 	done
 
 _LaprasGuySavedText::
@@ -40,29 +40,29 @@ _LaprasGuySavedText::
 	done
 
 _SilphCo7Text_51e00::
-	text "TEAM ROCKET was"
-	line "after the MASTER"
-	cont "BALL which will"
-	cont "catch any #MON!"
+	text "Team Rocket was"
+	line "after the Lunatic"
+	cont "Orb which will"
+	cont "catch any <pkmn>!"
 	done
 
 _CanceledMasterBallText::
 	text "We canceled the"
-	line "MASTER BALL"
+	line "Lunatic Orb"
 	cont "project because"
-	cont "of TEAM ROCKET."
+	cont "of Team Rocket."
 	done
 
 _SilphCo7Text_51e23::
 	text "It would be bad"
-	line "if TEAM ROCKET"
-	cont "took over SILPH"
-	cont "or our #MON!"
+	line "if Team Rocket"
+	cont "took over Silph"
+	cont "or our <pkmn>!"
 	done
 
 _SilphCo7Text_51e28::
 	text "Wow! You chased"
-	line "off TEAM ROCKET"
+	line "off Team Rocket"
 	cont "all by yourself?"
 	done
 
@@ -90,7 +90,7 @@ _SilphCo7EndBattleText1::
 
 _SilphCo7AfterBattleText1::
 	text "You won't find my"
-	line "BOSS by just"
+	line "boss by just"
 	cont "scurrying around!"
 	done
 
@@ -98,7 +98,7 @@ _SilphCo7BattleText2::
 	text "Heheh!"
 
 	para "You mistook me for"
-	line "a SILPH worker?"
+	line "a Silph worker?"
 	done
 
 _SilphCo7EndBattleText2::
@@ -114,7 +114,7 @@ _SilphCo7AfterBattleText2::
 
 _SilphCo7BattleText3::
 	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	line "Rocket Brothers!"
 	done
 
 _SilphCo7EndBattleText3::
@@ -140,7 +140,7 @@ _SilphCo7EndBattleText4::
 
 _SilphCo7AfterBattleText4::
 	text "Go on home"
-	line "before my BOSS"
+	line "before my boss"
 	cont "gets ticked off!"
 	done
 
@@ -155,13 +155,13 @@ _SilphCo7Text_51ec3::
 	cont "turn up if I"
 	cont "waited here!"
 
-	para "I guess TEAM"
-	line "ROCKET slowed you"
+	para "I guess Team"
+	line "Rocket slowed you"
 	cont "down! Not that I"
 	cont "care!"
 
 	para "I saw you in"
-	line "SAFFRON, so I"
+	line "Saffron, so I"
 	cont "decided to see if"
 	cont "you got better!"
 	done
@@ -169,7 +169,7 @@ _SilphCo7Text_51ec3::
 _SilphCo7Text_51ec8::
 	text "Oh ho!"
 	line "So, you are ready"
-	cont "for BOSS ROCKET!"
+	cont "for Boss Rocket!"
 	prompt
 
 _SilphCo7Text_51ecd::
@@ -189,15 +189,15 @@ _SilphCo7Text_51ed2::
 	line "and ahead!"
 
 	para "By checking my"
-	line "#DEX, I'm"
+	line "TH-Dex, I'm"
 	cont "starting to see"
 	cont "what's strong and"
 	cont "how they evolve!"
 
 	para "I'm going to the"
-	line "#MON LEAGUE"
+	line "Touhou League"
 	cont "to boot out the"
-	cont "ELITE FOUR!"
+	cont "Elite Four!"
 
 	para "I'll become the"
 	line "world's most"

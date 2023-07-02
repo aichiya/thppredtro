@@ -17,12 +17,12 @@ _Mansion2AfterBattleText1::
 
 _Mansion2Text3::
 	text "Diary: July 5"
-	line "Guyana,"
-	cont "South America"
+	line "Abandoned Mansion,"
+	cont "Gensokyo"
 
-	para "A new #MON was"
+	para "A new <pkmn> was"
 	line "discovered deep"
-	cont "in the jungle."
+	cont "in the mansion."
 	done
 
 ;_Mansion2Text4::
@@ -36,7 +36,7 @@ _Mansion2Text4::
 	text "Diary: July 10"
 	line "I christened the"
 	cont "newly discovered"
-	cont "#MON, MEW."
+	cont "<pkmn>."
 	done
 
 _Mansion2Text_520c2::

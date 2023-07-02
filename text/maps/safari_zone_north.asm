@@ -5,7 +5,7 @@ _SafariZoneNorthText3::
 _SafariZoneNorthText4::
 	text "TRAINER TIPS"
 
-	para "The SECRET HOUSE"
+	para "The Secret House"
 	line "is still ahead!"
 	done
 
@@ -16,7 +16,7 @@ _SafariZoneNorthText5::
 _SafariZoneNorthText6::
 	text "TRAINER TIPS"
 
-	para "#MON hide in"
+	para "<pkmn> hide in"
 	line "tall grass!"
 
 	para "Zigzag through"
@@ -29,5 +29,5 @@ _SafariZoneNorthText7::
 
 	para "Win a free HM for"
 	line "finding the"
-	cont "SECRET HOUSE!"
+	cont "Secret House!"
 	done

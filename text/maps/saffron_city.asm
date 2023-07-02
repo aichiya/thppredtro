@@ -4,7 +4,7 @@ _SaffronCityText1::
 	done
 
 _SaffronCityText2::
-	text "BOSS said he'll"
+	text "Boss said he'll"
 	line "take this town!"
 	done
 
@@ -14,8 +14,8 @@ _SaffronCityText3::
 	done
 
 _SaffronCityText4::
-	text "SAFFRON belongs"
-	line "to TEAM ROCKET!"
+	text "Saffron belongs"
+	line "to Team Rocket!"
 	done
 
 _SaffronCityText5::
@@ -29,20 +29,20 @@ _SaffronCityText6::
 	done
 
 _SaffronCityText7::
-	text "With SILPH under"
+	text "With Silph under"
 	line "control, we can"
-	cont "exploit #MON"
+	cont "exploit <pkmn>"
 	cont "around the world!"
 	done
 
 _SaffronCityText8::
-	text "You beat TEAM"
-	line "ROCKET all alone?"
+	text "You beat Team"
+	line "Rocket all alone?"
 	cont "That's amazing!"
 	done
 
 _SaffronCityText9::
-	text "Yeah! TEAM ROCKET"
+	text "Yeah! Team Rocket"
 	line "is gone!"
 	cont "It's safe to go"
 	cont "out again!"
@@ -51,13 +51,13 @@ _SaffronCityText9::
 _SaffronCityText10::
 	text "People should be"
 	line "flocking back to"
-	cont "SAFFRON now."
+	cont "Saffron now."
 	done
 
 _SaffronCityText11::
 	text "I flew here on my"
-	line "PIDGEOT when I"
-	cont "read about SILPH."
+	line "Aya when I"
+	cont "read about Silph."
 
 	para "It's already over?"
 	line "I missed the"
@@ -65,12 +65,12 @@ _SaffronCityText11::
 	done
 
 _SaffronCityText12::
-	text "PIDGEOT: Bi bibii!@@"
+	text "Aya: Bi bibii!@@"
 
 _SaffronCityText13::
-	text "I saw ROCKET"
-	line "BOSS escaping"
-	cont "SILPH's building."
+	text "I saw Rocket"
+	line "Boss escaping"
+	cont "Silph's building."
 	done
 
 _SaffronCityText14::
@@ -101,17 +101,17 @@ _SaffronCityText17::
 
 _SaffronCityText18::
 	text "SAFFRON CITY"
-	line "#MON GYM"
-	cont "LEADER: SABRINA"
+	line "<pkmn> GYM"
+	cont "Leader: Sabrina"
 
 	para "The Master of"
-	line "Psychic #MON!"
+	line "Psychic <pkmn>!"
 	done
 
 _SaffronCityText20::
 	text "TRAINER TIPS"
 
-	para "FULL HEAL cures"
+	para "Full Heal cures"
 	line "all ailments like"
 	cont "sleep and burns."
 
@@ -123,13 +123,13 @@ _SaffronCityText20::
 _SaffronCityText21::
 	text "TRAINER TIPS"
 
-	para "New GREAT BALL"
+	para "New Normal Orb"
 	line "offers improved"
 	cont "capture rates."
 
 	para "Try it on those"
 	line "hard-to-catch"
-	cont "#MON."
+	cont "<pkmn>."
 	done
 
 _SaffronCityText22::
@@ -143,7 +143,7 @@ _SaffronCityText24::
 	done
 
 _SaffronCityText25::
-	text "SILPH's latest"
+	text "Silph's latest"
 	line "product!"
 
 	para "Release to be"

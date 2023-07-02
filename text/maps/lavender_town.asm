@@ -1,6 +1,6 @@
 _LavenderTownText_4413c::
 	text "Do you believe in"
-	line "GHOSTs?"
+	line "ghosts?"
 	done
 
 _LavenderTownText_44141::
@@ -10,9 +10,9 @@ _LavenderTownText_44141::
 ;joenote - added text to hint at evolving haunter
 	para "So you'll believe"
 	line "that I once saw a"
-	cont "HAUNTER evolve"
+	cont "Lunachild evolve"
 	cont "during an awful"
-	cont "THUNDER storm."
+	cont "thunder storm."
 	done
 
 _LavenderTownText_44146::
@@ -27,11 +27,11 @@ _LavenderTownText_44146::
 _LavenderTownText2::
 	text "This town is known"
 	line "as the grave site"
-	cont "of #MON."
+	cont "of <pkmn>."
 
 	para "Memorial services"
 	line "are held in"
-	cont "#MON TOWER."
+	cont "<pkmn> Tower."
 	done
 
 _LavenderTownText3::

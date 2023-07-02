@@ -3,36 +3,36 @@ _ViridianForestText1::
 	line "some friends!"
 
 	para "They're out for"
-	line "#MON fights!"
+	line "<pkmn> fights!"
 	done
 
 _ViridianForestBattleText1::
 	text "Hey! You have"
-	line "#MON! Come on!"
+	line "<pkmn>! Come on!"
 	cont "Let's battle'em!"
 	done
 
 _ViridianForestEndBattleText1::
 	text "No!"
-	line "CATERPIE can't"
+	line "Cirno can't"
 	cont "cut it!"
 	prompt
 
 _ViridianFrstAfterBattleText1::
 	text "Ssh! You'll scare"
-	line "the bugs away!"
+	line "the fairies away!"
 	done
 
 _ViridianForestBattleText2::
 	text "Yo! You can't jam"
 	line "out if you're a"
-	cont "#MON trainer!"
+	cont "<pkmn> trainer!"
 	done
 
 _ViridianForestEndBattleText2::
 	text "Huh?"
 	line "I ran out of"
-	cont "#MON!"
+	cont "<pkmn>!"
 	prompt
 
 _ViridianFrstAfterBattleText2::
@@ -63,9 +63,9 @@ _ViridianFrstAfterBattleText3::
 	done
 
 _ViridianForestText8::
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+	text "I ran out of"
+	line "orbss to catch"
+	cont "<pkmn> with!"
 
 	para "You should carry"
 	line "extras!"
@@ -82,16 +82,16 @@ _ViridianForestText9::
 
 _ViridianForestText10::
 	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	line "Antidote! Get it"
+	cont "at <pkmn> Marts!"
 	done
 
 _ViridianForestText11::
 	text "TRAINER TIPS"
 
-	para "Contact PROF.OAK"
+	para "Contact Prof.Oak"
 	line "via PC to get"
-	cont "your #DEX"
+	cont "your TH-Dex"
 	cont "evaluated!"
 	done
 
@@ -99,16 +99,16 @@ _ViridianForestText12::
 	text "TRAINER TIPS"
 
 	para "No stealing of"
-	line "#MON from"
+	line "<pkmn> from"
 	cont "other trainers!"
 	cont "Catch only wild"
-	cont "#MON!"
+	cont "<pkmn>!"
 	done
 
 _ViridianForestText13::
 	text "TRAINER TIPS"
 
-	para "Weaken #MON"
+	para "Weaken <pkmn>"
 	line "before attempting"
 	cont "capture!"
 
@@ -117,7 +117,7 @@ _ViridianForestText13::
 	done
 
 _ViridianForestText14::
-	text "LEAVING"
-	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+	text "Leaving"
+	line "Viridian Forest"
+	cont "Pewter City ahead"
 	done

@@ -4,8 +4,8 @@ _CinnabarIslandText8::
 	done
 
 _CinnabarIslandText1::
-	text "CINNABAR GYM's"
-	line "BLAINE is an odd"
+	text "Cinnabar Gym's"
+	line "Blaine is an odd"
 	cont "man who has lived"
 	cont "here for decades."
 	done
@@ -18,9 +18,9 @@ _CinnabarIslandText2::
 
 ;joenote - added text to hint at evolving graveler
 	para "Apparently they"
-	line "made a GRAVELER"
+	line "made a Kaguya"
 	cont "evolve by using"
-	cont "volcanic FIRE."
+	cont "Moon Stone."
 	done
 
 _CinnabarIslandText3::
@@ -30,13 +30,13 @@ _CinnabarIslandText3::
 	done
 
 _CinnabarIslandText6::
-	text "#MON LAB"
+	text "<pkmn> LAB"
 	done
 
 _CinnabarIslandText7::
 	text "CINNABAR ISLAND"
-	line "#MON GYM"
-	cont "LEADER: BLAINE"
+	line "<pkmn> GYM"
+	cont "Leader: Blaine"
 
 	para "The Hot-Headed"
 	line "Quiz Master!"

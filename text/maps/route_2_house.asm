@@ -1,20 +1,20 @@
 _Route2HouseText1::
-	text "A fainted #MON"
+	text "A fainted <pkmn>"
 	line "can't fight. But, "
 	cont "it can still use "
-	cont "moves like CUT!"
+	cont "moves like Cut!"
 	done
 
 _Route2HouseText3::
-	text "A fainted #MON"
+	text "A fainted <pkmn>"
 	line "can't fight. But, "
 	cont "it can still use "
-	cont "moves like CUT!"
+	cont "moves like Cut!"
 	
-	para "Need a #MON"
-	line "that can use CUT?"
+	para "Need a <pkmn>"
+	line "that can use Cut?"
 	
 	para "You can take this"
-	line "PARAS with you."
+	line "Minoriko with you."
 	done
 	

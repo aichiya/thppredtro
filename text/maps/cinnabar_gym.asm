@@ -1,16 +1,16 @@
 _BlaineBattleText::
 	text "Hah!"
 
-	para "I am BLAINE! I"
-	line "am the LEADER of"
-	cont "CINNABAR GYM!"
+	para "I am Blaine! I"
+	line "am the Leader of"
+	cont "Cinnabar Gym!"
 
-	para "My fiery #MON"
+	para "My fiery <pkmn>"
 	line "will incinerate"
 	cont "all challengers!"
 
 	para "Hah! You better"
-	line "have BURN HEAL!"
+	line "have Burn Heal!"
 	done
 
 _BlaineEndBattleText::
@@ -18,24 +18,24 @@ _BlaineEndBattleText::
 	line "burnt out!"
 
 	para "You have earned"
-	line "the VOLCANOBADGE!@@"
+	line "the Volcano Badge!@@"
 
 _BlaineFireBlastText::
-	text "FIRE BLAST is the"
+	text "Fire Blast is the"
 	line "ultimate fire"
 	cont "technique!"
 
 	para "Don't waste it on"
-	line "water #MON!"
+	line "water <pkmn>!"
 	done
 
 _BlaineBadgeText::
 	text "Hah!"
 
-	para "The VOLCANOBADGE"
+	para "The Volcano Badge"
 	line "heightens the"
-	cont "SPECIAL abilities"
-	cont "of your #MON!"
+	cont "Special abilities"
+	cont "of your <pkmn>!"
 
 	para "Here, you can"
 	line "have this too!"
@@ -50,13 +50,13 @@ _ReceivedTM38Text::
 _TM38ExplanationText::
 	db $0
 	para "TM38 contains"
-	line "FIRE BLAST!"
+	line "Fire Blast!"
 
 	para "Teach it to fire-"
-	line "type #MON!"
+	line "type <pkmn>!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
+	para "Flandre or"
+	line "Mokou would be"
 	cont "good bets!"
 	done
 
@@ -67,7 +67,7 @@ _TM38NoRoomText::
 
 _CinnabarGymText_7595f::
 	text "Do you know how"
-	line "hot #MON fire"
+	line "hot <pkmn> fire"
 	cont "breath can get?"
 	done
 
@@ -99,13 +99,13 @@ _CinnabarGymText_75999::
 _CinnabarGymText_7599e::
 	text "I can't help"
 	line "stealing other"
-	cont "people's #MON!"
+	cont "people's <pkmn>!"
 	done
 
 _CinnabarGymText_759c9::
 	text "You can't win!"
 	line "I have studied"
-	cont "#MON totally!"
+	cont "<pkmn> totally!"
 	done
 
 _CinnabarGymText_759ce::
@@ -121,7 +121,7 @@ _CinnabarGymText_759d3::
 
 _CinnabarGymText_759fe::
 	text "I just like using"
-	line "fire #MON!"
+	line "fire <pkmn>!"
 	done
 
 _CinnabarGymText_75a03::
@@ -131,12 +131,12 @@ _CinnabarGymText_75a03::
 
 _CinnabarGymText_75a08::
 	text "I wish there was"
-	line "a thief #MON!"
+	line "a thief <pkmn>!"
 	cont "I'd use that!"
 	done
 
 _CinnabarGymText_75a33::
-	text "I know why BLAINE"
+	text "I know why Blaine"
 	line "became a trainer!"
 	done
 
@@ -145,19 +145,19 @@ _CinnabarGymText_75a38::
 	prompt
 
 _CinnabarGymText_75a3d::
-	text "BLAINE was lost"
+	text "Blaine was lost"
 	line "in the mountains"
-	cont "when a fiery bird"
-	cont "#MON appeared."
+	cont "when a mysterious"
+	cont "<pkmn> appeared."
 
 	para "Its light enabled"
-	line "BLAINE to find"
+	line "Blaine to find"
 	cont "his way down!"
 	done
 
 _CinnabarGymText_75a68::
 	text "I've been to many"
-	line "GYMs, but this is"
+	line "Gyms, but this is"
 	cont "my favorite!"
 	done
 
@@ -167,9 +167,9 @@ _CinnabarGymText_75a6d::
 	prompt
 
 _CinnabarGymText_75a72::
-	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	text "Us fire <pkmn>"
+	line "fans like Mokou"
+	cont "and Flandre!"
 	done
 
 _CinnabarGymText_75a9d::
@@ -185,7 +185,7 @@ _CinnabarGymText_75aa2::
 _CinnabarGymText_75aa7::
 	text "Water beats fire!"
 	line "But, fire melts"
-	cont "ice #MON!"
+	cont "ice <pkmn>!"
 	done
 
 _CinnabarGymText_75ac2::
@@ -193,14 +193,14 @@ _CinnabarGymText_75ac2::
 	line "making!"
 
 	para "The hot-headed"
-	line "BLAINE is a fire"
-	cont "#MON pro!"
+	line "Blaine is a fire"
+	cont "<pkmn> pro!"
 
 	para "Douse his spirits"
 	line "with water!"
 
 	para "You better take"
-	line "some BURN HEALs!"
+	line "some Burn Heals!"
 	done
 
 _CinnabarGymText_75ac7::

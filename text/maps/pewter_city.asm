@@ -1,34 +1,34 @@
 _PewterCityText1::
 	text "It's rumored that"
-	line "CLEFAIRYs came"
+	line "Kaguya came"
 	cont "from the moon!"
 
 	para "They appeared "
-	line "after MOON STONE"
-	cont "fell on MT.MOON."
+	line "after Moon Stone"
+	cont "fell on Mt.Moon."
 	done
 
 _PewterCityText2::
 	text "There aren't many"
-	line "serious #MON"
+	line "serious <pkmn>"
 	cont "trainers here!"
 
 	para "They're all like"
-	line "BUG CATCHERs,"
-	cont "but PEWTER GYM's"
-	cont "BROCK is totally"
+	line "Fae Catchers,"
+	cont "but Pewter Gym's"
+	cont "Brock is totally"
 	cont "into it!"
 	done
 
 _PewterCityText_193f1::
 	text "Did you check out"
-	line "the MUSEUM?"
+	line "the museum?"
 	done
 
 _PewterCityText_193f6::
 	text "Weren't those"
-	line "fossils from MT."
-	cont "MOON amazing?"
+	line "artifacts from Mt."
+	cont "Moon amazing?"
 	done
 
 _PewterCityText_193fb::
@@ -57,14 +57,14 @@ _PewterCityText_1942c::
 	done
 
 _PewterCityText_19431::
-	text "I'm spraying REPEL"
-	line "to keep #MON"
+	text "I'm spraying Repel"
+	line "to keep <pkmn>"
 	cont "out of my garden!"
 	done
 
 _PewterCityText_1945d::
 	text "You're a trainer"
-	line "right? BROCK's"
+	line "right? Brock's"
 	cont "looking for new"
 	cont "challengers!"
 	cont "Follow me!"
@@ -73,26 +73,26 @@ _PewterCityText_1945d::
 _PewterCityText14::
 	text "If you have the"
 	line "right stuff, go"
-	cont "take on BROCK!"
+	cont "take on Brock!"
 	done
 
 _PewterCityText6::
 	text "TRAINER TIPS"
 
-	para "Any #MON that"
+	para "Any <pkmn> that"
 	line "takes part in"
 	cont "battle, however"
-	cont "short, earns EXP!"
+	cont "short, earns Exp!"
 	done
 
 _PewterCityText7::
 	text "NOTICE!"
 
 	para "Thieves have been"
-	line "stealing #MON"
-	cont "fossils at MT."
-	cont "MOON! Please call"
-	cont "PEWTER POLICE"
+	line "stealing <pkmn>"
+	cont "fossils at Mt."
+	cont "Moon! Please call"
+	cont "Pewter Police"
 	cont "with any info!"
 	done
 
@@ -103,11 +103,11 @@ _PewterCityText10::
 
 _PewterCityText11::
 	text "PEWTER CITY"
-	line "#MON GYM"
-	cont "LEADER: BROCK"
+	line "<pkmn> GYM"
+	cont "Leader: Brock"
 
 	para "The Rock Solid"
-	line "#MON Trainer!"
+	line "<pkmn> Trainer!"
 	done
 
 _PewterCityText12::

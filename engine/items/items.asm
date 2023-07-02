@@ -1621,11 +1621,11 @@ VitaminNoEffectText:
 	db "@"
 
 VitaminText:
-	db "HEALTH@"
-	db "ATTACK@"
-	db "DEFENSE@"
-	db "SPEED@"
-	db "SPECIAL@"
+	db "Health@"
+	db "Attack@"
+	db "Defense@"
+	db "Speed@"
+	db "Special@"
 
 ItemUseBait:
 	ld hl, ThrewBaitText

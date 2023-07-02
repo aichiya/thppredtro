@@ -1,32 +1,32 @@
 _ViridianCityText1::
-	text "Those # BALLs"
+	text "Those orbs"
 	line "at your waist!"
-	cont "You have #MON!"
+	cont "You have <pkmn>!"
 
 	para "It's great that"
 	line "you can carry and"
-	cont "use #MON any"
+	cont "use <pkmn> any"
 	cont "time, anywhere!"
 	done
 
 _ViridianCityText_19122::
-	text "This #MON GYM"
+	text "This <pkmn> Gym"
 	line "is always closed."
 
 	para "I wonder who the"
-	line "LEADER is?"
+	line "leader is?"
 	done
 
 _ViridianCityText_19127::
-	text "VIRIDIAN GYM's"
-	line "LEADER returned!"
+	text "Viridian Gym's"
+	line "Leader returned!"
 	done
 
 _ViridianCityText_1914d::
 	text "You want to know"
 	line "about the 2 kinds"
-	cont "of caterpillar"
-	cont "#MON?"
+	cont "of immortal"
+	cont "<pkmn>?"
 	done
 
 _ViridianCityText_19152::
@@ -34,12 +34,12 @@ _ViridianCityText_19152::
 	done
 
 _ViridianCityText_19157::
-	text "CATERPIE has no"
-	line "poison, but"
-	cont "WEEDLE does."
+	text "Kaguya is a"
+	line "NEET, and Mokou"
+	cont "is on fire."
 
-	para "Watch out for its"
-	line "POISON STING!"
+	para "They are always"
+	line "fighting!"
 	done
 IF DEF(_JPTXT)
 _ViridianCityText_19175::
@@ -61,10 +61,10 @@ ENDC
 
 _ViridianCityText_1917a::
 	text "When I go shop in"
-	line "PEWTER CITY, I"
+	line "Pewter City, I"
 	cont "have to take the"
 	cont "winding trail in"
-	cont "VIRIDIAN FOREST."
+	cont "Viridian Forest."
 	done
 
 IF DEF(_JPTXT)
@@ -94,8 +94,8 @@ _ViridianCityText_191ca::
 	cont "off in the sun."
 
 	para "I had this dream"
-	line "about a DROWZEE"
-	cont "eating my dream."
+	line "about Rumia"
+	cont "eating me."
 	cont "What's this?"
 	cont "Where did this TM"
 	cont "come from?"
@@ -111,8 +111,7 @@ _ReceivedTM42Text::
 
 _TM42Explanation::
 	text "TM42 contains"
-	line "DREAM EATER..."
-	cont "...Snore..."
+	line "Black Wind"
 	done
 
 _TM42NoRoomText::
@@ -146,16 +145,16 @@ ENDC
 
 _ViridianCityText_1920f::
 	text "I see you're using"
-	line "a #DEX."
+	line "a TH-Dex."
 
 	para "When you catch a"
-	line "#MON, #DEX"
+	line "<pkmn>, TH-Dex"
 	cont "is automatically"
 	cont "updated."
 
 	para "What? Don't you"
 	line "know how to catch"
-	cont "#MON?"
+	cont "<pkmn>?"
 
 	para "I'll show you"
 	line "how to then."
@@ -169,7 +168,7 @@ _ViridianCityText_19214::
 _ViridianCityText_19219::
 	text "First, you need"
 	line "to weaken the"
-	cont "target #MON."
+	cont "target <pkmn>."
 	done
 
 _ViridianCityText8::
@@ -181,7 +180,7 @@ _ViridianCityText8::
 _ViridianCityText9::
 	text "TRAINER TIPS"
 
-	para "Catch #MON"
+	para "Catch <pkmn>"
 	line "and expand your"
 	cont "collection!"
 
@@ -194,22 +193,22 @@ _ViridianCityText10::
 	text "TRAINER TIPS"
 
 	para "The battle moves"
-	line "of #MON are"
+	line "of <pkmn> are"
 	cont "limited by their"
-	cont "POWER POINTs, PP."
+	cont "Power Points, PP."
 
 	para "To replenish PP,"
 	line "rest your tired"
-	cont "#MON at a"
-	cont "#MON CENTER!"
+	cont "<pkmn> at a"
+	cont "<pkmn> Center!"
 	done
 
 _ViridianCityText13::
 	text "VIRIDIAN CITY"
-	line "#MON GYM"
+	line "<pkmn> GYM"
 	done
 
 _ViridianCityText14::
-	text "The GYM's doors"
+	text "The Gym's doors"
 	line "are locked..."
 	done

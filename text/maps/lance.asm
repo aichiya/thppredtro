@@ -2,14 +2,14 @@ _LanceBeforeBattleText::
 	text "Ah! I heard about"
 	line "you <PLAYER>!"
 
-	para "I lead the ELITE"
-	line "FOUR! You can"
-	cont "call me LANCE the"
-	cont "dragon trainer!"
+	para "I lead the Elite"
+	line "Four! You can"
+	cont "call me Lance the"
+	cont "mystic trainer!"
 
 	para "You know that"
-	line "dragons are"
-	cont "mythical #MON!"
+	line "several <pkmn> are"
+	cont "myths!"
 
 	para "They're hard to"
 	line "catch and raise,"
@@ -22,7 +22,7 @@ _LanceBeforeBattleText::
 	para "Well, are you"
 	line "ready to lose?"
 
-	para "Your LEAGUE"
+	para "Your league"
 	line "challenge ends"
 	cont "with me, <PLAYER>!"
 	done
@@ -32,7 +32,7 @@ _LanceEndBattleText::
 
 	para "I hate to admit"
 	line "it, but you are a"
-	cont "#MON master!"
+	cont "<pkmn> master!"
 	prompt
 
 _LanceAfterBattleText::
@@ -42,7 +42,7 @@ _LanceAfterBattleText::
 	cont "you, <PLAYER>!"
 
 	para "You are now the"
-	line "#MON LEAGUE"
+	line "Touhou League"
 	cont "champion!"
 
 	para "...Or, you would"
@@ -55,9 +55,9 @@ _LanceAfterBattleText::
 	cont "His name is..."
 
 	para "<RIVAL>!"
-	line "He beat the ELITE"
-	cont "FOUR before you!"
+	line "He beat the Elite"
+	cont "Four before you!"
 
 	para "He is the real"
-	line "#MON LEAGUE"
+	line "Touhou League"
 	cont "champion!@@"

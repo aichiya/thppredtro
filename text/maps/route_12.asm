@@ -1,20 +1,20 @@
 _Route12Text1::
-	text "A sleeping #MON"
+	text "A sleeping <pkmn>"
 	line "blocks the way!"
 	done
 
 _Route12Text13::
-	text "SNORLAX woke up!"
+	text "Ex-Yukari woke up!"
 
 	para "It attacked in a"
 	line "grumpy rage!"
 	done
 
 _Route12Text14::
-	text "SNORLAX calmed"
+	text "Ex-Yukari calmed"
 	line "down! With a big"
-	cont "yawn, it returned"
-	cont "to the mountains!"
+	cont "yawn, it vanished"
+	cont "through the gap!"
 	done
 
 _Route12BattleText1::
@@ -44,14 +44,14 @@ _Route12EndBattleText2::
 	prompt
 
 _Route12AfterBattleText2::
-	text "With a better ROD,"
+	text "With a better rod,"
 	line "I could catch"
-	cont "better #MON!"
+	cont "better <pkmn>!"
 	done
 
 _Route12BattleText3::
 	text "Have you found a"
-	line "MOON STONE?"
+	line "Moon Stone?"
 	done
 
 _Route12EndBattleText3::
@@ -60,8 +60,8 @@ _Route12EndBattleText3::
 
 _Route12AfterBattleText3::
 	text "I could have made"
-	line "my #MON evolve"
-	cont "with MOON STONE!"
+	line "my <pkmn> evolve"
+	cont "with Moon Stone!"
 	done
 
 _Route12BattleText4::
@@ -77,12 +77,12 @@ _Route12AfterBattleText4::
 	text "Water conducts"
 	line "electricity, so"
 	cont "you should zap"
-	cont "sea #MON!"
+	cont "sea <pkmn>!"
 	done
 
 _Route12BattleText5::
-	text "The FISHING FOOL"
-	line "vs. #MON KID!"
+	text "The Fishing Fool"
+	line "vs. <pkmn> Kid!"
 	done
 
 _Route12EndBattleText5::
@@ -92,7 +92,7 @@ _Route12EndBattleText5::
 
 _Route12AfterBattleText5::
 	text "You beat me at"
-	line "#MON, but I'm"
+	line "<pkmn>, but I'm"
 	cont "good at fishing!"
 	done
 
@@ -124,14 +124,14 @@ _Route12EndBattleText7::
 	prompt
 
 _Route12AfterBattleText7::
-	text "I catch MAGIKARP"
-	line "all the time, but"
-	cont "they're so weak!"
+	text "I catch Komachi"
+	line "all the time,"
+	cont "they're so good!"
 	done
 
 _Route12Text11::
 	text "ROUTE 12 "
-	line "North to LAVENDER"
+	line "North to Lavender"
 	done
 
 _Route12Text12::
@@ -139,6 +139,6 @@ _Route12Text12::
 	done
 
 _Route12TextUsePokeflute::
-	text "Play the #"
-	line "FLUTE?"
+	text "Play the <pkmn>"
+	line "Flute?"
 	done

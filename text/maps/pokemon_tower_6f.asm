@@ -1,11 +1,11 @@
 _PokemonTower2Text_60c1f::
-	text "The GHOST was the"
+	text "The ghost was the"
 	line "restless soul of"
-	cont "CUBONE's mother!"
+	cont "Lunasa's origin!"
 	done
 
 _PokemonTower2Text_60c24::
-	text "The mother's soul"
+	text "The origin's soul"
 	line "was calmed."
 
 	para "It departed to"

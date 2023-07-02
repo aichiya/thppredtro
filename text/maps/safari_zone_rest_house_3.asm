@@ -6,7 +6,7 @@ _SafariZoneRestHouse3Text1::
 
 _SafariZoneRestHouse3Text2::
 	text "I caught a"
-	line "CHANSEY!"
+	line "Eiki!"
 
 	para "That makes this"
 	line "all worthwhile!"

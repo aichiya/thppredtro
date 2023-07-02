@@ -10,19 +10,19 @@ _GaryChampionIntroText::
 	cont "me sharp!"
 
 	para "While working on"
-	line "#DEX, I looked"
+	line "TH-Dex, I looked"
 	cont "all over for"
-	cont "powerful #MON!"
+	cont "powerful <pkmn>!"
 
 	para "Not only that, I"
 	line "assembled teams"
 	cont "that would beat"
-	cont "any #MON type!"
+	cont "any <pkmn> type!"
 
 	para "And now!"
 
-	para "I'm the #MON"
-	line "LEAGUE champion!"
+	para "I'm the Touhou"
+	line "League champion!"
 
 	para "<PLAYER>! Do you"
 	line "know what that"
@@ -42,7 +42,7 @@ _GaryDefeatedText::
 
 	para "After all that"
 	line "work to become"
-	cont "LEAGUE champ?"
+	cont "league champ?"
 
 	para "My reign is over"
 	line "already?"
@@ -59,7 +59,7 @@ _GaryVictoryText::
 	para "You did well to"
 	line "even reach me,"
 	cont "<RIVAL>, the"
-	cont "#MON genius!"
+	cont "<pkmn> genius!"
 
 	para "Nice try, loser!"
 	line "Hahaha!"
@@ -71,25 +71,25 @@ _GaryText_76103::
 
 	para "I never made any"
 	line "mistakes raising"
-	cont "my #MON..."
+	cont "my <pkmn>..."
 
 	para "Darn it! You're"
-	line "the new #MON"
-	cont "LEAGUE champion!"
+	line "the new Touhou"
+	cont "League champion!"
 
 	para "Although I don't"
 	line "like to admit it."
 	done
 
 _GaryText2::
-	text "OAK: <PLAYER>!"
+	text "Oak: <PLAYER>!"
 	done
 
 _GaryText_76120::
-	text "OAK: So, you won!"
+	text "Oak: So, you won!"
 	line "Congratulations!"
 	cont "You're the new"
-	cont "#MON LEAGUE"
+	cont "Touhou League"
 	cont "champion!"
 
 	para "You've grown up so"
@@ -109,7 +109,7 @@ _GaryText_76125::
 
 	para "I came when I"
 	line "heard you beat"
-	cont "the ELITE FOUR!"
+	cont "the Elite Four!"
 
 	para "But, when I got"
 	line "here, you had"
@@ -121,7 +121,7 @@ _GaryText_76125::
 
 	para "You have forgotten"
 	line "to treat your"
-	cont "#MON with"
+	cont "<pkmn> with"
 	cont "trust and love!"
 
 	para "Without them, you"
@@ -130,7 +130,7 @@ _GaryText_76125::
 	done
 
 _GaryText_7612a::
-	text "OAK: <PLAYER>!"
+	text "Oak: <PLAYER>!"
 
 	para "You understand"
 	line "that your victory"
@@ -138,7 +138,7 @@ _GaryText_7612a::
 	cont "own doing!"
 
 	para "The bond you share"
-	line "with your #MON"
+	line "with your <pkmn>"
 	cont "is marvelous!"
 
 	para "<PLAYER>!"

@@ -217,38 +217,38 @@ DisplayIntroNameTextBox:
 ;joenote - set female trainer names
 IF DEF(_FPLAYER)
 DefaultNamesPlayerF:
-	db   "NEW NAME"
-	next "VIOLET"
-	next "CLAIRE"
-	next "JILL"
+	db   "New Name"
+	next "Maribel"
+	next "Marry"
+	next "Yukari"
 	db   "@"
 ENDC
 
 IF DEF(_REDJP)
 DefaultNamesPlayer:
-	db   "NEW NAME"
-	next "RED"
-	next "SATOSHI"
-	next "JACK"
+	db   "New Name"
+	next "Maribel"
+	next "Marry"
+	next "Yukari"
 	db   "@"
 DefaultNamesRival:
-	db   "NEW NAME"
-	next "GREEN"
-	next "SHIGERU"
-	next "JOHN"
+	db   "New Name"
+	next "Yellow"
+	next "Green"
+	next "Blue"
 	db   "@"
 ELIF DEF(_RED)
 DefaultNamesPlayer:
-	db   "NEW NAME"
-	next "RED"
-	next "ASH"
-	next "JACK"
+	db   "New Name"
+	next "Maribel"
+	next "Marry"
+	next "Yukari"
 	db   "@"
 DefaultNamesRival:
-	db   "NEW NAME"
-	next "BLUE"
-	next "GARY"
-	next "JOHN"
+	db   "New Name"
+	next "Yellow"
+	next "Green"
+	next "Blue"
 	db   "@"
 ENDC
 
@@ -325,34 +325,34 @@ GetDefaultName:
 ;joenote - set female trainer names
 IF DEF(_FPLAYER)
 DefaultNamesPlayerListF:
-	db "NEW NAME@"
-	db "VIOLET@"
-	db "CLAIRE@"
-	db "JILL@"
+	db "New Name@"
+	db "Maribel@"
+	db "Marry@"
+	db "Yukari@"
 ENDC
 
 IF DEF(_REDJP)
 DefaultNamesPlayerList:
-	db "NEW NAME@"
-	db "RED@"
-	db "SATOSHI@"
-	db "JACK@"
+	db "New Name@"
+	db "Maribel@"
+	db "Marry@"
+	db "Yukari@"
 DefaultNamesRivalList:
-	db "NEW NAME@"
-	db "GREEN@"
-	db "SHIGERU@"
-	db "JOHN@"
+	db "New Name@"
+	db "Yellow@"
+	db "Green@"
+	db "Blue@"
 ELIF DEF(_RED)
 DefaultNamesPlayerList:
-	db "NEW NAME@"
-	db "RED@"
-	db "ASH@"
-	db "JACK@"
+	db "New Name@"
+	db "Maribel@"
+	db "Marry@"
+	db "Yukari@"
 DefaultNamesRivalList:
-	db "NEW NAME@"
-	db "BLUE@"
-	db "GARY@"
-	db "JOHN@"
+	db "New Name@"
+	db "Yellow@"
+	db "Green@"
+	db "Blue@"
 ENDC
 
 

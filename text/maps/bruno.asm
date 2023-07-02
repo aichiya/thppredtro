@@ -1,15 +1,15 @@
 _BrunoBeforeBattleText::
-	text "I am BRUNO of"
-	line "the ELITE FOUR!"
+	text "I am Bruno of"
+	line "the Elite Four!"
 
 	para "Through rigorous"
 	line "training, people"
-	cont "and #MON can"
+	cont "and <pkmn> can"
 	cont "become stronger!"
 
 	para "I've weight"
 	line "trained with"
-	cont "my #MON!"
+	cont "my <pkmn>!"
 
 	para "<PLAYER>!"
 

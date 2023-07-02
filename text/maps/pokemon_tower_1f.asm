@@ -1,7 +1,7 @@
 _PokemonTower1Text1::
-	text "#MON TOWER was"
+	text "<pkmn> Tower was"
 	line "erected in the"
-	cont "memory of #MON"
+	cont "memory of <pkmn>"
 	cont "that had died."
 	done
 
@@ -13,19 +13,19 @@ _PokemonTower1Text2::
 
 _PokemonTower1Text3::
 	text "I came to pray"
-	line "for my CLEFAIRY."
+	line "for my Youmu."
 
 	para "Sniff! I can't"
 	line "stop crying..."
 	done
 
 _PokemonTower1Text4::
-	text "My GROWLITHE..."
+	text "My Yuyuko..."
 	line "Why did you die?"
 	done
 
 _PokemonTower1Text5::
-	text "I am a CHANNELER!"
+	text "I am a Channeler!"
 	line "There are spirits"
 	cont "up to mischief!"
 	done
