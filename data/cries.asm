@@ -1,192 +1,193 @@
 CryData:
 	;$BaseCry, $Pitch, $Length
-	db $11, $00, $80; Rhydon
-	db $03, $00, $80; Kangaskhan
-	db $00, $00, $80; Nidoran♂
-	db $19, $CC, $01; Clefairy
-	db $10, $00, $80; Spearow
-	db $06, $ED, $80; Voltorb
-	db $09, $00, $80; Nidoking
-	db $1F, $00, $80; Slowbro
-	db $0F, $20, $80; Ivysaur
-	db $0D, $00, $80; Exeggutor
-	db $0C, $00, $80; Lickitung
-	db $0B, $00, $80; Exeggcute
-	db $05, $00, $80; Grimer
-	db $07, $00, $FF; Gengar
-	db $01, $00, $80; Nidoran♀
-	db $0A, $00, $80; Nidoqueen
-	db $19, $00, $80; Cubone
-	db $04, $00, $80; Rhyhorn
-	db $1B, $00, $80; Lapras
-	db $15, $00, $80; Arcanine
-	db $1E, $EE, $FF; Mew
-	db $17, $00, $80; Gyarados
-	db $18, $00, $80; Shellder
-	db $1A, $00, $80; Tentacool
-	db $1C, $00, $80; Gastly
-	db $16, $00, $80; Scyther
-	db $1E, $02, $20; Staryu
-	db $13, $00, $80; Blastoise
-	db $14, $00, $80; Pinsir
-	db $12, $00, $80; Tangela
-	db $00, $00, $00; MissingNo.
-	db $00, $00, $00; MissingNo.
-	db $1F, $20, $40; Growlithe
-	db $17, $FF, $C0; Onix
-	db $18, $40, $A0; Fearow
-	db $0E, $DF, $04; Pidgey
-	db $02, $00, $80; Slowpoke
-	db $1C, $A8, $C0; Kadabra
-	db $24, $00, $80; Graveler
-	db $14, $0A, $C0; Chansey
-	db $1F, $48, $60; Machoke
-	db $20, $08, $40; Mr.Mime
-	db $12, $80, $C0; Hitmonlee
-	db $0C, $EE, $C0; Hitmonchan
-	db $17, $E0, $10; Arbok
-	db $1E, $42, $FF; Parasect
-	db $21, $20, $60; Psyduck
-	db $0D, $88, $20; Drowzee
-	db $12, $E0, $40; Golem
-	db $00, $00, $00; MissingNo.
-	db $04, $FF, $30; Magmar
-	db $00, $00, $00; MissingNo.
-	db $06, $8F, $FF; Electabuzz
-	db $1C, $20, $C0; Magneton
-	db $12, $E6, $DD; Koffing
-	db $00, $00, $00; MissingNo.
-	db $0A, $DD, $60; Mankey
-	db $0C, $88, $C0; Seel
-	db $0B, $AA, $01; Diglett
-	db $1D, $11, $40; Tauros
-	db $00, $00, $00; MissingNo.
-	db $00, $00, $00; MissingNo.
-	db $00, $00, $00; MissingNo.
-	db $10, $DD, $01; Farfetch'd
-	db $1A, $44, $40; Venonat
-	db $0F, $3C, $C0; Dragonite
-	db $00, $80, $10; MissingNo.
-	db $00, $00, $00; MissingNo.
-	db $1D, $E0, $80; MissingNo.
-	db $0B, $BB, $01; Doduo
-	db $0E, $FF, $FF; Poliwag
-	db $0D, $FF, $FF; Jynx
-	db $09, $F8, $40; Moltres
-	db $09, $80, $40; Articuno
-	db $18, $FF, $80; Zapdos
-	db $0E, $FF, $FF; Ditto
-	db $19, $77, $10; Meowth
-	db $20, $20, $E0; Krabby
-	db $22, $FF, $40; MissingNo.
-	db $00, $00, $00; MissingNo.
-	db $0E, $E0, $60; MissingNo.
-	db $24, $4F, $10; Vulpix
-	db $24, $88, $60; Ninetales
-	db $0F, $EE, $01; Pikachu
-	db $09, $EE, $08; Raichu
-	db $00, $00, $00; MissingNo.
-	db $00, $00, $00; MissingNo.
-	db $0F, $60, $40; Dratini
-	db $0F, $40, $80; Dragonair
-	db $16, $BB, $40; Kabuto
-	db $18, $EE, $01; Kabutops
-	db $19, $99, $10; Horsea
-	db $19, $3C, $01; Seadra
-	db $0F, $40, $C0; MissingNo.
-	db $0F, $20, $C0; MissingNo.
-	db $00, $20, $40; Sandshrew
-	db $00, $FF, $FF; Sandslash
-	db $1F, $F0, $01; Omanyte
-	db $1F, $FF, $40; Omastar
-	db $0E, $FF, $35; Jigglypuff
-	db $0E, $68, $60; Wigglytuff
-	db $1A, $88, $60; Eevee
-	db $1A, $10, $20; Flareon
-	db $1A, $3D, $80; Jolteon
-	db $1A, $AA, $FF; Vaporeon
-	db $1F, $EE, $01; Machop
-	db $1D, $E0, $80; Zubat
-	db $17, $12, $40; Ekans
-	db $1E, $20, $E0; Paras
-	db $0E, $77, $60; Poliwhirl
-	db $0E, $00, $FF; Poliwrath
-	db $15, $EE, $01; Weedle
-	db $13, $FF, $01; Kakuna
-	db $13, $60, $80; Beedrill
-	db $00, $00, $00; MissingNo.
-	db $0B, $99, $20; Dodrio
-	db $0A, $AF, $40; Primeape
-	db $0B, $2A, $10; Dugtrio
-	db $1A, $29, $80; Venomoth
-	db $0C, $23, $FF; Dewgong
-	db $00, $00, $00; MissingNo.
-	db $00, $00, $00; MissingNo.
-	db $16, $80, $20; Caterpie
-	db $1C, $CC, $01; Metapod
-	db $16, $77, $40; Butterfree
-	db $1F, $08, $C0; Machamp
-	db $11, $20, $10; MissingNo.
-	db $21, $FF, $40; Golduck
-	db $0D, $EE, $40; Hypno
-	db $1D, $FA, $80; Golbat
-	db $1E, $99, $FF; Mewtwo
-	db $05, $55, $01; Snorlax
-	db $17, $80, $00; Magikarp
-	db $00, $00, $00; MissingNo.
-	db $00, $00, $00; MissingNo.
-	db $07, $EF, $FF; Muk
-	db $0F, $40, $80; MissingNo.
-	db $20, $EE, $E0; Kingler
-	db $18, $6F, $E0; Cloyster
-	db $00, $00, $00; MissingNo.
-	db $06, $A8, $90; Electrode
-	db $19, $AA, $20; Clefable
-	db $12, $FF, $FF; Weezing
-	db $19, $99, $FF; Persian
-	db $08, $4F, $60; Marowak
-	db $00, $00, $00; MissingNo.
-	db $1C, $30, $40; Haunter
-	db $1C, $C0, $01; Abra
-	db $1C, $98, $FF; Alakazam
-	db $14, $28, $C0; Pidgeotto
-	db $14, $11, $FF; Pidgeot
-	db $1E, $00, $80; Starmie
-	db $0F, $80, $01; Bulbasaur
-	db $0F, $00, $C0; Venusaur
-	db $1A, $EE, $FF; Tentacruel
-	db $00, $00, $00; MissingNo.
-	db $16, $80, $40; Goldeen
-	db $16, $10, $FF; Seaking
-	db $00, $00, $00; MissingNo.
-	db $00, $00, $00; MissingNo.
-	db $00, $00, $00; MissingNo.
-	db $00, $00, $00; MissingNo.
-	db $25, $00, $80; Ponyta
-	db $25, $20, $C0; Rapidash
-	db $22, $00, $80; Rattata
-	db $22, $20, $FF; Raticate
-	db $00, $2C, $C0; Nidorino
-	db $01, $2C, $E0; Nidorina
-	db $24, $F0, $10; Geodude
-	db $25, $AA, $FF; Porygon
-	db $23, $20, $F0; Aerodactyl
-	db $00, $00, $00; MissingNo.
-	db $1C, $80, $60; Magnemite
-	db $00, $00, $00; MissingNo.
-	db $00, $00, $00; MissingNo.
-	db $04, $60, $40; Charmander
-	db $1D, $60, $40; Squirtle
-	db $04, $20, $40; Charmeleon
-	db $1D, $20, $40; Wartortle
-	db $04, $00, $80; Charizard
-	db $1D, $00, $80; MissingNo.
-	db $00, $00, $00; MissingNo.
-	db $00, $00, $00; MissingNo.
-	db $00, $00, $00; MissingNo.
-	db $08, $DD, $01; Oddish
-	db $08, $AA, $40; Gloom
-	db $23, $22, $FF; Vileplume
-	db $21, $55, $01; Bellsprout
-	db $25, $44, $20; Weepinbell
-	db $25, $66, $CC; Victreebel
+	db $08, $CC, $40     ; RHYDON     ; CMedicine
+	db $09, $CC, $40     ; KANGASKHAN     ; CAya
+	db $0C, $33, $40     ; NIDORAN_M     ; Koakuma
+	db $0D, $33, $40     ; CLEFAIRY     ; Patchouli
+	db $08, $33, $40     ; SPEAROW     ; EStar
+	db $02, $CC, $40     ; VOLTORB     ; EReisen
+	db $0D, $33, $40     ; NIDOKING     ; CPatchouli
+	db $20, $33, $40     ; SLOWBRO     ; Yukari
+	db $03, $33, $40     ; IVYSAUR     ; Kirisame
+	db $03, $CC, $40     ; EXEGGUTOR     ; EEirin
+	db $05, $CC, $40     ; LICKITUNG     ; Mokou
+	db $03, $CC, $40     ; EXEGGCUTE     ; Eirin
+	db $23, $33, $40     ; GRIMER     ; CMystia
+	db $25, $33, $40     ; GENGAR     ; HKeine
+	db $0B, $33, $40     ; NIDORAN_F     ; Meiling
+	db $0C, $33, $40     ; NIDOQUEEN     ; CKoakuma
+	db $04, $CC, $40     ; CUBONE     ; CKaguya
+	db $07, $CC, $40     ; RHYHORN     ; Yorihime
+	db $0E, $CC, $40     ; LAPRAS     ; Minoriko
+	db $18, $33, $40     ; ARCANINE     ; ELilyBlack
+	db $15, $CC, $40     ; MEW     ; VIVIT
+	db $0E, $CC, $40     ; GYARADOS     ; CMinoriko
+	db $23, $33, $40     ; SHELLDER     ; EMystia
+	db $1D, $33, $40     ; TENTACOOL     ; EYoumu
+	db $24, $33, $40     ; GASTLY     ; Keine
+	db $0B, $CC, $40     ; SCYTHER     ; EKomachi
+	db $0A, $CC, $40     ; STARYU     ; EYuuka
+	db $03, $33, $40     ; BLASTOISE     ; EMarisa
+	db $0D, $CC, $40     ; PINSIR     ; CShizuha
+	db $08, $CC, $40     ; TANGELA     ; EMedicine
+	db $00, $00, $00     ; MISSINGNO_1F
+	db $00, $00, $00     ; MISSINGNO_20
+	db $18, $33, $40     ; GROWLITHE     ; LilyBlack
+	db $01, $CC, $40     ; ONIX     ; CTewi
+	db $09, $33, $40     ; FEAROW     ; CLuna
+	db $07, $33, $40     ; PIDGEY     ; CCirno
+	db $20, $33, $40     ; SLOWPOKE     ; CYukari
+	db $1A, $33, $40     ; KADABRA     ; Merlin
+	db $1E, $33, $40     ; GRAVELER     ; EYuyuko
+	db $08, $CC, $40     ; CHANSEY     ; Medicine
+	db $1B, $33, $40     ; MACHOKE     ; Lyrica
+	db $0B, $CC, $40     ; MR_MIME     ; Komachi
+	db $04, $CC, $40     ; HITMONLEE     ; EKaguya
+	db $05, $CC, $40     ; HITMONCHAN     ; CMokou
+	db $09, $33, $40     ; ARBOK     ; ELuna
+	db $14, $33, $40     ; PARASECT     ; CLetty
+	db $16, $33, $40     ; PSYDUCK     ; Alice
+	db $01, $CC, $40     ; DROWZEE     ; Tewi
+	db $1F, $33, $40     ; GOLEM     ; CRan
+	db $00, $00, $00     ; MISSINGNO_32
+	db $0C, $CC, $40     ; MAGMAR     ; EEiki
+	db $00, $00, $00     ; MISSINGNO_34
+	db $0C, $CC, $40     ; ELECTABUZZ     ; Eiki
+	db $21, $33, $40     ; MAGNETON     ; CSuika
+	db $05, $CC, $40     ; KOFFING     ; EMokou
+	db $00, $00, $00     ; MISSINGNO_38
+	db $17, $33, $40     ; MANKEY     ; LilyWhite
+	db $22, $33, $40     ; SEEL     ; Wriggle
+	db $15, $33, $40     ; DIGLETT     ; CChen
+	db $0D, $CC, $40     ; TAUROS     ; Shizuha
+	db $00, $00, $00     ; MISSINGNO_3D
+	db $00, $00, $00     ; MISSINGNO_3E
+	db $00, $00, $00     ; MISSINGNO_3F
+	db $21, $33, $40     ; FARFETCHD     ; Suika
+	db $14, $33, $40     ; VENONAT     ; Letty
+	db $14, $CC, $40     ; DRAGONITE     ; Suwako
+	db $00, $80, $10     ; MISSINGNO_43
+	db $00, $00, $00     ; MISSINGNO_44
+	db $1D, $E0, $80     ; MISSINGNO_45
+	db $21, $33, $40     ; DODUO     ; ESuika
+	db $19, $33, $40     ; POLIWAG     ; CLunasa
+	db $0C, $CC, $40     ; JYNX     ; CEiki
+	db $13, $CC, $40     ; MOLTRES     ; Kanako
+	db $12, $CC, $40     ; ARTICUNO     ; ESanae
+	db $13, $CC, $40     ; ZAPDOS     ; CKanako
+	db $0E, $CC, $40     ; DITTO     ; EMinoriko
+	db $15, $33, $40     ; MEOWTH     ; EChen
+	db $02, $CC, $40     ; KRABBY     ; CReisen
+	db $22, $FF, $40     ; MISSINGNO_4F
+	db $00, $00, $00     ; MISSINGNO_50
+	db $0E, $E0, $60     ; MISSINGNO_51
+	db $0F, $33, $40     ; VULPIX     ; CSakuya
+	db $0F, $33, $40     ; NINETALES     ; Sakuya
+	db $0A, $33, $40     ; PIKACHU     ; CSunny
+	db $0A, $33, $40     ; RAICHU     ; Sunny
+	db $00, $00, $00     ; MISSINGNO_56
+	db $00, $00, $00     ; MISSINGNO_57
+	db $13, $CC, $40     ; DRATINI     ; EKanako
+	db $14, $CC, $40     ; DRAGONAIR     ; CSuwako
+	db $11, $CC, $40     ; KABUTO     ; Momiji
+	db $11, $CC, $40     ; KABUTOPS     ; EMomiji
+	db $09, $CC, $40     ; HORSEA     ; Aya
+	db $09, $CC, $40     ; SEADRA     ; EAya
+	db $0F, $40, $C0     ; MISSINGNO_5E
+	db $0F, $20, $C0     ; MISSINGNO_5F
+	db $0A, $33, $40     ; SANDSHREW     ; ESunny
+	db $0B, $33, $40     ; SANDSLASH     ; CMeiling
+	db $10, $CC, $40     ; OMANYTE     ; ENitori
+	db $11, $CC, $40     ; OMASTAR     ; CMomiji
+	db $0F, $33, $40     ; JIGGLYPUFF     ; ESakuya
+	db $10, $33, $40     ; WIGGLYTUFF     ; CRemilia
+	db $0F, $CC, $40     ; EEVEE     ; CHina
+	db $10, $CC, $40     ; FLAREON     ; CNitori
+	db $0F, $CC, $40     ; JOLTEON     ; EHina
+	db $0F, $CC, $40     ; VAPOREON     ; Hina
+	db $1B, $33, $40     ; MACHOP     ; CLyrica
+	db $10, $33, $40     ; ZUBAT     ; Remilia
+	db $09, $33, $40     ; EKANS     ; Luna
+	db $13, $33, $40     ; PARAS     ; Satsuki
+	db $19, $33, $40     ; POLIWHIRL     ; Lunasa
+	db $19, $33, $40     ; POLIWRATH     ; ELunasa
+	db $05, $33, $40     ; WEEDLE     ; Fairy
+	db $06, $FF, $40     ; KAKUNA     ; Daiyousei
+	db $06, $FF, $40     ; BEEDRILL     ; EDaiyousei
+	db $00, $00, $00     ; MISSINGNO_73
+	db $22, $33, $40     ; DODRIO     ; CWriggle
+	db $17, $33, $40     ; PRIMEAPE     ; ELilyWhite
+	db $15, $33, $40     ; DUGTRIO     ; Chen
+	db $14, $33, $40     ; VENOMOTH     ; ELetty
+	db $22, $33, $40     ; DEWGONG     ; EWriggle
+	db $00, $00, $00     ; MISSINGNO_79
+	db $00, $00, $00     ; MISSINGNO_7A
+	db $04, $33, $40     ; CATERPIE     ; CRumia
+	db $04, $33, $40     ; METAPOD     ; Rumia
+	db $04, $33, $40     ; BUTTERFREE     ; ERumia
+	db $1B, $33, $40     ; MACHAMP     ; ELyrica
+	db $11, $20, $10     ; MISSINGNO_7F
+	db $16, $33, $40     ; GOLDUCK     ; EAlice
+	db $01, $CC, $40     ; HYPNO     ; ETewi
+	db $10, $33, $40     ; GOLBAT     ; ERemilia
+	db $14, $CC, $40     ; MEWTWO     ; ESuwako
+	db $12, $CC, $40     ; SNORLAX     ; Sanae
+	db $0D, $CC, $40     ; MAGIKARP     ; EShizuha
+	db $00, $00, $00     ; MISSINGNO_86
+	db $00, $00, $00     ; MISSINGNO_87
+	db $23, $33, $40     ; MUK     ; Mystia
+	db $0F, $40, $80     ; MISSINGNO_89
+	db $02, $CC, $40     ; KINGLER     ; Reisen
+	db $24, $33, $40     ; CLOYSTER     ; CKeine
+	db $00, $00, $00     ; MISSINGNO_8C
+	db $03, $CC, $40     ; ELECTRODE     ; CEirin
+	db $0D, $33, $40     ; CLEFABLE     ; EPatchouli
+	db $06, $CC, $40     ; WEEZING     ; Toyohime
+	db $16, $33, $40     ; PERSIAN     ; CAlice
+	db $04, $CC, $40     ; MAROWAK     ; Kaguya
+	db $00, $00, $00     ; MISSINGNO_92
+	db $24, $33, $40     ; HAUNTER     ; EKeine
+	db $1A, $33, $40     ; ABRA     ; CMerlin
+	db $1A, $33, $40     ; ALAKAZAM     ; EMerlin
+	db $07, $33, $40     ; PIDGEOTTO     ; Cirno
+	db $07, $33, $40     ; PIDGEOT     ; ECirno
+	db $0B, $CC, $40     ; STARMIE     ; CKomachi
+	db $01, $33, $40     ; BULBASAUR     ; Hakurei
+	db $02, $33, $40     ; VENUSAUR     ; Genji
+	db $1E, $33, $40     ; TENTACRUEL     ; CYuyuko
+	db $00, $00, $00     ; MISSINGNO_9C
+	db $0A, $CC, $40     ; GOLDEEN     ; CYuuka
+	db $0A, $CC, $40     ; SEAKING     ; Yuuka
+	db $00, $00, $00     ; MISSINGNO_9F
+	db $00, $00, $00     ; MISSINGNO_A0
+	db $00, $00, $00     ; MISSINGNO_A1
+	db $00, $00, $00     ; MISSINGNO_A2
+	db $1F, $33, $40     ; PONYTA     ; Ran
+	db $1F, $33, $40     ; RAPIDASH     ; ERan
+	db $08, $33, $40     ; RATTATA     ; CStar
+	db $08, $33, $40     ; RATICATE     ; Star
+	db $0C, $33, $40     ; NIDORINO     ; EKoakuma
+	db $0B, $33, $40     ; NIDORINA     ; EMeiling
+	db $1E, $33, $40     ; GEODUDE     ; Yuyuko
+	db $10, $CC, $40     ; PORYGON     ; Nitori
+	db $12, $CC, $40     ; AERODACTYL     ; CSanae
+	db $00, $00, $00     ; MISSINGNO_AC
+	db $20, $33, $40     ; MAGNEMITE     ; EYukari
+	db $00, $00, $00     ; MISSINGNO_AE
+	db $00, $00, $00     ; MISSINGNO_AF
+	db $01, $33, $40     ; CHARMANDER     ; CReimu
+	db $03, $33, $40     ; SQUIRTLE     ; CMarisa
+	db $01, $33, $40     ; CHARMELEON     ; Reimu
+	db $03, $33, $40     ; WARTORTLE     ; Marisa
+	db $01, $33, $40     ; CHARIZARD     ; EReimu
+	db $1D, $00, $80     ; MISSINGNO_B5
+	db $00, $00, $00     ; MISSINGNO_B6
+	db $00, $00, $00     ; MISSINGNO_B7
+	db $00, $00, $00     ; MISSINGNO_B8
+	db $12, $33, $40     ; ODDISH     ; CFlandre
+	db $12, $33, $40     ; GLOOM     ; Flandre
+	db $12, $33, $40     ; VILEPLUME     ; EFlandre
+	db $1C, $33, $40     ; BELLSPROUT     ; Layla
+	db $1D, $33, $40     ; WEEPINBELL     ; CYoumu
+	db $1D, $33, $40     ; VICTREEBEL     ; Youmu
+
