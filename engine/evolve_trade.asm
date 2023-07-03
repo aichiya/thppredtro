@@ -33,13 +33,13 @@ EvolveTradeMon:
 
 ; .ok
 	ld a,[wInGameTradeReceiveMonSpecies]
-	cp KADABRA
+	cp MISSINGNO_B5 ;KADABRA
 	jr z,.tradeEvo
-	cp GRAVELER
+	cp FOSSIL_KABUTOPS ;GRAVELER
 	jr z,.tradeEvo
-	cp MACHOKE
+	cp FOSSIL_AERODACTYL ;MACHOKE
 	jr z,.tradeEvo
-	cp HAUNTER
+	cp MON_GHOST ;HAUNTER
 	jr z,.tradeEvo
 	ret
 .tradeEvo

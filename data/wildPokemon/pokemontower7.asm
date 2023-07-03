@@ -1,13 +1,13 @@
 TowerMons7:
 	db $0F
-	db 21,GASTLY
-	db 22,GASTLY
-	db 23,GASTLY
-	db 24,GASTLY
-	db 20,GASTLY
-	db 28,HAUNTER
-	db 22,CUBONE
-	db 24,CUBONE
-	db 28,HAUNTER
-	db 30,HAUNTER
+	db 21,POLIWAG     ; CLunasa
+	db 22,ABRA     ; CMerlin
+	db 23,MACHOP     ; CLyrica
+	db 24,POLIWAG     ; CLunasa
+	db 20,ABRA     ; CMerlin
+	db 28,POLIWHIRL     ; Lunasa
+	db 22,MACHOP     ; CLyrica
+	db 24,WEEPINBELL     ; CYoumu
+	db 28,POLIWAG     ; CLunasa
+	db 30,VICTREEBEL     ; Youmu
 	db $00

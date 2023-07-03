@@ -45,8 +45,8 @@ Lab4Script_GetFossilsInBag:
 	ret
 
 FossilsList:
-	db DOME_FOSSIL
-	db HELIX_FOSSIL
+	db DOME_FOSSIL  ; Old Broom
+	db HELIX_FOSSIL ; Old Gohei
 	db OLD_AMBER
 	db $00
 
@@ -89,7 +89,7 @@ Lab4Text1:
 	SetEvent EVENT_LAB_HANDING_OVER_FOSSIL_MON
 	ld a, [wFossilMon]
 	ld b, a
-	ld c, 30
+	ld c, 40
 	call GivePokemon
 	jr nc, .asm_75d93
 	ResetEvents EVENT_GAVE_FOSSIL_TO_LAB, EVENT_LAB_STILL_REVIVING_FOSSIL, EVENT_LAB_HANDING_OVER_FOSSIL_MON
@@ -149,15 +149,15 @@ Lab4Text3:
 ;do not allow cloning of legendary pokemon
 	ld a, [wPartyMon1Species]
 	ld hl, Lab4Text_Legend
-	cp MEW
+	cp MEW     ; VIVIT
 	jp z, .done
-	cp MEWTWO
+	cp PARAS     ; Satsuki
 	jp z, .done
-	cp ARTICUNO
+	cp RHYHORN     ; Yorihime
 	jp z, .done
-	cp ZAPDOS
+	cp WEEZING     ; Toyohime
 	jp z, .done
-	cp MOLTRES
+	cp BELLSPROUT     ; Layla
 	jp z, .done
 
 	ld hl, Lab4Text_Clone0

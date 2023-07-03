@@ -1,13 +1,13 @@
 MoonMonsB2:
 	db $0A
-	db 9,ZUBAT
-	db 9,GEODUDE
-	db 10,ZUBAT
-	db 10,GEODUDE
-	db 11,ZUBAT
-	db 10,PARAS
-	db 12,PARAS
-	db 10,CLEFAIRY
-	db 12,ZUBAT
-	db 12,CLEFAIRY
+	db 9,CATERPIE     ; CRumia
+	db 9,CATERPIE     ; CRumia
+	db 10,CATERPIE     ; CRumia
+	db 10,CATERPIE     ; CRumia
+	db 11,CATERPIE     ; CRumia
+	db 10,NIDOQUEEN     ; CKoakuma
+	db 12,NIDOQUEEN     ; CKoakuma
+	db 10,NIDOQUEEN     ; CKoakuma
+	db 12,KRABBY     ; CReisen
+	db 12,CUBONE     ; CKaguya
 	db $00

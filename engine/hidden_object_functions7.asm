@@ -420,14 +420,14 @@ BillsHousePokemonList:
 	bit 1, a ; pressed b
 	jr nz, .cancel
 	ld a, [wCurrentMenuItem]
-	add EEVEE
-	cp EEVEE
+	add VILEPLUME     ; EFlandre
+	cp VILEPLUME     ; EFlandre
 	jr z, .displayPokedex
-	cp FLAREON
+	cp MAGNEMITE     ; EYukari
 	jr z, .displayPokedex
-	cp JOLTEON
+	cp KOFFING     ; EMokou
 	jr z, .displayPokedex
-	cp VAPOREON
+	cp MEWTWO     ; ESuwako
 	jr z, .displayPokedex
 	jr .cancel
 .displayPokedex
@@ -445,11 +445,11 @@ BillsHousePokemonListText1:
 	db "@"
 
 BillsMonListText:
-	db   "EEVEE"
-	next "FLAREON"
-	next "JOLTEON"
-	next "VAPOREON"
-	next "CANCEL@"
+	db   "Ex-Flandre"
+	next "Ex-Yukari"
+	next "Ex-Mokou"
+	next "Ex-Suwako"
+	next "Cancel@"
 
 BillsHousePokemonListText2:
 	TX_FAR _BillsHousePokemonListText2

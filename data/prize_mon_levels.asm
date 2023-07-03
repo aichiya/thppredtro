@@ -1,13 +1,13 @@
 ;joenote - rebalanced prizes
 PrizeMonLevelDictionary:
 IF DEF(_ENCRED)
-	db CHARMANDER,15 ; CReimu
-	db SQUIRTLE,15 ; CMarisa
-	db VULPIX,15 ; CSakuya
+	db CHARMANDER,30 ; CReimu
+	db SQUIRTLE,30 ; CMarisa
+	db VULPIX,30 ; CSakuya
 
-	db MAGNETON,15 ; CSuika
-	db SLOWPOKE,15 ; CYukari
-	db PARAS,15 ; Satsuki
+	db MAGNETON,30 ; CSuika
+	db SLOWPOKE,30 ; CYukari
+	db DODRIO,30 ; CWriggle
 ELIF DEF(_ENCBLUEJP)
 	db ABRA,      8
 	db PIKACHU, 12

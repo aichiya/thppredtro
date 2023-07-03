@@ -176,7 +176,7 @@ VoltorbBattleText:
 ZapdosBattleText:
 	TX_FAR _ZapdosBattleText
 	TX_ASM
-	ld a, ZAPDOS
+	ld a, BELLSPROUT     ; Layla
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

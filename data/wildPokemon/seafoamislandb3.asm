@@ -1,16 +1,16 @@
 IslandMonsB3:
 	db $0A
 	IF DEF(_ENCRED)
-		db 31,SLOWPOKE
-		db 31,SEEL
-		db 33,SLOWPOKE
-		db 33,SEEL
-		db 29,HORSEA
-		db 31,SHELLDER
-		db 31,HORSEA
-		db 29,SHELLDER
-		db 39,SEADRA
-		db 37,DEWGONG
+		db 31,PARASECT     ; CLetty
+		db 31,PIDGEY     ; CCirno
+		db 33,ELECTRODE     ; CEirin
+		db 33,VENONAT     ; Letty
+		db 29,PIDGEOTTO     ; Cirno
+		db 39,PIDGEOT     ; ECirno
+		db 31,EXEGGCUTE     ; Eirin
+		db 39,VENOMOTH     ; ELetty
+		db 39,EXEGGUTOR     ; EEirin
+		db 35,NINETALES     ; Sakuya
 	ELIF DEF(_ENCBLUEJP)
 		db 31, HORSEA
 		db 31, SEEL

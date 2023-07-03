@@ -1,16 +1,16 @@
 IslandMonsB1:
 	db $0A
 	IF DEF(_ENCRED)
-		db 30,STARYU
-		db 30,HORSEA
-		db 32,SHELLDER
-		db 32,HORSEA
-		db 28,SLOWPOKE
-		db 30,SEEL
-		db 30,SLOWPOKE
-		db 28,SEEL
-		db 38,DEWGONG
-		db 37,SEADRA
+		db 30,PIDGEY     ; CCirno
+		db 30,PARASECT     ; CLetty
+		db 32,ELECTRODE     ; CEirin
+		db 32,VENONAT     ; Letty
+		db 28,PIDGEOTTO     ; Cirno
+		db 30,EXEGGCUTE     ; Eirin
+		db 30,PIDGEOTTO     ; Cirno
+		db 28,VENONAT     ; Letty
+		db 38,EXEGGCUTE     ; Eirin
+		db 35,NINETALES     ; Sakuya
 	ELIF DEF(_ENCBLUEJP)
 		db 30, SHELLDER
 		db 30, KRABBY

@@ -1,13 +1,13 @@
 CaveMons:;joenote - added snorlax
 	db $14
-	db 18,DIGLETT
-	db 19,DIGLETT
-	db 17,DIGLETT
-	db 20,DIGLETT
-	db 16,DIGLETT
-	db 15,DIGLETT
-	db 21,DIGLETT
-	db 25,SNORLAX
-	db 29,DUGTRIO
-	db 31,DUGTRIO
+	db 18,NIDOQUEEN     ; CKoakuma
+	db 19,NIDOQUEEN     ; CKoakuma
+	db 17,NIDOQUEEN     ; CKoakuma
+	db 20,NIDORAN_M     ; Koakuma
+	db 16,NIDOQUEEN     ; CKoakuma
+	db 15,NIDOQUEEN     ; CKoakuma
+	db 21,NIDORAN_M     ; Koakuma
+	db 25,GOLEM     ; CRan
+	db 29,GOLEM     ; CRan
+	db 31,PONYTA     ; Ran
 	db $00

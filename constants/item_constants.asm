@@ -42,8 +42,8 @@ SAFARI_ROCK           EQU $16 ; overload
 	const CARBOS        ; $26
 	const CALCIUM       ; $27
 	const RARE_CANDY    ; $28
-	const DOME_FOSSIL   ; $29
-	const HELIX_FOSSIL  ; $2A
+	const DOME_FOSSIL   ; $29 ; Kirisame's Broom
+	const HELIX_FOSSIL  ; $2A ; Hakurei's Gohei
 	const SECRET_KEY    ; $2B
 ;	const UNUSED_ITEM    ; $2C "?????"
 	const MIST_STONE	; $2C	joenote - custom item

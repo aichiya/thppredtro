@@ -48,7 +48,7 @@ PrizeMenuMon2Entries:
 IF DEF(_ENCRED)
 	db MAGNETON ; CSuika
 	db SLOWPOKE ; CYukari
-	db PARAS ; Satsuki
+	db DODRIO ; CWriggle
 ELIF DEF(_ENCBLUEJP)
 	db CLEFABLE
 	db DRAGONAIR
@@ -77,13 +77,13 @@ ENDC
 	db "@"
 
 PrizeMenuTMsEntries:
+	db TM_13
 	db TM_24
-	db TM_14
-	db TM_15
+	db TM_37
 	db "@"
 
 PrizeMenuTMsCost:
-	coins 3300
-	coins 5500
-	coins 7700
+	coins 2000
+	coins 2000
+	coins 2000
 	db "@"

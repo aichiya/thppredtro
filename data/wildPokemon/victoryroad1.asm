@@ -1,13 +1,13 @@
 PlateauMons1:
 	db $0F
-	db 24,MACHOP
-	db 26,GEODUDE
-	db 22,ZUBAT
-	db 36,ONIX
-	db 39,ONIX
-	db 42,ONIX
-	db 41,GRAVELER
-	db 41,GOLBAT
-	db 42,MACHOKE
-	db 43,MAROWAK
+	db 38,NIDORINO     ; EKoakuma
+	db 38,BUTTERFREE     ; ERumia
+	db 38,SCYTHER     ; EKomachi
+	db 40,EXEGGUTOR     ; EEirin
+	db 40,JOLTEON     ; EHina
+	db 40,OMANYTE     ; ENitori
+	db 42,ELECTABUZZ     ; Eiki
+	db 42,KOFFING     ; EMokou
+	db 42,HITMONLEE     ; EKaguya
+	db 50,CHARIZARD     ; EReimu
 	db $00

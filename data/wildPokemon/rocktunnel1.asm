@@ -1,17 +1,17 @@
 TunnelMonsB1:;joenote - added cubone
 	db $0F
-	db 16,ZUBAT
-	db 17,ZUBAT
-	db 17,GEODUDE
-	db 15,MACHOP
-	db 16,GEODUDE
+	db 16,NIDOQUEEN     ; CKoakuma
+	db 17,CATERPIE     ; CRumia
+	db 17,NIDOQUEEN     ; CKoakuma
+	db 15,CATERPIE     ; CRumia
+	db 16,NIDOQUEEN     ; CKoakuma
 IF DEF(_ENCBLUEJP)	
 	db 18, DITTO
 ELSE
-	db 18, ZUBAT
+	db 18, NIDORAN_M     ; Koakuma
 ENDC
-	db 15,CUBONE
-	db 17,MACHOP
-	db 13,ONIX
-	db 15,ONIX
+	db 15,NIDOQUEEN     ; CKoakuma
+	db 17,CATERPIE     ; CRumia
+	db 13,STARMIE     ; CKomachi
+	db 15,STARMIE     ; CKomachi
 	db $00

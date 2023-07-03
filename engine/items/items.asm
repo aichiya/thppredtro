@@ -2109,7 +2109,7 @@ ItemUseOldRod:
 	and %11
 	jr ItemUseGoodRod.goodRodList
 .magikarp
-	lb bc, 5, MAGIKARP
+	lb bc, 5, EEVEE     ; CHina
 	ld a, $1 ; set bite
 	jr RodResponse
 

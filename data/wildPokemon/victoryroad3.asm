@@ -1,13 +1,13 @@
 PlateauMons3:;joenote - added hitmonchan & hitmonlee
 	db $0F
-	db 24,MACHOP
-	db 26,GEODUDE
-	db 22,ZUBAT
-	db 40,VENOMOTH
-	db 45,ONIX
-	db 41,GOLBAT
-	db 42,HITMONCHAN
-	db 42,HITMONLEE
-	db 43,GRAVELER
-	db 45,MACHOKE
+	db 38,NIDORINO     ; EKoakuma
+	db 38,BUTTERFREE     ; ERumia
+	db 38,SCYTHER     ; EKomachi
+	db 40,EXEGGUTOR     ; EEirin
+	db 40,JOLTEON     ; EHina
+	db 40,OMANYTE     ; ENitori
+	db 42,ELECTABUZZ     ; Eiki
+	db 42,KOFFING     ; EMokou
+	db 42,HITMONLEE     ; EKaguya
+	db 50,JIGGLYPUFF     ; ESakuya
 	db $00

@@ -214,7 +214,7 @@ MoltresText:
 MoltresBattleText:
 	TX_FAR _MoltresBattleText
 	TX_ASM
-	ld a, MOLTRES
+	ld a, RHYHORN     ; Yorihime
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

@@ -1,3 +1,3 @@
-STARTER1 EQU CHARMANDER
-STARTER2 EQU SQUIRTLE
-STARTER3 EQU BULBASAUR
+STARTER1 EQU SQUIRTLE   ; CMarisa , the rival chooses CReimu
+STARTER2 EQU CHARMANDER ; CReimu , the rival chooses CSakuya
+STARTER3 EQU VULPIX     ; CSakuya , the rival chooses CMarisa

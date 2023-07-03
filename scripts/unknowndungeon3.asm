@@ -52,7 +52,7 @@ MewtwoText:
 MewtwoBattleText:
 	TX_FAR _MewtwoBattleText
 	TX_ASM
-	ld a, MEWTWO
+	ld a, PARAS     ; Satsuki
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

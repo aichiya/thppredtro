@@ -208,7 +208,7 @@ BillsHouseText3:
 	TX_ASM
 
 	ld a, [wPartyMon1Species]
-	cp MEW
+	cp MEW  ; VIVIT
 	jr nz, .next
 	ld a, 6
 	ld [wBillsHouseCurScript], a	;joenote - warp to bill's garden

@@ -36,9 +36,9 @@ GiveFossilToCinnabarLab:
 	add hl, de
 	ld a, [hl]
 	ld [$ffdb], a
-	cp DOME_FOSSIL ; Rod Fossil
+	cp DOME_FOSSIL ; Old Broom
 	jr z, .choseDomeFossil
-	cp HELIX_FOSSIL ; Broom Fossil
+	cp HELIX_FOSSIL ; Old Gohei
 	jr z, .choseHelixFossil
 	ld b, VENUSAUR ; Genji
 	jr .fossilSelected

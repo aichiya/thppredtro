@@ -1,16 +1,16 @@
 Route5Mons:;joenote - added meowth/mankey
 	db $0F
 	IF DEF(_ENCRED)
-		db 13,ODDISH
-		db 13,PIDGEY
-		db 15,PIDGEY
-		db 10,MEOWTH
-		db 12,MANKEY
-		db 15,ODDISH
-		db 16,ODDISH
-		db 16,PIDGEY
-		db 14,MANKEY
-		db 16,MANKEY
+		db 13,DIGLETT     ; CChen
+		db 13,PINSIR     ; CShizuha
+		db 15,GYARADOS     ; CMinoriko
+		db 10,GYARADOS     ; CMinoriko
+		db 12,PINSIR     ; CShizuha
+		db 15,OMASTAR     ; CMomiji
+		db 16,OMASTAR     ; CMomiji
+		db 16,KANGASKHAN     ; CAya
+		db 14,KANGASKHAN     ; CAya
+		db 16,DIGLETT     ; CChen
 	ELIF DEF(_ENCBLUEJP)
 		db 13, ODDISH
 		db 13, PIDGEY

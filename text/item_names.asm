@@ -39,8 +39,8 @@ ItemNames:
 	db "Carbos@"
 	db "Calcium@"
 	db "MysteryCandy@"
-	db "Dome Fossil@"
-	db "Helix Fossil@"
+	db "Old Broom@" ; Dome Fossil
+	db "Old Gohei@" ; Helix Fossil
 	db "Secret Key@"
 ;	db "?????@"
 	db "Mist Stone@"	;joenote - custom item

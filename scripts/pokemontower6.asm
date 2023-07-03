@@ -36,7 +36,7 @@ PokemonTower6Script0:
 	;joenote - set a bit to indicate this is a ghost marowak battle
 	SetEvent EVENT_10E
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	ld a, MAROWAK
+	ld a, BELLSPROUT     ; Layla
 	ld [wCurOpponent], a
 	ld a, 30
 	ld [wCurEnemyLVL], a
@@ -162,7 +162,7 @@ PokemonTower6Text7:
 	TX_ASM
 	ld hl, PokemonTower2Text_60c1f
 	call PrintText
-	ld a, MAROWAK
+	ld a, BELLSPROUT     ; Layla
 	call PlayCry
 	call WaitForSoundToFinish
 	ld c, 30

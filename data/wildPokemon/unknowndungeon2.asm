@@ -1,17 +1,17 @@
 DungeonMons2:
 	db $0F
-	db 51,DODRIO
-	db 51,VENOMOTH
-	db 51,KADABRA
-	db 52,RHYDON
+	db 51,DODRIO     ; CWriggle
+	db 51,SEEL     ; Wriggle
+	db 51,DEWGONG     ; EWriggle
+	db 52,BUTTERFREE     ; ERumia
 IF DEF(_ENCBLUEJP)
 	db 52, RATICATE
 ELSE
-	db 52,MAROWAK
+	db 52,RAPIDASH     ; ERan
 ENDC
-	db 52,ELECTRODE
-	db 54,WIGGLYTUFF
-	db 55,DITTO
-	db 60,DITTO
-	db 56,CHANSEY
+	db 52,ARTICUNO     ; ESanae
+	db 54,VILEPLUME     ; EFlandre
+	db 55,MEWTWO     ; ESuwako
+	db 60,MAGMAR     ; EEiki
+	db 56,MAGMAR     ; EEiki
 	db $00

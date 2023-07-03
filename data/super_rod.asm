@@ -43,65 +43,65 @@ SuperRodLabelStart::
 ; number of monsters, followed by level/monster pairs
 FishingGroup1:
 	db 2
-	db 15,PSYDUCK
-	db 15,POLIWAG
+	db 35,VAPOREON     ; Hina
+	db 35,OMANYTE     ; ENitori
 
 FishingGroup2:
 	db 4
-	db 120,DITTO
-	db 160,DITTO
-	db 200,DITTO
-	db 240,DITTO
+	db 60,JOLTEON     ; EHina
+	db 60,OMANYTE     ; ENitori
+	db 60,MEWTWO     ; ESuwako
+	db 60,GRAVELER     ; EYuyuko
 	
 FishingGroup3:
 	db 3
-	db 15,PSYDUCK
-	db 15,GOLDEEN
-	db 15,KRABBY
+	db 35,VAPOREON     ; Hina
+	db 35,OMANYTE     ; ENitori
+	db 35,TENTACRUEL     ; CYuyuko
 
 FishingGroup4:
 	db 2
-	db 15,KRABBY
-	db 15,SHELLDER
+	db 35,VAPOREON     ; Hina
+	db 35,OMANYTE     ; ENitori
 
 FishingGroup5:
 	db 2
-	db 23,POLIWHIRL
-	db 15,SLOWPOKE
+	db 35,VAPOREON     ; Hina
+	db 35,OMANYTE     ; ENitori
 
 FishingGroup6:
 	db 4
-	db 15,DRATINI
-	db 15,LAPRAS
-	db 15,PSYDUCK
-	db 15,SLOWPOKE
+	db 35,VAPOREON     ; Hina
+	db 35,PORYGON     ; Nitori
+	db 35,DRAGONAIR     ; CSuwako
+	db 35,TENTACRUEL     ; CYuyuko
 
 FishingGroup7:
 	db 4
-	db 5,TENTACOOL
-	db 15,KRABBY
-	db 15,GOLDEEN
-	db 15,MAGIKARP
+	db 35,VAPOREON     ; Hina
+	db 35,PORYGON     ; Nitori
+	db 35,JOLTEON     ; EHina
+	db 35,TENTACRUEL     ; CYuyuko
 
 FishingGroup8:
 	db 4
-	db 15,STARYU
-	db 15,HORSEA
-	db 15,SHELLDER
-	db 15,GOLDEEN
+	db 35,VAPOREON     ; Hina
+	db 35,PORYGON     ; Nitori
+	db 35,JOLTEON     ; EHina
+	db 35,TENTACRUEL     ; CYuyuko
 
 FishingGroup9:
 	db 4
-	db 23,SLOWBRO
-	db 23,SEAKING
-	db 23,KINGLER
-	db 23,SEADRA
+	db 35,VAPOREON     ; Hina
+	db 35,PORYGON     ; Nitori
+	db 35,JOLTEON     ; EHina
+	db 35,TENTACRUEL     ; CYuyuko
 
 FishingGroup10:
 	db 4
-	db 23,SEAKING
-	db 15,KRABBY
-	db 15,GOLDEEN
-	db 15,MAGIKARP
+	db 35,VAPOREON     ; Hina
+	db 35,PORYGON     ; Nitori
+	db 35,JOLTEON     ; EHina
+	db 35,TENTACRUEL     ; CYuyuko
 
 SuperRodLabelEnd::

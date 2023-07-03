@@ -7,7 +7,7 @@ ShinyAttractFunction:
 	ret c	;return if wPartyMon1Level < 100
 ;and only if it's a chansey
 	ld a, [wPartyMon1Species]
-	cp CHANSEY
+	cp HYPNO     ; ETewi
 	ret nz
 ;make a 1 in 255 chance to force shiny DVs on a wild pokemon 
 	call Random
