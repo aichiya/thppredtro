@@ -1,77 +1,77 @@
 MonPartyData:
-	dn SPRITE_GRASS, SPRITE_GRASS           ;Bulbasaur/Ivysaur
-	dn SPRITE_GRASS, SPRITE_MON             ;Venusaur/Charmander
-	dn SPRITE_MON, SPRITE_MON               ;Charmeleon/Charizard
-	dn SPRITE_WATER, SPRITE_WATER           ;Squirtle/Wartortle
-	dn SPRITE_WATER, SPRITE_BUG             ;Blastoise/Caterpie
-	dn SPRITE_BUG, SPRITE_BUG               ;Metapod/Butterfree
-	dn SPRITE_BUG, SPRITE_BUG               ;Weedle/Kakuna
-	dn SPRITE_BUG, SPRITE_BIRD_M            ;Beedrill/Pidgey
-	dn SPRITE_BIRD_M, SPRITE_BIRD_M         ;Pidgeotto/Pidgeot
-	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED   ;Rattata/Raticate
-	dn SPRITE_BIRD_M, SPRITE_BIRD_M         ;Spearow/Fearow
-	dn SPRITE_SNAKE, SPRITE_SNAKE           ;Ekans/Arbok
-	dn SPRITE_FAIRY, SPRITE_FAIRY           ;Pikachu/Raichu
-	dn SPRITE_MON, SPRITE_MON               ;Sandshrew/Sandslash
-	dn SPRITE_MON, SPRITE_MON               ;NidoranF/Nidorina
-	dn SPRITE_MON, SPRITE_MON               ;Nidoqueen/NidoranM
-	dn SPRITE_MON, SPRITE_MON               ;Nidorino/Nidoking
-	dn SPRITE_FAIRY, SPRITE_FAIRY           ;Clefairy/Clefable
-	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED   ;Vulpix/Ninetales
-	dn SPRITE_FAIRY, SPRITE_FAIRY           ;Jigglypuff/Wigglytuff
-	dn SPRITE_MON, SPRITE_MON               ;Zubat/Golbat
-	dn SPRITE_GRASS, SPRITE_GRASS           ;Oddish/Gloom
-	dn SPRITE_GRASS, SPRITE_BUG             ;Vileplume/Paras
-	dn SPRITE_BUG, SPRITE_BUG               ;Parasect/Venonat
-	dn SPRITE_BUG, SPRITE_MON               ;Venomoth/Diglett
-	dn SPRITE_MON, SPRITE_MON               ;Dugtrio/Meowth
-	dn SPRITE_MON, SPRITE_MON               ;Persian/Psyduck
-	dn SPRITE_MON, SPRITE_MON               ;Golduck/Mankey
-	dn SPRITE_MON, SPRITE_QUADRUPED         ;Primeape/Growlithe
-	dn SPRITE_QUADRUPED, SPRITE_MON         ;Arcanine/Poliwag
-	dn SPRITE_MON, SPRITE_MON               ;Poliwhirl/Poliwrath
-	dn SPRITE_MON, SPRITE_MON               ;Abra/Kadabra
-	dn SPRITE_MON, SPRITE_MON               ;Alakazam/Machop
-	dn SPRITE_MON, SPRITE_MON               ;Machoke/Machamp
-	dn SPRITE_GRASS, SPRITE_GRASS           ;Bellsprout/Weepinbell
-	dn SPRITE_GRASS, SPRITE_WATER           ;Victreebel/Tentacool
-	dn SPRITE_WATER, SPRITE_MON             ;Tentacruel/Geodude
-	dn SPRITE_MON, SPRITE_MON               ;Graveler/Golem
-	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED   ;Ponyta/Rapidash
-	dn SPRITE_QUADRUPED, SPRITE_MON         ;Slowpoke/Slowbro
-	dn SPRITE_BALL_M, SPRITE_BALL_M         ;Magnemite/Magneton
-	dn SPRITE_BIRD_M, SPRITE_BIRD_M         ;Farfetch'd/Doduo
-	dn SPRITE_BIRD_M, SPRITE_WATER          ;Dodrio/Seel
-	dn SPRITE_WATER, SPRITE_MON             ;Dewgong/Grimer
-	dn SPRITE_MON, SPRITE_HELIX             ;Muk/Shellder
-	dn SPRITE_HELIX, SPRITE_MON             ;Cloyster/Gastly
-	dn SPRITE_MON, SPRITE_MON               ;Haunter/Gengar
-	dn SPRITE_SNAKE, SPRITE_MON             ;Onix/Drowzee
-	dn SPRITE_MON, SPRITE_WATER             ;Hypno/Krabby
-	dn SPRITE_WATER, SPRITE_BALL_M          ;Kingler/Voltorb
-	dn SPRITE_BALL_M, SPRITE_GRASS          ;Electrode/Exeggcute
-	dn SPRITE_GRASS, SPRITE_MON             ;Exeggutor/Cubone
-	dn SPRITE_MON, SPRITE_MON               ;Marowak/Hitmonlee
-	dn SPRITE_MON, SPRITE_MON               ;Hitmonchan/Lickitung
-	dn SPRITE_MON, SPRITE_MON               ;Koffing/Weezing
-	dn SPRITE_QUADRUPED, SPRITE_MON         ;Rhyhorn/Rhydon
-	dn SPRITE_FAIRY, SPRITE_GRASS           ;Chansey/Tangela
-	dn SPRITE_MON, SPRITE_WATER             ;Kangaskhan/Horsea
-	dn SPRITE_WATER, SPRITE_WATER           ;Seadra/Goldeen
-	dn SPRITE_WATER, SPRITE_HELIX           ;Seaking/Staryu
-	dn SPRITE_HELIX, SPRITE_MON             ;Starmie/Mr.Mime
-	dn SPRITE_BUG, SPRITE_MON               ;Scyther/Jynx
-	dn SPRITE_MON, SPRITE_MON               ;Electabuzz/Magmar
-	dn SPRITE_BUG, SPRITE_QUADRUPED         ;Pinsir/Tauros
-	dn SPRITE_WATER, SPRITE_SNAKE           ;Magikarp/Gyarados
-	dn SPRITE_WATER, SPRITE_MON             ;Lapras/Ditto
-	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED   ;Eevee/Vaporeon
-	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED   ;Jolteon/Flareon
-	dn SPRITE_MON, SPRITE_HELIX             ;Porygon/Omanyte
-	dn SPRITE_HELIX, SPRITE_HELIX           ;Omastar/Kabuto
-	dn SPRITE_HELIX, SPRITE_BIRD_M          ;Kabutops/Aerodactyl
-	dn SPRITE_MON, SPRITE_BIRD_M            ;Snorlax/Articuno
-	dn SPRITE_BIRD_M, SPRITE_BIRD_M         ;Zapdos/Moltres
-	dn SPRITE_SNAKE, SPRITE_SNAKE           ;Dratini/Dragonair
-	dn SPRITE_SNAKE, SPRITE_MON             ;Dragonite/Mewtwo
-	dn SPRITE_MON, 0                        ;Mew/Padding
+	dn SPRITE_BUG, SPRITE_SNAKE     ; Hakurei/Kirisame
+	dn SPRITE_WATER, SPRITE_BUG     ; Genji/CReimu
+	dn SPRITE_BUG, SPRITE_BUG     ; Reimu/EReimu
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; CMarisa/Marisa
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; EMarisa/CRumia
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; Rumia/ERumia
+	dn SPRITE_GRASS, SPRITE_GRASS     ; Fairy/Daiyousei
+	dn SPRITE_GRASS, SPRITE_GRASS     ; EDaiyousei/CCirno
+	dn SPRITE_GRASS, SPRITE_GRASS     ; Cirno/ECirno
+	dn SPRITE_GRASS, SPRITE_GRASS     ; CStar/Star
+	dn SPRITE_GRASS, SPRITE_GRASS     ; EStar/CLuna
+	dn SPRITE_GRASS, SPRITE_GRASS     ; Luna/ELuna
+	dn SPRITE_GRASS, SPRITE_GRASS     ; CSunny/Sunny
+	dn SPRITE_GRASS, SPRITE_SNAKE     ; ESunny/CMeiling
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; Meiling/EMeiling
+	dn SPRITE_GRASS, SPRITE_GRASS     ; CKoakuma/Koakuma
+	dn SPRITE_GRASS, SPRITE_QUADRUPED     ; EKoakuma/CPatchouli
+	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED     ; Patchouli/EPatchouli
+	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED     ; CSakuya/Sakuya
+	dn SPRITE_QUADRUPED, SPRITE_GRASS     ; ESakuya/CRemilia
+	dn SPRITE_GRASS, SPRITE_GRASS     ; Remilia/ERemilia
+	dn SPRITE_GRASS, SPRITE_GRASS     ; CFlandre/Flandre
+	dn SPRITE_GRASS, SPRITE_BUG     ; EFlandre/Satsuki
+	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED     ; CLetty/Letty
+	dn SPRITE_QUADRUPED, SPRITE_SNAKE     ; ELetty/CChen
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; Chen/EChen
+	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED     ; CAlice/Alice
+	dn SPRITE_QUADRUPED, SPRITE_GRASS     ; EAlice/LilyWhite
+	dn SPRITE_GRASS, SPRITE_GRASS     ; ELilyWhite/LilyBlack
+	dn SPRITE_GRASS, SPRITE_SNAKE     ; ELilyBlack/CLunasa
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; Lunasa/ELunasa
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; CMerlin/Merlin
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; EMerlin/CLyrica
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; Lyrica/ELyrica
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; Layla/CYoumu
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; Youmu/EYoumu
+	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED     ; CYuyuko/Yuyuko
+	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED     ; EYuyuko/CRan
+	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED     ; Ran/ERan
+	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED     ; CYukari/Yukari
+	dn SPRITE_QUADRUPED, SPRITE_SNAKE     ; EYukari/CSuika
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; Suika/ESuika
+	dn SPRITE_GRASS, SPRITE_GRASS     ; CWriggle/Wriggle
+	dn SPRITE_GRASS, SPRITE_GRASS     ; EWriggle/CMystia
+	dn SPRITE_GRASS, SPRITE_GRASS     ; Mystia/EMystia
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; CKeine/Keine
+	dn SPRITE_SNAKE, SPRITE_MON     ; EKeine/HKeine
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; CTewi/Tewi
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; ETewi/CReisen
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; Reisen/EReisen
+	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED     ; CEirin/Eirin
+	dn SPRITE_QUADRUPED, SPRITE_BUG     ; EEirin/CKaguya
+	dn SPRITE_BUG, SPRITE_BUG     ; Kaguya/EKaguya
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; CMokou/Mokou
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; EMokou/Toyohime
+	dn SPRITE_BUG, SPRITE_QUADRUPED     ; Yorihime/CMedicine
+	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED     ; Medicine/EMedicine
+	dn SPRITE_GRASS, SPRITE_GRASS     ; CAya/Aya
+	dn SPRITE_GRASS, SPRITE_SNAKE     ; EAya/CYuuka
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; Yuuka/EYuuka
+	dn SPRITE_BUG, SPRITE_BUG     ; CKomachi/Komachi
+	dn SPRITE_BUG, SPRITE_SNAKE     ; EKomachi/CEiki
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; Eiki/EEiki
+	dn SPRITE_BUG, SPRITE_BUG     ; CShizuha/Shizuha
+	dn SPRITE_BUG, SPRITE_BUG     ; EShizuha/CMinoriko
+	dn SPRITE_BUG, SPRITE_BUG     ; Minoriko/EMinoriko
+	dn SPRITE_BUG, SPRITE_BUG     ; CHina/Hina
+	dn SPRITE_BUG, SPRITE_SNAKE     ; EHina/CNitori
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; Nitori/ENitori
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; CMomiji/Momiji
+	dn SPRITE_SNAKE, SPRITE_BUG     ; EMomiji/CSanae
+	dn SPRITE_BUG, SPRITE_BUG     ; Sanae/ESanae
+	dn SPRITE_QUADRUPED, SPRITE_QUADRUPED     ; CKanako/Kanako
+	dn SPRITE_QUADRUPED, SPRITE_SNAKE     ; EKanako/CSuwako
+	dn SPRITE_SNAKE, SPRITE_SNAKE     ; Suwako/ESuwako
+	dn SPRITE_QUADRUPED, 0     ; VIVIT/Padding
