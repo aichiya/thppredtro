@@ -1,14 +1,14 @@
 ItemPrices:;joenote - added prices for amber/fossils/moon stone/pp_up/exp all/master ball/old rod
 	money 50000     ; MASTER_BALL
-	money 1200  ; ULTRA_BALL
-	money 600   ; GREAT_BALL
+	money 800  ; ULTRA_BALL
+	money 400   ; GREAT_BALL
 	money 200   ; POKE_BALL
 	money 0     ; TOWN_MAP
 	money 0     ; BICYCLE
 	money 0     ; SURFBOARD
 	money 1000  ; SAFARI_BALL
 	money 0     ; POKEDEX
-	money 4200  ; MOON_STONE
+	money 3000  ; MOON_STONE
 	money 100   ; ANTIDOTE
 	money 250   ; BURN_HEAL
 	money 250   ; ICE_HEAL
@@ -30,9 +30,9 @@ ItemPrices:;joenote - added prices for amber/fossils/moon stone/pp_up/exp all/ma
 	money 550   ; ESCAPE_ROPE
 	money 350   ; REPEL
 	money 15000 ; OLD_AMBER
-	money 2100  ; FIRE_STONE
-	money 2100  ; THUNDER_STONE
-	money 2100  ; WATER_STONE
+	money 3000  ; FIRE_STONE
+	money 3000  ; THUNDER_STONE
+	money 3000  ; WATER_STONE
 	money 9800  ; HP_UP
 	money 9800  ; PROTEIN
 	money 9800  ; IRON

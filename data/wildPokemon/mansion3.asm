@@ -1,16 +1,16 @@
 MansionMons3:
 	db $0A
 	IF DEF(_ENCRED)
-		db 31,NIDOKING     ; CPatchouli
-		db 33,NIDOKING     ; CPatchouli
-		db 35,NIDOQUEEN     ; CKoakuma
-		db 32,SANDSLASH     ; CMeiling
-		db 34,NIDORAN_F     ; Meiling
-		db 40,CLEFAIRY     ; Patchouli
-		db 34,NIDORAN_M     ; Koakuma
-		db 38,CLEFABLE     ; EPatchouli
-		db 36,WIGGLYTUFF     ; CRemilia
-		db 42,ZUBAT     ; Remilia
+		db 37,NIDOKING     ; CPatchouli
+		db 36,NIDOKING     ; CPatchouli
+		db 41,NIDOQUEEN     ; CKoakuma
+		db 38,SANDSLASH     ; CMeiling
+		db 39,NIDORAN_F     ; Meiling
+		db 39,CLEFAIRY     ; Patchouli
+		db 38,NIDORAN_M     ; Koakuma
+		db 40,CLEFABLE     ; EPatchouli
+		db 39,WIGGLYTUFF     ; CRemilia
+		db 40,ZUBAT     ; Remilia
 	ELIF DEF(_ENCBLUEJP)
 		db 31, GRIMER
 		db 33, GROWLITHE

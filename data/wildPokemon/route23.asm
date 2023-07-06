@@ -1,16 +1,16 @@
 Route23Mons:
 	db $0A
 	IF DEF(_ENCRED)
-		db 36,SHELLDER     ; EMystia
-		db 36,MEOWTH     ; EChen
-		db 36,JOLTEON     ; EHina
-		db 38,KABUTOPS     ; EMomiji
-		db 38,HAUNTER     ; EKeine
-		db 38,SEADRA     ; EAya
-		db 41,RAPIDASH     ; ERan
-		db 41,MOLTRES     ; Kanako
-		db 41,DRAGONITE     ; Suwako
-		db 43,GENGAR     ; HKeine
+		db 39,SHELLDER     ; EMystia
+		db 39,MEOWTH     ; EChen
+		db 39,JOLTEON     ; EHina
+		db 42,KABUTOPS     ; EMomiji
+		db 42,HAUNTER     ; EKeine
+		db 42,SEADRA     ; EAya
+		db 43,RAPIDASH     ; ERan
+		db 43,MOLTRES     ; Kanako
+		db 43,DRAGONITE     ; Suwako
+		db 45,GENGAR     ; HKeine
 	ELIF DEF(_ENCBLUEJP)
 		db 26, SANDSHREW
 		db 33,DITTO

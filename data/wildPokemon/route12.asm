@@ -1,15 +1,15 @@
 Route12Mons:;joenote - added farfetchd
 	db $0F
 	IF DEF(_ENCRED)
-		db 24,OMASTAR     ; CMomiji
-		db 25,KANGASKHAN     ; CAya
-		db 24,ELECTRODE     ; CEirin
-		db 22,OMASTAR     ; CMomiji
-		db 26,KANGASKHAN     ; CAya
+		db 26,OMASTAR     ; CMomiji
+		db 27,KANGASKHAN     ; CAya
 		db 26,ELECTRODE     ; CEirin
-		db 27,KABUTO     ; Momiji
-		db 28,HORSEA     ; Aya
-		db 22,KANGASKHAN     ; CAya
+		db 24,OMASTAR     ; CMomiji
+		db 27,KANGASKHAN     ; CAya
+		db 27,ELECTRODE     ; CEirin
+		db 29,KABUTO     ; Momiji
+		db 30,HORSEA     ; Aya
+		db 26,KANGASKHAN     ; CAya
 		db 30,SNORLAX     ; Sanae
 	ELIF DEF(_ENCBLUEJP)
 		db 24, ODDISH

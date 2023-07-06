@@ -3,16 +3,16 @@ ZoneMons1:	;Safari Zone East
 ;			-added kangaskhan to bluejp
 	db $1E
 	IF DEF(_ENCRED)
-		db 24,RATICATE     ; Star
-		db 26,EKANS     ; Luna
-		db 22,RAICHU     ; Sunny
-		db 25,GASTLY     ; Keine
+		db 34,RATICATE     ; Star
+		db 36,EKANS     ; Luna
+		db 32,RAICHU     ; Sunny
+		db 35,GASTLY     ; Keine
 		db 33,FARFETCHD     ; Suika
-		db 24,SEAKING     ; Yuuka
-		db 28,PSYDUCK     ; Alice
-		db 22,HITMONCHAN     ; CMokou
-		db 25,HITMONCHAN     ; CMokou
-		db 25,ZAPDOS     ; CKanako
+		db 34,SEAKING     ; Yuuka
+		db 38,PSYDUCK     ; Alice
+		db 32,HITMONCHAN     ; CMokou
+		db 35,HITMONCHAN     ; CMokou
+		db 35,ZAPDOS     ; CKanako
 	ELIF DEF(_ENCBLUEJP)
 		db 24, NIDORAN_M
 		db 26, DODUO

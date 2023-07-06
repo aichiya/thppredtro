@@ -3,16 +3,16 @@ ZoneMons2: ;Safari Zone North
 ;			-added tauros to bluejp
 	db $1E
 IF DEF(_ENCRED)
-	db 22, RAICHU     ; Sunny
-	db 26, RATICATE     ; Star
-	db 23, EKANS     ; Luna
-	db 25, KINGLER     ; Reisen
-	db 30, FARFETCHD     ; Suika
-	db 30, SEAKING     ; Yuuka
-	db 32,PSYDUCK     ; Alice
-	db 27,JYNX     ; CEiki
-	db 26,JYNX     ; CEiki
-	db 28,ZAPDOS     ; CKanako
+	db 32, RAICHU     ; Sunny
+	db 36, RATICATE     ; Star
+	db 33, EKANS     ; Luna
+	db 35, KINGLER     ; Reisen
+	db 39, FARFETCHD     ; Suika
+	db 39, SEAKING     ; Yuuka
+	db 40,PSYDUCK     ; Alice
+	db 37,JYNX     ; CEiki
+	db 36,JYNX     ; CEiki
+	db 38,ZAPDOS     ; CKanako
 ELIF DEF(_ENCBLUEJP)
 	db 22, NIDORAN_F
 	db 26, RHYHORN

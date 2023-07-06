@@ -1,15 +1,15 @@
 Route15Mons:
 	db $0F
 	IF DEF(_ENCRED)
-		db 24,RHYDON     ; CMedicine
-		db 26,GRIMER     ; CMystia
-		db 23,ELECTRODE     ; CEirin
 		db 26,RHYDON     ; CMedicine
-		db 22,GRIMER     ; CMystia
-		db 28,ELECTRODE     ; CEirin
-		db 26,MUK     ; Mystia
+		db 28,GRIMER     ; CMystia
+		db 25,ELECTRODE     ; CEirin
+		db 28,RHYDON     ; CMedicine
+		db 25,GRIMER     ; CMystia
+		db 29,ELECTRODE     ; CEirin
+		db 28,MUK     ; Mystia
 		db 30,CHANSEY     ; Medicine
-		db 28,EXEGGCUTE     ; Eirin
+		db 29,EXEGGCUTE     ; Eirin
 		db 30,SNORLAX     ; Sanae
 	ELIF DEF(_ENCBLUEJP)
 		db 24, ODDISH

@@ -1,14 +1,14 @@
 Route13Mons:;joenote - added farfetchd
 		db $14
 	IF DEF(_ENCRED)
-		db 24,GRIMER     ; CMystia
-		db 25,KANGASKHAN     ; CAya
-		db 24,ELECTRODE     ; CEirin
-		db 22,RHYDON     ; CMedicine
-		db 26,KANGASKHAN     ; CAya
+		db 26,GRIMER     ; CMystia
+		db 27,KANGASKHAN     ; CAya
 		db 26,ELECTRODE     ; CEirin
 		db 25,RHYDON     ; CMedicine
-		db 28,MUK     ; Mystia
+		db 28,KANGASKHAN     ; CAya
+		db 28,ELECTRODE     ; CEirin
+		db 27,RHYDON     ; CMedicine
+		db 29,MUK     ; Mystia
 		db 30,HORSEA     ; Aya
 		db 28,SNORLAX     ; Sanae
 	ELIF DEF(_ENCBLUEJP)

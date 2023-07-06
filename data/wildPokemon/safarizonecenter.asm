@@ -1,16 +1,16 @@
 ZoneMonsCenter:;joenote - swapped pinser/scyther
 	db $1E
 	IF (DEF(_ENCRED) || DEF(_ENCBLUEJP))
-		db 22,MANKEY     ; LilyWhite
-		db 25,GROWLITHE     ; LilyBlack
-		db 22,KAKUNA     ; Daiyousei
-		db 24,KINGLER     ; Reisen
-		db 31,FARFETCHD     ; Suika
-		db 25,SEAKING     ; Yuuka
-		db 31,PSYDUCK     ; Alice
-		db 30,HITMONCHAN     ; CMokou
-		db 23,HITMONCHAN     ; CMokou
-		db 23,ZAPDOS     ; CKanako
+		db 33,MANKEY     ; LilyWhite
+		db 35,GROWLITHE     ; LilyBlack
+		db 33,KAKUNA     ; Daiyousei
+		db 34,KINGLER     ; Reisen
+		db 40,FARFETCHD     ; Suika
+		db 35,SEAKING     ; Yuuka
+		db 40,PSYDUCK     ; Alice
+		db 40,HITMONCHAN     ; CMokou
+		db 33,HITMONCHAN     ; CMokou
+		db 33,ZAPDOS     ; CKanako
 	ELIF DEF(_ENCBLUEGREEN)
 		db 22,NIDORAN_F
 		db 25,RHYHORN

@@ -1,15 +1,15 @@
 IslandMonsB4:
 	db $0A
 	IF DEF(_ENCRED)
-		db 31,PARASECT     ; CLetty
-		db 31,PIDGEY     ; CCirno
-		db 33,ELECTRODE     ; CEirin
-		db 33,VENONAT     ; Letty
-		db 29,PIDGEOTTO     ; Cirno
-		db 39,PIDGEOT     ; ECirno
-		db 31,EXEGGCUTE     ; Eirin
-		db 39,VENOMOTH     ; ELetty
-		db 39,EXEGGUTOR     ; EEirin
+		db 38,PARASECT     ; CLetty
+		db 38,PIDGEY     ; CCirno
+		db 40,ELECTRODE     ; CEirin
+		db 40,VENONAT     ; Letty
+		db 36,PIDGEOTTO     ; Cirno
+		db 36,PIDGEOT     ; ECirno
+		db 37,EXEGGCUTE     ; Eirin
+		db 43,VENOMOTH     ; ELetty
+		db 43,EXEGGUTOR     ; EEirin
 		db 35,NINETALES     ; Sakuya
 	ELIF DEF(_ENCBLUEJP)
 		db 31, KRABBY

@@ -11,7 +11,7 @@ _OakSpeechText1::
 _OakSpeechText2A::
 	text "This world is"
 	line "occupied by"
-	cont "PUPPET FRAGMENTS"
+	cont "PUPPET FRAGMENT"
 	cont "from Gensokyo!@@"
 
 _OakSpeechText2B::

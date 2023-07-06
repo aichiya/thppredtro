@@ -21,7 +21,7 @@ TrainerNames:
 	db "Rocker@"
 	db "Juggler@"
 	db "Tamer@"
-	db "Bird Keeper@"
+	db "Winged Keeper@"
 	db "Blackbelt@"
 	db "Rival@"
 	db "Prof.Oak@"

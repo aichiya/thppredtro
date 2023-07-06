@@ -1,16 +1,16 @@
 PowerPlantMons:	;joenote - added porygon to Red
 	db $0A
-	db 24,MACHOP     ; CLyrica
-	db 25,ABRA     ; CMerlin
-	db 26,POLIWAG     ; CLunasa
-	db 27,MACHOP     ; CLyrica
-	db 28,ABRA     ; CMerlin
-	db 29,POLIWAG     ; CLunasa
-	db 35,MACHOKE     ; Lyrica
+	db 34,MACHOP     ; CLyrica
+	db 35,ABRA     ; CMerlin
+	db 36,POLIWAG     ; CLunasa
+	db 37,MACHOP     ; CLyrica
+	db 38,ABRA     ; CMerlin
+	db 39,POLIWAG     ; CLunasa
+	db 40,MACHOKE     ; Lyrica
 	IF DEF(_ENCRED)
-		db 36,KADABRA     ; Merlin
-		db 37,POLIWHIRL     ; Lunasa
-		db 36,WARTORTLE     ; Marisa
+		db 40,KADABRA     ; Merlin
+		db 40,POLIWHIRL     ; Lunasa
+		db 35,WARTORTLE     ; Marisa
 	ELSE
 		db 33,ELECTABUZZ
 		db 33,RAICHU

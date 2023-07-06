@@ -1,14 +1,14 @@
 Route21Mons:;joenote - added eevee and made adjustments to surfing encounters
 	db $19
-	db 21,DIGLETT     ; CChen
-	db 23,GRIMER     ; CMystia
-	db 30,GOLDEEN     ; CYuuka
-	db 23,ONIX     ; CTewi
-	db 30,ONIX     ; CTewi
-	db 32,DROWZEE     ; Tewi
-	db 28,DUGTRIO     ; Chen
-	db 30,MUK     ; Mystia
-	db 32,SEAKING     ; Yuuka
+	db 34,DIGLETT     ; CChen
+	db 34,GRIMER     ; CMystia
+	db 38,GOLDEEN     ; CYuuka
+	db 35,ONIX     ; CTewi
+	db 40,ONIX     ; CTewi
+	db 42,DROWZEE     ; Tewi
+	db 38,DUGTRIO     ; Chen
+	db 40,MUK     ; Mystia
+	db 40,SEAKING     ; Yuuka
 	db 35,CHARMELEON     ; Reimu
 	db $05
 	db 5,STARMIE     ; CKomachi

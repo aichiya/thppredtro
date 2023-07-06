@@ -1,13 +1,13 @@
 Route16Mons:
 	db $19
-	db 20,DIGLETT     ; CChen
-	db 22,OMASTAR     ; CMomiji
-	db 18,DIGLETT     ; CChen
-	db 20,CLOYSTER     ; CKeine
-	db 20,DUGTRIO     ; Chen
-	db 18,CLOYSTER     ; CKeine
-	db 22,KABUTO     ; Momiji
-	db 22,DUGTRIO     ; Chen
-	db 23,KABUTO     ; Momiji
-	db 25,CLOYSTER     ; CKeine
+	db 23,DIGLETT     ; CChen
+	db 25,OMASTAR     ; CMomiji
+	db 21,DIGLETT     ; CChen
+	db 24,CLOYSTER     ; CKeine
+	db 24,DUGTRIO     ; Chen
+	db 21,CLOYSTER     ; CKeine
+	db 25,KABUTO     ; Momiji
+	db 25,DUGTRIO     ; Chen
+	db 26,KABUTO     ; Momiji
+	db 27,CLOYSTER     ; CKeine
 	db $00

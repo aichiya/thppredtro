@@ -41,320 +41,470 @@
 ; entry = trainerclass, trainerid, moveset+, 0
 ; moveset = partymon location, partymon's move, moveid
 SpecialTrainerMoves:
-	db BROCK,$1
-	db 2,4,BIDE
+	db BROCK,$1 ; OK
+	db 2,4,ROCK_SLIDE
 	db 0
 	
 	;joenote - give the abra of the cerulean rival something to do
 	;		-assume the rival got some TMs from Celadon City
-	db SONY1, $7
-	db 2,2,COUNTER
-	db 2,3,TRI_ATTACK
-	db 0
-	db SONY1, $8
-	db 2,2,COUNTER
-	db 2,3,TRI_ATTACK
-	db 0
-	db SONY1, $9
-	db 2,2,COUNTER
-	db 2,3,TRI_ATTACK
+;	db SONY1, $7
+;	db 2,2,COUNTER
+;	db 2,3,TRI_ATTACK
+;	db 0
+;	db SONY1, $8
+;	db 2,2,COUNTER
+;	db 2,3,TRI_ATTACK
+;	db 0
+;	db SONY1, $9
+;	db 2,2,COUNTER
+;	db 2,3,TRI_ATTACK
+;	db 0
+	
+	db MISTY,$1 ; OK
+	db 2,1,FLASH ; EStar
+	db 2,2,AURORA_BEAM ; EStar
+	db 2,3,BUBBLEBEAM ; EStar
 	db 0
 	
-	db MISTY,$1
-	db 2,3,HARDEN
-	db 2,4,BUBBLEBEAM
+	db LT_SURGE,$1 ; OK
+	db 3,1,FLASH ; Kirisame
+	db 3,2,DOUBLE_TEAM ; Kirisame
+	db 3,3,THUNDER_WAVE ; Kirisame
+	db 3,4,THUNDERBOLT ; Kirisame
 	db 0
 	
-	db LT_SURGE,$1
-	db 3,1,THUNDERBOLT
+	db ERIKA,$1 ; OK
+	db 2,1,ICE_PUNCH ; ESanae
+	db 2,2,WATERFALL ; ESanae
+	db 2,3,RAZOR_WIND ; ESanae
+	db 2,4,RAZOR_LEAF ; ESanae
+	db 3,1,LEECH_SEED ; EYuuka
+	db 3,2,MEGA_DRAIN ; EYuuka
+	db 3,3,FIRE_PUNCH ; EYuuka
+	db 3,4,THUNDERPUNCH ; EYuuka
 	db 0
 	
-	db ERIKA,$1
-	db 2,1,GROWTH
-	db 2,2,SLEEP_POWDER
-	db 2,3,WRAP
-	db 2,4,RAZOR_LEAF
-	db 3,1,POISONPOWDER
-	db 3,2,MEGA_DRAIN
-	db 3,3,SLEEP_POWDER
-	db 3,4,PETAL_DANCE
+	db KOGA,$1 ; OK
+	db 1,1,PSYCHIC_M ; EReisen
+	db 1,2,CONFUSE_RAY ; EReisen
+	db 1,3,AURORA_BEAM ; EReisen
+	db 1,4,GLARE ; EReisen
+	db 2,1,HAZE ; EYoumu
+	db 2,2,SLASH ; EYoumu
+	db 2,3,TOXIC ; EYoumu
+	db 2,4,SUBSTITUTE ; EYoumu
+	db 3,1,SLEEP_POWDER ; EEirin
+	db 3,2,SURF ; EEirin
+	db 3,3,MEGA_DRAIN ; EEirin
+	db 3,4,THUNDERBOLT ; EEirin
+	db 4,1,CONFUSE_RAY ; EYuyuko
+	db 4,2,PETAL_DANCE ; EYuyuko
+	db 4,3,HYPNOSIS ; EYuyuko
+	db 4,4,HAZE ; EYuyuko
 	db 0
 	
-	db KOGA,$1
-	db 1,1,EXPLOSION
-	db 1,2,DOUBLE_TEAM
-	db 2,2,SUBSTITUTE
-	db 3,1,TAKE_DOWN
-	db 3,2,SUPERSONIC
-	db 3,3,MEGA_DRAIN
-	db 4,1,TOXIC
-	db 4,3,MIMIC
-	db 4,4,EXPLOSION
+	db SABRINA,$1 ; OK
+	db 1,1,PSYCHIC_M ; EKaguya
+	db 1,2,LEECH_SEED ; EKaguya
+	db 1,3,LIGHT_SCREEN ; EKaguya
+	db 1,4,REFLECT ; EKaguya
+	db 2,1,PSYCHIC_M ; Hakurei
+	db 2,2,SPIKE_CANNON ; Hakurei
+	db 2,3,MEGA_PUNCH ; Hakurei
+	db 2,4,LOW_KICK ; Hakurei
+	db 3,1,PSYCHIC_M ; EEiki
+	db 3,2,THUNDERPUNCH ; EEiki
+	db 3,3,ICE_PUNCH ; EEiki
+	db 3,4,GUILLOTINE ; EEiki
+	db 4,1,PSYCHIC_M ; EYukari
+	db 4,2,THUNDERBOLT ; EYukari
+	db 4,3,ICE_BEAM ; EYukari
+	db 4,4,FLAMETHROWER ; EYukari
 	db 0
 	
-	db SABRINA,$1
-	db 1,1,REFLECT
-	db 2,4,MEGA_PUNCH
-	db 3,1,SUPERSONIC
-	db 4,1,PSYWAVE
+	db BLAINE,$1 ; OK
+	db 1,1,HYPER_BEAM ; EMarisa
+	db 1,2,FIRE_BLAST ; EMarisa
+	db 1,3,BUBBLEBEAM ; EMarisa
+	db 1,4,SPORE ; EMarisa
+	db 2,1,FIRE_BLAST ; EMokou
+	db 2,2,ROCK_SLIDE ; EMokou
+	db 2,3,SUBMISSION ; EMokou
+	db 2,4,DOUBLE_TEAM ; EMokou
+	db 3,1,SONICBOOM ; ERemilia
+	db 3,2,FIRE_BLAST ; ERemilia
+	db 3,3,HAZE ; ERemilia
+	db 3,4,MEGA_DRAIN ; ERemilia
+	db 4,1,FIRE_BLAST ; EFlandre
+	db 4,2,MEGA_DRAIN ; EFlandre
+	db 4,3,SUBMISSION ; EFlandre
+	db 4,4,EARTHQUAKE ; EFlandre
 	db 0
 	
-	db BLAINE,$1
-	db 1,1,SWIFT
-	db 2,1,STRENGTH
-	db 3,3,DOUBLE_EDGE
-	db 4,2,FIRE_BLAST
-	db 4,4,BODY_SLAM
+	db GIOVANNI,$3 ; OK
+	db 1,1,ROCK_SLIDE ; Genji
+	db 1,2,SKY_ATTACK ; Genji
+	db 1,3,METRONOME ; Genji
+	db 1,4,EARTHQUAKE ; Genji
+	db 2,1,SUBMISSION ; HKeine
+	db 2,2,EARTHQUAKE ; HKeine
+	db 2,3,ROCK_SLIDE ; HKeine
+	db 2,4,MEGA_PUNCH ; HKeine
+	db 3,1,SUBMISSION ; ESuika
+	db 3,2,ROCK_SLIDE ; ESuika
+	db 3,3,EARTHQUAKE ; ESuika
+	db 3,4,MINIMIZE ; ESuika
+	db 4,1,EARTHQUAKE ; ESuwako
+	db 4,2,HYDRO_PUMP ; ESuwako
+	db 4,3,BLIZZARD ; ESuwako
+	db 4,4,ROCK_SLIDE ; ESuwako
+	db 5,1,THUNDER_WAVE ; EKanako
+	db 5,2,THUNDER ; EKanako
+	db 5,3,FLASH ; EKanako
+	db 5,4,EARTHQUAKE ; EKanako
 	db 0
 	
-	db GIOVANNI,$3
-	db 2,1,FISSURE
-	db 3,1,EARTHQUAKE
-	db 3,3,THUNDER
-	db 4,1,EARTHQUAKE
-	db 4,3,ICE_BEAM
-	db 5,1,ROCK_SLIDE
-	db 5,2,BODY_SLAM
-	db 5,3,DOUBLE_TEAM
-	db 5,4,EARTHQUAKE
-	db 0
-	
-	db LORELEI,$1
-	db 1,1,BUBBLEBEAM
-	db 3,1,SURF
-	db 3,2,ICE_BEAM
-	db 4,1,PSYCHIC_M
-	db 4,3,LOVELY_KISS
-	db 5,3,BLIZZARD
+	db LORELEI,$1 ; OK
+	db 1,1,ROCK_SLIDE ; ELetty
+	db 1,2,BLIZZARD ; ELetty
+	db 1,3,SONICBOOM ; ELetty
+	db 1,4,EARTHQUAKE ; ELetty
+	db 2,1,WATERFALL ; EKomachi
+	db 2,2,HYPER_FANG ; EKomachi
+	db 2,3,HAZE ; EKomachi
+	db 2,4,ICE_PUNCH ; EKomachi
+	db 3,1,AMNESIA ; ECirno
+	db 3,2,BLIZZARD ; ECirno
+	db 3,3,WATERFALL ; ECirno
+	db 3,4,SONICBOOM ; ECirno
+	db 4,1,ICE_BEAM ; EEiki
+	db 4,2,THUNDERBOLT ; EEiki
+	db 4,3,FLAMETHROWER ; EEiki
+	db 4,4,PSYCHIC_M ; EEiki
+	db 5,1,ROCK_SLIDE ; ESakuya
+	db 5,2,ICE_PUNCH ; ESakuya
+	db 5,3,SONICBOOM ; ESakuya
+	db 5,4,DOUBLE_KICK ; ESakuya
 	db 0
 
-	db BRUNO,$1
-	db 1,1,ROCK_SLIDE
-	db 1,2,SCREECH
-	db 1,4,DIG
-	db 2,3,FIRE_PUNCH
-	db 2,4,SUBMISSION
-	db 3,1,ROLLING_KICK
-	db 4,1,ROCK_SLIDE
-	db 4,2,SCREECH
-	db 4,4,EARTHQUAKE
-	db 5,1,KARATE_CHOP
+	db BRUNO,$1 ; OK
+	db 1,1,ROCK_SLIDE ; ERumia
+	db 1,2,CONFUSE_RAY ; ERumia
+	db 1,3,MEGA_PUNCH ; ERumia
+	db 1,4,EARTHQUAKE ; ERumia
+	db 2,1,ROCK_SLIDE ; EMeiling
+	db 2,2,EARTHQUAKE ; EMeiling
+	db 2,3,SUBMISSION ; EMeiling
+	db 2,4,TOXIC ; EMeiling
+	db 3,1,SUBMISSION ; HKeine
+	db 3,2,EARTHQUAKE ; HKeine
+	db 3,3,ROCK_SLIDE ; HKeine
+	db 3,4,MEGA_PUNCH ; HKeine
+	db 4,1,SUBMISSION ; ESuika
+	db 4,2,ROCK_SLIDE ; ESuika
+	db 4,3,EARTHQUAKE ; ESuika
+	db 4,4,MINIMIZE ; ESuika
+	db 5,1,FIRE_BLAST ; EMokou
+	db 5,2,ROCK_SLIDE ; EMokou
+	db 5,3,SUBMISSION ; EMokou
+	db 5,4,DOUBLE_TEAM ; EMokou
 	db 0
 
-	db AGATHA,$1
-	db 1,2,MIMIC
-	db 2,2,SUBSTITUTE
-	db 2,3,THUNDERBOLT
-	db 2,4,MEGA_DRAIN
-	db 3,3,SCREECH
-	db 3,4,TOXIC
-	db 4,1,EARTHQUAKE
-	db 5,2,PSYCHIC_M
+	db AGATHA,$1 ; OK
+	db 1,1,SING ; ELunasa
+	db 1,2,CONFUSE_RAY ; ELunasa
+	db 1,3,ICE_BEAM ; ELunasa
+	db 1,4,PSYCHIC_M ; ELunasa
+	db 2,1,FIRE_BLAST ; ERan
+	db 2,2,EARTHQUAKE ; ERan
+	db 2,3,CONFUSE_RAY ; ERan
+	db 2,4,THUNDERPUNCH ; ERan
+	db 3,1,SLASH ; EYoumu
+	db 3,2,MEGA_PUNCH ; EYoumu
+	db 3,3,HAZE ; EYoumu
+	db 3,4,SONICBOOM ; EYoumu
+	db 4,1,BONEMERANG ; EYukari
+	db 4,2,BLIZZARD ; EYukari
+	db 4,3,THUNDER ; EYukari
+	db 4,4,REFLECT ; EYukari
+	db 5,1,BLIZZARD ; EYuyuko
+	db 5,2,PETAL_DANCE ; EYuyuko
+	db 5,3,PSYCHIC_M ; EYuyuko
+	db 5,4,HAZE ; EYuyuko
 	db 0
 
-	db LANCE,$1
-	db 1,3,BITE
-	db 2,1,THUNDER_WAVE
-	db 2,2,REFLECT
-	db 2,3,THUNDERBOLT
-	db 3,1,SURF
-	db 3,2,BODY_SLAM
-	db 3,3,ICE_BEAM
-	db 4,2,WING_ATTACK
-	db 4,3,FLY
-	db 5,1,BLIZZARD
-	db 5,2,FIRE_BLAST
-	db 5,3,THUNDER
+	db LANCE,$1 ; OK
+	db 1,1,CONFUSE_RAY ; EWriggle
+	db 1,2,HI_JUMP_KICK ; EWriggle
+	db 1,3,QUICK_ATTACK ; EWriggle
+	db 1,4,SLUDGE ; EWriggle
+	db 2,1,ROCK_SLIDE ; EMeiling
+	db 2,2,EARTHQUAKE ; EMeiling
+	db 2,3,SUBMISSION ; EMeiling
+	db 2,4,TOXIC ; EMeiling
+	db 3,1,SONICBOOM ; ERemilia
+	db 3,2,FIRE_BLAST ; ERemilia
+	db 3,3,HAZE ; ERemilia
+	db 3,4,FLY ; ERemilia
+	db 4,1,LEECH_SEED ; EYuuka
+	db 4,2,MEGA_DRAIN ; EYuuka
+	db 4,3,FIRE_PUNCH ; EYuuka
+	db 4,4,HYPER_BEAM ; EYuuka
+	db 5,1,ROCK_SLIDE ; EMeiling
+	db 5,2,EARTHQUAKE ; EMeiling
+	db 5,3,SUBMISSION ; EMeiling
+	db 5,4,AGILITY ; EMeiling
 	db 0
 
-	db SONY3,$1
-	db 1,1,SKY_ATTACK
-	db 1,2,TRI_ATTACK
-	db 1,3,MIMIC
-	db 1,4,DOUBLE_TEAM
-	db 2,1,THUNDER_WAVE
-	db 3,1,THUNDERBOLT
-	db 3,2,EARTHQUAKE
-	db 3,3,ROCK_SLIDE
-	db 3,4,TAKE_DOWN
-	db 4,1,TOXIC
-	db 4,2,REST
-	db 4,3,DOUBLE_EDGE
-	db 5,1,LEECH_SEED
-	db 6,1,BLIZZARD
-	db 6,2,REFLECT
+	db SONY3,$1 ; OK
+	db 1,1,FIRE_BLAST ; EAlice
+	db 1,2,EGG_BOMB ; EAlice
+	db 1,3,PSYCHIC_M ; EAlice
+	db 1,4,STRING_SHOT ; EAlice
+	db 2,1,BLIZZARD ; EYuyuko
+	db 2,2,PETAL_DANCE ; EYuyuko
+	db 2,3,HYPNOSIS ; EYuyuko
+	db 2,4,HAZE ; EYuyuko
+	db 3,1,SUBMISSION ; ESuika
+	db 3,2,ROCK_SLIDE ; ESuika
+	db 3,3,EARTHQUAKE ; ESuika
+	db 3,4,MINIMIZE ; ESuika
+	db 4,1,SONICBOOM ; ERemilia
+	db 4,2,FIRE_BLAST ; ERemilia
+	db 4,3,RAZOR_WIND ; ERemilia
+	db 4,4,MEGA_DRAIN ; ERemilia
+	db 5,1,THUNDER_WAVE ; EKanako
+	db 5,2,THUNDER ; EKanako
+	db 5,3,FLASH ; EKanako
+	db 5,4,EARTHQUAKE ; EKanako
+	db 6,1,MEGA_KICK ; EReimu
+	db 6,2,ROCK_SLIDE ; EReimu
+	db 6,3,SUBMISSION ; EReimu
+	db 6,4,RAZOR_WIND ; EReimu
 	db 0
 
-	db SONY3,$2
-	db 1,1,SKY_ATTACK
-	db 1,2,TRI_ATTACK
-	db 1,3,MIMIC
-	db 1,4,DOUBLE_TEAM
-	db 2,1,THUNDER_WAVE
-	db 3,1,THUNDERBOLT
-	db 3,2,EARTHQUAKE
-	db 3,3,ROCK_SLIDE
-	db 3,4,TAKE_DOWN
-	db 4,1,ICE_BEAM
-	db 4,2,BODY_SLAM
-	db 5,1,TOXIC
-	db 5,2,REST
-	db 5,3,DOUBLE_EDGE
-	db 6,2,MEGA_DRAIN
+	db SONY3,$2 ; OK
+	db 1,1,FIRE_BLAST ; EAlice
+	db 1,2,EGG_BOMB ; EAlice
+	db 1,3,PSYCHIC_M ; EAlice
+	db 1,4,STRING_SHOT ; EAlice
+	db 2,1,BLIZZARD ; EYuyuko
+	db 2,2,PETAL_DANCE ; EYuyuko
+	db 2,3,HYPNOSIS ; EYuyuko
+	db 2,4,HAZE ; EYuyuko
+	db 3,1,SUBMISSION ; ESuika
+	db 3,2,ROCK_SLIDE ; ESuika
+	db 3,3,EARTHQUAKE ; ESuika
+	db 3,4,MINIMIZE ; ESuika
+	db 4,1,SONICBOOM ; ERemilia
+	db 4,2,FIRE_BLAST ; ERemilia
+	db 4,3,RAZOR_WIND ; ERemilia
+	db 4,4,MEGA_DRAIN ; ERemilia
+	db 5,1,THUNDER_WAVE ; EKanako
+	db 5,2,THUNDER ; EKanako
+	db 5,3,FLASH ; EKanako
+	db 5,4,EARTHQUAKE ; EKanako
+	db 6,1,HORN_DRILL ; ESakuya
+	db 6,2,ROCK_SLIDE ; ESakuya
+	db 6,3,SONICBOOM ; ESakuya
+	db 6,4,AMNESIA ; ESakuya
 	db 0
 
-	db SONY3,$3
-	db 1,1,SKY_ATTACK
-	db 1,2,TRI_ATTACK
-	db 1,3,MIMIC
-	db 1,4,DOUBLE_TEAM
-	db 2,1,THUNDER_WAVE
-	db 3,1,THUNDERBOLT
-	db 3,2,EARTHQUAKE
-	db 3,3,ROCK_SLIDE
-	db 3,4,TAKE_DOWN
-	db 4,1,LEECH_SEED
-	db 5,1,ICE_BEAM
-	db 5,2,BODY_SLAM
-	db 6,1,SWORDS_DANCE
-	db 6,3,FIRE_BLAST
+	db SONY3,$3 ; OK
+	db 1,1,FIRE_BLAST ; EAlice
+	db 1,2,EGG_BOMB ; EAlice
+	db 1,3,PSYCHIC_M ; EAlice
+	db 1,4,STRING_SHOT ; EAlice
+	db 2,1,BLIZZARD ; EYuyuko
+	db 2,2,PETAL_DANCE ; EYuyuko
+	db 2,3,HYPNOSIS ; EYuyuko
+	db 2,4,HAZE ; EYuyuko
+	db 3,1,SUBMISSION ; ESuika
+	db 3,2,ROCK_SLIDE ; ESuika
+	db 3,3,EARTHQUAKE ; ESuika
+	db 3,4,MINIMIZE ; ESuika
+	db 4,1,SONICBOOM ; ERemilia
+	db 4,2,FIRE_BLAST ; ERemilia
+	db 4,3,RAZOR_WIND ; ERemilia
+	db 4,4,MEGA_DRAIN ; ERemilia
+	db 5,1,THUNDER_WAVE ; EKanako
+	db 5,2,THUNDER ; EKanako
+	db 5,3,FLASH ; EKanako
+	db 5,4,EARTHQUAKE ; EKanako
+	db 6,1,HYPER_BEAM ; EMarisa
+	db 6,2,FIRE_BLAST ; EMarisa
+	db 6,3,BUBBLEBEAM ; EMarisa
+	db 6,4,SPORE ; EMarisa
 	db 0
 
 	;prof oak's pokemon
-	db PROF_OAK,$1
-	db 1,2,EARTHQUAKE
-	db 1,3,THUNDERBOLT
-	db 1,3,HYPER_BEAM
-	db 3,1,FIRE_BLAST
-	db 4,3,BLIZZARD
-	db 5,1,THUNDERBOLT
-	db 5,2,ICE_BEAM
+	db PROF_OAK,$1 ; OK
+	db 1,1,SONICBOOM ; ERemilia
+	db 1,2,FIRE_BLAST ; ERemilia
+	db 1,3,RAZOR_WIND ; ERemilia
+	db 1,4,MEGA_DRAIN ; ERemilia
+	db 2,1,BLIZZARD ; EYuyuko
+	db 2,2,PETAL_DANCE ; EYuyuko
+	db 2,3,HYPNOSIS ; EYuyuko
+	db 2,4,HAZE ; EYuyuko
+	db 3,1,SUBMISSION ; ESuika
+	db 3,2,ROCK_SLIDE ; ESuika
+	db 3,3,EARTHQUAKE ; ESuika
+	db 3,4,MINIMIZE ; ESuika
+	db 4,1,MEGA_KICK ; EReimu
+	db 4,2,ROCK_SLIDE ; EReimu
+	db 4,3,SUBMISSION ; EReimu
+	db 4,4,RAZOR_WIND ; EReimu
+	db 5,1,ICE_BEAM ; EEiki
+	db 5,2,THUNDERBOLT ; EEiki
+	db 5,3,FLAMETHROWER ; EEiki
+	db 5,4,PSYCHIC_M ; EEiki
 	db 0
-	db PROF_OAK,$2
-	db 1,2,EARTHQUAKE
-	db 1,3,THUNDERBOLT
-	db 1,3,HYPER_BEAM
-	db 3,1,FIRE_BLAST
-	db 4,3,BODY_SLAM
-	db 5,1,THUNDERBOLT
-	db 5,2,ICE_BEAM
+
+	db PROF_OAK,$2 ; OK
+	db 1,1,SONICBOOM ; ERemilia
+	db 1,2,FIRE_BLAST ; ERemilia
+	db 1,3,RAZOR_WIND ; ERemilia
+	db 1,4,MEGA_DRAIN ; ERemilia
+	db 2,1,BLIZZARD ; EYuyuko
+	db 2,2,PETAL_DANCE ; EYuyuko
+	db 2,3,HYPNOSIS ; EYuyuko
+	db 2,4,HAZE ; EYuyuko
+	db 3,1,SUBMISSION ; ESuika
+	db 3,2,ROCK_SLIDE ; ESuika
+	db 3,3,EARTHQUAKE ; ESuika
+	db 3,4,MINIMIZE ; ESuika
+	db 4,1,HORN_DRILL ; ESakuya
+	db 4,2,ROCK_SLIDE ; ESakuya
+	db 4,3,SONICBOOM ; ESakuya
+	db 4,4,AMNESIA ; ESakuya
+	db 5,1,ICE_BEAM ; EEiki
+	db 5,2,THUNDERBOLT ; EEiki
+	db 5,3,FLAMETHROWER ; EEiki
+	db 5,4,PSYCHIC_M ; EEiki
 	db 0
-	db PROF_OAK,$3
-	db 1,2,EARTHQUAKE
-	db 1,3,THUNDERBOLT
-	db 1,3,HYPER_BEAM
-	db 3,1,FIRE_BLAST
-	db 4,1,TOXIC
-	db 5,1,THUNDERBOLT
-	db 5,2,ICE_BEAM
+
+	db PROF_OAK,$3 ; OK
+	db 1,1,SONICBOOM ; ERemilia
+	db 1,2,FIRE_BLAST ; ERemilia
+	db 1,3,RAZOR_WIND ; ERemilia
+	db 1,4,MEGA_DRAIN ; ERemilia
+	db 2,1,BLIZZARD ; EYuyuko
+	db 2,2,PETAL_DANCE ; EYuyuko
+	db 2,3,HYPNOSIS ; EYuyuko
+	db 2,4,HAZE ; EYuyuko
+	db 3,1,SUBMISSION ; ESuika
+	db 3,2,ROCK_SLIDE ; ESuika
+	db 3,3,EARTHQUAKE ; ESuika
+	db 3,4,MINIMIZE ; ESuika
+	db 4,1,HYPER_BEAM ; EMarisa
+	db 4,2,FIRE_BLAST ; EMarisa
+	db 4,3,BUBBLEBEAM ; EMarisa
+	db 4,4,SPORE ; EMarisa
+	db 5,1,ICE_BEAM ; EEiki
+	db 5,2,THUNDERBOLT ; EEiki
+	db 5,3,FLAMETHROWER ; EEiki
+	db 5,4,PSYCHIC_M ; EEiki
 	db 0
 	
 	;mr fuji battle
-	db GENTLEMAN,$5
-	db 1,1,BONEMERANG
-	db 1,2,BODY_SLAM
-	db 1,3,SEISMIC_TOSS
-	db 1,4,BLIZZARD
-	db 2,1,HYDRO_PUMP
-	db 2,2,ICE_BEAM
-	db 2,3,REFLECT
-	db 2,4,TOXIC
-	db 3,1,SWORDS_DANCE
-	db 3,2,SURF
-	db 3,3,SLASH
-	db 3,4,DOUBLE_EDGE
-	db 4,1,SKY_ATTACK
-	db 4,2,REFLECT
-	db 4,3,HYPER_BEAM
-	db 4,4,SUPERSONIC
-	db 5,1,FIRE_BLAST
-	db 5,2,BODY_SLAM
-	db 5,3,MIMIC
-	db 5,4,HYPER_BEAM
+	db GENTLEMAN,$5 ; OK
+	db 1,1,ROCK_SLIDE ; Genji
+	db 1,2,SKY_ATTACK ; Genji
+	db 1,3,METRONOME ; Genji
+	db 1,4,EARTHQUAKE ; Genji
+	db 2,1,THUNDER_WAVE ; Kirisame
+	db 2,2,THUNDERBOLT ; Kirisame
+	db 2,3,DOUBLE_TEAM ; Kirisame
+	db 2,4,HAZE ; Kirisame
+	db 3,1,PSYCHIC_M ; Hakurei
+	db 3,2,SUBMISSION ; Hakurei
+	db 3,3,SEISMIC_TOSS ; Hakurei
+	db 3,4,REFLECT ; Hakurei
+	db 4,1,FIRE_BLAST ; EAlice
+	db 4,2,EGG_BOMB ; EAlice
+	db 4,3,ICE_BEAM ; EAlice
+	db 4,4,STRING_SHOT ; EAlice
+	db 5,1,LEECH_SEED ; EYuuka
+	db 5,2,HYPER_BEAM ; EYuuka
+	db 5,3,FLAMETHROWER ; EYuuka
+	db 5,4,MEGA_DRAIN ; EYuuka
 	db 0
 	
 	;Chief battle
-	db CHIEF,$1
-	db 1,1,BODY_SLAM
-	db 1,2,SUBMISSION
-	db 1,3,FIRE_BLAST
-	db 1,4,HYPER_BEAM
-	db 2,1,THUNDERBOLT
-	db 2,2,ROCK_SLIDE
-	db 2,3,SUBSTITUTE
-	db 2,4,EARTHQUAKE
-	db 3,1,AMNESIA
-	db 3,2,BLIZZARD
-	db 3,3,SURF
-	db 3,4,MIMIC
-	db 4,1,SLASH
-	db 4,2,SWORDS_DANCE
-	db 4,3,SEISMIC_TOSS
-	db 4,4,BODY_SLAM
-	db 5,1,SWORDS_DANCE
-	db 5,2,SLASH
-	db 5,3,AGILITY
-	db 5,4,DOUBLE_EDGE
-	db 6,1,HYPER_BEAM
-	db 6,2,DOUBLE_EDGE
-	db 6,3,STOMP
-	db 6,4,REST
+	db CHIEF,$1 ; OK
+	db 1,1,THUNDERBOLT ; ENitori
+	db 1,2,THUNDER_WAVE ; ENitori
+	db 1,3,BUBBLEBEAM ; ENitori
+	db 1,4,FLASH ; ENitori
+	db 2,1,WATERFALL ; EEirin
+	db 2,2,SLUDGE ; EEirin
+	db 2,3,SLEEP_POWDER ; EEirin
+	db 2,4,ICE_BEAM ; EEirin
+	db 5,1,THUNDER_WAVE ; EKanako
+	db 5,2,THUNDER ; EKanako
+	db 5,3,MEGA_DRAIN ; EKanako
+	db 5,4,EARTHQUAKE ; EKanako
+	db 4,1,BONEMERANG ; EYukari
+	db 4,2,BLIZZARD ; EYukari
+	db 4,3,THUNDER ; EYukari
+	db 4,4,REFLECT ; EYukari
 	db 0
 	
 	;Seiga battle
-	db JR_TRAINER_F,$18
-	db 1,1,PSYCHIC_M
-	db 1,2,SING
-	db 1,3,METRONOME
-	db 1,4,DOUBLE_EDGE
-	db 2,1,THUNDERBOLT
-	db 2,2,HYPNOSIS
-	db 2,3,MEGA_DRAIN
-	db 2,4,CONFUSE_RAY
-	db 3,1,SWORDS_DANCE
-	db 3,2,RAZOR_LEAF
-	db 3,3,SLEEP_POWDER
-	db 3,4,BODY_SLAM
-	db 4,1,FIRE_BLAST
-	db 4,2,REFLECT
-	db 4,3,HYPER_BEAM
-	db 4,4,CONFUSE_RAY
-	db 5,1,EARTHQUAKE
-	db 5,2,ROCK_SLIDE
-	db 5,3,SUBMISSION
-	db 5,4,HYPER_BEAM
-	db 6,1,SURF
-	db 6,2,BLIZZARD
-	db 6,3,SEISMIC_TOSS
-	db 6,4,MIMIC
+	db JR_TRAINER_F,$18 ; OK
+	db 1,1,ROCK_SLIDE ; Genji
+	db 1,2,SKY_ATTACK ; Genji
+	db 1,3,METRONOME ; Genji
+	db 1,4,EARTHQUAKE ; Genji
+	db 2,1,THUNDER_WAVE ; Kirisame
+	db 2,2,THUNDERBOLT ; Kirisame
+	db 2,3,DOUBLE_TEAM ; Kirisame
+	db 2,4,HAZE ; Kirisame
+	db 3,1,PSYCHIC_M ; Hakurei
+	db 3,2,SUBMISSION ; Hakurei
+	db 3,3,SEISMIC_TOSS ; Hakurei
+	db 3,4,REFLECT ; Hakurei
+	db 4,1,FIRE_BLAST ; EAlice
+	db 4,2,EGG_BOMB ; EAlice
+	db 4,3,CLAMP ; EAlice
+	db 4,4,STRING_SHOT ; EAlice
+	db 5,1,LEECH_SEED ; EYuuka
+	db 5,2,HYPER_BEAM ; EYuuka
+	db 5,3,FLAMETHROWER ; EYuuka
+	db 5,4,MEGA_DRAIN ; EYuuka
+	db 6,1,HORN_DRILL ; ESakuya
+	db 6,2,ROCK_SLIDE ; ESakuya
+	db 6,3,SEISMIC_TOSS ; ESakuya
+	db 6,4,KINESIS ; ESakuya
 	db 0
 	
 	;Red battle
-	db JR_TRAINER_M,$9
-	db 1,1,BLIZZARD
-	db 1,2,THUNDERBOLT
-	db 1,3,BODY_SLAM
-	db 1,4,CONFUSE_RAY
-	db 2,1,RAZOR_LEAF
-	db 2,2,SLEEP_POWDER
-	db 2,3,BODY_SLAM
-	db 2,4,SWORDS_DANCE
-	db 3,1,FIRE_BLAST
-	db 3,2,EARTHQUAKE
-	db 3,3,SWORDS_DANCE
-	db 3,4,HYPER_BEAM
-	db 4,1,HYDRO_PUMP
-	db 4,2,BLIZZARD
-	db 4,3,BODY_SLAM
-	db 4,4,EARTHQUAKE
-	db 5,1,HYPER_BEAM
-	db 5,2,REST
-	db 5,3,BODY_SLAM
-	db 5,4,EARTHQUAKE
-	db 6,1,THUNDER
-	db 6,2,THUNDER_WAVE
-	db 6,3,SURF
-	db 6,4,DOUBLE_TEAM
+	db JR_TRAINER_M,$9 ; OK
+	db 1,1,SLASH ; EYoumu
+	db 2,2,QUICK_ATTACK ; EYoumu
+	db 3,3,HAZE ; EYoumu
+	db 4,4,SONICBOOM ; EYoumu
+	db 2,1,FIRE_BLAST ; EAlice
+	db 2,2,EGG_BOMB ; EAlice
+	db 2,3,CLAMP ; EAlice
+	db 2,4,STRING_SHOT ; EAlice
+	db 3,1,BLIZZARD ; ESanae
+	db 3,2,HYDRO_PUMP ; ESanae
+	db 3,3,TOXIC ; ESanae
+	db 3,4,MEGA_DRAIN ; ESanae
+	db 4,1,HORN_DRILL ; ESakuya
+	db 4,2,ROCK_SLIDE ; ESakuya
+	db 4,3,SEISMIC_TOSS ; ESakuya
+	db 4,4,KINESIS ; ESakuya
+	db 5,1,HYPER_BEAM ; EMarisa
+	db 5,2,FIRE_BLAST ; EMarisa
+	db 5,3,BUBBLEBEAM ; EMarisa
+	db 5,4,SPORE ; EMarisa
+	db 6,1,MEGA_KICK ; EReimu
+	db 6,2,ROCK_SLIDE ; EReimu
+	db 6,3,SUBMISSION ; EReimu
+	db 6,4,RAZOR_WIND ; EReimu
 	db 0
 	
 	;multi missingno superboss battle

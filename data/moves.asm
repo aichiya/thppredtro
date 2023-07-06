@@ -42,7 +42,7 @@ MoveEnd:
 	move HEADBUTT,     FLINCH_SIDE_EFFECT2,         70, NORMAL,   100, 15
 	move HORN_ATTACK,  NO_ADDITIONAL_EFFECT,        65, NORMAL,   100, 25	; Knife Throw | NO_ADDITIONAL_EFFECT,        65, NORMAL,   100, 25
 	move FURY_ATTACK,  TWO_TO_FIVE_ATTACKS_EFFECT,  15, ICE,       85, 20	; Killing Doll | TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,    85, 20
-	move HORN_DRILL,   NO_ADDITIONAL_EFFECT,        95, ICE,       95, 15	; Soul Sculpture | OHKO_EFFECT,                  1, NORMAL,    30,  5
+	move HORN_DRILL,   PARALYZE_SIDE_EFFECT2,       95, ICE,       95, 15	; Soul Sculpture | OHKO_EFFECT,                  1, NORMAL,    30,  5
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, NORMAL,    95, 35
 	move BODY_SLAM,    PARALYZE_SIDE_EFFECT2,       85, NORMAL,   100, 15
 	move WRAP,         TRAPPING_EFFECT,             15, NORMAL,    85, 20	;15, NORMAL,    85, 20
@@ -167,7 +167,7 @@ MoveEnd:
 	move FURY_SWIPES,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,    80, 15
 	move BONEMERANG,   DEFENSE_DOWN_SIDE_EFFECT,   120, PSYCHIC,   90, 10	; Train Wreck | ATTACK_TWICE_EFFECT,         50, GROUND,    90, 10
 	move REST,         HEAL_EFFECT,                  0, PSYCHIC,  100, 10
-	move ROCK_SLIDE,   NO_ADDITIONAL_EFFECT,        75, ROCK,      90, 10
+	move ROCK_SLIDE,   FLINCH_SIDE_EFFECT2,         75, ROCK,      90, 10
 	move HYPER_FANG,   SUPER_FANG_EFFECT,            1, GHOST,     90, 15	; Life Balance | FLINCH_SIDE_EFFECT1,         80, NORMAL,    90, 15
 	move SHARPEN,      ATTACK_UP1_EFFECT,            0, NORMAL,   100, 30
 	move CONVERSION,   CONVERSION_EFFECT,            0, NORMAL,   100, 30

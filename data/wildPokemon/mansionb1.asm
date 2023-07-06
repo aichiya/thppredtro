@@ -1,16 +1,16 @@
 MansionMonsB1:;joenote - magmar in both versions
 	db $0A
 	IF DEF(_ENCRED)
-		db 33,NIDORAN_F     ; Meiling
-		db 31,NIDORAN_M     ; Koakuma
-		db 35,CLEFAIRY     ; Patchouli
-		db 32,NIDORAN_F     ; Meiling
-		db 31,NIDORAN_M     ; Koakuma
-		db 40,NIDORINO     ; EKoakuma
-		db 34,CLEFAIRY     ; Patchouli
+		db 39,NIDORAN_F     ; Meiling
+		db 36,NIDORAN_M     ; Koakuma
+		db 39,CLEFAIRY     ; Patchouli
+		db 40,NIDORAN_F     ; Meiling
+		db 39,NIDORAN_M     ; Koakuma
+		db 41,NIDORINO     ; EKoakuma
+		db 38,CLEFAIRY     ; Patchouli
 		db 35,ODDISH     ; CFlandre
-		db 38,CLEFABLE     ; EPatchouli
-		db 42,GLOOM     ; Flandre
+		db 42,CLEFABLE     ; EPatchouli
+		db 40,GLOOM     ; Flandre
 	ELIF DEF(_ENCBLUEJP)
 		db 33, GRIMER
 		db 31, GRIMER
