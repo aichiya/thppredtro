@@ -6,7 +6,7 @@ db 150 ; base speed
 db 150 ; base special
 db PSYCHIC ; species type 1
 db GHOST ; species type 2
-db 15 ; catch rate
+db 7 ; catch rate
 db 250 ; base exp yield
 INCBIN BELLSPROUT_FR,0,1 ; 55, sprite dimensions
 dw BellsproutPicFront

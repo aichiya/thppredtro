@@ -9,7 +9,7 @@ DisallowWildMew:
 	CheckEvent EVENT_8C0
 	jr z, .mew_allowed	;mew can appear if not already encountered
 .replace_mew
-	ld a, DITTO	;load the ditto constant
+	ld a, MAGNEMITE	;load the ditto constant ; EYukari
 	ld [wcf91], a	;overwrite mew with ditto
 	ld [wEnemyMonSpecies2], a
 	ret

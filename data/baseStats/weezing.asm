@@ -5,9 +5,9 @@ db 65 ; base defense
 db 110 ; base speed
 db 130 ; base special
 db FIGHTING ; species type 1
-db PSYCHIC ; species type 2
-db 15 ; catch rate
-db 200 ; base exp yield
+db WATER ; species type 2
+db 7 ; catch rate
+db 250 ; base exp yield
 INCBIN WEEZING_FR,0,1 ; 55, sprite dimensions
 dw WeezingPicFront
 dw WeezingPicBack

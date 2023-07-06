@@ -6,8 +6,8 @@ db 100 ; base speed
 db 115 ; base special
 db GRASS ; species type 1
 db FLYING ; species type 2
-db 45 ; catch rate
-db 190 ; base exp yield
+db 7 ; catch rate
+db 250 ; base exp yield
 INCBIN PARAS_FR,0,1 ; 55, sprite dimensions
 dw ParasPicFront
 dw ParasPicBack
