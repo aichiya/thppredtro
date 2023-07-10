@@ -195,6 +195,7 @@ EvosMovesPointerTable:
 	dw $FFFF	;joenote - added a list terminator for specific uses
 
 
+
 RhydonEvosMoves:     ; CMedicine
 ; Evolutions
 	db EV_LEVEL, 18, CHANSEY     ; Medicine
@@ -1287,7 +1288,7 @@ ExeggutorEvosMoves:     ; EEirin
 
 LickitungEvosMoves:     ; Mokou
 ; Evolutions
-	db EV_ITEM, 1, FIRE_STONE, KOFFING     ; EMokou
+	db EV_ITEM, FIRE_STONE, 1, KOFFING     ; EMokou
 ; 	db
 ; 	db
 	db 0
@@ -1396,7 +1397,7 @@ LickitungEvosMoves:     ; Mokou
 
 ExeggcuteEvosMoves:     ; Eirin
 ; Evolutions
-	db EV_ITEM, 1, MOON_STONE, EXEGGUTOR     ; EEirin
+	db EV_ITEM, MOON_STONE, 1, EXEGGUTOR     ; EEirin
 ; 	db
 ; 	db
 	db 0
@@ -2159,7 +2160,7 @@ RhyhornEvosMoves:     ; Yorihime
 
 LaprasEvosMoves:     ; Minoriko
 ; Evolutions
-	db EV_ITEM, 1, LEAF_STONE, DITTO     ; EMinoriko
+	db EV_ITEM, LEAF_STONE, 1, DITTO     ; EMinoriko
 ; 	db
 ; 	db
 	db 0
@@ -2814,7 +2815,7 @@ TentacoolEvosMoves:     ; EYoumu
 GastlyEvosMoves:     ; Keine
 ; Evolutions
 	db EV_LEVEL, 36, HAUNTER     ; EKeine
-	db EV_ITEM, 1, MOON_STONE, GENGAR     ; HKeine
+	db EV_ITEM, MOON_STONE, 1, GENGAR     ; HKeine
 ; 	db
 	db 0
 ; Learnset
@@ -6628,7 +6629,7 @@ DiglettEvosMoves:     ; CChen
 
 TaurosEvosMoves:     ; Shizuha
 ; Evolutions
-	db EV_ITEM, 1, LEAF_STONE, MAGIKARP     ; EShizuha
+	db EV_ITEM, LEAF_STONE, 1, MAGIKARP     ; EShizuha
 ; 	db
 ; 	db
 	db 0
@@ -7282,7 +7283,7 @@ VenonatEvosMoves:     ; Letty
 
 DragoniteEvosMoves:     ; Suwako
 ; Evolutions
-	db EV_ITEM, 1, WATER_STONE, MEWTWO     ; ESuwako
+	db EV_ITEM, WATER_STONE, 1, MEWTWO     ; ESuwako
 ; 	db
 ; 	db
 	db 0
@@ -9353,7 +9354,7 @@ PikachuEvosMoves:     ; CSunny
 
 RaichuEvosMoves:     ; Sunny
 ; Evolutions
-	db EV_ITEM, 1, FIRE_STONE, SANDSHREW     ; ESunny
+	db EV_ITEM, FIRE_STONE, 1, SANDSHREW     ; ESunny
 ; 	db
 ; 	db
 	db 0
@@ -11860,7 +11861,7 @@ ZubatEvosMoves:     ; Remilia
 
 EkansEvosMoves:     ; Luna
 ; Evolutions
-	db EV_ITEM, 1, THUNDER_STONE, ARBOK     ; ELuna
+	db EV_ITEM, THUNDER_STONE, 1, ARBOK     ; ELuna
 ; 	db
 ; 	db
 	db 0
@@ -12296,9 +12297,9 @@ PoliwrathEvosMoves:     ; ELunasa
 
 WeedleEvosMoves:     ; Fairy
 ; Evolutions
-	db EV_ITEM, 1, LEAF_STONE, KAKUNA     ; Daiyousei
+	db EV_ITEM, LEAF_STONE, 1, KAKUNA     ; Daiyousei
 	db EV_LEVEL, 15, MANKEY     ; LilyWhite
-	db EV_ITEM, 1, MOON_STONE, GROWLITHE     ; LilyBlack
+	db EV_ITEM, MOON_STONE, 1, GROWLITHE     ; LilyBlack
 	db 0
 ; Learnset
 	db 1, TACKLE    ; Tackle
@@ -13604,7 +13605,7 @@ CaterpieEvosMoves:     ; CRumia
 
 MetapodEvosMoves:     ; Rumia
 ; Evolutions
-	db EV_ITEM, 1, MOON_STONE, BUTTERFREE     ; ERumia
+	db EV_ITEM, MOON_STONE, 1, BUTTERFREE     ; ERumia
 ; 	db
 ; 	db
 	db 0
@@ -14476,7 +14477,7 @@ MewtwoEvosMoves:     ; ESuwako
 
 SnorlaxEvosMoves:     ; Sanae
 ; Evolutions
-	db EV_ITEM, 1, WATER_STONE, ARTICUNO     ; ESanae
+	db EV_ITEM, WATER_STONE, 1, ARTICUNO     ; ESanae
 ; 	db
 ; 	db
 	db 0
@@ -15130,7 +15131,7 @@ MissingNo8AEvosMoves:
 
 KinglerEvosMoves:     ; Reisen
 ; Evolutions
-	db EV_ITEM, 1, MOON_STONE, VOLTORB     ; EReisen
+	db EV_ITEM, MOON_STONE, 1, VOLTORB     ; EReisen
 ; 	db
 ; 	db
 	db 0
@@ -15893,7 +15894,7 @@ PersianEvosMoves:     ; CAlice
 
 MarowakEvosMoves:     ; Kaguya
 ; Evolutions
-	db EV_ITEM, 1, MOON_STONE, HITMONLEE     ; EKaguya
+	db EV_ITEM, MOON_STONE, 1, HITMONLEE     ; EKaguya
 ; 	db
 ; 	db
 	db 0
@@ -17310,7 +17311,7 @@ GoldeenEvosMoves:     ; CYuuka
 
 SeakingEvosMoves:     ; Yuuka
 ; Evolutions
-	db EV_ITEM, 1, FIRE_STONE, STARYU     ; EYuuka
+	db EV_ITEM, FIRE_STONE, 1, STARYU     ; EYuuka
 ; 	db
 ; 	db
 	db 0
@@ -18182,7 +18183,7 @@ RattataEvosMoves:     ; CStar
 
 RaticateEvosMoves:     ; Star
 ; Evolutions
-	db EV_ITEM, 1, WATER_STONE, SPEAROW     ; EStar
+	db EV_ITEM, WATER_STONE, 1, SPEAROW     ; EStar
 ; 	db
 ; 	db
 	db 0
@@ -18509,7 +18510,7 @@ NidorinaEvosMoves:     ; EMeiling
 
 GeodudeEvosMoves:     ; Yuyuko
 ; Evolutions
-	db EV_ITEM, 1, LEAF_STONE, GRAVELER     ; EYuyuko
+	db EV_ITEM, LEAF_STONE, 1, GRAVELER     ; EYuyuko
 ; 	db
 ; 	db
 	db 0
