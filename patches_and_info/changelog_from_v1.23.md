@@ -139,6 +139,7 @@
 - Strength hotkey requires facing a boulder to activate
 - Trapping moves no longer apply a speed penalty
 - If trainer scaling is on, you do not need to beat the 1st route 22 rival solo to get oak's pokeballs
+- Fixed an issue with the level scaling feature that inadvertantly biased non-special trainers to higher levels
 
 
 ---
@@ -174,7 +175,10 @@
   - Zero damage is not displayed
   - Damage is not displayed if either pokemon has zero HP remaining
 
+- Press and hold A+SELECT at the title screen to print the current RNG seed at the main menu
+
 - Switched over to the xor-shift method of RNG
+- If a zero-value random seed is detected, a new random seed gets generated using the original DIV register method
 
 - Gamma shader is now 23% faster thanks to optimizations by easyaspi314
 
@@ -290,6 +294,7 @@
 - White 1-frame flash on battle load (affecting DMG and GBC modes) as been removed
 - White 1-frame flash on map load (affecting DMG and GBC modes) as been removed
 - Fixed garbage tiles display for 1 frame after a battle on the DMG
+- Fixed a bug where HP bar animation can print the wrong tile for 1 frame
 
 - The proper forget-move poof sfx plays during battle
 - Fixed a bug having to do with rare instances of bending the audio pitch
@@ -308,6 +313,7 @@
 - Made many TextIDs close when pressing A instead of releasing A
 - Binoculars can no longer pause the overworld by holding A from the wrong side
 - Fixed an issue where pressing a button on a menu while holding A is treated as an A-press
+- Fixed the pokeflute posting the wrong message in wild pokemon battles
 
 - Cannot use poison to black yourself out of the cable club because entering the club now heals your party
 - Cannot use poison to black yourself out of the safari zone because the safari minigame now stops poison damage
@@ -335,6 +341,7 @@
 - Fixed inaccurate text when getting the rock slide TM
 - Fixed the tiles in Mt. Moon floor 3 that prevent encounters
 - Fixed picking a fossil causing all trainers on Mt. Moon floor 3 to lose line of sight
+- Fixed an underflow issue which caused trainers above the player to not see beyond 3 spaces downward
 
 
 ---

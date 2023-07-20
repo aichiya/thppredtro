@@ -641,7 +641,12 @@ v1.23.15
 
 	
 *Not in current patch*	
-- N/A
+- Fixed an underflow issue which caused trainers above the player to not see beyond 3 spaces downward
+- Fixed the pokeflute posting the wrong message in wild pokemon battles
+- If a zero-value random seed is detected, a new random seed gets generated using the original DIV register method 
+- Fixed some debugging features
+- Press and hold A+SELECT at the title screen to print the current RNG seed at the main menu
+- Fixed a bug where HP bar animation can print the wrong tile for 1 frame
 
 
 #Bugfixes
@@ -806,6 +811,7 @@ v1.23.15
   - White 1-frame flash on battle load (affecting DMG and GBC modes) as been removed
   - White 1-frame flash on map load (affecting DMG and GBC modes) as been removed
   - Fixed garbage tiles display for 1 frame after a battle on the DMG
+  - Fixed a bug where HP bar animation can print the wrong tile for 1 frame
 
 
 - Item Fixes  
@@ -829,6 +835,7 @@ v1.23.15
   - Full Restore when used in battle to heal HP now undoes the stat changes of brn/par
   - Pokedoll is disallowed during ghost marowak battle
   - Encountering Missingno will not give 128 of the item in the sixth bag slot
+  - Fixed the pokeflute posting the wrong message in wild pokemon battles
   
 
 - Audio fixes
@@ -879,6 +886,8 @@ v1.23.15
   - While inside victory road, boulders placed on switches will stay there between floor transitions
   - The formula functions for exp now have underflow protection.
   - General RNG improved to use the xor-shift method (fast and allows for all possible DVs naturally)
+    - Poor emulators and flash carts with loader GUIs often clear the RAM resulting in a random seed of zero
+	- If this problem is detected, an attempt is made to generate a random seed using the original DIV register method
   - Cannot bypass Brock's gym via the start menu
   - Fixed bugged npc movement constraints
   - Fixed the instant-text glitch that can happen in the bike shop
@@ -915,6 +924,7 @@ v1.23.15
   - You can now get Oak's pokeballs even if you evolve your starter
   - Fixed the tiles in Mt. Moon floor 3 that prevent encounters
   - Fixed picking a fossil causing all trainers on Mt. Moon floor 3 to lose line of sight
+  - Fixed an underflow issue which caused trainers above the player to not see beyond 3 spaces downward
  
  
 #Tweaks
@@ -1521,6 +1531,8 @@ v1.23.15
 
 #Availability Changes
 ---------------------
+<details>
+  <summary>Click to Reveal Spoilers!</summary>
 
 #Added Encounter Locations for the following pokemon (rare if not normally in the chosen version):
 - charmander on route 25 (4.3%)
@@ -1586,6 +1598,8 @@ v1.23.15
 - Added a hidden great ball and pokedoll on route 6
 - Added hidden max revive on route 11
 - Added hidden ultra ball on route 8
+
+</details>
 
 
 #Built-In Nuzlocke Mode
