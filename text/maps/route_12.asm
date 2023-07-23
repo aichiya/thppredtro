@@ -4,14 +4,14 @@ _Route12Text1::
 	done
 
 _Route12Text13::
-	text "Ex-Yukari woke up!"
+	text "Yukari woke up!"
 
 	para "It attacked in a"
 	line "grumpy rage!"
 	done
 
 _Route12Text14::
-	text "Ex-Yukari calmed"
+	text "Yukari calmed"
 	line "down! With a big"
 	cont "yawn, it vanished"
 	cont "through the gap!"
@@ -82,7 +82,7 @@ _Route12AfterBattleText4::
 
 _Route12BattleText5::
 	text "The Fishing Fool"
-	line "vs. <pkmn> Kid!"
+	line "vs. Touhou ota!"
 	done
 
 _Route12EndBattleText5::

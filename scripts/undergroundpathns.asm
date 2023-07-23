@@ -58,7 +58,7 @@ MirrorTrainerNotReady:
 	cont "of my costumes."
 	
 	para "I'll be ready"
-	line "after the #MON"
+	line "after the <pkmn>"
 	cont "LEAGUE finals are"
 	cont "over."
 	done

@@ -645,7 +645,7 @@ _BillsHouseInitiatedText::
 
 _BillsHousePokemonListText1::
 	text "Bill's favorite"
-	line "#MON list!"
+	line "<pkmn> list!"
 	prompt
 
 _BillsHousePokemonListText2::
@@ -767,7 +767,7 @@ _ViridianSchoolNotebookText2::
 _ViridianSchoolNotebookText3::
 	text "Third page..."
 
-	para "#MON trainers"
+	para "<pkmn> trainers"
 	line "seek others to"
 	cont "engage in <pkmn>"
 	cont "fights."
@@ -1772,7 +1772,7 @@ _TossHowManyText::
 	done
 
 _AccessedHoFPCText::
-	text "Accessed #MON"
+	text "Accessed TOUHOU"
 	line "LEAGUE's site."
 
 	para "Accessed the HALL"
@@ -1789,7 +1789,7 @@ _WhatText::
 
 _DepositWhichMonText::
 	text "Deposit which"
-	line "#MON?"
+	line "<pkmn>?"
 	done
 
 _MonWasStoredText::
@@ -1834,7 +1834,7 @@ _CantTakeMonText::
 
 _ReleaseWhichMonText::
 	text "Release which"
-	line "#MON?"
+	line "<pkmn>?"
 	done
 
 _OnceReleasedText::

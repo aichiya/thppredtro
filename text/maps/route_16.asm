@@ -96,7 +96,7 @@ _Route16Text7::
 	done
 
 _Route16Text10::
-	text "Ex-Yukari woke up!"
+	text "Yukari woke up!"
 
 	para "It attacked in a"
 	line "grumpy rage!"
@@ -104,7 +104,7 @@ _Route16Text10::
 
 _Route16Text11::
 	text "With a big yawn,"
-	line "Ex-Yukari vanished"
+	line "Yukari vanished"
 	cont "through the gap!"
 	done
 

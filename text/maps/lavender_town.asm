@@ -36,11 +36,11 @@ _LavenderTownText2::
 
 _LavenderTownText3::
 	text "GHOSTs appeared"
-	line "in #MON TOWER."
+	line "in <pkmn> TOWER."
 
 	para "I think they're"
 	line "the spirits of"
-	cont "#MON that the"
+	cont "<pkmn> that the"
 	cont "ROCKETs killed."
 	done
 
@@ -61,11 +61,11 @@ _LavenderTownText5::
 
 _LavenderTownText8::
 	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	line "<pkmn> HOUSE"
 	done
 
 _LavenderTownText9::
 	text "May the Souls of"
-	line "#MON Rest Easy"
-	cont "#MON TOWER"
+	line "<pkmn> Rest Easy"
+	cont "<pkmn> TOWER"
 	done

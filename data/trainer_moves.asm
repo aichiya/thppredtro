@@ -479,8 +479,8 @@ SpecialTrainerMoves:
 	db 6,4,KINESIS ; ESakuya
 	db 0
 	
-	;Red battle
-	db JR_TRAINER_M,$9 ; OK
+	;Red battle | Future Marry/Renko
+	db LASS,$13 ; OK
 	db 1,1,SLASH ; EYoumu
 	db 2,2,QUICK_ATTACK ; EYoumu
 	db 3,3,HAZE ; EYoumu

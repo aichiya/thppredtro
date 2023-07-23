@@ -116,7 +116,7 @@ _MtMoon3EndBattleText5::
 	prompt
 
 _MtMoon3AfterBattleText5::
-	text "#MON lived"
+	text "<pkmn> lived"
 	line "here long before"
 	cont "people came."
 	done

@@ -112,4 +112,4 @@ DiplomaCongrats:
 	next "TH-Dex.@"
 
 DiplomaGameFreak:
-	db "Aichiya Sanae@"
+	db "Aichiya@"

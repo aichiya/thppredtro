@@ -78,7 +78,7 @@ _TXTBookP1:
 	text "This is my SECRET"
 	line "ROOM. It was dug-"
 	cont "out by a group of"
-	cont "wild DIGLETT."
+	cont "wild <pkmn>."
 
 	para "Read some more?"
 	done
@@ -94,8 +94,8 @@ _TXTBookP2:
 	cont "it to anyone."
 	
 	para "Maybe if I show"
-	line "him a NEW SPECIES"
-	cont "of #MON..."
+	line "him a certain"
+	cont "of <pkmn>..."
 	
 	para "Keep reading?"
 	done
@@ -106,7 +106,7 @@ _TXTBookP3:
 	line "MIST STONE can"
 	cont "unlock the hidden"
 	cont "potential within"
-	cont "a #MON."
+	cont "a <pkmn>."
 	
 	para "Where to find it?"
 	line "Perhaps here, in"

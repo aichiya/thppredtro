@@ -90,8 +90,8 @@ _BillsHouseText_1e8da::
 _BillGardenText::
 	text "Bill: Hey, bud!"
 	line "That really the"
-	cont "fabled Satsuki"
-	cont "from EoSD! She is"
+	cont "maid VIVIT from"
+	cont "Seihou! She is"
 	cont "an amazing <pkmn>."
 	
 	para "As thanks for you"

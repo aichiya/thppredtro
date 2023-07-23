@@ -101,10 +101,10 @@ _SSAnne6Text_GymGuy2::
 	cont "a nice prize!"
 	
 	para "But everyone has"
-	line "to use exactly 3"
-	cont "#MON."
+	line "to use exactly"
+	cont "3 <pkmn>."
 	
-	para "Your #MON get"
+	para "Your <pkmn> get"
 	line "healed before"
 	cont "each round."
 	
@@ -133,11 +133,11 @@ _SSAnne6Text_GymGuy_noroom::
 	
 _SSAnne6Text_GymGuy_party::
 	text "You need exactly 3"
-	line "#mon to enter."
+	line "<pkmn> to enter."
 	done
 
 _SSAnne6Text_GymGuy_bye::
-	text "Later then CHAMP!"
+	text "Later then Champ!"
 	done
 	
 _SSAnne6Text_GymGuy_ready::
@@ -154,13 +154,13 @@ _SSAnne6Text_GymGuy_win::
 	line "do it!"
 	
 	para "<PLAYER> won a"
-	line "MASTER BALL!@@"
+	line "Lunatic Orb!@@"
 	
 _SSAnne6Text_GymGuy_pikachu::
-	text "Your PIKACHU is"
+	text "Your CSunny is"
 	line "really special!"
 	
 	para "In recongnition,"
 	line "I've made it able"
-	cont "to learn SURF!"
+	cont "to learn Surf!"
 	prompt

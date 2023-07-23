@@ -272,9 +272,9 @@ Route25TextRed:
 	call SaveEndBattleTextPointers	;save the win/lose text
 	ld a, $9
 	ld [wGymLeaderNo], a	;set bgm to champion music
-	ld a, OPP_JR_TRAINER_M	;load the trainer type
+	ld a, OPP_LASS	;load the trainer type | load proper future marry/renko as Lass
 	ld [wCurOpponent], a	;set as the current opponent
-	ld a, 9	;get the right roster
+	ld a, 19	;get the right roster
 	ld [wTrainerNo], a
 	xor a
 	ld [hJoyHeld], a
@@ -332,14 +332,14 @@ BillSecretGarden:
 	ret
 
 GardenList:
-	db PIKACHU
-	db EEVEE
-	db CLEFAIRY
-	db BULBASAUR
-	db SQUIRTLE
-	db CHARMANDER
-	db ABRA
-	db PORYGON
+	db CHARMANDER ; CReimu
+	db SQUIRTLE ; CMarisa
+	db VULPIX ; CSakuya
+	db AERODACTYL ; CSanae
+	db KRABBY ; CReisen
+	db WEEPINBELL ; CYoumu
+	db NIDOKING ; CPatchouli
+	db PERSIAN ; CAlice
 
 GardenCoordsData:
 		;Y,X

@@ -127,6 +127,8 @@ LassData:
 ; Celadon Gym
 	db 27,GOLDEEN,TAUROS,0 ; CYuuka,Shizuha | OK
 	db 27,GOLDEEN,LAPRAS,0 ; CYuuka,Minoriko | OK
+; Future Trainer Marry/Renko
+	db $FF,90,TENTACOOL,90,GOLDUCK,90,ARTICUNO,90,JIGGLYPUFF,90,BLASTOISE,100,CHARIZARD,0 ; EYoumu,EAlice,ESanae,ESakuya,EMarisa,EReimu | OK
 	
 SailorData:
 ; SS Anne Stern
@@ -156,7 +158,7 @@ JrTrainerMData:
 ; Route 12
 	db 33,KABUTO,PSYDUCK,0 ; Momiji,Alice | OK
 ;joenote - special fight with future trainer red
-	db $FF,90,TENTACOOL,90,GOLDUCK,90,ARTICUNO,90,JIGGLYPUFF,90,BLASTOISE,100,CHARIZARD,0 ; EYoumu,EAlice,ESanae,ESakuya,EMarisa,EReimu | OK
+;	db $FF,90,TENTACOOL,90,GOLDUCK,90,ARTICUNO,90,JIGGLYPUFF,90,BLASTOISE,100,CHARIZARD,0 ; EYoumu,EAlice,ESanae,ESakuya,EMarisa,EReimu | OK
 ; Unused
 	;db 18,DIGLETT,DIGLETT,SANDSHREW,0
 JrTrainerFData:

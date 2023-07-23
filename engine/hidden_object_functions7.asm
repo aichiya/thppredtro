@@ -445,10 +445,10 @@ BillsHousePokemonListText1:
 	db "@"
 
 BillsMonListText:
-	db   "Ex-Flandre"
-	next "Ex-Yukari"
-	next "Ex-Mokou"
-	next "Ex-Suwako"
+	db   "EFlandre"
+	next "EYukari"
+	next "EMokou"
+	next "ESuwako"
 	next "Cancel@"
 
 BillsHousePokemonListText2:
