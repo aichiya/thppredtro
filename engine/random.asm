@@ -70,6 +70,7 @@ Random_::
 
 
 ;joenote - rolls 1d16-1	twice and keeps the higher result for each of the four DV values
+;if boss music is playing, the minimum DVs are 8
 _Random_BiasDV::
 	
 	call Random
@@ -125,6 +126,35 @@ _Random_BiasDV::
 	ld d, a
 	ld e, b
 	
+	;if gym leader or champion music playing, make it so values cannot be below 8
+	ld a, [wChannelSoundIDs]
+	cp MUSIC_GYM_LEADER_BATTLE
+	jr z, .isboss
+	cp MUSIC_FINAL_BATTLE
+	jr z, .isboss
+	
+	;check for lorelei, bruno, agatha, giovanni, and rival2
+	;in the vanilla game, these boss trainers are fought with regular trainer battle music
+	ld a, [wCurOpponent]
+	cp SONY2
+	jr z, .isboss
+	cp GIOVANNI
+	jr z, .isboss
+	cp LORELEI
+	jr z, .isboss
+	cp BRUNO
+	jr z, .isboss
+	cp AGATHA
+	jr z, .isboss
+
+	ret
+.isboss
+	ld a, d
+	or $98
+	ld d, a
+	ld a, e
+	or $88
+	ld e, a
 	ret
 	
 _Random_DV::	;generates four 0 to 15 DVs in DE, and rerolls 1 time for each DV below the value placed in L

@@ -40,9 +40,12 @@ LowPriorityMoves:
 .CheckTrappingClause
 	res TRAPPING_COUNT, [hl]
 	pop af
-	ld a, [wLinkState]
-	cp LINK_STATE_BATTLING
-	jr z, .next3
+
+;link battles now sync clause flag
+;	ld a, [wLinkState]
+;	cp LINK_STATE_BATTLING
+;	jr z, .next3
+
 	CheckEvent EVENT_8C5
 .next3
 	;invert the z flag bit at this point
@@ -95,6 +98,17 @@ DetermineWildMonDVs:
 	ld a, [wFontLoaded]
 	bit 7, a
 	jr z, .do_random
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;exclude tower ghosts and old man tutorial
+	ld a, [wBattleType]
+	dec a
+	jr z, .do_random
+	ld a, [wFlags_D733]
+	bit 6, a
+	jr nz, .do_random 
+	CheckEvent EVENT_10E
+	jr nz, .do_random	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	ld b, $AA
 	call Random	;get random number into a
 	or $20	;set only bit 5
@@ -123,88 +137,59 @@ DetermineWildMonDVs:
 	ret
 
 
-;joenote - This fixes an issue with exp all where exp gets divided twice	
-UndoDivision4ExpAll:
-	ld hl, wEnemyMonBaseStats	;get first stat
-	ld b, $7
-.exp_stat_loop
-
-	ld a, [wUnusedD155]	
-	ld c, a		;get number of participating pkmn into c
-	xor a	;clear a to zero
-	
-.exp_adder_loop
-	add [hl]	; add the value of the current exp stat to 'a'
-	dec c		; decrement participating pkmn
-	jr nz, .exp_adder_loop
-	
-	ld [hl], a	;stick the exp values, now multiplied by the number of participating pkmn, back into the stat address
-	
-	inc hl	;get next stat 
-	dec b
-	
-	jr nz, .exp_stat_loop
+;returns z flag if on the first attack
+;returns z flag cleared if not on the first or not applicable
+TestMultiAttackMoveUse_firstAttack:
+	call TestMultiAttackMoveUse
+	ret nz
+	ld a, l
+	and a
 	ret
-
-;joenote - fixes issues where exp all counts fainted pkmn for dividing exp
-SetExpAllFlags:
-	ld a, $1
-	ld [wBoostExpByExpAll], a
-	ld a, [wPartyCount]
-	ld c, a
-	ld b, 0
-	ld hl, wPartyMon1HP
-.gainExpFlagsLoop	
-;wisp92 found that bits need to be rotated in from the left and shifted to the right. 
-;Bit 0 of the flags represents the first mon in the party
-;Bit 5 of the flags represents the sixth mon in the party
-	ld a, [hli]
-	or [hl] ; is mon's HP 0?
-	jp z, .setnextexpflag	;the carry bit is cleared from the last OR, so 0 will be rotated in next
-	scf	;the carry bit is is set, so 1 will be rotated in next
-.setnextexpflag 
-	jp .do_rotations	
-.nextmonforexpall
-	dec c
-	jr z, .return
-	ld a, [wPartyCount]
-	sub c
+;returns z flag set if on the last attack
+;returns z flag cleared if not on the last attack or not applicable
+TestMultiAttackMoveUse_lastAttack:
+	call TestMultiAttackMoveUse
+	ret nz
+	ld a, l
+	cp 1
+	ret
+;returns with z flag set if using a multi-attack move 
+;returns with L = attacks left
+TestMultiAttackMoveUse:
+	ld a, [H_WHOSETURN]
+	and a
 	push bc
-	ld bc, wPartyMon2HP - wPartyMon1HP
-	ld hl, wPartyMon1HP
-	call AddNTimes
-	pop bc
-	jr .gainExpFlagsLoop
-.return
-	ld a, b
-	ld [wPartyGainExpFlags], a
-	ret
-.do_rotations
-;need to rotate the carry value into the proper flag bit position
-;a and hl are free to use
-;c is the counter that tells the party position
-;b holds the current flag values
-	push af	;save carry value
-	;the number of rotations needed to move the carry value to the proper flag place is 8 - [wPartyCount] + c
-	ld a, $08
-	ld hl, wPartyCount 
-	sub [hl] ;subtract 1 to 6
-	add c	; add the current count
+	ld a, [wPlayerMoveNum]
+	ld b, a
+	ld a, [wPlayerMoveEffect]
 	ld h, a
-	pop af	;get the carry value back
-	ld a, h
-	;a now has the rotation count (8 to 3)
-	push bc
-	ld c, a	;make c hold the rotation count
-	ld a, $00
-.loop
-	rr a	;rotate the carry value 1 bit to the right per loop
-	dec c
-	jr nz, .loop
+	ld a, [wPlayerNumAttacksLeft]
+	ld l, a
+	jr z, .next1
+	ld a, [wEnemyMoveNum]
+	ld b, a
+	ld a, [wEnemyMoveEffect]
+	ld h, a
+	ld a, [wEnemyNumAttacksLeft]
+	ld l, a
+.next1
+	ld a, b
 	pop bc
-	or b	;append current flag values to a
-	ld b, a	; and save them back to b
-	jp .nextmonforexpall
+	cp TWINEEDLE
+	jr z, .multi_attack
+	ld a, h
+	cp ATTACK_TWICE_EFFECT
+	jr z, .multi_attack
+	cp TWO_TO_FIVE_ATTACKS_EFFECT
+	jr nz, .done_multi
+.multi_attack
+	;at this line, we are dealing with a multi-attack or two-attack move
+	xor a
+	ret
+.done_multi
+	ld a, 1
+	and a
+	ret
 
 
 
@@ -419,15 +404,43 @@ EnemyDisableHandler:
 	ret
 
 
+;check hyper beam clause
+;when active, hyperbeam does not need to recharge when scoring a KO
+;set z flag if not applicable 
+;clear z flag if confirmed
+_HandleHyperbeamClause:
+
+;link battles now sync clause flag
+;	ld a, [wLinkState]
+;	cp LINK_STATE_BATTLING
+;	ret z	;do not enforce for link battles
+
+	CheckEvent EVENT_8C8	
+	ret z
+	ld hl, wEnemyMonHP	;check enemy hp if it's the player's turn
+	ld a, [H_WHOSETURN]
+	and a
+	jr z, .next
+	ld hl, wBattleMonHP	;check player hp if its the enemy's turn
+.next
+	ld a, [hli]
+	or [hl]
+	jr nz, .noKO
+	inc a
+	ret
+.noKO
+	xor a
+	ret
 
 ;return z and nc if nothing detected
 ;return nz for sleep clause triggered
 ;return c for  freeze clause triggered
 ;link battles unsupported
 _HandleSlpFrzClause:		
-	ld a, [wLinkState]
-	cp LINK_STATE_BATTLING
-	jp z, .returnclear ;do not enforce for link battles
+;link battles now sync clause flag
+;	ld a, [wLinkState]
+;	cp LINK_STATE_BATTLING
+;	jp z, .returnclear ;do not enforce for link battles
 	
 	ld a, [wIsInBattle]
 	cp 2
@@ -588,10 +601,11 @@ SetAttackAnimPal:
 	ld a, [hl]
 	ld b, a
 
+	;check if this animation is being played when hurting self from confusion
+	ld a, [wUnusedD119]
+	inc a
 	ld a, [wUnusedC000]
-
-	bit 7, a	;check the bit that is set when hurting self from confusion or crash damage
-	jr z, .noselfdamage
+	jr nz, .noselfdamage
 	;if hurting self, load default palette
 	ld b, PAL_BW
 	jr .starttransfer
@@ -854,3 +868,67 @@ GetBadgeCap:
 	ld d, b
 	pop bc
 	ret
+	
+	
+PsywaveEnhanced:
+	;E = user's level
+	;D = [0, user's level]
+	push de
+	ld e, d
+	
+	ld hl, $0000
+	ld d, 0
+	add hl, de
+	srl e
+	add hl, de
+	ld a, h
+	or l
+	jr nz, .next
+	inc l
+.next
+	ld d, h
+	ld e, l
+	;DE = [1, 1.5*user's level]
+	
+	ld hl, wDamage
+	ld a, [hl]
+	cp d
+	jr c, .update
+	inc hl
+	ld a, [hld]
+	cp e
+	jr nc, .cycle
+.update
+	ld a, d
+	ld [hli], a
+	ld a, e
+	ld [hl], a
+	
+.cycle
+	ld hl, wcf4b
+	ld a, [hli]
+	ld d, a
+	ld a, [hld]
+	ld e, a
+	srl d
+	rr e
+	srl d
+	rr e
+	ld a, d
+	ld [hli], a
+	ld a, e
+	ld [hld], a
+	or d
+	jr nz, .return_reroll
+	
+.return_good
+	xor a
+	jr .return
+.return_reroll
+	scf
+.return
+	pop de
+	ret
+
+
+

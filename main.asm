@@ -1696,7 +1696,7 @@ INCLUDE "engine/battle/ghost_marowak_anim.asm"
 INCLUDE "engine/battle/battle_transitions.asm"
 INCLUDE "engine/town_map.asm"
 INCLUDE "engine/mon_party_sprites.asm"
-INCLUDE "engine/in_game_trades.asm"
+;INCLUDE "engine/in_game_trades.asm"	;joenote - moved to another bank to make space
 INCLUDE "engine/palettes.asm"
 INCLUDE "engine/save.asm"
 
@@ -1849,7 +1849,7 @@ INCLUDE "data/animations.asm"
 
 INCLUDE "engine/evolution.asm"
 
-INCLUDE "engine/overworld/elevator.asm"
+;INCLUDE "engine/overworld/elevator.asm"	;joenote - moving this to make space
 
 
 SECTION "bank2D",ROMX,BANK[$2D]	;joenote - This is a known empty bank. Going to start moving stuff here
@@ -1864,11 +1864,13 @@ INCLUDE "custom_functions/func_monlists.asm"
 INCLUDE "custom_functions/func_overworld.asm"
 INCLUDE "custom_functions/func_shiny.asm"
 INCLUDE "custom_functions/func_nuzlocke.asm"
+INCLUDE "custom_functions/func_stat_reset.asm"
 INCLUDE "engine/battle/stats_functions.asm"	
 IF DEF(_EXPBAR)
 INCLUDE "engine/battle/exp_bar_print.asm"	
 ENDC
 INCLUDE "custom_functions/fisher_yates.asm"
+INCLUDE "custom_functions/func_transformations.asm"
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; heal effect, transform, light screen effect moved from Bank E
@@ -1893,6 +1895,8 @@ INCLUDE "data/trainer_parties.asm"
 
 IF DEF(_FPLAYER)
 ;joenote - adding female trainer sprites
+	FPlayerCharacterTitleGraphics:   INCBIN "gfx/player_title_f.2bpp"
+	FPlayerCharacterTitleGraphicsEnd:
 	IF DEF(_SWBACKS)
 	RedPicFBack::           INCBIN "pic/swtrainerback/redb_f.pic"
 	ELSE
@@ -1916,17 +1920,22 @@ ENDC
 
 INCLUDE "engine/items/tm_prices.asm"
 
-INCLUDE "engine/learn_move.asm"	;joenote - moved in order to have more space
-
 SECTION "bank2E",ROMX,BANK[$2E]	
-;gbcnote - This bank with hold the bg map attributes for the gameboy color among other stuff
+;gbcnote - This bank will hold the bg map attributes for the gameboy color among other stuff
 
 ;include the bgmap files from pokemon yellow
 INCLUDE "data/bg_map_attributes.asm"
 INCLUDE "engine/bg_map_attributes.asm"
 
 INCLUDE "engine/gamefreak.asm"	;gbcnote - moved here to make space
+INCLUDE "engine/in_game_trades.asm"	;joenote - moved here to make space
+INCLUDE "engine/learn_move.asm"	;joenote - moved in order to have more space
+INCLUDE "engine/overworld/elevator.asm"	;joenote - moving this to make space
+
 INCLUDE "custom_functions/func_gamma.asm"
+INCLUDE "custom_functions/func_extra_menu.asm"
+INCLUDE "custom_functions/func_move_secrets.asm"
+INCLUDE "custom_functions/func_linkbattlecomms.asm"
 
 SECTION "Pics 1", ROMX, BANK[PICS_1]
 INCLUDE "constants/pic_banks/pic1.asm"
@@ -1959,3 +1968,5 @@ ENDC
 
 INCLUDE "text/tmhm_names.asm"	;joenote - adding name list for tm and hm items
 tmhmNamesEnd:
+
+INCLUDE "data/super_rod.asm"	;joenote - moving all the super rod data here

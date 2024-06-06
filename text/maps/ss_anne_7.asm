@@ -28,6 +28,11 @@ _ReceivingHM01Text::
 	line "<pkmn> and you"
 	cont "can see it Cut"
 	cont "any time!"
+	
+;joenote - add hotkey info
+	para "Press SELECT when"
+	line "facing grass or a"
+	cont "bush to use it."	
 	prompt
 
 _ReceivedHM01Text::
@@ -41,7 +46,7 @@ _SSAnne7Text_61932::
 
 	para "Now that I'm not"
 	line "sick any more, I"
-	cont "can sail anytime."	;joenote - altered text to be more generic
+	cont "guess it's time."
 	done
 
 _HM01NoRoomText::

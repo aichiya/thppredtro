@@ -1,6 +1,8 @@
 **New features exclusively for the master branch**
 - Added nuzlocke mode
 
+- Hold SELECT and press START while on the bag menu or PC item box menu to auto-sort your items
+
 - The girl in Oak's lab toggles a built-in randomizer for wild pokemon and your starters
   - Shuffles all pokemon that can be gained through walking, surfing, fishing, or from the game corner
   - If activated early enough, your starter pokemon options are shuffled as well
@@ -39,7 +41,9 @@
 	- this is the same priority as the move Counter
   - The counter only gets reset by switching or using a move that does not have the trapping effect 
   - Reseting the counter will restore normal priority to trapping effect moves.
-  
+
+- Added a fifth Clause Brother for the hyper beam clause; hyper beam will recharge if it KOs the opponent
+
 - A new drink stand on the route 19 beach sells vending machine drinks
 
 - Paras is gifted in the Route 2 house in case the player has no pokemon that can learn Cut
@@ -53,6 +57,7 @@
   - Side effect: Because trainer 'mons can't be shiny in regular difficulty, hard mode gives more chances to find wild shinies
 
 - Added new superboss at the seafoam shore (activated the same as the existing missingno fight)
+- Beating the seafoam missingo battle will certify you as a pokemon master on your diploma
 
 - Show Mewtwo to Mr. Fuji after beating the Elite 4 for a M.GENE
 
@@ -61,7 +66,9 @@
   - You will encounter the starter pokemon plus some other rarer pokemon
   - Shiny rates are 1-in-128 in this area
 
-- Added the MIST STONE: it will max-out all the stat exp of the lvl > 30 pokemon on which it is used
+- Added the MIST STONE
+  - It will max-out all the stat exp of the lvl > 30 pokemon on which it is used
+  - If all the stat exp is already at max, then it will set all the DVs to maximum instead
 
 - Defeat Lance with a Dragonite in your top spot and it will be given a catch rate of 168
   - Dragonite's cry will play to confirm that this has happened
@@ -76,6 +83,12 @@
 
 - Scaled back fishing, reduced its randomness, and made it more map-dependent
 - When using the old rod, press and hold B within about 1 second to always hook a magikarp
+
+- Improved itemfinder function
+  - If an item is detected, it will play 1 to 3 chimes depending on how close it is (more chimes means closer to the item).
+  - Lines will point in the direction of the item and flash with the chimes.
+  - If the player is right on top of the item, no lines will show and the chime till play four times.
+  - If the SELECT button is held while selecting to USE the itemfinder, then the original itemfinder function is used.
 
 - Added spaceworld-style trainer back sprites for consistency with the spaceworld 'mon back sprites 
 - Blue-JP has spaceworld-style back sprites, and a corresponding _origback patch has been added
@@ -118,6 +131,21 @@
   - Gym Leaders and mid-game Rival: below 1/5th total
   - Elite-4 and Champion: below 1/3th total
 
+- Added "The Shimmer", a cheat feature for those who want viability when using certain low-regarded pokemon.
+  - Toggled ON/OFF via the glass pokeball decoration in the rival's house.
+  - Pokemon Eligible: EKANS, CATERPIE, METAPOD, WEEDLE, KAKUNA, ZUBAT, PSYDUCK, PARAS, PONYTA, RATTATA, SANDSHREW, HORSEA, GOLDEEN, VENONAT, JIGGLYPUFF, ARBOK, BEEDRILL, BUTTERFREE, DITTO, FARFETCHD, GOLBAT, GOLDUCK, HITMONCHAN, LICKITUNG, ONIX, PARASECT, PINSIR, PORYGON, RAPIDASH, RATICATE, SANDSLASH, SEADRA, SEAKING, VENOMOTH, WIGGLYTUFF
+  - The shimmer factor appears randomly and secretly, and is more likely to occur if you favor sending out eligible 'mons.
+  - The shimmer only manifests in 'mons that are fully evolved, even if their pre-evos gained the secret shimmer factor.
+  - When the shimmer manifests as a 'mon gets sent out, that 'mon gets a large boost to stats that are low-to-poor.
+- Technical details of the shimmer
+  - A 'mon eligible for shimmer that is sent out, either by player or enemy trainer, can get the shimmer factor.
+  - The chance of getting the shimmer factor is 1-in-256 per send-out, rewarding a player that uses the 'mon frequently.
+  - The odds increase by +(1-in-256) per 2048 HP-StatExp that the sent-out pokemon has, encouraging player investment.
+  - The shimmer factor is defined via the pokemon's catch rate byte and is a value of $6D (held Miracle Berry in Gen-2).
+  - The manifestation of the shimmer boosts one-to-four of a 'mons unmodified stats.
+	- If 3/8ths of an unmodified stat is less than the mon's level, then the level value is added to that stat.
+    - Stats that can be boosted are: attack, defense, speed, or special.
+
 
 ---
 **Hack-related fixes exclusively for the master branch**
@@ -140,6 +168,8 @@
 - Trapping moves no longer apply a speed penalty
 - If trainer scaling is on, you do not need to beat the 1st route 22 rival solo to get oak's pokeballs
 - Fixed an issue with the level scaling feature that inadvertantly biased non-special trainers to higher levels
+- Fixed a problem where the champion whould not work with level scaling
+- Fixed a minor bug when forfeiting a rival battle
 
 
 ---
@@ -162,6 +192,8 @@
   - Critical hit chance in non-link battles use the Stadium 1 formula
   - Oak's pokeballs will be upgraded to great balls if you beat the route 22 rival in hard mode
   - Wild pokemon DVs get 1 re-roll each if less than 4, biasing them upwards a little bit
+  - Trainers now roll their DVs twice and use the better result
+  - Only boss trainers (giovanni, elite 4, gym leaders, later-game rival) cannot have DVs below 8 in hard mode
 
 - Vanilla Options Reset: Deactivates all special options (such as in preparation to update to a new patch)
   - go to the start menu and put the cursor on the top option (usually POKEDEX)
@@ -185,6 +217,13 @@
 - The 60fps mode has better performance when playing in GBC-mode
   - Does this by using the double-speed feature of the GBC's processor 
   - Uses more battery as a trade-off
+- Improved fade-in and fade-out to black/white transitions when playing on GBC in 60FPS mode
+  
+- Adjustments to multi-attack moves animation and messaging to improve battle flow
+  - Multi-attack moves only print the effectiveness message after the last attack
+  - 2-attack moves do not print "hit 2 times" because its obvious that they always hit twice
+  - Multi-attack moves hide the substitute sprite on the first attack and only restore it after the last attack
+  - Twineedle is unaffected by all this due to how it swaps out its effect on the fly to a poison side-effect
   
 - Added optimizations to how OAM data is prepared so that overworld sprites wobble less
 
@@ -238,6 +277,8 @@
   - It keeps a backup of the pokedex-owned flags instead of erasing them
   - Removed the unused Ivysaur flag
 
+- The female trainer pic will now display on the diploma if applicable
+
 - AI can now handle fly/dig loops between the two pokemon
 - Adjusted some AI anti-spam for status moves
 - AI switch scoring applies an extra penalty for possibly switching a pokemon into a super-effective move
@@ -264,6 +305,12 @@
 
 - Removed restore sfx from the AI x-accuracy item
 - Added the restore sfx to all AI hp-recovery items
+
+- Trainer switching (ai routine #4)can now be deactivated
+  - This feature disallows enemy trainers to switch intelligently, just like in the original retail games.
+  - With the cursor in the TEXT SPEED section of the option menu, press A to toggle this feature on and off.
+  - the letters "x sw" will appear in the corner of the option menu to indicate that trainer switching is inactive.
+  - Note that Jugglers are unaffected because their official gimmick is that they switch randomly.
 
 
 ---
@@ -295,6 +342,8 @@
 - White 1-frame flash on map load (affecting DMG and GBC modes) as been removed
 - Fixed garbage tiles display for 1 frame after a battle on the DMG
 - Fixed a bug where HP bar animation can print the wrong tile for 1 frame
+- Fixed junk tiles displaying for 1 frame when the game resets after displaying THE END
+- Fixed transitions when entering and exiting Rock Tunnel
 
 - The proper forget-move poof sfx plays during battle
 - Fixed a bug having to do with rare instances of bending the audio pitch
@@ -305,6 +354,7 @@
 - Fixed *thud* sfx playing when exiting via a warp tile
 - Fixed certain text sfx not playing when using zero-delay text
 - Meet Trainer jingle should not play before loading into the gym leader battle music
+- AI using dire hit item now plays a SFX
 
 - Fixed input priority on menus
 - Fixed A-button input priority on the left side of the scrolling pokedex list
@@ -326,6 +376,10 @@
 - Minor code correction to Twineedle to prevent future errors 
 - Fixed an issue where the counter for the Disable effect had the wrong distribution if the target was slower
 - You can now get Oak's pokeballs even if you evolve your starter
+
+- The eating/angry message in safari battles will no longer display incorrectly when returning to neutral
+- The eating/angry safari state counter correctly increases by 1-5 turns instead of 0-4 turns
+- Safari battles correctly reset the catch rate when either eating/angry state returns to neutral
 
 - Fixed a bug from the vanilla game where random NPC walk delay can underflow to 255 ticks
 - Fixed an offset bug with the lucky game corner machine

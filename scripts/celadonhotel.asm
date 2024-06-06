@@ -54,14 +54,30 @@ CeladonHotelCoinGuy:
 	ld c, $2	;make the addition 2 bytes long
 	predef AddBCDPredef	;add value in hl location to value in de location
 	
+	;is the pokemon shiny?
+	ld de, wPartyMon1DVs
+	callba ShinyDVsChecker2
+	jr z, .payout
+	;if so, apply a 4x multiplier
+	ld de, hCoins + 1
+	ld hl, hCoins + 1
+	ld c, $2	;make the addition 2 bytes long
+	predef AddBCDPredef	;add value in hl location to value in de location
+	ld de, hCoins + 1
+	ld hl, hCoins + 1
+	ld c, $2	;make the addition 2 bytes long
+	predef AddBCDPredef	;add value in hl location to value in de location
+
+.payout	
 	ld de, wPlayerCoins + 1
 	ld hl, hCoins + 1
 	ld c, $2	;make the addition 2 bytes long
 	predef AddBCDPredef	;add value in hl location to value in de location
 	ld hl, CeladonHotelCoinGuyText_recieved
 	call PrintText
-	ld a, SFX_GET_ITEM_1
-	call PlaySound
+	ld a, SFX_PURCHASE
+	call PlaySoundWaitForCurrent
+	call WaitForSoundToFinish
 	xor a
 	ld [wUnusedD5A3], a
 	jr .endscript

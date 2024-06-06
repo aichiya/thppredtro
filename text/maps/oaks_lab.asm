@@ -335,6 +335,20 @@ _OaksLabText26::
 	para "This is a great"
 	line "undertaking in"
 	cont "<pkmn> history!"
+	
+;joenote - add hotkey info
+	para "Also, do remember"
+	line "that you can swap"
+	cont "between extra bag"	
+	cont "space by pressing"
+	cont "Start in the Item"
+	cont "menu."
+
+	para "And you can auto-"
+	line "sort an Item menu"
+	cont "by simply holding"
+	cont "Select while you"
+	cont "press Start."
 	done
 
 _OaksLabText27::
@@ -480,7 +494,7 @@ _OaksLabText_44247::
 _OaksLabText_4424c::
 	text "Your TH-Dex is"
 	line "entirely complete!"
-	cont "Congratulations!"
+	autocont "Congratulations!"	;joenote - auto-scroll so the previous exclamation point does not get cut off
 	done
 
 ;;;;;;;;;;;;;;;;;;;;;;joenote - adding text for oak battle
@@ -551,6 +565,22 @@ _OaksLabText_randwildOFF::
 	cont "it back?"
 	done
 
+_OaksLabText_randwildRegen::
+	text "Want to generate"
+	line "a new pattern for"
+	cont "randomization?"
+	done
+
+_OaksLabText_randwildTrue::
+	text "#MON shuffling"
+	line "is done within"
+	cont "predefined tiers."
+
+	para "Would you rather"
+	line "risk it with full"
+	cont "randomization?"
+	done
+	
 _OaksLabText_symbolsON::
 	text "I study <pkmn> as"
 	line "Prof.Oak's aide."
@@ -585,7 +615,8 @@ _OaksLabText_AideQ_done::
 	done
 	
 _OaksLabText_AideQ_reject::
-	text "See me again if"
-	line "you change your"
+	text "No? Very well."
+	line "See me again if"
+	cont "you change your"
 	cont "mind later."
 	done

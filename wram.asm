@@ -1423,8 +1423,12 @@ wScriptedNPCWalkCounter:: ; cf18
 
 	ds 1
 
-;gbcnote - moved to hram
-;wGBC:: ; cf1a
+;joenote - used for temporary GBC color control settings
+wGBCColorControl:: ; cf1a
+	;bits 0 & 1 --> a value from 0 to 3 to select color 0 through 3
+	;bits 2, 3, & 4 --> a value from 0 to 7 to select BGP/OBP 0 through 7
+	;bit 5 --> 0 = BGP | 1 = OBP
+	;bits 6 & 7 are unused
 	ds 1
 
 wOnSGB:: ; cf1b
@@ -2173,6 +2177,7 @@ wMovesString:: ; d0e1
 	ds 56
 
 ;joenote - use this to backup which turn it is
+;		- if $FF in battle, signals that the animation to be played is for self-inflicted damage
 ;		- used out of battle for tracking speed of walking & bike
 wUnusedD119:: ; d119	
 	ds 1
@@ -2364,6 +2369,8 @@ wUnusedD153:: ; d153	;joenote - use this to hold the pointer for trainerAI state
 
 wUnusedD155:: ; d155	;joenote - use this to as a backup for how many pokemon to split exp between (fixing exp all)
 	ds 1				;		-this is a base-1-indexed number (so between 1 and 6 pkmn)
+						;While in active combat:
+						;	bit 0 - setting this skips the text for a substitute taking damage
 
 wEvoStoneItemID:: ; d156
 	ds 1
@@ -2496,6 +2503,11 @@ wXBlockCoord:: ; d364
 wLastMap:: ; d365
 	ds 1
 
+wItemFinderAttributes:: ; d366	;joenote - also use this byte for improved itemfinder functions
+;bit 0 - above
+;bit 1 - below
+;bit 2 - left
+;bit 3 - right
 wUnusedD366:: ; d366	;joenote - use this to track which ai pokemon have switched & shiny state
 	ds 1
 ;bit 0: set if player mon shiny
@@ -2656,6 +2668,7 @@ wDestinationWarpID:: ; d42f
 ; if $ff, the player's coordinates are not updated when entering the map
 	ds 1
 
+wGBCFullPalBuffer::	; d430	joenote - added for backing-up all GBC palettes
 	ds 128
 
 wNumSigns:: ; d4b0
@@ -3117,7 +3130,7 @@ wUnusedD721:: ; d721	;joenote - use to set various wram flags
 	;bit 0 - player is female trainer if set (reserved for _FPLAYER tagged code)
 	;bit 1 - Gets set when forfeiting a battle
 	;bit 2 - override bit 0 for specific bank switching instances (usually reserved for _FPLAYER tagged code)
-	;bit 3 - not used
+	;bit 3 - if set, the enemy trainer AI will not use intelligent switching
 	;bit 4 - 60fps option flag
 	;bit 5 - obedience level cap
 	;bit 6 - nuzlocke mode activated
@@ -3216,7 +3229,7 @@ wFlags_D733:: ; d733
 ; bit 4: use variable [wCurMapScript] instead of the provided index for next frame's map script (used to start battle when talking to trainers)
 ; bit 5: joenote - set if final battle against rival
 ; bit 6: joenote - gets set if this is a pkmn tower ghost battle
-;					- also used to force a pokemon to learn skipped moves upon evolving
+;					- also used to force a pokemon to learn skipped moves upon evolving as if in a battle
 ;					- and makes object sprites update when choosing a move to forget
 ; bit 7: used fly out of battle
 	ds 1

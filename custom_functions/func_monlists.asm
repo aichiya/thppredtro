@@ -316,6 +316,19 @@ ListByGenderRatio:
 	db MEW     ; VIVIT $15
 ;otherwise a pokemon not on this list is unsexed
 	db $00
+; db MAGNEMITE    ; $AD
+; db MAGNETON     ; $36
+; db VOLTORB      ; $06
+; db ELECTRODE    ; $8D
+; db STARYU       ; $1B
+; db STARMIE      ; $98
+; db DITTO        ; $4C
+; db PORYGON      ; $AA
+; db ARTICUNO     ; $4A
+; db ZAPDOS       ; $4B
+; db MOLTRES      ; $49
+; db MEWTWO       ; $83
+; db MEW          ; $15
 
 GetGenderRatioTarget:
 ;	cp 6

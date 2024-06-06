@@ -1,7 +1,7 @@
 FALSE EQU 0
 TRUE  EQU 1
 
-HACK_VERSION EQU 6	;master branch is always an even number
+HACK_VERSION EQU 10	;master branch is always an even number
 
 MAX_LEVEL EQU 100
 
@@ -97,6 +97,9 @@ NORTH_EAST_MENU   EQU 4
 TRADE_CANCEL_MENU EQU 5
 HEAL_CANCEL_MENU  EQU 6
 NO_YES_MENU       EQU 7
+IF DEF(_FPLAYER)		;joenote - for female player selection
+BOY_GIRL_MENU       EQU 8
+ENDC
 
 ; menu exit method constants for list menus and the buy/sell/quit menu
 CHOSE_MENU_ITEM   EQU 1 ; pressed A
@@ -240,3 +243,7 @@ DEF BATTLE_HARD_MODE  		EQU %00001000	; bit 3
 DEF SOUND_STEREO_BITS		EQU %00110000 	; bits 4 to 5
 DEF BIT_BATTLE_SHIFT  		EQU 6		 	; bit 6
 DEF BIT_BATTLE_ANIMATION 	EQU 7		 	; bit 7
+; wUnusedD721
+DEF BIT_BATTLE_NOSWITCH		EQU 3		  	; bit 3
+DEF BATTLE_NOSWITCH  		EQU %00001000	; bit 3
+

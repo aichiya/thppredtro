@@ -34,13 +34,22 @@ CheckEnemyShinyDVs:
 	pop af
 	ret
 .trainer_mercy
-	ld a, [wIsInBattle]
-	cp 2
-	ret nz	;return if not a trainer battle
 	ld a, [wLinkState]
 	cp LINK_STATE_BATTLING
 	ret z ;return if this is a link battle
-	;at this point, player is facing an AI trainer's shiny pokemon
+	ld a, [wBattleType]
+	dec a
+	jr z, .next_enc_shiny	;grant mercy if this is the old man battle
+	ld a, [wFlags_D733]
+	bit 6, a
+	jr nz, .next_enc_shiny	;grant mercy if this is a tower ghost battle
+	CheckEvent EVENT_10E
+	jr nz, .next_enc_shiny	;grant mercy if this is the ghost marowak battle
+	ld a, [wIsInBattle]
+	cp 2
+	ret nz	;return if not a trainer battle
+.next_enc_shiny
+	;at this point, player is facing an AI trainer's shiny pokemon or some kind of uncatchable wild pokemon
 	;so make the next wild encounter shiny
 	ld a, [wFontLoaded]
 	set 7, a 
@@ -69,7 +78,10 @@ CheckLoadedShinyDVs:
 	pop hl
 	ret
 
-ShinyDVsChecker:
+ShinyDVsChecker2:	;uses DE instead of HL to better call across banks
+	ld h, d
+	ld l, e
+ShinyDVsChecker:	;return z flag set if not shiny or cleared z flag if shiny
 	ld a, [hl]	;load MSB
 	bit 5, a	;bit 5 of the MSB need to be a 1 for shininess
 	jr z, .end_zero

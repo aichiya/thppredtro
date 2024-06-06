@@ -2246,9 +2246,9 @@ const_value = 0
 	const EVENT_8C3   ;event for MIST_STONE          ; 8C3, (D85F, bit 3)	;joenote
 	const EVENT_8C4   ;got MIST_STONE                ; 8C4, (D85F, bit 4)
 	const EVENT_8C5   ;activate trapping clause      ; 8C5, (D85F, bit 5)
-	const EVENT_8C6                                  ; 8C6, (D85F, bit 6)
-	const EVENT_8C7                                  ; 8C7, (D85F, bit 7)
-	const EVENT_8C8                                  ; 8C8, (D860, bit 0)
+	const EVENT_8C6   ;defeated seafoam missingno    ; 8C6, (D85F, bit 6)
+	const EVENT_8C7   ;used for shimmer feature      ; 8C7, (D85F, bit 7)
+	const EVENT_8C8   ;activate hyper beam clause    ; 8C8, (D860, bit 0)
 	const EVENT_8C9                                  ; 8C9, (D860, bit 1)
 	const EVENT_8CA                                  ; 8CA, (D860, bit 2)
 	const EVENT_8CB                                  ; 8CB, (D860, bit 3)
@@ -2263,7 +2263,7 @@ const_value = 0
 	const EVENT_8D4                                  ; 8D4, (D861, bit 4)
 	const EVENT_8D5                                  ; 8D5, (D861, bit 5)
 	const EVENT_8D6                                  ; 8D6, (D861, bit 6)
-	const EVENT_8D7                                  ; 8D7, (D861, bit 7)
+	const EVENT_8D7     ;true wild randomization     ; 8D7, (D861, bit 7)
 	const EVENT_8D8     ;randomize normal trainers   ; 8D8, (D862, bit 0)	;joenote
 	const EVENT_8D9     ;catch-up exp boost          ; 8D9, (D862, bit 1)
 	const EVENT_8DA     ;cinnabar shore missingno    ; 8DA, (D862, bit 2)

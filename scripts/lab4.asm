@@ -160,6 +160,7 @@ Lab4Text3:
 	cp BELLSPROUT     ; Layla
 	jp z, .done
 
+	callba GenericMoneyDisplayScript
 	ld hl, Lab4Text_Clone0
 	call PrintText
 	call YesNoChoice
@@ -169,10 +170,10 @@ Lab4Text3:
 	jp nz, .done
 	xor a
 	
-	;charge 100 money
+	;charge 200 money
 	ld [hMoney], a	
 	ld [hMoney + 2], a	
-	ld a, $01
+	ld a, $02
 	ld [hMoney + 1], a  
 	call HasEnoughMoney
 	jr nc, .enoughMoney
@@ -180,17 +181,18 @@ Lab4Text3:
 	ld hl, Lab4Text_NoMoney
 	jp .done
 .enoughMoney
-	; Charge 100 money
+	; Charge 200 money
 	xor a
 	ld [wPriceTemp], a
 	ld [wPriceTemp + 2], a	
-	ld a, $01
+	ld a, $02
 	ld [wPriceTemp + 1], a	
 	ld hl, wPriceTemp + 2
 	ld de, wPlayerMoney + 2
 	ld c, $3
 	predef SubBCDPredef
-
+	
+	callba GenericMoneyDisplayScript
 	ld a, SFX_PURCHASE
 	call PlaySoundWaitForCurrent
 	call WaitForSoundToFinish
@@ -238,31 +240,33 @@ Lab4Text3:
 	and a
 	jr nz, .done
 	
-	;charge 6000 money
+	;charge 10000 money
 	ld [hMoney], a	
-	ld [hMoney + 2], a	
-	ld a, $60
-	ld [hMoney + 1], a  
+	ld [hMoney + 1], a	
+	ld a, $01
+	ld [hMoney + 2], a  
 	call HasEnoughMoney
 	jr nc, .enoughMoney2
 	; not enough money
 	ld hl, Lab4Text_NoMoney
 	jr .done
 .enoughMoney2
-	; Charge 6000 money
-	xor a
+	; Charge 10000 money
+	ld a, $01
 	ld [wPriceTemp], a
-	ld [wPriceTemp + 2], a	
-	ld a, $60
+	xor a
 	ld [wPriceTemp + 1], a	
+	ld [wPriceTemp + 2], a	
 	ld hl, wPriceTemp + 2
 	ld de, wPlayerMoney + 2
 	ld c, $3
 	predef SubBCDPredef
 	
+	callba GenericMoneyDisplayScript
 	ld a, SFX_PURCHASE
 	call PlaySoundWaitForCurrent
 	call WaitForSoundToFinish
+	
 
 	ld a, [wPartyMon1Species]
 	ld [wFossilMon], a

@@ -119,11 +119,15 @@ ItemUseBall:
 	pop de
 	jp nz, ItemUseNotTime
 
+;joenote - Disallow balls against wild pokemon above the level cap
+	ld a, [wEnemyMonLevel]
+	cp MAX_LEVEL+1
+	jp nc, ItemUseNoEffect
+	
 ; Balls can't be used out of battle.
 	ld a, [wIsInBattle]
 	and a
-	jp z, ItemUseNotTime
-	
+	jp z, ItemUseNotTime	
 ; Balls can't catch trainers' Pokémon.
 	dec a
 	jp nz, ThrowBallAtTrainerMon
@@ -314,6 +318,7 @@ ItemUseBall:
 
 ; Calculate (MaxHP * 255) / BallFactor.
 	ld [H_DIVISOR], a
+	callba ImproveBallFactor	;joenote - for secret move effects
 	ld b, 4 ; number of bytes in dividend
 	call Divide
 
@@ -347,6 +352,7 @@ ItemUseBall:
 	ld [H_QUOTIENT + 3], a
 
 .skip3
+	callba ImproveCatchRate		;joenote - for secret move effects
 	pop bc ; b = Rand1 - Status
 
 ; If Rand1 - Status > CatchRate, the ball fails to capture the Pokémon.
@@ -1442,17 +1448,24 @@ ItemUseMedicine:
 	inc h
 .noCarry2
 	pop af
-	jr c, .e4notbeaten
+	jr c, .e4notbeaten		;apply vitamin limiter of less than the level threshold
 	CheckEvent EVENT_908	;joenote - has elite 4 been beaten?
-	jr z, .e4notbeaten 	;if not, do default compare
+	jr z, .e4notbeaten 	;if not, apply the vitamin limiter
+
 	;else remove the vitamin limiter
 	ld a, 10
 	ld b, a
+	call CheckMaxStatExp
+	jr c, .vitaminNoEffect ; if stat exp was already at 65535, then can't add any more
+
 	ld a, [hl] ; a = MSB of stat experience of the appropriate stat
-	cp $F5 ; is there already at least 62720 stat experience?
-	jr nc, .vitaminNoEffect ; if so, vitamins can't add any more
 	add b ; add 2560 (256 * 10) stat experience
-	jr .noCarry3	;carry should be impossible here
+	jr nc, .noCarry3	;if there is an overflow, load 65535 stat exp
+	ld a, $ff
+	inc hl
+	ld [hld], a
+	jr .noCarry3
+	
 .e4notbeaten
 	ld a, 10
 	ld b, a
@@ -1460,8 +1473,8 @@ ItemUseMedicine:
 	cp 100 ; is there already at least 25600 (256 * 100) stat experience?
 	jr nc, .vitaminNoEffect ; if so, vitamins can't add any more
 	add b ; add 2560 (256 * 10) stat experience
-	jr nc, .noCarry3 ; a carry should be impossible here, so this will always jump
-	ld a, 255
+;	jr nc, .noCarry3 ; a carry should be impossible here, so this will always jump
+;	ld a, 255
 .noCarry3
 	ld [hl], a
 	pop hl		;pop wPartyMonX
@@ -1663,6 +1676,13 @@ BaitRockCommon:
 	cp 5
 	jr nc, .randomLoop
 	inc a ; increment the random number, giving a range from 1 to 5 inclusive
+	
+;joenote - There is a bug here. 
+;		- The 1-to-5 number is always decremented when PrintSafariZoneBattleText runs.
+;		- So getting a number of 1 will decrement immediately to zero and do nothing to the eating/angry state.
+;		- To get an effective 1-to-5 turns, increment once more to bump the range to 2-to-6
+	inc a
+	
 	ld b, a
 	ld a, [hl]
 	add b ; increase bait factor (for bait), increase escape factor (for rock)
@@ -2169,7 +2189,8 @@ INCLUDE "data/good_rod.asm"
 ItemUseSuperRod:
 	call FishingInit
 	jp c, ItemUseNotTime
-	call ReadSuperRodData
+	ld d, 0	;joenote - specify super rod function since ReadSuperRodData has been enhanced a bit
+	predef ReadSuperRodData
 	ld a, e
 RodResponse:
 	ld [wRodResponse], a
@@ -2251,7 +2272,15 @@ ItemUseItemfinder:
 	and a
 	jp nz, ItemUseNotTime
 	call ItemUseReloadOverworldData
+	ld a, [hJoyHeld]	;joenote - if SELECT is held while USE was chosen, then the original itemfinder is used
+	bit BIT_SELECT, a
+	jr nz, .original_finder
+	callba HiddenItemNear_Improved	;joenote - wrote a better itemfinder with better functionality
+	jr c, .print_found
+	jr .print_nothing
+.original_finder
 	callba HiddenItemNear ; check for hidden items
+.print_nothing
 	ld hl, ItemfinderFoundNothingText
 	jr nc, .printText ; if no hidden items
 	ld c, 4
@@ -2262,6 +2291,7 @@ ItemUseItemfinder:
 	call PlaySoundWaitForCurrent
 	dec c
 	jr nz, .loop
+.print_found
 	ld hl, ItemfinderFoundItemText
 .printText
 	jp PrintText
@@ -3204,6 +3234,8 @@ IsNextTileShoreOrWater:
 	jr z, .skipShoreTiles
 	cp DOJO ; usual eastern shore tile
 	jr z, .skipShoreTiles
+	cp SHIP ; SS Anne tileset
+	jr z, .skipShoreTiles
 	ld hl, ShoreTiles
 .skipShoreTiles
 	ld a, [wTileInFrontOfPlayer]
@@ -3229,53 +3261,6 @@ WaterTilesets:
 	db OVERWORLD, FOREST, DOJO, GYM, SHIP, SHIP_PORT, CAVERN, FACILITY, PLATEAU
 	db $ff ; terminator
 
-ReadSuperRodData:
-; return e = 2 if no fish on this map
-; return e = 1 if a bite, bc = level,species
-; return e = 0 if no bite
-	ld a, [wCurMap]
-	ld de, 3 ; each fishing group is three bytes wide
-	ld hl, SuperRodData
-	call IsInArray
-	jr c, .ReadFishingGroup
-	ld e, $2 ; $2 if no fishing groups found
-	ret
-
-.ReadFishingGroup
-; hl points to the fishing group entry in the index
-	inc hl ; skip map id
-
-	; read fishing group address
-	ld a, [hli]
-	ld h, [hl]
-	ld l, a
-
-	ld b, [hl] ; how many mons in group
-	inc hl ; point to data
-	ld e, $0 ; no bite yet
-
-.RandomLoop
-	call Random
-	srl a
-	ret c ; 50% chance of no battle
-
-	and %11 ; 2-bit random number
-	cp b
-	jr nc, .RandomLoop ; if a is greater than the number of mons, regenerate
-
-	; get the mon
-	add a
-	ld c, a
-	ld b, $0
-	add hl, bc
-	ld b, [hl] ; level
-	inc hl
-	ld c, [hl] ; species
-	ld e, $1 ; $1 if there's a bite
-	ret
-
-INCLUDE "data/super_rod.asm"
-
 ; reloads map view and processes sprite data
 ; for items that cause the overworld to be displayed
 ItemUseReloadOverworldData:
@@ -3286,6 +3271,9 @@ ItemUseReloadOverworldData:
 ; creates a list at wBuffer of maps where the mon in [wd11e] can be found.
 ; this is used by the pokedex to display locations the mon can be found on the map.
 FindWildLocationsOfMon:
+	ld a, 0
+	ld [wActionResultOrTookBattleTurn], a	;joenote - used to differentiate between land, water, and super rod finding
+
 	ld a, [wd11e]
 	push af
 	predef LookupWildRandomMon	;joenote - adjusted to show locations of randomized wild mons
@@ -3303,13 +3291,62 @@ FindWildLocationsOfMon:
 	ld l, a
 	ld a, [hli]
 	and a
+
+	ld a, [wActionResultOrTookBattleTurn]
+	set 0, a
+	ld [wActionResultOrTookBattleTurn], a
+
 	call nz, CheckMapForMon ; land
 	ld a, [hli]
 	and a
+
+	ld a, [wActionResultOrTookBattleTurn]
+	res 0, a
+	set 2, a
+	ld [wActionResultOrTookBattleTurn], a
+
 	call nz, CheckMapForMon ; water
+	
+	ld a, [wActionResultOrTookBattleTurn]
+	res 2, a
+	ld [wActionResultOrTookBattleTurn], a
+
 	pop hl
 	inc hl
 	inc hl
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;	
+	;joenote - check the map for this loop to see if the 'mon is fishable with the super rod
+	ld a, [wCurMap]
+	push af
+	ld a, c
+	ld [wCurMap], a
+
+	push de
+	ld a, [wd11e]
+	ld d, a
+	push bc
+	push hl
+	predef ReadSuperRodData
+	pop hl
+	pop bc
+	ld a, d
+	and a
+	pop de
+	jr nz, .doneSuperRod
+	ld a, c
+	ld [de], a
+	inc de
+	pop af
+	cp c
+	push af
+	jr nz, .doneSuperRod
+	ld a, [wActionResultOrTookBattleTurn]
+	set 4, a
+	ld [wActionResultOrTookBattleTurn], a
+.doneSuperRod		
+	pop af
+	ld [wCurMap], a
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;		
 	inc c
 	jr .loop
 .done
@@ -3326,9 +3363,28 @@ CheckMapForMon:
 	ld a, [wd11e]
 	cp [hl]
 	jr nz, .nextEntry
+	cp MEW
+	jr z, .nextEntry	;joenote - don't reveal MEW on accident
 	ld a, c
 	ld [de], a
 	inc de
+
+	ld a, [wCurMap]
+	cp c
+	jr nz, .nextEntry
+	ld a, [wActionResultOrTookBattleTurn]
+	bit 0, a
+	jr nz, .handleLand
+	bit 2, a
+	jr z, .nextEntry
+.handleSurf
+	set 3, a	
+	ld [wActionResultOrTookBattleTurn], a
+	jr .nextEntry
+.handleLand
+	set 1, a
+	ld [wActionResultOrTookBattleTurn], a
+	
 .nextEntry
 	inc hl
 	inc hl
@@ -3359,18 +3415,22 @@ UseCustomMedicine:
 	push hl
 	ld bc, wPartyMon1HPExp - wPartyMon1
 	add hl, bc ; hl now points to stat experience
+	ld b, 5
+	ld c, 5
+.useMistStone_loop
+	call CheckMaxStatExp
+	call c, .decB
 	ld a , $ff
-	ld [hli], a	;load max hp exp
 	ld [hli], a
-	ld [hli], a	;load max attack exp
 	ld [hli], a
-	ld [hli], a	;load max defense exp
-	ld [hli], a
-	ld [hli], a	;load max speed exp
-	ld [hli], a
-	ld [hli], a	;load max special exp
-	ld [hli], a
+	dec c
+	jr nz, .useMistStone_loop
+	ld a, b
+	sub 1
 	pop hl
+	
+	call c, .maxDVs	;if stat exp is all at max, try to max the DVs
+	jp c, ItemUseMedicine.vitaminNoEffect	;no effect if everything is already at max
 	jr .exit_used_meds
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;added code for the M_GENE
@@ -3379,10 +3439,15 @@ UseCustomMedicine:
 	ld bc, wPartyMon1DVs - wPartyMon1
 	add hl, bc ; hl now points to DVs
 ;generate new random DVs and make sure they are biased to be more than average
+;make all the DVs at least 8
 	call Random_BiasDV
+	or $98
 	ld [hli], a
-	ld [hl], b
+	ld a, b
+	or $88
+	ld [hl], a
 	pop hl
+	;fall through
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;jump back to the original function after using an item
 .exit_used_meds
@@ -3392,6 +3457,39 @@ UseCustomMedicine:
 ;jump back to the original function after not using an item
 .exit_no_usage
 	jp ItemUseMedicine.no_custom_medicine
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;max out the DVs
+.maxDVs	
+	push hl
+	ld bc, wPartyMon1DVs - wPartyMon1
+	add hl, bc ; hl now points to DVs
+	ld b, 2
+	ld a, [hli]
+	add 1
+	call c, .decB
+	ld a, [hld]
+	add 1
+	call c, .decB
+	ld a, b
+	sub 1
+	pop hl
+	ret c	;return with carry bit set if DVs are already at max
+	
+	push hl
+	ld bc, wPartyMon1DVs - wPartyMon1
+	add hl, bc ; hl now points to DVs
+	ld a, $ff
+	ld [hli], a
+	ld [hl], a
+	pop hl
+	ret
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;general decrement for conditionals
+.decB
+	dec b
+	ret
 	
 VitaminLevelCheck:
 	push hl
@@ -3402,3 +3500,16 @@ VitaminLevelCheck:
 	cp 31
 	ret
 	
+CheckMaxStatExp:
+	push de
+	ld a, [hli] ; a = MSB of stat experience of the appropriate stat
+	ld d, a
+	ld a, [hld]	; a = LSB of stat experience of the appropriate stat
+	ld e, a
+	ld a, 1
+	add e
+	ld a, 0
+	adc a, d
+	pop de
+	ret		;carry bit is set if there is an overflow
+

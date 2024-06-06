@@ -95,6 +95,8 @@ hNPCSpriteOffset EQU $FF95
 
 ; temp value used when swapping bytes
 hSwapTemp EQU $FF95
+hSwapItemID EQU $FF95
+hSwapItemQuantity EQU $FF96
 
 hExperience EQU $FF96 ; 3 bytes, big endian
 
@@ -320,6 +322,7 @@ hClearLetterPrintingDelayFlags EQU $FFF4
 hFlags_0xFFF6 EQU $FFF6	;has to do with a bunch of menu spacing and stuff
 ; bit 0: draw HP fraction to the right of bar instead of below (for party menu)
 ; bit 1: menu is double spaced
+; bit 2: something about skipping a line when printing text
 
 hFieldMoveMonMenuTopMenuItemX EQU $FFF7
 
@@ -332,5 +335,5 @@ hFlagsFFFA EQU $FFFA	;joenote - added for various uses
 ;bit 1 - BGmap update functions will not run in Vblank while this bit is set
 ;bit 2 - This gets set to indicate that a sfx is playing while printing text
 ;bit 3 - When set, the CopyData function will only copy when safe to do so for VRAM
-hRGB EQU $FFFB	; FFFC, FFFD	;3 bytes ;joenote - used to store color RGB color values for color correction
+hRGB EQU $FFFB	; FFFB=Red, FFFC=Green, FFFD=BLUE	;3 bytes ;joenote - used to store color RGB color values
 hGBC EQU $FFFE ;gbcnote - 0 if DMG or SGB, != 0 if GBC, =2 for gamma shader
