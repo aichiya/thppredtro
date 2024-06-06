@@ -637,7 +637,7 @@ INCLUDE "engine/battle/draw_hud_pokeball_gfx.asm"
 ;TradingAnimationGraphics2: INCBIN "gfx/trade2.2bpp"
 ;TradingAnimationGraphics2End:
 
-INCLUDE "engine/evos_moves.asm"
+;;;;;;INCLUDE "engine/evos_moves.asm"
 
 
 SECTION "bankF",ROMX,BANK[$F]
@@ -1889,9 +1889,9 @@ TradingAnimationGraphics2End:
 
 ;joenote - moved this out of trainer_ai.asm in bank $E to here. 
 ;Now there is lots of space for custom trainers and rosters
-INCLUDE "engine/battle/read_trainer_party.asm"
-INCLUDE "data/trainer_moves.asm"
-INCLUDE "data/trainer_parties.asm"
+;;;INCLUDE "engine/battle/read_trainer_party.asm"
+;;;INCLUDE "data/trainer_moves.asm"
+;;;INCLUDE "data/trainer_parties.asm"
 
 IF DEF(_FPLAYER)
 ;joenote - adding female trainer sprites
@@ -1970,3 +1970,11 @@ INCLUDE "text/tmhm_names.asm"	;joenote - adding name list for tm and hm items
 tmhmNamesEnd:
 
 INCLUDE "data/super_rod.asm"	;joenote - moving all the super rod data here
+
+SECTION "bank32",ROMX,BANK[$32]
+
+INCLUDE "engine/evos_moves.asm"
+
+INCLUDE "engine/battle/read_trainer_party.asm"
+INCLUDE "data/trainer_moves.asm"
+INCLUDE "data/trainer_parties.asm"
