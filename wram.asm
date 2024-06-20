@@ -513,7 +513,7 @@ wMonDataLocation:: ; cc49
 ; 1 = enemy party
 ; 2 = current box
 ; 3 = daycare
-; 4 = in-battle mon
+; bit 7 = manually set this to indicate some special thing like in-battle level-up is happening
 ;
 ; AddPartyMon uses it slightly differently.
 ; If the lower nybble is 0, the mon is added to the player's party, else the enemy's.

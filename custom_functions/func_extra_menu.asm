@@ -357,7 +357,7 @@ OptionMenuNoSwitchOFF:
 	db "SMART@"
 
 	
-;joenote - for deactivating intelligent trainer switching
+;joenote - for toggling the color correction
 ToggleGammaShader:
 	ld a, [hGBC]
 	and a

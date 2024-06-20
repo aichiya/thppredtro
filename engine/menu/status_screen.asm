@@ -306,6 +306,9 @@ PTileEnd:
 PrintStatsBox:
 	ld a, d
 	and a ; a is 0 from the status screen
+	
+	push af	;joenote - going to use this later
+	
 	jr nz, .DifferentBox
 	coord hl, 0, 8
 	ld b, 8
@@ -329,7 +332,9 @@ PrintStatsBox:
 	pop hl
 	pop bc
 	add hl, bc
-;joenote - print stat exp if select is held
+;joenote - print stat exp if select is held and on the status screen
+	pop af
+	jr nz, .doregular
 	call Joypad
 	ld a, [hJoyHeld]
 	bit 2, a

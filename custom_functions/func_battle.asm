@@ -2,19 +2,15 @@
 CheckLowerPlayerPriority:	
 	ld a, [wPlayerSelectedMove]
 	ld hl, wPlayerBattleStatus3
-	ld bc, wPlayerMoveEffect
 	jr LowPriorityMoves
 CheckLowerEnemyPriority:
 	ld a, [wEnemySelectedMove]
 	ld hl, wEnemyBattleStatus3
-	ld bc, wEnemyMoveEffect
 ;	jp LowPriorityMoves
 ;fall through
 LowPriorityMoves:
 ;joenote - handle trapping spam counter and implement the trapping clause
-	push af
-	ld a, [bc]
-	cp TRAPPING_EFFECT
+	call CheckIfTrappingMove
 	jr nz, .next1	;reset the number of consecutive trapping moves and continue if this is not a trapping move
 
 	bit TRAPPING_NEGATIVE, [hl]
@@ -25,21 +21,10 @@ LowPriorityMoves:
 	res TRAPPING_COUNT, [hl]
 	res TRAPPING_NEGATIVE, [hl]
 .next2
-	pop af
-
 	cp COUNTER
-;	ret z
-;	cp BIND
-;	ret z
-;	cp WRAP
-;	ret z
-;	cp FIRE_SPIN
-;	ret z
-;	cp CLAMP
 	ret
 .CheckTrappingClause
 	res TRAPPING_COUNT, [hl]
-	pop af
 
 ;link battles now sync clause flag
 ;	ld a, [wLinkState]
@@ -77,7 +62,16 @@ HighPriorityMoves:
 ;	cp DUMMY_MOVE4
 	ret
 	
-	
+CheckIfTrappingMove:
+	cp BIND
+	ret z
+	cp WRAP
+	ret z
+	cp FIRE_SPIN
+	ret z
+	cp CLAMP
+	ret
+
 	
 
 SwapTurn:	;a simple custom function for swapping whose turn it is in the battle engine

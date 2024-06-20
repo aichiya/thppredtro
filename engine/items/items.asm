@@ -3365,31 +3365,43 @@ CheckMapForMon:
 	jr nz, .nextEntry
 	cp MEW
 	jr z, .nextEntry	;joenote - don't reveal MEW on accident
+
 	ld a, c
 	ld [de], a
 	inc de
 
 	ld a, [wCurMap]
 	cp c
-	jr nz, .nextEntry
+	jr nz, .foundMon
 	ld a, [wActionResultOrTookBattleTurn]
 	bit 0, a
 	jr nz, .handleLand
 	bit 2, a
-	jr z, .nextEntry
+	jr z, .foundMon
 .handleSurf
 	set 3, a	
 	ld [wActionResultOrTookBattleTurn], a
-	jr .nextEntry
+	jr .foundMon
 .handleLand
 	set 1, a
 	ld [wActionResultOrTookBattleTurn], a
+	jr .foundMon
 	
 .nextEntry
 	inc hl
 	inc hl
 	dec b
 	jr nz, .loop
+	dec hl
+	ret
+
+;joenote - if the mon was found on the encounter table, 
+;skip through the rest of the table so as to not flood wBuffer with redundant entries
+.foundMon
+	inc hl
+	inc hl
+	dec b
+	jr nz, .foundMon
 	dec hl
 	ret
 

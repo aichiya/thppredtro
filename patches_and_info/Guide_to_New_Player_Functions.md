@@ -137,7 +137,7 @@ Instructions to perform:
 2 - Press and hold UP on the d-pad. The cursor will now be on EXIT.  
 3 - While continuing to hold UP, press and hold SELECT.  
 4 - While still continuing to hold the two aforementioned buttons, press B.  
-5 - The start menu should close and you will will hear a jingle.  
+5 - The start menu should close and you will hear a jingle.  
 
 #### Debug Damage Display  
 As a debugging cheat, damage values will be displayed in battle as the UI updates.  
@@ -666,7 +666,7 @@ The area behind this house will let you encounter rare pokemon at level 5 such a
 These pokemon have a 1-in-128 chance to be shiny.  
 
 #### The Scourge of Missingno  
-Missingno can activated after viewing your completed 'Dex diploma in the Celadon Gamfreak building.  
+Missingno can be activated after viewing your completed 'Dex diploma in the Celadon Gamfreak building.  
 Talk to the old man in Viridian and watch his catching tutorial. Then start surfing up and down the east Cinnabar shore.  
 Win or lose, you have to reactivate the battle via the old man.  
 If you win the battle, the item in your 6th bag slot will be multiplied.  
@@ -774,7 +774,7 @@ So don't be shy about using TMs acquired from NPCs and exploration.
   - Sky Attack
   - Explosion
 
-#### Changes to item locations  
+#### Changes to Item Locations  
 - Additional hidden potion in viridian city
 - Added a hidden potion on route 22
 - Added two hidden repels to pewter city
@@ -795,7 +795,7 @@ So don't be shy about using TMs acquired from NPCs and exploration.
 - Saffron city has elixers
 - Cinnabar island has max elixers
 
-#### Full Pokemon Availability  
+#### Full 151 Pokemon Availability  
 - route 22 super rod data has changed to give psyduck & poliwag
 - sandshrew (5.1%) and ekans (5.1%) on route 3
 - bulbasaur on route 4 (4.3%)
@@ -891,7 +891,7 @@ Note: Not available in the Lite patches.
 - This has the potential for a kind of "undead run" rule variant.
  
 #### Removing the death marker  
-- The only way to unmark a pokemon from being "dead" is by modifying its catch rate.
+- The only way to unmark a pokemon from being "dead" is by modifying its catch rate byte.
 - This is usually done via the Gen-2 time capsule and trading it back without a hold item or a different hold item.
 
 
