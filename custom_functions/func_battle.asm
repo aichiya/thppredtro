@@ -429,7 +429,7 @@ _HandleHyperbeamClause:
 ;return z and nc if nothing detected
 ;return nz for sleep clause triggered
 ;return c for  freeze clause triggered
-;link battles unsupported
+;link battles kinda supported
 _HandleSlpFrzClause:		
 ;link battles now sync clause flag
 ;	ld a, [wLinkState]
