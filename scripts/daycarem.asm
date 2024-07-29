@@ -316,7 +316,13 @@ DaycareMoveLearning:
 	ld a, b	;put the current level in a
 	ld [wCurEnemyLVL], a	;and set the final level to the current level in the loop
 	push bc	;save b & c on the stack as they hold the currently tracked loop level a true final level
+	ld a, [wFlags_D733]
+	set 6, a
+	ld [wFlags_D733], a		;make it so the move-forget list covers up sprites
 	predef LearnMoveFromLevelUp
+	ld a, [wFlags_D733]
+	res 6, a
+	ld [wFlags_D733], a
 	pop bc	;get the current loop level and final level values back from the stack
 	ld a, b	;load the current loop level into a
 	cp c	;compare it with the final level

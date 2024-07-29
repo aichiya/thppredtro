@@ -182,6 +182,8 @@ MainMenu:
 	ResetEvent EVENT_8DA	;cinnabar shore missingno
 	ResetEvent EVENT_90A	;random trainer flag
 	ResetEvent EVENT_90D	;random 3-mon trainer for tournament
+	ld hl, wFlags_D733
+	res 1, [hl]
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	ld c, 10
 	call DelayFrames

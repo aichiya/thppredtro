@@ -515,7 +515,7 @@ A new drink stand has been set up on the Route 19 beach below Fuchsia City.
 It sells vending machine drinks in multiples like a pokemart.  
 
 
-#Additions to the Post-Game
+#Post-Game Additions
 -----------------------------------------------
 Note: These are not available in the Lite patches.    
 
@@ -543,6 +543,7 @@ After beating the Elite-4, vitamins have no limit placed upon them when used on 
 Find the house with the game corner CHIEF in Celadon City.  
 Talk to him after beating the Elite-4 to find he's in some dire straights.  
 He will offer to buy the pokemon in your team's first slot from you.  
+The value is based on the pokemon's DVs, level, catch rate, and whether it is shiny or not.  
 
 #### Bulk Coin Seller  
 One of the Rocket grunts walking around the top left corner of Celadon City will now sell you 1000 coins at a time.  
@@ -568,26 +569,26 @@ After the Elite-4 are beaten, he will offer to engage you in randomized battles.
 Win 5 matches in a row against him without leaving the area to get more M.GENE items.  
 
 #### Finding Mew  
-Mew is available to catch after viewing your completed 'Dex diploma in the Celadon Gamfreak building.  
+Mew is available to catch after viewing your completed 'Dex diploma in the Celadon Gamefreak building.  
 Mew shows up on only one map, it is level 70, and it is a random encounter.  
 A message will hint that you are on the right map.  
 The random encounter for Mew only happens a single time. You have only one opportunity to catch it.  
 
 #### The Secret of the MIST STONE  
-The MIST STONE will max-out all the stat exp of the lvl > 30 pokemon on which it is used.  
-If all the stat exp is already at max, then it will set all the DVs to maximum instead.  
+The MIST STONE will max-out all the StatEXP of the lvl > 30 pokemon on which it is used.  
+If all the StatEXP is already at max, then it will set all the DVs to maximum instead.  
 But this assumes you are able to find the secret room for obtaining it.  
 Here's a hint. There is a cave entrance hidden on the overworld just out of sight off the beaten path.  
 
 #### Special Trainer Battles  
 There are four special trainers to find and defeat after beating the Elite-4.  
-The first is Oak. Talk him at his lab, and select NO when he asks to rate your 'Dex.  
+The first is Oak. Talk to him at his lab, and select NO when he asks to rate your 'Dex.  
 Each victory will hint towards the next special trainer's location.  
-Beating the fourth special trainer at the Vermilion dock will hint to where Mew is located.  
+Beating the fourth special trainer at the Vermilion Dock will hint to where Mew is located.  
 Beating all four special trainers will enable a final fifth battle outside Bill's Villa.  
 Beating the fifth special trainer will:
 - Respawn all the legendaries
-- Reset the Mew event so it can be re-encounterd
+- Reset the Mew event so it can be re-encountered
 - Reset the Mist Stone event to make it re-obtainable
 - Reset the fifth trainer itself, so you must defeat the other four again (any order) to re-challenge
 
@@ -1298,6 +1299,18 @@ The Pikachu's catch rate byte will be modified, and it will be allowed to learn 
 Beat Lance with a Dragonite in your 1st party slot.  
 The Dragonite's cry will play and its catch rate byte will be modified.  
 It will now be allowed to learn the Fly HM.  
+
+#### Psyduck Learning Amnesia  
+You must first have 151 pokemon registered as owned in your pokedex.  
+Place a Psyduck in your 1st party slot then go talk to the Psyduck in Mr. Fuji's house.  
+It will now try to learn the Amnesia move.  
+
+#### Tutor for Event Moves  
+The man in the Mt. Moon pokemon center will serve as a move tutor after buying the Magikarp from him.  
+This is a throwback feature for certain Japan-only event pokemon giveaways.  
+- Talk to him with Magikarp at the top of your party, and he will offer to teach it Dragon Rage for 5000 yen.
+- Talk to him with Fearow or Rapidash at the top of your party, and he will offer to teach it Pay Day for 1000 yen.
+- Talk to him with Pikachu at the top of your party that has an empty move slot, and he can teach it Fly for 2000 yen.
 
 #### The Surfboard  
 The truck at the Vermilion Dock holds the Surfboard as a hidden item.  
