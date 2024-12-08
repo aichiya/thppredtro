@@ -171,9 +171,7 @@ GetWeightedLevel:
 	push bc
 	push de
 	
-	ld hl, sp+0
-	dec hl
-	dec hl
+	ld hl, wBoxDataEnd+5	;need 6 bytes of working space
 	
 	ld de, wStartBattleLevels
 	ld a, [wPartyCount]
@@ -235,7 +233,8 @@ GetWeightedLevel:
 	ld a, [wPartyCount]
 	ld c, a
 	dec c	
-	ld de, $0101
+	ld d, 1
+	ld e, 1
 .loop4
 	dec hl
 	ld a, [hl]
@@ -353,7 +352,7 @@ ScaleTrainer_level:
 	ld b, a
 	pop af
 	
-	;at this line, B holds current enemy level and A holds highest party level
+	;at this line, B holds current enemy level and A holds highest/weighted party level
 	cp b
 	pop bc
 	ret c

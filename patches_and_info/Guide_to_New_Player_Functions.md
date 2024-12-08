@@ -710,7 +710,8 @@ So don't be shy about using TMs acquired from NPCs and exploration.
 - Additional hidden potion in viridian city
 - Added a hidden potion on route 22
 - Added two hidden repels to pewter city
-- Water Gun TM has been replaced by a super repel in Mt. Moon, and it is now found in the Pewter Museum
+- Water Gun TM has been replaced by a super repel in Mt. Moon
+- Water Gun TM is now found in the Pewter Museum
 - Added a hidden great ball and pokedoll on route 6
 - Added a hidden max revive on route 11
 - Added a hidden ultra ball on route 8
@@ -724,8 +725,8 @@ So don't be shy about using TMs acquired from NPCs and exploration.
 - Cerulean mart sells escape rope per Yellow version
 - Lavender town has max ethers
 - Fuchsia mart sells hyper potions per Yellow version
-- Saffron city has elixers
-- Cinnabar island has max elixers
+- Saffron city has elixirs
+- Cinnabar island has max elixirs
 
 #### Full Pokemon Availability  
 All Pokemon can be caught within a single game pak, but rarity and location sometimes differs with game pak version.  
@@ -775,7 +776,7 @@ Note: Not available in the Lite patches.
   - If a battle ends in a forfeit, all pokemon with 0 HP before the forfeit are marked dead.
   - Pokemon marked as dead have $05 written to their catch rate to permanently mark them.
   - Even if they are traded back and forth, dead pokemon remain marked as dead while in nuzlocke mode.
-  - Medicinal items will not work on pokemon marked as dead, nor will Soft-boiled.
+  - Medicinal items will not work on pokemon marked as dead, nor will Softboiled.
   - Party healing (Mom, Pokemon Center, blacking out, etc) makes a dead pokemon effectively useless.
   - To clarify, it gives a dead pokemon 1 HP, the FRZ status, and 0 PP for all moves.
   - This allows a player to continue the game with boxed pokemon in case of a total party loss.
@@ -817,18 +818,18 @@ Note: Not available in the Lite patches.
 - This means the Duplication Clause will prevent Rule 2 from activating.
 - In light of this, Rule 2 will always activate on an area upon the first catch made there.
 
-#### Dead pokemon and toggling Nuzlocke mode
+#### Dead pokemon and Toggling Nuzlocke Mode
 - It is possible to cheat by turning off nuzlocke mode, healing a dead pokemon, then turning it back on.
 - If this is done, the healed pokemon is still considered dead.
 - This means that party-wide healing will make it useless and medicine still has no effect.
 - This has the potential for a kind of "undead run" rule variant.
  
-#### Removing the death marker  
+#### Removing the Death Marker  
 - The only way to unmark a pokemon from being "dead" is by modifying its catch rate byte.
 - This is usually done via the Gen-2 time capsule and trading it back without a hold item or a different hold item.
 
 
-#Cloning Genetically Modified Pokemon  
+#Gene Engineering Pokemon  
 -----------------------------------------------
 Note: This is not available in the Lite patches.    
 
@@ -865,7 +866,7 @@ b - Special
 Talk to the new scientist in the fossil room of the Cinnabar Lab to get started.  
 For a small fee, a gene sequence listing the clone's new DV values in order is randomly determined.  
 If the clone's DVs are acceptable, you may pay a larger fee to gestate the clone.  
-Pro-Tip: This makes it possible to selectively breed for shiny pokemon in a more realistic way.  
+Hint: This makes it possible to selectively breed for shiny pokemon in a more realistic way.  
 
 Example of selecting for a shiny pokemon:  
 - A shiny pokemon in gen 2 has the 2-byte hex value of $XAAA for its DVs.
@@ -1284,11 +1285,11 @@ Pokemon that have had moves added to their learn-lists or changed levels at whic
 Note: These are not applicable to the Lite patches. 
 
 #### Mew, Bill's Garden, and the Mist Stone  
-The secret room's entrance can be found off the south-east corner of Silence Bridge.  
+The secret room's entrance can be found off the south-east corner of Route 12.  
 The journal inside will hint that Bill wants to see a New Species of pokemon.  
 If the 'Dex Diploma has been viewed, Mew can be encountered and caught on the lowest level of the Cerulean Cave.  
 Show Mew to Bill, and he will let you into his secret garden.  
-Return to the journal in the secret room, and you will recieve a Mist Stone.  
+Return to the journal in the secret room, and you will receive a Mist Stone.  
 Follow the path in the secret room, look for a hidden Nugget and Moon Stone, and exit into Diglett's Cave.  
 
 #### Pikachu Learning Surf  
@@ -1331,8 +1332,8 @@ Playing with hard mode ON allows enemy trainer pokemon to be shiny.
 If this happens to you, the next wild pokemon you encounter will be shiny as a form of mercy.  
 
 #### Cheat at the Slots  
-A pkmn with Pay Day in the 1st party slot will play its cry when interacting with a lucky slot machine.  
-A pkmn with Pay Day in the 1st party slot will play its cry when a slot machine enters payout modes.  
+A pokemon with Pay Day in the 1st party slot will play its cry when interacting with a lucky slot machine.  
+A pokemon with Pay Day in the 1st party slot will play its cry when a slot machine enters payout modes.  
 - 1 cry for a normal payout on the next pull
 - 2 cries to signal the possibility of all 7s/bars on the next pull
 - 3 cries to signal that super payout mode had been entered

@@ -172,15 +172,32 @@ WillGetShimmerVal_tryagain:
 
 	
 DoShimmerTransformation:
+	;get level into A
 	push hl
 	ld bc, (wBattleMonLevel - wBattleMon)
 	add hl, bc
 	ld a, [hl]
 	pop hl
-	push af
+	
+	push af		;push level
+	
+	;get species into A
+	push hl
+	ld bc, (wBattleMonSpecies - wBattleMon)
+	add hl, bc
+	ld a, [hl]
+	pop hl
+
+	push af		;push species
+	
+	;point HL to Attack stat
 	ld bc, (wBattleMonAttack - wBattleMon)
 	add hl, bc
-	pop af
+	
+	pop af	;pop species
+	ld c, a
+	
+	pop af	;pop level
 	ld b, a
 	
 	;boost attack
@@ -205,8 +222,9 @@ DoShimmerTransformation:
 	call .getThreeEiths
 	cp b
 	call c, .addLevel
-	inc hl
-	inc hl
+	ld a, HITMONCHAN
+	cp c
+	call z, .addLevel	;hitmonchan needs a huge boost to make its elemental punches worth it
 
 	ld hl, _TXTShimmerSendOut
 	call PrintText
@@ -230,7 +248,14 @@ DoShimmerTransformation:
 	add e
 	add e
 	ret
+
+.addHalfLevel
+	push bc
+	srl b
+	jr ._beginAdd
 .addLevel
+	push bc
+._beginAdd
 	ld a, [hli]
 	ld d, a
 	ld a, [hld]
@@ -246,6 +271,7 @@ DoShimmerTransformation:
 	ld [hli], a
 	ld a, e
 	ld [hld], a
+	pop bc
 	ret
 
 	
